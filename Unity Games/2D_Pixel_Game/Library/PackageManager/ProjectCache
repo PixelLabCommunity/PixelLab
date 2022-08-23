@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637967896786737281
-    m_Hash: 90023563
+      ticks: 637968574048598141
+    m_Hash: 2226994689
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/2D_Pixel_Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637967896786777176
-    m_Hash: 363444353
+      ticks: 637968574048957686
+    m_Hash: 3977034123
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/2D_Pixel_Game/Packages
-m_EditorVersion: 2021.3.6f1 (7da38d85baf6)
+m_EditorVersion: 2021.3.8f1 (b30333d56e81)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.15.18
+- packageId: com.unity.collab-proxy@1.17.2
   testable: 0
   isDirectDependency: 1
-  version: 1.15.18
+  version: 1.17.2
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.collab-proxy@1.15.18
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.collab-proxy@1.17.2
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -106,8 +106,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.18
-    - 1.17.0
     - 1.17.1
     - 1.17.2
     - 2.0.0-preview.6
@@ -120,13 +118,13 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.18
+    verified: 1.17.2
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.4.2
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -156,16 +154,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637888962690000000
+  datePublishedTicks: 637937432480000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 611215dcd30048fa921b4be160048bad4022d65f
+    revision: 14d129dcc778f8ea2fdf9d0240b47924e4f0dbb1
     path: 
   unityLifecycle:
-    version: 1.15.18
+    version: 1.17.1
     nextVersion: 
 - packageId: com.unity.feature.2d@1.0.0
   testable: 0
@@ -238,7 +236,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.psdimporter
     version: 6.0.4
   - name: com.unity.2d.spriteshape
-    version: 7.0.4
+    version: 7.0.5
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
@@ -404,7 +402,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -493,12 +491,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.31
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.31
+  version: 1.1.33
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -583,13 +581,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637804266210000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
     version: 1.1.31
@@ -979,7 +977,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -3038,7 +3036,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -3290,12 +3288,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@7.0.4
+- packageId: com.unity.2d.spriteshape@7.0.5
   testable: 0
   isDirectDependency: 0
-  version: 7.0.4
+  version: 7.0.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.2d.spriteshape@7.0.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.2d.spriteshape@7.0.5
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -3386,7 +3384,6 @@ m_ResolvedPackages:
     - 8.0.1
     - 9.0.0-pre.1
     compatible:
-    - 7.0.4
     - 7.0.5
     - 7.0.6
     verified: 7.0.6
@@ -3438,16 +3435,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637817447990000000
+  datePublishedTicks: 637915828240000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: b8ef9a9fa25d116a9e65e40bc9a7f86135688ed8
     path: 
   unityLifecycle:
-    version: 7.0.4
+    version: 7.0.5
     nextVersion: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
@@ -3603,12 +3600,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.2.3
     nextVersion: 
-- packageId: com.unity.services.core@1.4.0
+- packageId: com.unity.services.core@1.4.2
   testable: 0
   isDirectDependency: 0
-  version: 1.4.0
+  version: 1.4.2
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.services.core@1.4.0
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\2D_Pixel_Game\Library\PackageCache\com.unity.services.core@1.4.2
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3643,8 +3640,6 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     compatible:
-    - 1.4.0
-    - 1.4.1
     - 1.4.2
     - 1.4.3
     verified: 1.4.3
@@ -3672,16 +3667,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637871962570000000
+  datePublishedTicks: 637919618520000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 92e281deb97a96f7b32464b6874de73a17c140ff
+    revision: 3964d1641ebec474aa425853985bccbdb89c2a49
     path: 
   unityLifecycle:
-    version: 1.4.0
+    version: 1.4.2
     nextVersion: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
@@ -3943,7 +3938,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 13.0.1.
 
@@ -4131,6 +4126,7 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0-pre.1
     - 1.8.0-pre.2
     compatible:
@@ -4140,6 +4136,7 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0-pre.1
     - 1.8.0-pre.2
     verified: 1.6.6
