@@ -1,64 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class HeroInputReader : MonoBehaviour
 {
     [SerializeField] private Hero _hero;
 
-    private void Awake()
+    public void OnHorizontalMovement(InputAction.CallbackContext context)
     {
-        Debug.Log(message: "Awake");
+        var directionX = context.ReadValue<float>();
+        _hero.SetDirectionX(directionX);
     }
 
-    private void OnEnable()
+    public void OnVerticalMovement(InputAction.CallbackContext context)
     {
-        Debug.Log(message: "OnEnable");
-    }
-
-    private void Start()
-    {
-        Debug.Log(message: "Start");
-    }
-
-    private void FixedUpdate()
-    {
-        Debug.Log(message: "FixedUpdate");
-    }
-
-    private void Update()
-    {
-        Debug.Log(message: "Update");
-
-        var horizontal = Input.GetAxis("Horizontal");
-        _hero.SetDirection(horizontal);
-
-        //if (Input.GetKey(KeyCode.A))
-        //{
-        //    _hero.SetDirection(-1);
-        //}
-        //else if (Input.GetKey(KeyCode.D))
-        //{
-        //    _hero.SetDirection(1);
-        //}
-        //else
-        //{
-        //    _hero.SetDirection(0);
-        //}
-    }
-
-    private void LateUpdate()
-    {
-        Debug.Log(message: "LateUpdate");
-    }
-
-    private void OnDisable()
-    {
-        Debug.Log(message: "OnDisable");
-    }
-
-    private void OnDestroy()
-    {
-        Debug.Log(message: "OnDestroy");
+        var directionY = context.ReadValue<float>();
+        _hero.SetDirectionY(directionY);
     }
 }
