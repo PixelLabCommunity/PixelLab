@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Hero : MonoBehaviour
@@ -9,6 +7,7 @@ public class Hero : MonoBehaviour
     [SerializeField] private LayerMask _groundLayer;
 
     [SerializeField] private float _groundCheckRadius;
+    [SerializeField] private Vector3 _groundCheckPositionDelta;
 
     private Rigidbody2D _rigidbody;
     private Vector2 _direction;
@@ -35,12 +34,13 @@ public class Hero : MonoBehaviour
 
     private bool IsGrounded()
     {
-        var hit = Physics2D.Raycast(transform.position, Vector2.down, 1, _groundLayer);
+        var hit = Physics2D.CircleCast(transform.position + _groundCheckPositionDelta, _groundCheckRadius, Vector2.down, 0, _groundLayer);
         return hit.collider != null;
     }
 
     private void OnDrawGizmos()
     {
-        Debug.DrawRay(transform.position, Vector3.down, IsGrounded() ? Color.green : Color.red);
+        Gizmos.color = IsGrounded() ? Color.gray : Color.red;
+        Gizmos.DrawSphere(transform.position + _groundCheckPositionDelta, _groundCheckRadius);
     }
 }

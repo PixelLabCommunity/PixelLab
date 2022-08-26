@@ -3875,10 +3875,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
-  _jumpSpeed: 1
+  _jumpSpeed: 3
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  _groundCheckRadius: 0.3
+  _groundCheckPositionDelta: {x: -0.05, y: -0.3, z: 0}
 --- !u!114 &1568633151
 MonoBehaviour:
   m_ObjectHideFlags: 0
