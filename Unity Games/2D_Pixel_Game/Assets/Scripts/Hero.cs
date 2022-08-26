@@ -5,32 +5,42 @@ using UnityEngine;
 public class Hero : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    private float _directionX;
-    private float _directionY;
+    [SerializeField] private float _jumpSpeed;
+    [SerializeField] private LayerMask _groundLayer;
 
-    public void SetDirectionX(float directionX)
+    [SerializeField] private float _groundCheckRadius;
+
+    private Rigidbody2D _rigidbody;
+    private Vector2 _direction;
+
+    private void Awake()
     {
-        _directionX = directionX;
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    public void SetDirectionY(float directionY)
+    public void SetDirection(Vector2 direction)
     {
-        _directionY = directionY;
+        _direction = direction;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (_directionX != 0)
+        _rigidbody.velocity = new Vector2(_direction.x * _speed, _rigidbody.velocity.y);
+        var isJumping = _direction.y > 0;
+        if (isJumping && IsGrounded())
         {
-            var deltaX = _directionX * _speed * Time.deltaTime;
-            var newPositionX = transform.position.x + deltaX;
-            transform.position = new Vector3(newPositionX, transform.position.y, transform.position.z);
+            _rigidbody.AddForce(Vector2.up * _jumpSpeed, ForceMode2D.Impulse);
         }
-        else if (_directionY != 0)
-        {
-            var deltaY = _directionY * _speed * Time.deltaTime;
-            var newPositionY = transform.position.y + deltaY;
-            transform.position = new Vector3(transform.position.x, newPositionY, transform.position.z);
-        }
+    }
+
+    private bool IsGrounded()
+    {
+        var hit = Physics2D.Raycast(transform.position, Vector2.down, 1, _groundLayer);
+        return hit.collider != null;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Debug.DrawRay(transform.position, Vector3.down, IsGrounded() ? Color.green : Color.red);
     }
 }
