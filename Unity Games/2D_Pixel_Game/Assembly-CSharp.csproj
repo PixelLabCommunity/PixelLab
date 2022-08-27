@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Hero.cs" />
     <Compile Include="Assets\Scripts\HeroInputReader.cs" />
+    <Compile Include="Assets\Scripts\LayerCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
