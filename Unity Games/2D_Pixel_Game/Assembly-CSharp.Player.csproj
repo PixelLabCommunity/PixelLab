@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Components\EnterTriggerComponent.cs" />
     <Compile Include="Assets\Scripts\Components\ReloadLevelComponent.cs" />
     <Compile Include="Assets\Scripts\Components\DestroyObjectComponent.cs" />
+    <Compile Include="Assets\Scripts\FollowTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
