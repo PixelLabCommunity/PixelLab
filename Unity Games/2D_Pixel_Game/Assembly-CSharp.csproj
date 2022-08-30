@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\HeroInputReader.cs" />
     <Compile Include="Assets\Scripts\Components\EnterTriggerComponent.cs" />
     <Compile Include="Assets\Scripts\Components\ReloadLevelComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\DestroyObjectComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
