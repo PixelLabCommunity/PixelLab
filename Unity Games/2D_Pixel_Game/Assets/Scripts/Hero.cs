@@ -15,10 +15,13 @@ namespace Scripts
         private static readonly int IsRunningKey = Animator.StringToHash("is-running");
         private static readonly int VerticalVelocityKey = Animator.StringToHash("vertical-velocity");
 
+        private SpriteRenderer _spriteRenderer;
+
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody2D>();
             _animator = GetComponent<Animator>();
+            _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         public void SetDirection(Vector2 direction)
@@ -43,9 +46,30 @@ namespace Scripts
             {
                 _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y * 0.5f);
             }
+
+            // Animation
             _animator.SetBool(IsGroundKey, isGrounded);
             _animator.SetBool(IsRunningKey, _direction.x != 0);
             _animator.SetFloat(VerticalVelocityKey, _rigidbody.velocity.y);
+            UpdateSpriteDirection();
+
+            
+        }
+        /// <summary>
+        /// Flip direction
+        /// </summary>
+        private void UpdateSpriteDirection()
+        {
+            
+            if (_direction.x > 0)
+            {
+                _spriteRenderer.flipX = false;
+            }
+            else if (_direction.x < 0)
+            {
+                _spriteRenderer.flipX = true;
+            }
+
         }
 
         private bool IsGrounded()
