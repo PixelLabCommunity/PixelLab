@@ -52,15 +52,13 @@ namespace Scripts
             _animator.SetBool(IsRunningKey, _direction.x != 0);
             _animator.SetFloat(VerticalVelocityKey, _rigidbody.velocity.y);
             UpdateSpriteDirection();
-
-            
         }
+
         /// <summary>
         /// Flip direction
         /// </summary>
         private void UpdateSpriteDirection()
         {
-            
             if (_direction.x > 0)
             {
                 _spriteRenderer.flipX = false;
@@ -69,7 +67,6 @@ namespace Scripts
             {
                 _spriteRenderer.flipX = true;
             }
-
         }
 
         private bool IsGrounded()

@@ -71,8 +71,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\Views\History\HistorySelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\UI\PlasticDialog.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\Inspector\DrawInspectorOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\UI\Tree\TreeHeaderColumns.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\Inspector\DrawInspectorOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\UI\MeasureMaxWidth.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\WebApi\ChangesetFromCollabCommitResponse.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorListViewItem.cs" />
@@ -1029,13 +1029,13 @@
       <Project>{BA13DBFD-9153-3571-B349-112DE09ED07B}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{F38EDFA4-9AEA-CF3D-302C-C10F61036EB8}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{7D0A6523-F46F-D69E-3DA4-0B95C9C164FC}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{F38EDFA4-9AEA-CF3D-302C-C10F61036EB8}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

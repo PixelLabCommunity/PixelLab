@@ -56,13 +56,14 @@
     <Analyzer Include="D:\Program Files (x86)\Microsoft Visual Studio\2022\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Components\ReloadLevelComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\DestroyObjectComponent.cs" />
     <Compile Include="Assets\Scripts\LayerCheck.cs" />
     <Compile Include="Assets\Scripts\Hero.cs" />
     <Compile Include="Assets\Scripts\HeroInputReader.cs" />
     <Compile Include="Assets\Scripts\Components\EnterTriggerComponent.cs" />
-    <Compile Include="Assets\Scripts\Components\ReloadLevelComponent.cs" />
-    <Compile Include="Assets\Scripts\Components\DestroyObjectComponent.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
+    <Compile Include="Assets\Scripts\SpriteAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -283,6 +284,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>Library\PackageCache\com.unity.cinemachine@2.8.6\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Program Files (x86)\2021.3.8f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -652,10 +656,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Player.csproj">
-      <Project>{E6F04CB7-97D3-42F3-321F-C7E3F22E8BCB}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.Player.csproj">
       <Project>{62C709C1-E5B5-DD81-B42B-53E626103D22}</Project>
       <Name>Unity.InternalAPIEngineBridge.001.Player</Name>
@@ -663,6 +663,26 @@
     <ProjectReference Include="Unity.2D.PixelPerfect.Player.csproj">
       <Project>{9E24E5A8-9CB4-4EFD-20F3-16E64B9F6BFF}</Project>
       <Name>Unity.2D.PixelPerfect.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.Player.csproj">
+      <Project>{6CCB420C-F5BA-D28B-0A98-01ECF1B2585D}</Project>
+      <Name>Unity.InputSystem.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{E62CFF5A-7093-07C3-08B1-CDAF2D36D746}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Runtime.Player.csproj">
+      <Project>{2DBE693B-1697-8BA9-DA25-A22EB2B5B46A}</Project>
+      <Name>Unity.2D.IK.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{1072A581-97D7-79A8-355B-9975092D4D9D}</Project>
+      <Name>Cinemachine.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Player.csproj">
+      <Project>{E6F04CB7-97D3-42F3-321F-C7E3F22E8BCB}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{806FC966-CEA9-0A29-0D86-D7477E42DAF1}</Project>
@@ -676,14 +696,6 @@
       <Project>{6A07045D-95D2-65C6-96D9-74B63B5B022E}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{6CCB420C-F5BA-D28B-0A98-01ECF1B2585D}</Project>
-      <Name>Unity.InputSystem.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{E62CFF5A-7093-07C3-08B1-CDAF2D36D746}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
       <Project>{EFA43242-CB33-6642-D386-D27CA81663E2}</Project>
       <Name>Unity.Services.Core.Player</Name>
@@ -695,10 +707,6 @@
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
       <Project>{515148B2-49BF-6370-6F37-9BB9E225944A}</Project>
       <Name>Unity.Mathematics.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Runtime.Player.csproj">
-      <Project>{2DBE693B-1697-8BA9-DA25-A22EB2B5B46A}</Project>
-      <Name>Unity.2D.IK.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{72BE7ED1-EFA2-2C7F-2315-91981C99B752}</Project>
