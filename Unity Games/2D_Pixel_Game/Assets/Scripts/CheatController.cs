@@ -17,6 +17,10 @@ namespace Scripts
         {
             Keyboard.current.onTextInput += OnTextInput;
         }
+        private void OnDestroy()
+        {
+            Keyboard.current.onTextInput -= OnTextInput;
+        }
 
         private void OnTextInput(char inputChar)
         {
