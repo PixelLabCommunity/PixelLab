@@ -6,6 +6,7 @@ namespace Scripts
     {
         [SerializeField] private float _speed;
         [SerializeField] private float _jumpSpeed;
+        [SerializeField] private float _damageJumpSpeed;
         [SerializeField] private LayerCheck _groundCheck;
 
         private SpriteRenderer _spriteRenderer;
@@ -18,6 +19,7 @@ namespace Scripts
         private static readonly int IsGroundKey = Animator.StringToHash("is-ground");
         private static readonly int IsRunningKey = Animator.StringToHash("is-running");
         private static readonly int VerticalVelocityKey = Animator.StringToHash("vertical-velocity");
+        private static readonly int Hit = Animator.StringToHash("hit");
 
         private void Awake()
         {
@@ -106,6 +108,12 @@ namespace Scripts
         private bool IsGrounded()
         {
             return _groundCheck.IsTouchingLayer;
+        }
+
+        public void TakeDamage()
+        {
+            _animator.SetTrigger(Hit);
+            _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _damageJumpSpeed);
         }
     }
 }

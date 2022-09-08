@@ -65,6 +65,9 @@
     <Compile Include="Assets\Scripts\HeroInputReader.cs" />
     <Compile Include="Assets\Scripts\Components\EnterTriggerComponent.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
+    <Compile Include="Assets\Scripts\Components\EnterCollisionComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\HealthComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\DamageComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
