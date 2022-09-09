@@ -1,3 +1,4 @@
+using Scripts.Components;
 using UnityEngine;
 
 namespace Scripts
@@ -8,7 +9,10 @@ namespace Scripts
         [SerializeField] private float _jumpSpeed;
         [SerializeField] private float _damageJumpSpeed;
         [SerializeField] private LayerCheck _groundCheck;
+        [SerializeField] private float _interactionRadius;
+        [SerializeField] private LayerMask _interactionLayerMask;
 
+        private Collider2D[] _interactionResult = new Collider2D[1];
         private SpriteRenderer _spriteRenderer;
         private bool _isGrounded;
         private Rigidbody2D _rigidbody;
@@ -114,6 +118,21 @@ namespace Scripts
         {
             _animator.SetTrigger(Hit);
             _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _damageJumpSpeed);
+        }
+
+        public void Interact()
+        {
+            var size = Physics2D.OverlapAreaNonAlloc(transform.position,
+                transform.position * _interactionRadius,
+                _interactionResult, _interactionLayerMask);
+            for (int i = 0; i < size; i++)
+            {
+                var interactable = _interactionResult[i].GetComponent<InteractableComponent>();
+                if (interactable != null)
+                {
+                    interactable.Interact();
+                }
+            }
         }
     }
 }

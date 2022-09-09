@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4025585}
   - component: {fileID: 4025584}
-  - component: {fileID: 4025586}
   m_Layer: 0
   m_Name: CloudBig (1)
   m_TagString: Untagged
@@ -208,26 +207,6 @@ Transform:
   m_Father: {fileID: 910388110}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &4025586
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4025583}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f1e971801fb1d6a4bbffee71f5622f07, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &17107595
 GameObject:
   m_ObjectHideFlags: 0
@@ -12662,7 +12641,10 @@ GameObject:
   - component: {fileID: 1174764487}
   - component: {fileID: 1174764486}
   - component: {fileID: 1174764488}
-  m_Layer: 0
+  - component: {fileID: 1174764489}
+  - component: {fileID: 1174764491}
+  - component: {fileID: 1174764490}
+  m_Layer: 7
   m_Name: Helm_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12756,6 +12738,61 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &1174764489
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174764485}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.010469109, y: 0.010469139}
+  serializedVersion: 2
+  m_Radius: 0.4667689
+--- !u!114 &1174764490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174764485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71006520b2c51c409ae9c5c4d00d48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1174764491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174764485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9228b3ef3192b7418601f735783b680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1174764490}
+        m_TargetAssemblyTypeName: Scripts.Components.ReloadLevelComponent, Assembly-CSharp
+        m_MethodName: Reload
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1195092217
 GameObject:
   m_ObjectHideFlags: 0
@@ -17628,6 +17665,10 @@ MonoBehaviour:
   _jumpSpeed: 12
   _damageJumpSpeed: 20
   _groundCheck: {fileID: 1753126888}
+  _interactionRadius: 1
+  _interactionLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &1568633151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17668,6 +17709,22 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: e807da41-1fde-42ce-b27e-aa5326c300cc
+    m_ActionName: Hero/New action
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1568633150}
+        m_TargetAssemblyTypeName: Scripts.Hero, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f5650c66-6c0b-4615-8775-e210c9c24efd
     m_ActionName: Hero/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
