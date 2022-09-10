@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
     <Compile Include="Assets\Scripts\Components\InteractableComponent.cs" />
     <Compile Include="Assets\Scripts\Components\SwitchComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\TeleportComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
