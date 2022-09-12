@@ -11,9 +11,9 @@ namespace Scripts
         [SerializeField] private LayerCheck _groundCheck;
         [SerializeField] private float _interactionRadius;
         [SerializeField] private LayerMask _interactionLayerMask;
+        [SerializeField] private SpawnComponent _footStepParticle;
 
         private Collider2D[] _interactionResult = new Collider2D[1];
-        private SpriteRenderer _spriteRenderer;
         private bool _isGrounded;
         private Rigidbody2D _rigidbody;
         private Vector2 _direction;
@@ -29,7 +29,6 @@ namespace Scripts
         {
             _rigidbody = GetComponent<Rigidbody2D>();
             _animator = GetComponent<Animator>();
-            _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         public void SetDirection(Vector2 direction)
@@ -101,11 +100,11 @@ namespace Scripts
         {
             if (_direction.x > 0)
             {
-                _spriteRenderer.flipX = false;
+                transform.localScale = Vector3.one;
             }
             else if (_direction.x < 0)
             {
-                _spriteRenderer.flipX = true;
+                transform.localScale = new Vector3(-1, 1, 1);
             }
         }
 
@@ -133,6 +132,11 @@ namespace Scripts
                     interactable.Interact();
                 }
             }
+        }
+
+        public void SpawnFootDust()
+        {
+            _footStepParticle.Spawn();
         }
     }
 }

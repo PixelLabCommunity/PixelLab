@@ -56,6 +56,7 @@
     <Analyzer Include="D:\Program Files (x86)\Microsoft Visual Studio\2022\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Components\SwitchComponent.cs" />
     <Compile Include="Assets\Scripts\Components\ReloadLevelComponent.cs" />
     <Compile Include="Assets\Scripts\Components\HealthComponent.cs" />
     <Compile Include="Assets\Scripts\Components\DestroyObjectComponent.cs" />
@@ -63,14 +64,14 @@
     <Compile Include="Assets\Scripts\LayerCheck.cs" />
     <Compile Include="Assets\Scripts\CheatController.cs" />
     <Compile Include="Assets\Scripts\Components\DamageComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\InteractableComponent.cs" />
     <Compile Include="Assets\Scripts\Hero.cs" />
     <Compile Include="Assets\Scripts\SpriteAnimation.cs" />
+    <Compile Include="Assets\Scripts\Components\TeleportComponent.cs" />
     <Compile Include="Assets\Scripts\HeroInputReader.cs" />
     <Compile Include="Assets\Scripts\Components\EnterTriggerComponent.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
-    <Compile Include="Assets\Scripts\Components\InteractableComponent.cs" />
-    <Compile Include="Assets\Scripts\Components\SwitchComponent.cs" />
-    <Compile Include="Assets\Scripts\Components\TeleportComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\SpawnComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
