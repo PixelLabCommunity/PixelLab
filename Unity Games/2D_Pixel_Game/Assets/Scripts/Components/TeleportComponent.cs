@@ -8,7 +8,7 @@ namespace Scripts.Components
     {
         [SerializeField] private Transform _targetPosition;
 
-        public void Teleport(GameObject target)
+        protected void Teleport(GameObject target)
         {
             target.transform.position = _targetPosition.position;
         }
