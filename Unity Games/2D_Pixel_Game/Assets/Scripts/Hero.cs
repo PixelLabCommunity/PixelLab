@@ -12,6 +12,7 @@ namespace Scripts
         [SerializeField] private float _interactionRadius;
         [SerializeField] private LayerMask _interactionLayerMask;
         [SerializeField] private SpawnComponent _footStepParticle;
+        [SerializeField] private SpawnComponent _jumpEffectParticle;
 
         private Collider2D[] _interactionResult = new Collider2D[1];
         private bool _isGrounded;
@@ -137,6 +138,11 @@ namespace Scripts
         public void SpawnFootDust()
         {
             _footStepParticle.Spawn();
+        }
+
+        public void SpawnJumpEffect()
+        {
+            _jumpEffectParticle.SpawnJumpEffect();
         }
     }
 }
