@@ -13,6 +13,7 @@ namespace Scripts
         [SerializeField] private LayerMask _interactionLayerMask;
         [SerializeField] private SpawnComponent _footStepParticle;
         [SerializeField] private SpawnComponent _jumpEffectParticle;
+        [SerializeField] private ParticleSystem _hitParticle;
 
         private Collider2D[] _interactionResult = new Collider2D[1];
         private bool _isGrounded;
@@ -118,6 +119,13 @@ namespace Scripts
         {
             _animator.SetTrigger(Hit);
             _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _damageJumpSpeed);
+            SpawnCoins();
+        }
+
+        public void SpawnCoins()
+        {
+            _hitParticle.gameObject.SetActive(true);
+            _hitParticle.Play();
         }
 
         public void Interact()
