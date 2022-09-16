@@ -59,7 +59,6 @@ namespace Scripts
             if (_isGrounded) _allowDoubleJump = true;
             if (isJumpPressing)
             {
-                
                 yVelocity = CalculateJumpVelovity(yVelocity);
                 if (_isGrounded && _rigidbody.velocity.y <= 0.001f)
                 {
@@ -82,6 +81,7 @@ namespace Scripts
             if (_isGrounded)
             {
                 yVelocity += _jumpSpeed;
+                SpawnJumpEffect();
             }
             else if (_allowDoubleJump)
             {
