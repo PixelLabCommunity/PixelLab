@@ -15,8 +15,13 @@ namespace Scripts.Components
             instantiate.transform.localScale = _target.lossyScale;
         }
 
-        [ContextMenu("PrefabTest")]
         public void SpawnJumpEffect()
+        {
+            Instantiate(_prefab, _target);
+        }
+
+        [ContextMenu("SpawnGroundEffect_PrefabTest")]
+        public void SpawnGroundEffect()
         {
             Instantiate(_prefab, _target);
         }

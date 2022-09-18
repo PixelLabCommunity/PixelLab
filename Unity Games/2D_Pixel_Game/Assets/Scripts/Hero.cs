@@ -13,6 +13,7 @@ namespace Scripts
         [SerializeField] private LayerMask _interactionLayerMask;
         [SerializeField] private SpawnComponent _footStepParticle;
         [SerializeField] private SpawnComponent _jumpEffectParticle;
+        [SerializeField] private SpawnComponent _fallEffectParticle;
         [SerializeField] private ParticleSystem _hitParticle;
 
         private Collider2D[] _interactionResult = new Collider2D[1];
@@ -21,6 +22,7 @@ namespace Scripts
         private Vector2 _direction;
         private Animator _animator;
         private bool _allowDoubleJump;
+        private bool _allowFallGroundSpawnEffect;
 
         private static readonly int IsGroundKey = Animator.StringToHash("is-ground");
         private static readonly int IsRunningKey = Animator.StringToHash("is-running");
@@ -56,7 +58,11 @@ namespace Scripts
             var isJumpPressing = _direction.y > 0;
             var yVelocity = _rigidbody.velocity.y;
 
-            if (_isGrounded) _allowDoubleJump = true;
+            if (_isGrounded)
+            {
+                _allowDoubleJump = true;
+            }
+
             if (isJumpPressing)
             {
                 yVelocity = CalculateJumpVelovity(yVelocity);
@@ -70,6 +76,7 @@ namespace Scripts
                 yVelocity *= 0.5f;
                 _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y * 0.5f);
             }
+
             return yVelocity;
         }
 
@@ -88,12 +95,17 @@ namespace Scripts
                 yVelocity = _jumpSpeed;
                 _allowDoubleJump = false;
             }
+            
             return yVelocity;
         }
 
         private void Update()
         {
             _isGrounded = IsGrounded();
+            if (!_allowDoubleJump && _isGrounded && _allowFallGroundSpawnEffect)
+            {
+                SpawnGroundEffect();
+            }
         }
 
         /// <summary>
@@ -152,6 +164,12 @@ namespace Scripts
         public void SpawnJumpEffect()
         {
             _jumpEffectParticle.SpawnJumpEffect();
+            _allowFallGroundSpawnEffect = true;
+        }
+
+        public void SpawnGroundEffect()
+        {
+            _fallEffectParticle.SpawnGroundEffect();
         }
     }
 }

@@ -1,3 +1,4 @@
+using Scripts.Components;
 using UnityEngine;
 
 namespace Scripts
