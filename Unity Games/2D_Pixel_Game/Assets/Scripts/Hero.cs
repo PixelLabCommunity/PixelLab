@@ -23,6 +23,7 @@ namespace Scripts
         private Animator _animator;
         private bool _allowDoubleJump;
         private bool _allowFallGroundSpawnEffect;
+        private int _coins;
 
         private static readonly int IsGroundKey = Animator.StringToHash("is-ground");
         private static readonly int IsRunningKey = Animator.StringToHash("is-running");
@@ -45,7 +46,6 @@ namespace Scripts
             var xVelocity = _direction.x * _speed;
             var yVelocity = CalculateYVelovity();
             _rigidbody.velocity = new Vector2(xVelocity, yVelocity);
-
             // Animation
             _animator.SetBool(IsGroundKey, _isGrounded);
             _animator.SetBool(IsRunningKey, _direction.x != 0);
@@ -95,7 +95,7 @@ namespace Scripts
                 yVelocity = _jumpSpeed;
                 _allowDoubleJump = false;
             }
-            
+
             return yVelocity;
         }
 
@@ -139,6 +139,12 @@ namespace Scripts
         {
             _hitParticle.gameObject.SetActive(true);
             _hitParticle.Play();
+        }
+
+        public void AddCoins(int coins)
+        {
+            _coins += coins;
+            Debug.Log($"{coins} coins added. Total coins: {_coins}");
         }
 
         public void Interact()
