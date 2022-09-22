@@ -7,8 +7,6 @@ namespace Scripts
     {
         [SerializeField] private Hero _hero;
 
-
-
         public void Movement(InputAction.CallbackContext context)
         {
             var direction = context.ReadValue<Vector2>();
