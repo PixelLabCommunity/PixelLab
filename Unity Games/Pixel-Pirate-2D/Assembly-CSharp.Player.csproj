@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C21E50B9-A62F-6DDC-4D8D-EFFF4E8326A8}</ProjectGuid>
+    <ProjectGuid>{C2F7E4C3-39C2-939A-33BE-77729530964F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -662,83 +662,83 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.Player.csproj">
-      <Project>{62C709C1-E5B5-DD81-B42B-53E626103D22}</Project>
+      <Project>{D8D628C9-FB1D-A15A-4C3F-3BB748D2CBDB}</Project>
       <Name>Unity.InternalAPIEngineBridge.001.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.PixelPerfect.Player.csproj">
-      <Project>{9E24E5A8-9CB4-4EFD-20F3-16E64B9F6BFF}</Project>
+      <Project>{4575AE56-DC1E-37FB-DE94-B358E9A2F46D}</Project>
       <Name>Unity.2D.PixelPerfect.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{6CCB420C-F5BA-D28B-0A98-01ECF1B2585D}</Project>
+      <Project>{0B6E558D-05C4-3DB9-83BB-C6E5801C95DA}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{E62CFF5A-7093-07C3-08B1-CDAF2D36D746}</Project>
+      <Project>{E9063531-A212-1652-F87C-A86191B16B0D}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Runtime.Player.csproj">
-      <Project>{2DBE693B-1697-8BA9-DA25-A22EB2B5B46A}</Project>
+      <Project>{6A034565-0DE3-46BF-7281-4E554C67C0AC}</Project>
       <Name>Unity.2D.IK.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Cinemachine.Player.csproj">
-      <Project>{1072A581-97D7-79A8-355B-9975092D4D9D}</Project>
+      <Project>{D19E527B-6CDC-D901-4E05-9C8143EDFD44}</Project>
       <Name>Cinemachine.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Player.csproj">
-      <Project>{E6F04CB7-97D3-42F3-321F-C7E3F22E8BCB}</Project>
+      <Project>{8097BE0E-D2F5-2ECA-EE79-9205F46EB2C4}</Project>
       <Name>Unity.2D.Tilemap.Extras.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{806FC966-CEA9-0A29-0D86-D7477E42DAF1}</Project>
+      <Project>{F7909A1D-26FB-ABD5-84B6-BE32EB731F7E}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{A02ECE2C-7ABE-2C46-6177-659873EEFC75}</Project>
+      <Project>{321D4D58-976D-24F2-7854-7F100C662DD7}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{6A07045D-95D2-65C6-96D9-74B63B5B022E}</Project>
+      <Project>{02DF3A69-CAB6-D2FB-E6C8-3B27FC614A14}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{EFA43242-CB33-6642-D386-D27CA81663E2}</Project>
+      <Project>{D41C5E24-D196-7037-8AD6-C24E76C7A235}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{BDFF8919-01EF-0F0E-FE7E-7501E8797759}</Project>
+      <Project>{F40FA074-DF16-AABB-AC67-E7631367CAC5}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{515148B2-49BF-6370-6F37-9BB9E225944A}</Project>
+      <Project>{B4901415-F202-75C6-CB9C-49D3057D123B}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{72BE7ED1-EFA2-2C7F-2315-91981C99B752}</Project>
+      <Project>{73072628-F90C-ABEA-796D-9E54C520058C}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{FA310B7B-79CB-F15B-12F3-9CFE30560D35}</Project>
+      <Project>{AC4118F9-BF1E-F75E-4092-6737B1C5F17A}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{B858EA82-EEEB-EC68-3F92-BDEA48A5891D}</Project>
+      <Project>{CC7E172E-C4E0-B7D5-12C1-DE2D1ED8B69F}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.Player.csproj">
-      <Project>{664F0C65-75FC-814A-38CE-5115294FB04C}</Project>
+      <Project>{D0C1CE3F-AE4F-0D66-75BB-E9BD851E287D}</Project>
       <Name>Unity.2D.Animation.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.Player.csproj">
-      <Project>{068B1DEE-66FC-4D95-CF65-FAEE2D3A3E88}</Project>
+      <Project>{486F7ADA-2E5A-CBE0-B38D-03B6322D80F3}</Project>
       <Name>Unity.2D.Common.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.Player.csproj">
-      <Project>{45DEFCA4-F797-6C45-7BCE-222D0A3275D0}</Project>
+      <Project>{D720370E-E09C-E2A2-4B59-79B098493DE9}</Project>
       <Name>Unity.2D.SpriteShape.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{C979B1A7-3534-4BDE-A88A-02411FB19768}</Project>
+      <Project>{EF01D991-9751-E8E4-EDA2-E1116A1513F2}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3C7A4028-290F-1A37-8A31-012DB5AB57E6}</ProjectGuid>
+    <ProjectGuid>{F10DFB14-7B8E-7878-693F-1D39DF536D6E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Device</AssemblyName>
@@ -728,15 +728,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{F1DB11F4-2FEA-6CF7-F7E9-DAA1766586C9}</Project>
+      <Project>{D9E81D33-9A4F-EB8B-9922-4999E6ED7432}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{CB47795A-7C80-BDF3-AA1F-A5DAF1A51E77}</Project>
+      <Project>{E791A8E6-8F9A-2CAF-56B0-5BFC609231E2}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{BA13DBFD-9153-3571-B349-112DE09ED07B}</Project>
+      <Project>{9A5563F3-CC0F-1B20-6DC6-DB0679CA52A8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
