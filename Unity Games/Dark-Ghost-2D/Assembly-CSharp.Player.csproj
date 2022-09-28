@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement2D.cs" />
-    <Compile Include="Assets\Scripts\Player Movement.cs" />
+    <Compile Include="Assets\Scripts\old\Player Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -690,6 +690,10 @@
     <ProjectReference Include="Unity.2D.IK.Runtime.Player.csproj">
       <Project>{E137045E-F12E-7E83-DB50-167AF957CA17}</Project>
       <Name>Unity.2D.IK.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{16AF0509-084C-0BBC-BADD-CAA0E7ED91C0}</Project>
+      <Name>Cinemachine.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{F26EF0DA-A703-2C36-E5C1-CCDD4881E9DD}</Project>

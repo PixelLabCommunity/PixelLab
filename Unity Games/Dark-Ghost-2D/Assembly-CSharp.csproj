@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement2D.cs" />
-    <Compile Include="Assets\Scripts\Player Movement.cs" />
+    <Compile Include="Assets\Scripts\old\Player Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -816,6 +816,10 @@
       <Project>{BF0F8312-7DDF-A80B-15B2-FD9605909A35}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{CEA69790-86ED-84D5-88BB-16F90A30EDF4}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{43762D9D-9AD4-CEA8-EAD3-6C912E24FCDA}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
@@ -823,6 +827,10 @@
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{6334250E-E5BA-B439-C849-8B6CB129F2A2}</Project>
       <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{E3C35AB2-AFEC-CF3F-27EE-5D7619360745}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{BC5EE000-12E3-9682-F15C-2DA5BF20706E}</Project>
