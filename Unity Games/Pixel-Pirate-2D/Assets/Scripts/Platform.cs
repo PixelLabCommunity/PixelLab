@@ -43,6 +43,7 @@ namespace Scripts
                 collision.gameObject.transform.SetParent(transform);
             }
         }
+
         private void OnCollisionExit2D(Collision2D collision)
         {
             if (collision.gameObject.name == "HeroPirate")
