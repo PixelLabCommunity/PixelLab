@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Telemetry", "Unity.Services.Core.Telemetry.csproj", "{5546AD8D-6087-4335-FD3F-4B9637BF899A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem", "Unity.InputSystem.csproj", "{B5020DD1-FB66-23D9-9C48-0189B1334096}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.State", "Unity.VisualScripting.State.csproj", "{DA8EF9AA-F72D-7931-5CBB-D5FC4CBCF8F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core", "Unity.VisualScripting.Core.csproj", "{38AEBF2B-2645-6E4B-B86A-C9F8914E90D1}"
@@ -38,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Networking", "Unity.Services.Core.Networking.csproj", "{511F7C88-624E-CE33-C164-3683F9DF015D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration", "Unity.Services.Core.Configuration.csproj", "{11CA71CF-9A32-B079-B942-F35FF7AFEA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1FAC1F01-1F88-68A3-7406-7941E97114BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{5670B4F7-FA26-2137-8E35-459BD4D762F0}"
 EndProject
@@ -91,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Telemetry", "Unity.Services.Core.Telemetry.Player.csproj", "{7CC6B8D0-680A-D8FA-72B9-6719139750D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem", "Unity.InputSystem.Player.csproj", "{F35A8496-7289-EDC6-F184-82417B9585FD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.State", "Unity.VisualScripting.State.Player.csproj", "{05D63CE8-080F-6A61-F77F-1A6C1ACC3B71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core", "Unity.VisualScripting.Core.Player.csproj", "{6198C546-988A-DE04-67F7-877B0C32A4CE}"
@@ -121,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Network
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration", "Unity.Services.Core.Configuration.Player.csproj", "{08625A28-1432-9E45-151D-49E5EA9190FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{58DB34A0-CB45-841F-72A2-82F8CBDBCD5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +151,10 @@ Global
 		{5546AD8D-6087-4335-FD3F-4B9637BF899A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5546AD8D-6087-4335-FD3F-4B9637BF899A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5546AD8D-6087-4335-FD3F-4B9637BF899A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5020DD1-FB66-23D9-9C48-0189B1334096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5020DD1-FB66-23D9-9C48-0189B1334096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5020DD1-FB66-23D9-9C48-0189B1334096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5020DD1-FB66-23D9-9C48-0189B1334096}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DA8EF9AA-F72D-7931-5CBB-D5FC4CBCF8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA8EF9AA-F72D-7931-5CBB-D5FC4CBCF8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8EF9AA-F72D-7931-5CBB-D5FC4CBCF8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -203,6 +215,10 @@ Global
 		{11CA71CF-9A32-B079-B942-F35FF7AFEA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11CA71CF-9A32-B079-B942-F35FF7AFEA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11CA71CF-9A32-B079-B942-F35FF7AFEA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAC1F01-1F88-68A3-7406-7941E97114BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAC1F01-1F88-68A3-7406-7941E97114BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAC1F01-1F88-68A3-7406-7941E97114BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAC1F01-1F88-68A3-7406-7941E97114BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5670B4F7-FA26-2137-8E35-459BD4D762F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5670B4F7-FA26-2137-8E35-459BD4D762F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5670B4F7-FA26-2137-8E35-459BD4D762F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -307,6 +323,10 @@ Global
 		{7CC6B8D0-680A-D8FA-72B9-6719139750D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CC6B8D0-680A-D8FA-72B9-6719139750D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CC6B8D0-680A-D8FA-72B9-6719139750D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35A8496-7289-EDC6-F184-82417B9585FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35A8496-7289-EDC6-F184-82417B9585FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35A8496-7289-EDC6-F184-82417B9585FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35A8496-7289-EDC6-F184-82417B9585FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05D63CE8-080F-6A61-F77F-1A6C1ACC3B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05D63CE8-080F-6A61-F77F-1A6C1ACC3B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D63CE8-080F-6A61-F77F-1A6C1ACC3B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -367,6 +387,10 @@ Global
 		{08625A28-1432-9E45-151D-49E5EA9190FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08625A28-1432-9E45-151D-49E5EA9190FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08625A28-1432-9E45-151D-49E5EA9190FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DB34A0-CB45-841F-72A2-82F8CBDBCD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DB34A0-CB45-841F-72A2-82F8CBDBCD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DB34A0-CB45-841F-72A2-82F8CBDBCD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DB34A0-CB45-841F-72A2-82F8CBDBCD5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
