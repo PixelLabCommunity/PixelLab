@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -35,7 +36,15 @@ namespace Scripts
 
         private void FixedUpdate()
         {
-            _rigidbody.velocity = new Vector3(_moveDirections.x * _speed, 0.0f, _moveDirections.z * _speed);
+            _rigidbody.velocity = new Vector3(_moveDirections.x * _speed, -5f, _moveDirections.z * _speed);
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Cube"))
+            {
+                Destroy(this);
+            }
         }
     }
 }
