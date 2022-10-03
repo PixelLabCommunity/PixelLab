@@ -78,7 +78,7 @@ namespace Scripts
 
         private void Flip()
         {
-            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            transform.Rotate(0f, 180f, 0f);
             _isFacingRight = !_isFacingRight;
         }
 

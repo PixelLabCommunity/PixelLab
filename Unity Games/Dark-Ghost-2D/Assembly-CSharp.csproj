@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement2D.cs" />
     <Compile Include="Assets\Scripts\old\Player Movement.cs" />
+    <Compile Include="Assets\Scripts\ProjectTile.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
