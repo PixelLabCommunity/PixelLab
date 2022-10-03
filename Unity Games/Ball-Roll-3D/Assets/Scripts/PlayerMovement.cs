@@ -61,7 +61,6 @@ namespace Scripts
             if (_count == 9)
             {
                 _winText.text = "Grats !!! You WON !!!";
-
             }
         }
     }
