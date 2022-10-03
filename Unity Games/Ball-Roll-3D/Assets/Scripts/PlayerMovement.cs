@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,9 +11,11 @@ namespace Scripts
     {
         [SerializeField] private float _speed;
         [SerializeField] private InputAction _playerControls;
+        [SerializeField] private TextMeshProUGUI _countText, _winText;
 
         private Rigidbody _rigidbody;
         private Vector3 _moveDirections = Vector3.zero;
+        private int _count;
 
         private void OnEnable()
         {
@@ -27,6 +30,9 @@ namespace Scripts
         private void Start()
         {
             _rigidbody = GetComponent<Rigidbody>();
+            _count = 0;
+            SetCount();
+            _winText.text = "";
         }
 
         private void Update()
@@ -43,7 +49,19 @@ namespace Scripts
         {
             if (other.CompareTag("Cube"))
             {
-                Destroy(this);
+                Destroy(other.gameObject);
+                _count++;
+                SetCount();
+            }
+        }
+
+        private void SetCount()
+        {
+            _countText.text = "Points: " + _count.ToString();
+            if (_count == 9)
+            {
+                _winText.text = "Grats !!! You WON !!!";
+
             }
         }
     }
