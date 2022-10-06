@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\LayerCheck.cs" />
     <Compile Include="Assets\Scripts\CheatController.cs" />
     <Compile Include="Assets\Scripts\Components\DamageComponent.cs" />
+    <Compile Include="Assets\Scripts\Platform.cs" />
     <Compile Include="Assets\Scripts\Components\InteractableComponent.cs" />
     <Compile Include="Assets\Scripts\Hero.cs" />
     <Compile Include="Assets\Scripts\Components\SpawnComponent.cs" />
@@ -72,7 +73,6 @@
     <Compile Include="Assets\Scripts\HeroInputReader.cs" />
     <Compile Include="Assets\Scripts\Components\EnterTriggerComponent.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
-    <Compile Include="Assets\Scripts\Platform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
