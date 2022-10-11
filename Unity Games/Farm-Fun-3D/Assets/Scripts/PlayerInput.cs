@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private float _speed;
+    [SerializeField] private GameObject _prefabPizza;
+
+
     private float _horizontalInput;
     private readonly float _xRange = 16.5f;
 
