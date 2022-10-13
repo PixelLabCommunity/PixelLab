@@ -13,8 +13,9 @@ public class SpawnManager : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("SpawnRandomAnimal",_startDelay, _repeatInterval);
+        InvokeRepeating("SpawnRandomAnimal", _startDelay, _repeatInterval);
     }
+
     private void Update()
     {
     }
