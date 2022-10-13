@@ -6,12 +6,20 @@ public class SpawnManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] _animalPrefabs;
 
+    private float _spawnRangeX = 15.0f;
+    private float _spawnPosZ = 20.0f;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
+            // Random spawn animals in axes X
+            Vector3 _spawnPos = new(Random.Range(-_spawnRangeX, _spawnRangeX),
+                transform.position.y, _spawnPosZ);
+
+            // Random spawn animals types
             int _animalsIndex = Random.Range(0, _animalPrefabs.Length);
-            Instantiate(_animalPrefabs[_animalsIndex], new Vector3(transform.position.x, transform.position.y, 20),
+            Instantiate(_animalPrefabs[_animalsIndex], _spawnPos,
                 _animalPrefabs[_animalsIndex].transform.rotation);
         }
     }
