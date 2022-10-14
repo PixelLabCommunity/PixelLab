@@ -8,7 +8,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     private float _lowBounds = -13.0f;
 
     private void Update()
-    {        
+    {
         if (transform.position.z > _topBounds)
         {
             Destroy(gameObject);
