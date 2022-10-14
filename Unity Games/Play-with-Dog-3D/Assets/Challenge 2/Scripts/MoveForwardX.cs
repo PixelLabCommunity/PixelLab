@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class MoveForwardX : MonoBehaviour
 {
-    public float speed;
+    [SerializeField] private float _speed;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * _speed * Time.deltaTime);
     }
 }
