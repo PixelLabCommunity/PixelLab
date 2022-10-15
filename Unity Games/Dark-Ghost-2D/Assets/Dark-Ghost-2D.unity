@@ -134,7 +134,8 @@ GameObject:
   - component: {fileID: 61613941}
   - component: {fileID: 61613940}
   - component: {fileID: 61613942}
-  m_Layer: 3
+  - component: {fileID: 61613943}
+  m_Layer: 0
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,6 +235,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &61613943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61613939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b5ca6f9c1130e4fa020da7af443cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 5
 --- !u!1 &87323023
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,7 +299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 142155579}
   - component: {fileID: 142155580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: REye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400491029}
   - component: {fileID: 400491030}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -660,7 +674,8 @@ GameObject:
   - component: {fileID: 1113863558}
   - component: {fileID: 1113863560}
   - component: {fileID: 1113863559}
-  m_Layer: 3
+  - component: {fileID: 1113863561}
+  m_Layer: 0
   m_Name: Platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,6 +775,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1113863561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113863557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b5ca6f9c1130e4fa020da7af443cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 5
 --- !u!1 &1337101267
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,7 +799,8 @@ GameObject:
   - component: {fileID: 1337101268}
   - component: {fileID: 1337101270}
   - component: {fileID: 1337101269}
-  m_Layer: 3
+  - component: {fileID: 1337101271}
+  m_Layer: 0
   m_Name: Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,6 +900,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1337101271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337101267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b5ca6f9c1130e4fa020da7af443cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 5
 --- !u!1 &1445887865
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445887866}
   - component: {fileID: 1445887867}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -966,7 +1008,8 @@ GameObject:
   - component: {fileID: 1545249763}
   - component: {fileID: 1545249765}
   - component: {fileID: 1545249764}
-  m_Layer: 3
+  - component: {fileID: 1545249766}
+  m_Layer: 0
   m_Name: Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1066,6 +1109,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1545249766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545249762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b5ca6f9c1130e4fa020da7af443cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 5
 --- !u!1 &1695601815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,7 +1221,7 @@ GameObject:
   - component: {fileID: 1737538929}
   - component: {fileID: 1737538930}
   - component: {fileID: 1737538931}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1274,7 +1330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1779181306}
   - component: {fileID: 1779181307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'LEye '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1393,7 +1449,8 @@ GameObject:
   - component: {fileID: 1820988045}
   - component: {fileID: 1820988044}
   - component: {fileID: 1820988046}
-  m_Layer: 3
+  - component: {fileID: 1820988047}
+  m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,6 +1550,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1820988047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820988043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b5ca6f9c1130e4fa020da7af443cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 5
 --- !u!1 &1969841713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,7 +1638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2072083523}
   - component: {fileID: 2072083524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
