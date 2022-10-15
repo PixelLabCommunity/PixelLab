@@ -61,6 +61,8 @@
     <Compile Include="Assets\Scripts\ProjectTile.cs" />
     <Compile Include="Assets\Scripts\old\Player Movement.cs" />
     <Compile Include="Assets\Scripts\MoveForward.cs" />
+    <Compile Include="Assets\Scripts\SpawnPlatform.cs" />
+    <Compile Include="Assets\Scripts\DestroyPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
