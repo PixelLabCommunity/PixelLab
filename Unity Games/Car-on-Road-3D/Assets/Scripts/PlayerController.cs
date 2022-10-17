@@ -2,22 +2,34 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float _speed = 20.0f;
-    private float _turnSpeed = 45.0f;
-    private float _horizontalInput;
-    private float _forwardInput;
+    [SerializeField] private float _speed = 20.0f;
+    [SerializeField] private float _turnSpeed = 45.0f;
 
-    // Update is called once per frame
+    private float _horizontalInput;
+    private readonly float _xRange = 8.5f;
 
     public void Update()
     {
-        // We set input here
-        _horizontalInput = Input.GetAxis("Horizontal");
-        _forwardInput = Input.GetAxis("Vertical");
+        PlayerBounds();
 
-        // We move the vehicle forward based on horizontal input
-        transform.Translate(Vector3.forward * Time.deltaTime * _speed * _forwardInput);
-        // We turn the vehicle left and right based on vertical input
+        _horizontalInput = Input.GetAxis("Horizontal");
+
+        transform.Translate(Vector3.forward * Time.deltaTime * _speed);
+
         transform.Rotate(Vector3.up * Time.deltaTime * _turnSpeed * _horizontalInput);
+    }
+
+    private void PlayerBounds()
+    {
+        if (transform.localPosition.x <= -_xRange)
+        {
+            transform.localPosition = new Vector3(-_xRange, transform.localPosition.y,
+                transform.localPosition.z);
+        }
+        if (transform.localPosition.x >= _xRange)
+        {
+            transform.localPosition = new Vector3(_xRange, transform.localPosition.y,
+                transform.localPosition.z);
+        }
     }
 }
