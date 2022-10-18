@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float _speed = 20.0f;
-    [SerializeField] private float _turnSpeed = 45.0f;
+    [SerializeField] private float _turnSpeed = 10.0f;
 
     private float _horizontalInput;
     private readonly float _xRange = 8.5f;
@@ -14,9 +13,7 @@ public class PlayerController : MonoBehaviour
 
         _horizontalInput = Input.GetAxis("Horizontal");
 
-        transform.Translate(Vector3.forward * Time.deltaTime * _speed);
-
-        transform.Rotate(Vector3.up * Time.deltaTime * _turnSpeed * _horizontalInput);
+        transform.Translate(Vector3.right * Time.deltaTime * _turnSpeed * _horizontalInput);
     }
 
     private void PlayerBounds()
