@@ -6,7 +6,7 @@ public class PlayerControls : MonoBehaviour
 {
     [SerializeField] private float _jumpForce = 10.0f;
     [SerializeField] private float _gravityModifyer = 1.0f;
-    private bool _gameOver;
+    public bool _gameOver;
 
     private Rigidbody _playerRb;
     private bool _isOnGround = true;
