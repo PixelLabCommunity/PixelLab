@@ -5,7 +5,9 @@ using UnityEngine;
 public class MoveLeft : MonoBehaviour
 {
     [SerializeField] private float _movingSpeed = 15.0f;
+
     private PlayerControls _playerControlsScript;
+    private float _leftBound = -20.0f;
 
     private void Start()
     {
@@ -17,5 +19,9 @@ public class MoveLeft : MonoBehaviour
     {
         if (_playerControlsScript._gameOver == false)
             transform.Translate(Vector3.left * Time.deltaTime * _movingSpeed);
+        if (transform.position.x < _leftBound && gameObject.CompareTag("Obstacle"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
