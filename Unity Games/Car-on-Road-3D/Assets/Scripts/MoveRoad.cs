@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveRoad : MonoBehaviour
 {
-    [SerializeField] private float _movingSpeed = 15.0f;
+    [SerializeField] private float _movingSpeed = 20.0f;
 
     private void Start()
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveBack : MonoBehaviour
 {
-    [SerializeField] private float _movingSpeed = 15.0f;
+    [SerializeField] private float _movingSpeed = 20.0f;
 
     private float _backBound = -86.0f;
 
