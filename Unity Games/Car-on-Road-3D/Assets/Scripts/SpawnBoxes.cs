@@ -13,7 +13,6 @@ public class SpawnBoxes : MonoBehaviour
     private float _spawnDelay = 1.0f;
     private float _repeatSpawn = 4.0f;
 
-    [System.Obsolete]
     private void Start()
     {
         InvokeRepeating("SpawnBoxPrefab", _spawnDelay, _repeatSpawn);

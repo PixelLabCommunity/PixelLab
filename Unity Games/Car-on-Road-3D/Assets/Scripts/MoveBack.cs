@@ -10,8 +10,14 @@ public class MoveBack : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Vector3.back * Time.deltaTime * _movingSpeed);
-        if (transform.position.z < _backBound && gameObject.CompareTag("Box"))
+        if (gameObject.CompareTag("Box") || gameObject.CompareTag("Obstacle"))
+        {
+            transform.Translate(Vector3.back * Time.deltaTime * _movingSpeed);
+        }
+        else if (gameObject.CompareTag("Obstacle 180"))
+            transform.Translate(Vector3.forward * Time.deltaTime * _movingSpeed);
+
+        if (transform.position.z < _backBound && !gameObject.CompareTag("Road"))
         {
             Destroy(gameObject);
         }
