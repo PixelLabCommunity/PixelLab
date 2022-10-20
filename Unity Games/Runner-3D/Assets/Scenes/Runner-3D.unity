@@ -523,9 +523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _jumpForce: 10
   _gravityModifyer: 2
-  _ground:
-    serializedVersion: 2
-    m_Bits: 0
+  _gameOver: 0
 --- !u!1 &835818919
 GameObject:
   m_ObjectHideFlags: 0
