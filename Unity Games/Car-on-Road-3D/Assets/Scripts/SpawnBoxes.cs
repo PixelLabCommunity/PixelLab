@@ -12,22 +12,24 @@ public class SpawnBoxes : MonoBehaviour
     private float _spawnBoxPositionZ = 97.0f;
     private float _spawnDelay = 1.0f;
     private float _repeatSpawn = 4.0f;
+    private PlayerController _playerControllerScript;
 
     private void Start()
     {
+        _playerControllerScript = GameObject.Find("Player").
+            GetComponent<PlayerController>();
         InvokeRepeating("SpawnBoxPrefab", _spawnDelay, _repeatSpawn);
-    }
-
-    private void Update()
-    {
-        float _spawnBoxRandomX = Random.Range(-_spawnValueX, _spawnValueX);
-        _spawnBoxPosition = new Vector3(_spawnBoxRandomX, _spawnBoxPositionY,
-            _spawnBoxPositionZ);
     }
 
     private void SpawnBoxPrefab()
     {
-        Instantiate(_spawnBoxPrefab, _spawnBoxPosition,
-            _spawnBoxPrefab.transform.rotation);
+        if (_playerControllerScript._gameOver == false)
+        {
+            float _spawnBoxRandomX = Random.Range(-_spawnValueX, _spawnValueX);
+            _spawnBoxPosition = new Vector3(_spawnBoxRandomX, _spawnBoxPositionY,
+                _spawnBoxPositionZ);
+            Instantiate(_spawnBoxPrefab, _spawnBoxPosition,
+                _spawnBoxPrefab.transform.rotation);
+        }
     }
 }

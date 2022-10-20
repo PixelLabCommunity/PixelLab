@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -6,6 +7,12 @@ public class PlayerController : MonoBehaviour
 
     private float _horizontalInput;
     private readonly float _xRange = 8.5f;
+    public bool _gameOver;
+
+    private void Start()
+    {
+        _gameOver = false;
+    }
 
     public void Update()
     {
@@ -13,7 +20,16 @@ public class PlayerController : MonoBehaviour
 
         _horizontalInput = Input.GetAxis("Horizontal");
 
-        transform.Translate(Vector3.right * Time.deltaTime * _turnSpeed * _horizontalInput);
+        if (_gameOver == false)
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * _turnSpeed *
+            _horizontalInput);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            var scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
     }
 
     private void PlayerBounds()
@@ -27,6 +43,21 @@ public class PlayerController : MonoBehaviour
         {
             transform.localPosition = new Vector3(_xRange, transform.localPosition.y,
                 transform.localPosition.z);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle")
+            || collision.gameObject.CompareTag("Obstacle 180"))
+        {
+            _gameOver = true;
+            Debug.Log("Game Over! Press 'ESC' for restart the Game!");
+        }
+        if (collision.gameObject.CompareTag("Box"))
+        {
+            Destroy(collision.gameObject);
+            Debug.Log("You got a Box!");
         }
     }
 }
