@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62
+  controlID: 41
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 45
+  controlID: 110
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -408,10 +408,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 5.3999634}
-    m_SelectedIDs: 1e5b0000
-    m_LastClickedID: 23326
-    m_ExpandedIDs: 000000000e5b00001c5b0000205b000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 505b0000
+    m_LastClickedID: 23376
+    m_ExpandedIDs: 00000000345b0000365b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e5b0000
+    m_ExpandedIDs: 00000000345b0000365b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f6780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -567,23 +567,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e5a0000765d0000685d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36fbffff1a5a0000
+      m_ExpandedIDs: ecf3ffff42f4ffffccf5ffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Player
-        m_OriginalName: Player
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 23054
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.084061265, y: -0.6964828, z: 0.08270698, w: -0.707843}
     speed: 2
-    m_Value: {x: -0.08405972, y: -0.69646996, z: 0.08270546, w: -0.70783}
+    m_Value: {x: 0.08406126, y: 0.6964828, z: -0.08270698, w: 0.707843}
   m_Size:
     m_Target: 0.8660254
     speed: 2
