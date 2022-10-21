@@ -7,11 +7,12 @@ public class PlayerControls : MonoBehaviour
 {
     [SerializeField] private float _jumpForce = 10.0f;
     [SerializeField] private float _gravityValue = 18.0f;
+    [SerializeField] private ParticleSystem _explosionParticle;
 
-    public bool _gameOver;
     private Rigidbody _playerRb;
-    private bool _isOnGround = true;
     private Animator _playerAnimation;
+    private bool _isOnGround = true;
+    public bool _gameOver;
 
     private void Start()
     {
@@ -22,10 +23,7 @@ public class PlayerControls : MonoBehaviour
 
     private void Update()
     {
-        if (_gameOver == false)
-        {
-            PlayerJump();
-        }
+        PlayerJump();
     }
 
     private void LateUpdate()
@@ -45,12 +43,13 @@ public class PlayerControls : MonoBehaviour
             Debug.Log("Game Over! Press 'ESC' for restart the Game!");
             _playerAnimation.SetBool("Death_b", true);
             _playerAnimation.SetInteger("DeathType_int", 1);
+            _explosionParticle.Play();
         }
     }
 
     private void PlayerJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && _isOnGround)
+        if (Input.GetKeyDown(KeyCode.Space) && _isOnGround && !_gameOver)
         {
             _playerRb.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
             _isOnGround = false;
