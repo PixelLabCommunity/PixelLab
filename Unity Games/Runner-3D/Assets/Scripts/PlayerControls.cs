@@ -11,11 +11,13 @@ public class PlayerControls : MonoBehaviour
     public bool _gameOver;
     private Rigidbody _playerRb;
     private bool _isOnGround = true;
+    private Animator _playerAnimation;
 
     private void Start()
     {
         _playerRb = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0.0f, -_gravityValue, 0.0f);
+        _playerAnimation = GetComponent<Animator>();
     }
 
     private void Update()
@@ -41,6 +43,8 @@ public class PlayerControls : MonoBehaviour
         {
             _gameOver = true;
             Debug.Log("Game Over! Press 'ESC' for restart the Game!");
+            _playerAnimation.SetBool("Death_b", true);
+            _playerAnimation.SetInteger("DeathType_int", 1);
         }
     }
 
@@ -50,6 +54,7 @@ public class PlayerControls : MonoBehaviour
         {
             _playerRb.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
             _isOnGround = false;
+            _playerAnimation.SetTrigger("Jump_trig");
         }
     }
 
