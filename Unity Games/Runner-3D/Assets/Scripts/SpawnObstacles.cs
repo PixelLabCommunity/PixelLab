@@ -5,8 +5,8 @@ using UnityEngine;
 public class SpawnObstacles : MonoBehaviour
 {
     [SerializeField] private GameObject[] _obstaclePrefabs;
-    private PlayerControls _playerControlsScript;
 
+    private PlayerControls _playerControlsScript;
     private Vector3 _spawnObstacles = new Vector3(19.85f, 0.0f, 0.0f);
     private float _startDelay = 2.0f;
     private float _repeatRange = 2.0f;

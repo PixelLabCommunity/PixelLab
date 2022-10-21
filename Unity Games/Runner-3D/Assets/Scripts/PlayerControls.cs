@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,17 +9,27 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] private float _jumpForce = 10.0f;
     [SerializeField] private float _gravityValue = 18.0f;
     [SerializeField] private ParticleSystem _explosionParticle;
+    [SerializeField] private ParticleSystem _dirtParticle;
+    [SerializeField] private AudioClip _jumpSound;
+    [SerializeField] private AudioClip _smashSound;
 
     private Rigidbody _playerRb;
     private Animator _playerAnimation;
+    private AudioSource _playerAudioSource;
     private bool _isOnGround = true;
     public bool _gameOver;
+
+    private void Awake()
+    {
+        Debug.ClearDeveloperConsole();
+    }
 
     private void Start()
     {
         _playerRb = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0.0f, -_gravityValue, 0.0f);
         _playerAnimation = GetComponent<Animator>();
+        _playerAudioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -36,6 +47,7 @@ public class PlayerControls : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             _isOnGround = true;
+            _dirtParticle.Play();
         }
         if (collision.gameObject.CompareTag("Obstacle"))
         {
@@ -44,6 +56,8 @@ public class PlayerControls : MonoBehaviour
             _playerAnimation.SetBool("Death_b", true);
             _playerAnimation.SetInteger("DeathType_int", 1);
             _explosionParticle.Play();
+            _dirtParticle.Stop();
+            _playerAudioSource.PlayOneShot(_smashSound);
         }
     }
 
@@ -54,6 +68,8 @@ public class PlayerControls : MonoBehaviour
             _playerRb.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
             _isOnGround = false;
             _playerAnimation.SetTrigger("Jump_trig");
+            _dirtParticle.Stop();
+            _playerAudioSource.PlayOneShot(_jumpSound);
         }
     }
 
@@ -61,8 +77,17 @@ public class PlayerControls : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            var _scene = SceneManager.GetActiveScene();
+            Scene _scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(_scene.name);
+            ClearLog();
         }
+    }
+
+    public void ClearLog()
+    {
+        var _assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
+        var _type = _assembly.GetType("UnityEditor.LogEntries");
+        var _method = _type.GetMethod("Clear");
+        _method.Invoke(new object(), null);
     }
 }
