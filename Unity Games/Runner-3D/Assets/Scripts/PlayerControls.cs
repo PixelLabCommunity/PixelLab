@@ -49,7 +49,7 @@ public class PlayerControls : MonoBehaviour
             _isOnGround = true;
             _dirtParticle.Play();
         }
-        if (collision.gameObject.CompareTag("Obstacle"))
+        else if (collision.gameObject.CompareTag("Obstacle"))
         {
             _gameOver = true;
             Debug.Log("Game Over! Press 'ESC' for restart the Game!");
