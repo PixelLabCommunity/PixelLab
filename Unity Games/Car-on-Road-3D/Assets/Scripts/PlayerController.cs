@@ -1,35 +1,36 @@
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _turnSpeed = 10.0f;
+    [SerializeField] private ParticleSystem _smokeParticle;
+    [SerializeField] private ParticleSystem _carDriveParticle;
+    [SerializeField] private ParticleSystem _boxParticle;
+    [SerializeField] private AudioClip _crashSound;
+    [SerializeField] private AudioClip _getBox;
 
+    private AudioSource _playerAudioSource;
     private float _horizontalInput;
     private readonly float _xRange = 8.5f;
     public bool _gameOver;
 
+    private void Awake()
+    {
+        ClearLog();
+    }
+
     private void Start()
     {
         _gameOver = false;
+        _playerAudioSource = GetComponent<AudioSource>();
     }
 
     public void Update()
     {
         PlayerBounds();
-
-        _horizontalInput = Input.GetAxis("Horizontal");
-
-        if (_gameOver == false)
-        {
-            transform.Translate(Vector3.right * Time.deltaTime * _turnSpeed *
-            _horizontalInput);
-        }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            var scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
-        }
+        PlayerControls();
     }
 
     private void PlayerBounds()
@@ -46,6 +47,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void PlayerControls()
+    {
+        _horizontalInput = Input.GetAxis("Horizontal");
+
+        if (_gameOver == false)
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * _turnSpeed *
+            _horizontalInput);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            var scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Obstacle")
@@ -53,11 +70,24 @@ public class PlayerController : MonoBehaviour
         {
             _gameOver = true;
             Debug.Log("Game Over! Press 'ESC' for restart the Game!");
+            _smokeParticle.Play();
+            _playerAudioSource.PlayOneShot(_crashSound);
+            _carDriveParticle.Stop();
         }
         if (collision.gameObject.CompareTag("Box"))
         {
             Destroy(collision.gameObject);
             Debug.Log("You got a Box!");
+            _playerAudioSource.PlayOneShot(_getBox, 0.5f);
+            _boxParticle.Play();
         }
+    }
+
+    public void ClearLog()
+    {
+        var _assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
+        var _type = _assembly.GetType("UnityEditor.LogEntries");
+        var _method = _type.GetMethod("Clear");
+        _method.Invoke(new object(), null);
     }
 }

@@ -65,6 +65,9 @@
     <Compile Include="Assets\Scripts\SpawnObstacle.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Course Library\_Source_Files\Materials\UnlitVertexColour_Alpha.shader" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files (x86)\2021.3.8f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>
