@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class SpinObjectsX : MonoBehaviour
 {
-    public float spinSpeed;
+    [SerializeField] private float _spinSpeed = 50.0f;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        transform.Rotate(Vector3.up, spinSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.up, _spinSpeed * Time.deltaTime);
     }
 }
