@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _playerRigidbody;
     private Vector3 _moveDirections = Vector3.zero;
 
+    private float _zBound = 12.0f;
+
     private void OnEnable()
     {
         _playerControls.Enable();
@@ -29,6 +31,16 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         _moveDirections = _playerControls.ReadValue<Vector3>();
+        if (_playerRigidbody.position.z > _zBound)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y,
+                _zBound);
+        }
+        if (_playerRigidbody.position.z < -_zBound)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y,
+                -_zBound);
+        }
     }
 
     private void FixedUpdate()
