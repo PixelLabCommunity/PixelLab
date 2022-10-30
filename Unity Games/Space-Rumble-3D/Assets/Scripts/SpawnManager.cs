@@ -11,16 +11,18 @@ public class SpawnManager : MonoBehaviour
     private float _spawnRange = 9.0f;
     private float _enemySpawnY = 0.12f;
 
-    private void Awake()
+    private void Start()
+    {
+        Instantiate(_enemyPrefab, GenerateSpawnEnemy(), _enemyPrefab.transform.rotation);
+    }
+
+    private Vector3 GenerateSpawnEnemy()
     {
         float _randomSpawnX = Random.Range(-_spawnRange, _spawnRange);
         float _randomSpawnZ = Random.Range(-_spawnRange, _spawnRange);
 
         _spawnEnemyPosition = new Vector3(_randomSpawnX, _enemySpawnY, _randomSpawnZ);
-    }
 
-    private void Start()
-    {
-        Instantiate(_enemyPrefab, _spawnEnemyPosition, _enemyPrefab.transform.rotation);
+        return _spawnEnemyPosition;
     }
 }
