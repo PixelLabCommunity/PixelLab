@@ -7,10 +7,14 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _playerSpeed;
     [SerializeField] private AudioClip _crashEnemy;
+    [SerializeField] private AudioClip _getPowerUp;
 
     private Rigidbody _playerRb;
     private GameObject _focalPoint;
     private AudioSource _playerAudioSource;
+
+    private bool _hasPowerUp = false;
+    private float _volumeScalePowerUp = 5.0f;
 
     private void Awake()
     {
@@ -37,6 +41,16 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             _playerAudioSource.PlayOneShot(_crashEnemy);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("PowerUp"))
+        {
+            _hasPowerUp = true;
+            Destroy(other.gameObject);
+            _playerAudioSource.PlayOneShot(_getPowerUp, _volumeScalePowerUp);
         }
     }
 
