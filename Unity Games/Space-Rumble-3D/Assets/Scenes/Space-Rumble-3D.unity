@@ -389,7 +389,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051349637}
   m_Material: {fileID: 13400000, guid: 77b8cfa5d920d874ca46c95cd42fba0f, type: 2}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -459,6 +459,7 @@ MonoBehaviour:
   _playerSpeed: 5
   _crashEnemy: {fileID: 8300000, guid: e7ee25a47d63b46cdaf65480d62b405c, type: 3}
   _getPowerUp: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}
+  _hasPowerUp: 0
 --- !u!82 &1051349644
 AudioSource:
   m_ObjectHideFlags: 0

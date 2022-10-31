@@ -8,13 +8,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _playerSpeed;
     [SerializeField] private AudioClip _crashEnemy;
     [SerializeField] private AudioClip _getPowerUp;
+    [SerializeField] private AudioClip _kickPowerUp;
 
     private Rigidbody _playerRb;
     private GameObject _focalPoint;
     private AudioSource _playerAudioSource;
 
+    private float _volumeScalePowerUp = 10.0f;
+    private float _strenghtPowerUp = 15.0f;
     private bool _hasPowerUp = false;
-    private float _volumeScalePowerUp = 5.0f;
 
     private void Awake()
     {
@@ -41,6 +43,17 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             _playerAudioSource.PlayOneShot(_crashEnemy);
+            Debug.Log("Has collide with: " + collision.gameObject.name);
+        }
+        if (collision.gameObject.CompareTag("Enemy") && _hasPowerUp)
+        {
+            _playerAudioSource.PlayOneShot(_kickPowerUp, _volumeScalePowerUp);
+
+            Rigidbody _enemyRb = collision.gameObject.GetComponent<Rigidbody>();
+            Vector3 _enemyPowerUpAway = (collision.gameObject.transform.position
+                - transform.position);
+
+            _enemyRb.AddForce(_enemyPowerUpAway * _strenghtPowerUp, ForceMode.Impulse);
         }
     }
 
