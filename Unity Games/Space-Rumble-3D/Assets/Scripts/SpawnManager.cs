@@ -5,24 +5,52 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     [SerializeField] private GameObject _enemyPrefab;
+    [SerializeField] private GameObject _powerUpPrefab;
+    [SerializeField] private int _enemiesCountMin = 1;
 
     private Vector3 _spawnEnemyPosition;
 
     private float _spawnRange = 9.0f;
     private float _enemySpawnY = 0.12f;
+    private int _waveNumber = 1;
 
     private void Start()
     {
-        SpawnEnemyWave();
+        SpawnEnemyWave(_waveNumber);
+        SpawnPowerUp();
     }
 
-    private void SpawnEnemyWave()
+    private void Update()
     {
-        for (int i = 0; i < 3; i++)
+        _enemiesCountMin = FindObjectsOfType<Enemy>().Length;
+        if (_enemiesCountMin == 0)
         {
-            Instantiate(_enemyPrefab, GenerateSpawnEnemy(), _enemyPrefab.transform.rotation);
+            _waveNumber++;
+            SpawnEnemyWave(_waveNumber);
+            SpawnPowerUp();
         }
     }
+
+    private void SpawnEnemyWave(int enemiesSpawnCount)
+    {
+        for (int i = 0; i < enemiesSpawnCount; i++)
+        {
+            SpawnEnemy();
+        }
+    }
+
+    private void SpawnEnemy()
+    {
+        Instantiate(_enemyPrefab, GenerateSpawnEnemy(),
+                _enemyPrefab.transform.rotation);
+    }
+
+    private void SpawnPowerUp()
+    {
+        Instantiate(_powerUpPrefab, GenerateSpawnEnemy(),
+                _enemyPrefab.transform.rotation);
+    }
+
     private Vector3 GenerateSpawnEnemy()
     {
         float _randomSpawnX = Random.Range(-_spawnRange, _spawnRange);

@@ -20,5 +20,7 @@ public class Enemy : MonoBehaviour
         Vector3 _enemyGoDirection = (_playerGo.transform.position -
                                                        transform.position).normalized;
         _enemyRb.AddForce(_enemyGoDirection * _speed);
+        if (transform.position.y < -10)
+            Destroy(gameObject);
     }
 }
