@@ -13,9 +13,16 @@ public class SpawnManager : MonoBehaviour
 
     private void Start()
     {
-        Instantiate(_enemyPrefab, GenerateSpawnEnemy(), _enemyPrefab.transform.rotation);
+        SpawnEnemyWave();
     }
 
+    private void SpawnEnemyWave()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            Instantiate(_enemyPrefab, GenerateSpawnEnemy(), _enemyPrefab.transform.rotation);
+        }
+    }
     private Vector3 GenerateSpawnEnemy()
     {
         float _randomSpawnX = Random.Range(-_spawnRange, _spawnRange);
