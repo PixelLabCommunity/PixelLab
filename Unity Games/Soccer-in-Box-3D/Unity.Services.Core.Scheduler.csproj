@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{96ED73CB-1FE5-1EFB-3645-024DF3779C91}</ProjectGuid>
+    <ProjectGuid>{76E15070-C5D7-DC20-F07F-EE241050EBBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Scheduler</AssemblyName>
@@ -717,19 +717,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{F64EC79A-9201-369B-738B-E96DA3E5BF7B}</Project>
+      <Project>{7B71FA68-2A18-A0D2-D82C-F25FE6A2D717}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{29CD8A53-B0DE-3DA8-8434-8105088C1287}</Project>
+      <Project>{3EE585A0-FC48-8C3B-BA04-BF984C13BE72}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{A2B09F12-67BA-326E-9A57-97F64D834043}</Project>
+      <Project>{677858CC-685A-3B37-7EAA-22A0D50ECB95}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F42F0A7E-6682-EFD9-98E8-97957432FE30}</Project>
+      <Project>{33A6D658-EBAF-219F-E569-45C795EC42E1}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
