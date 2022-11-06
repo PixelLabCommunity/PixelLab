@@ -28,5 +28,4 @@ public class MoveDown : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
 }
