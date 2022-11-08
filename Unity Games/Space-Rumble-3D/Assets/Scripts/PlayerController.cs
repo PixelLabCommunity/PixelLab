@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip _getPowerUp;
     [SerializeField] private AudioClip _kickPowerUp;
     [SerializeField] private GameObject _indicatorPowerUp;
+    [SerializeField] private GameObject _indicatorPowerUpExtra;
 
     private Rigidbody _playerRb;
     private GameObject _focalPoint;
@@ -19,12 +20,8 @@ public class PlayerController : MonoBehaviour
     private float _volumeScalePowerUp = 10.0f;
     private float _strenghtPowerUp = 15.0f;
     private bool _hasPowerUp = false;
+    private bool _hasPowerUpExtra = false;
     private float _timePowerUp = 5.0f;
-
-    private void Awake()
-    {
-        ClearLog();
-    }
 
     private void Start()
     {
@@ -41,6 +38,8 @@ public class PlayerController : MonoBehaviour
             _playerForwardImput);
 
         _indicatorPowerUp.transform.position = transform.position
+            + _indicatorPosPowerUp;
+        _indicatorPowerUpExtra.transform.position = transform.position
             + _indicatorPosPowerUp;
     }
 
@@ -60,6 +59,10 @@ public class PlayerController : MonoBehaviour
 
             _enemyRb.AddForce(_enemyPowerUpAway * _strenghtPowerUp, ForceMode.Impulse);
         }
+        if (collision.gameObject.CompareTag("Enemy") && _hasPowerUpExtra)
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -72,20 +75,23 @@ public class PlayerController : MonoBehaviour
             _indicatorPowerUp.SetActive(true);
             StartCoroutine(PowerUpTimer());
         }
+        if (other.CompareTag("PowerUpExtra"))
+        {
+            _hasPowerUpExtra = true;
+            Destroy(other.gameObject);
+
+            _playerAudioSource.PlayOneShot(_getPowerUp, _volumeScalePowerUp);
+            _indicatorPowerUpExtra.SetActive(true);
+            StartCoroutine(PowerUpTimer());
+        }
     }
 
     private IEnumerator PowerUpTimer()
     {
         yield return new WaitForSeconds(_timePowerUp);
         _hasPowerUp = false;
+        _hasPowerUpExtra = false;
         _indicatorPowerUp.SetActive(false);
-    }
-
-    public void ClearLog()
-    {
-        var _assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
-        var _type = _assembly.GetType("UnityEditor.LogEntries");
-        var _method = _type.GetMethod("Clear");
-        _method.Invoke(new object(), null);
+        _indicatorPowerUpExtra.SetActive(false);
     }
 }
