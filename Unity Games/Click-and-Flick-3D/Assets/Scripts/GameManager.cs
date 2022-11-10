@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<GameObject> _spawnTargets;
 
     private float _spawnTime = 1.0f;
-    private int _spawnCount = 0;
+    private int _spawnCountMin = 0;
 
     private void Start()
     {
@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(_spawnTime);
-            int _randPrefab = Random.Range(_spawnCount, _spawnTargets.Count);
+            int _randPrefab = Random.Range(_spawnCountMin, _spawnTargets.Count);
             Instantiate(_spawnTargets[_randPrefab]);
         }
     }
