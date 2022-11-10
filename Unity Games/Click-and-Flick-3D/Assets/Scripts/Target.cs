@@ -10,7 +10,7 @@ public class Target : MonoBehaviour
     private float _maxForce = 16.0f;
     private float _valueTorque = 10.0f;
     private float _spawnX = 4.0f;
-    private float _spawnY = -6.0f;
+    private float _spawnY = -2.0f;
 
     private void Start()
     {
@@ -20,6 +20,16 @@ public class Target : MonoBehaviour
         RandomTorque();
 
         SpawnPosition();
+    }
+
+    private void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
     }
 
     private void RandomForce()
