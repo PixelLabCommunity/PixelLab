@@ -27,11 +27,10 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(_spawnTime);
             int _randPrefab = Random.Range(_spawnCountMin, _spawnTargets.Count);
             Instantiate(_spawnTargets[_randPrefab]);
-            UpdateScore(5);
         }
     }
 
-    private void UpdateScore(int _scoreToAdd)
+    public void UpdateScore(int _scoreToAdd)
     {
         _score += _scoreToAdd;
         _scoreText.text = "Score: " + _score;
