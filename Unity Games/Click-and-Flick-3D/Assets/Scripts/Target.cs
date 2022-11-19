@@ -29,9 +29,12 @@ public class Target : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Destroy(gameObject);
-        Instantiate(_explosionParticle, transform.position, transform.rotation);
-        _gameManager.UpdateScore(_pointValue);
+        if (_gameManager._isGameStart)
+        {
+            Destroy(gameObject);
+            Instantiate(_explosionParticle, transform.position, transform.rotation);
+            _gameManager.UpdateScore(_pointValue);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -39,6 +42,10 @@ public class Target : MonoBehaviour
         if (other.CompareTag("SensorDestroy"))
         {
             Destroy(gameObject);
+            if (!gameObject.CompareTag("Bad"))
+            {
+                _gameManager.GameOver();
+            }
         }
     }
 
