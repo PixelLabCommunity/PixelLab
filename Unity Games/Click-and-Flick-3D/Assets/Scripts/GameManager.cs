@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private TextMeshProUGUI _gameOverText;
     [SerializeField] private Button _restartButton;
+    [SerializeField] private AudioSource _badSound;
 
     private float _spawnTime = 1.0f;
     private int _spawnCountMin = 0;
@@ -23,7 +24,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _isGameStart = true;
-
+        _badSound = GetComponent<AudioSource>();
         StartCoroutine(SpawnTarget());
         UpdateScore(_scoreOnStart);
     }
@@ -54,5 +55,16 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void OnMouseDown()
+    {
+        if (_isGameStart)
+        {
+            if (gameObject.CompareTag("Bad"))
+            {
+                _badSound.Play();
+            }
+        }
     }
 }
