@@ -57,4 +57,9 @@ public class GameManager : MonoBehaviour
         UpdateScore(_scoreOnStart);
         _titleScreen.gameObject.SetActive(false);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

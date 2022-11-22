@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -42506901008192548}
   - component: {fileID: -7820344871100054427}
   - component: {fileID: -7444136040737751865}
+  - component: {fileID: -2493863008914223445}
   m_Layer: 0
   m_Name: Good 3
   m_TagString: Good
@@ -129,4 +130,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pointValue: 15
   _explosionParticle: {fileID: 4758139293545943008, guid: c7ad2532a6eeb40b59033c75e71fa054, type: 3}
-  _badSound: {fileID: 0}
+--- !u!114 &-2493863008914223445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529207471264370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
