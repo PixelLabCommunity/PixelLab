@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private float _zBoundMax = 7.5f;
     private float _zBoundMin = -11.5f;
 
+    public bool _gameOver;
+
     private void OnEnable()
     {
         _playerControls.Enable();
@@ -26,6 +28,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        _gameOver = false;
         _playerRigidbody = GetComponent<Rigidbody>();
     }
 

@@ -59,12 +59,16 @@
     <Compile Include="Assets\Scripts\MoveDown.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Asset Store\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Scripts\MoveGround.cs" />
+    <Compile Include="Assets\Scripts\RepeatGround.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Course Library\Fonts\Roboto\LICENSE.txt" />
     <None Include="Assets\Course Library\Fonts\Margarine\OFL.txt" />
     <None Include="Assets\Course Library\_Source_Files\Materials\UnlitVertexColour_Alpha.shader" />
     <None Include="Assets\Course Library\Fonts\Baloo_Chettan\OFL.txt" />
+    <None Include="Assets\Asset Store\Gems Ultimate Pack\READ ME.txt" />
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <None Include="Assets\Course Library\Fonts\Indie_Flower\OFL.txt" />
     <None Include="Assets\Course Library\Fonts\Exo_2\OFL.txt" />
