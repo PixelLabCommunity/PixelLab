@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ParticleSystem _boxParticle;
     [SerializeField] private AudioClip _crashSound;
     [SerializeField] private AudioClip _getBox;
+    [SerializeField] private GameObject _thirdPersonView;
+    [SerializeField] private GameObject _firstPersonView;
 
     private AudioSource _playerAudioSource;
     private float _horizontalInput;
@@ -27,10 +29,11 @@ public class PlayerController : MonoBehaviour
         _playerAudioSource = GetComponent<AudioSource>();
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
         PlayerBounds();
         PlayerControls();
+        CameraView();
     }
 
     private void PlayerBounds()
@@ -60,6 +63,20 @@ public class PlayerController : MonoBehaviour
         {
             var scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
+        }
+    }
+
+    private void CameraView()
+    {
+        if (Input.GetKey(KeyCode.V))
+        {
+            _thirdPersonView.gameObject.SetActive(false);
+            _firstPersonView.gameObject.SetActive(true);
+        }
+        if (Input.GetKey(KeyCode.C))
+        {
+            _thirdPersonView.gameObject.SetActive(true);
+            _firstPersonView.gameObject.SetActive(false);
         }
     }
 
