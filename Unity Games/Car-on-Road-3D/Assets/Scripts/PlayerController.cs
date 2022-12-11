@@ -1,4 +1,5 @@
 using System.Reflection;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,9 +13,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip _getBox;
     [SerializeField] private GameObject _thirdPersonView;
     [SerializeField] private GameObject _firstPersonView;
+    [SerializeField] private TextMeshProUGUI _speedometrText;
 
     private AudioSource _playerAudioSource;
+    private Rigidbody _playerRigidbody;
     private float _horizontalInput;
+    private float _speed;
+    private float _constKMh = 3.6f;
     private readonly float _xRange = 8.5f;
     public bool _gameOver;
 
@@ -27,6 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         _gameOver = false;
         _playerAudioSource = GetComponent<AudioSource>();
+        _playerRigidbody = GetComponent<Rigidbody>();
     }
 
     public void FixedUpdate()
@@ -34,6 +40,7 @@ public class PlayerController : MonoBehaviour
         PlayerBounds();
         PlayerControls();
         CameraView();
+        CarSpeedText();
     }
 
     private void PlayerBounds()
@@ -78,6 +85,12 @@ public class PlayerController : MonoBehaviour
             _thirdPersonView.gameObject.SetActive(true);
             _firstPersonView.gameObject.SetActive(false);
         }
+    }
+
+    private void CarSpeedText()
+    {
+        _speed = Mathf.Round(_playerRigidbody.velocity.magnitude * _constKMh);
+        _speedometrText.SetText("Speed: 80 km/h");
     }
 
     private void OnCollisionEnter(Collision collision)
