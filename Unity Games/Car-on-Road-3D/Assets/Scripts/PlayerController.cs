@@ -23,11 +23,6 @@ public class PlayerController : MonoBehaviour
     private readonly float _xRange = 8.5f;
     public bool _gameOver;
 
-    private void Awake()
-    {
-        ClearLog();
-    }
-
     private void Start()
     {
         _gameOver = false;
@@ -111,13 +106,5 @@ public class PlayerController : MonoBehaviour
             _playerAudioSource.PlayOneShot(_getBox, 0.5f);
             _boxParticle.Play();
         }
-    }
-
-    public void ClearLog()
-    {
-        var _assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
-        var _type = _assembly.GetType("UnityEditor.LogEntries");
-        var _method = _type.GetMethod("Clear");
-        _method.Invoke(new object(), null);
     }
 }
