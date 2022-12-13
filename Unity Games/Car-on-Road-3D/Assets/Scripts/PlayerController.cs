@@ -1,4 +1,6 @@
+using System.IO;
 using System.Reflection;
+using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,7 +20,10 @@ public class PlayerController : MonoBehaviour
     private AudioSource _playerAudioSource;
     private Rigidbody _playerRigidbody;
     private float _horizontalInput;
-    private float _speed;
+    private float _speedX;
+    private int _speedRandom;
+    private int _speedMin = 70;
+    private int _speedMax = 82;
     private float _constKMh = 3.6f;
     private readonly float _xRange = 8.5f;
     public bool _gameOver;
@@ -84,8 +89,9 @@ public class PlayerController : MonoBehaviour
 
     private void CarSpeedText()
     {
-        _speed = Mathf.Round(_playerRigidbody.velocity.magnitude * _constKMh);
-        _speedometrText.SetText("Speed: 80 km/h");
+        _speedX = Mathf.Round(_playerRigidbody.velocity.magnitude * _constKMh);
+        _speedRandom = Random.Range(_speedMin, _speedMax);
+        _speedometrText.SetText("Speed: " + _speedRandom + " km/h");
     }
 
     private void OnCollisionEnter(Collision collision)
