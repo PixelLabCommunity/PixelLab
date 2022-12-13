@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17822562, g: 0.22315429, b: 0.3052143, a: 1}
+  m_IndirectSpecularColor: {r: 0.44385988, g: 0.4932276, b: 0.572727, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9522476}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 2, z: 0}
+  m_LocalPosition: {x: 2, y: 2, z: -0}
   m_LocalScale: {x: 0.1, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -573,6 +573,7 @@ GameObject:
   - component: {fileID: 145979412}
   - component: {fileID: 145979413}
   - component: {fileID: 145979414}
+  - component: {fileID: 145979415}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -588,7 +589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145979411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -626,6 +627,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.449462, y: 2.9902797, z: 3.5861573}
   m_Center: {x: 0.03803426, y: 1.5991166, z: 0.030313253}
+--- !u!114 &145979415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145979411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4cb363110afb6c478ece707ba7c388b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 10
+  _gameOver: 0
 --- !u!1 &250417154
 GameObject:
   m_ObjectHideFlags: 0
