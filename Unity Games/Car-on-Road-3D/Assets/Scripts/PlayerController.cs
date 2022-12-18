@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject _thirdPersonView;
     [SerializeField] private GameObject _firstPersonView;
     [SerializeField] private TextMeshProUGUI _speedometrText;
+    [SerializeField] private TextMeshProUGUI _boxCountText;
 
     private AudioSource _playerAudioSource;
     private Rigidbody _playerRigidbody;
@@ -27,12 +28,15 @@ public class PlayerController : MonoBehaviour
     private float _constKMh = 3.6f;
     private readonly float _xRange = 8.5f;
     public bool _gameOver;
+    private int _count;
 
     private void Start()
     {
         _gameOver = false;
         _playerAudioSource = GetComponent<AudioSource>();
         _playerRigidbody = GetComponent<Rigidbody>();
+        _count = 0;
+        BoxCount();
     }
 
     public void FixedUpdate()
@@ -107,10 +111,17 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Box"))
         {
+            _count++;
+            BoxCount();
             Destroy(collision.gameObject);
             Debug.Log("You got a Box!");
             _playerAudioSource.PlayOneShot(_getBox, 0.5f);
             _boxParticle.Play();
         }
+    }
+
+    private void BoxCount()
+    {
+        _boxCountText.SetText("Boxes: " + _count);
     }
 }
