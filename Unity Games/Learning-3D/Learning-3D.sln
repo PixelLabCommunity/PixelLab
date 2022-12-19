@@ -79,13 +79,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Settings.Editor", "Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration.Editor", "Unity.Services.Core.Configuration.Editor.csproj", "{02321992-C6E7-8C28-B255-16E0471E0309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection", "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj", "{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Play.Publisher.Editor", "Unity.Play.Publisher.Editor.csproj", "{CC6AB267-518F-AD71-52C0-FBEF11646633}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEditorBridgeDev.001", "Unity.InternalAPIEditorBridgeDev.001.csproj", "{FF11747C-62D2-E4C9-9FCB-F4F9F69FE3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection", "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj", "{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.Player.csproj", "{E497F57F-22CB-1609-B58B-5044BD1386C5}"
 EndProject
@@ -287,14 +287,6 @@ Global
 		{02321992-C6E7-8C28-B255-16E0471E0309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02321992-C6E7-8C28-B255-16E0471E0309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02321992-C6E7-8C28-B255-16E0471E0309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC6AB267-518F-AD71-52C0-FBEF11646633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC6AB267-518F-AD71-52C0-FBEF11646633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6AB267-518F-AD71-52C0-FBEF11646633}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -303,6 +295,14 @@ Global
 		{FF11747C-62D2-E4C9-9FCB-F4F9F69FE3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF11747C-62D2-E4C9-9FCB-F4F9F69FE3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF11747C-62D2-E4C9-9FCB-F4F9F69FE3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9409D05F-C41A-0AF8-3F8B-10F301EBBEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38708F94-6BF1-7EF2-F5BE-19F1AD863FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E497F57F-22CB-1609-B58B-5044BD1386C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E497F57F-22CB-1609-B58B-5044BD1386C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E497F57F-22CB-1609-B58B-5044BD1386C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
