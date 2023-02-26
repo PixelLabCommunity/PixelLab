@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 17
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 138
+  controlID: 69
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 136
+  controlID: 128
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 137
+  controlID: 68
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -454,22 +454,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/CreativeCore_Lighting/Materials
+    - Assets/CreativeCore_Lighting/Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/CreativeCore_Lighting/Materials
+  - Assets/CreativeCore_Lighting/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Development\PixelLab\Unity Learning\CC_Lighting
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30610000
-    m_LastClickedID: 24880
-    m_ExpandedIDs: 000000002461000026610000286100004261000000ca9a3b
+    m_SelectedIDs: c2630000
+    m_LastClickedID: 25538
+    m_ExpandedIDs: 000000003c6200003e62000040620000d263000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -497,7 +497,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000246100002661000028610000
+    m_ExpandedIDs: 000000003c6200003e62000040620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,26 +624,26 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 162.66666}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1ef1ffff46f1ffff8ef7ffff34fbffff7c660000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: beb7ffff
+      m_LastClickedID: -18498
+      m_ExpandedIDs: 34fbffff08600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: LightingBeam
-        m_OriginalName: LightingBeam
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -4044
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -909,9 +909,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.9909956, y: 7.6038527, z: -4.537244}
+    m_Target: {x: 3.5370398, y: -0.41798258, z: -0.42232513}
     speed: 2
-    m_Value: {x: -2.9909956, y: 7.6038527, z: -4.537244}
+    m_Value: {x: 3.5370398, y: -0.41798258, z: -0.42232513}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -958,13 +958,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.053963993, y: -0.3289, z: 0.01890492, w: -0.94266176}
+    m_Target: {x: -0.035800524, y: -0.96205837, z: 0.22092712, w: -0.15635812}
     speed: 2
-    m_Value: {x: -0.055376362, y: -0.3288621, z: 0.019397756, w: -0.94255346}
+    m_Value: {x: -0.03646142, y: -0.9615395, z: 0.22080828, w: -0.15923607}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 8.6602545
     speed: 2
-    m_Value: 0.86602634
+    m_Value: 8.6602545
   m_Ortho:
     m_Target: 0
     speed: 2
