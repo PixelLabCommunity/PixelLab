@@ -1,21 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BouncingObject : MonoBehaviour
 {
-    public AnimationCurve animCurve;
+    public AnimationCurve _animCurve;
 
-    private Vector3 startingPos;
+    private Vector3 _startingPos;
 
     private void Start()
     {
-        startingPos = transform.position;
+        _startingPos = transform.position;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        transform.position = new Vector3(transform.position.x, startingPos.y + animCurve.Evaluate((Time.time % animCurve.length)), transform.position.z);
+        transform.position = new Vector3(transform.position.x, _startingPos.y + _animCurve.Evaluate((Time.time % _animCurve.length)), transform.position.z);
     }
 }
