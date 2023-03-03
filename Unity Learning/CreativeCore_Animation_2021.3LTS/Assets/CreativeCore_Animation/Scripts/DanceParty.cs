@@ -1,50 +1,46 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DanceParty : MonoBehaviour
 {
-    private Animator anim;
-    
+    private Animator _anim;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        anim = GetComponent<Animator>();
-       
+        _anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            anim.SetTrigger("Dance_01");
+            _anim.SetTrigger("Dance_01");
         }
 
         if (Input.GetKeyDown(KeyCode.W))
         {
-            anim.SetTrigger("Dance_02");
+            _anim.SetTrigger("Dance_02");
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            anim.SetTrigger("Dance_03");
+            _anim.SetTrigger("Dance_03");
         }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            anim.SetTrigger("Dance_04");
+            _anim.SetTrigger("Dance_04");
         }
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            anim.SetTrigger("Dance_05");
+            _anim.SetTrigger("Dance_05");
         }
 
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            anim.SetTrigger("Dance_06");
+            _anim.SetTrigger("Dance_06");
         }
     }
 }
