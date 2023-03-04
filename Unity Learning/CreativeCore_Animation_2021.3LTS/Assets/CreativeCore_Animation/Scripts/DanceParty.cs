@@ -42,5 +42,10 @@ public class DanceParty : MonoBehaviour
         {
             _anim.SetTrigger("Dance_06");
         }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            _anim.SetTrigger("ChangeColor");
+        }
     }
 }
