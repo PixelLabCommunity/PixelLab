@@ -3252,6 +3252,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5057967570066601815, guid: 34af0acb2a1a3e1448c910ccb6072fe8, type: 3}
+      propertyPath: ShapeModule.type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057967570066601815, guid: 34af0acb2a1a3e1448c910ccb6072fe8, type: 3}
       propertyPath: UVModule.enabled
       value: 1
       objectReference: {fileID: 0}
@@ -3326,6 +3330,18 @@ PrefabInstance:
     - target: {fileID: 5057967570066601815, guid: 34af0acb2a1a3e1448c910ccb6072fe8, type: 3}
       propertyPath: RotationModule.curve.minMaxState
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057967570066601815, guid: 34af0acb2a1a3e1448c910ccb6072fe8, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057967570066601815, guid: 34af0acb2a1a3e1448c910ccb6072fe8, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057967570066601815, guid: 34af0acb2a1a3e1448c910ccb6072fe8, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5057967570066601815, guid: 34af0acb2a1a3e1448c910ccb6072fe8, type: 3}
       propertyPath: RotationModule.curve.maxCurve.m_Curve.Array.data[0].time
