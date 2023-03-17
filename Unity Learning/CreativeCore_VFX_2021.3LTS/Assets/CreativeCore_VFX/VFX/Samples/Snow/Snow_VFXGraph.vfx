@@ -19,8 +19,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4077
     y: 843
-    width: 426
-    height: 2161
+    width: 427
+    height: 2149
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -151,7 +151,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 200
+      m_SerializableObject: 1000
     m_Space: 2147483647
   m_Property:
     name: Rate
@@ -221,7 +221,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":0.0,"y":0.0,"z":0.0},"size":{"x":20.0,"y":5.0,"z":20.0}}'
+      m_SerializableObject: '{"center":{"x":-1.1608614921569825,"y":0.0,"z":5.7220461258111757e-8},"size":{"x":20.0,"y":5.0,"z":20.0}}'
     m_Space: 0
   m_Property:
     name: bounds
@@ -859,7 +859,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":0.36835557222366335,"y":0.0,"z":0.0},"size":{"x":20.0,"y":0.20000000298023225,"z":20.0}}'
+      m_SerializableObject: '{"center":{"x":6.039999961853027,"y":0.0,"z":0.0},"size":{"x":30.0,"y":0.20000000298023225,"z":82.30000305175781}}'
     m_Space: 0
   m_Property:
     name: Box
@@ -1827,7 +1827,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 16.26
     m_Space: 2147483647
   m_Property:
     name: Intensity
@@ -1861,7 +1861,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.4
+      m_SerializableObject: 0.2
     m_Space: 2147483647
   m_Property:
     name: Drag
@@ -1895,7 +1895,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 5.89
     m_Space: 2147483647
   m_Property:
     name: frequency
@@ -2127,7 +2127,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 2.5
+      m_SerializableObject: 5.78
     m_Space: 2147483647
   m_Property:
     name: A
@@ -2161,7 +2161,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3.5
+      m_SerializableObject: 25.44
     m_Space: 2147483647
   m_Property:
     name: B
