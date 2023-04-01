@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 112
+  controlID: 20
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 108
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 110
+  controlID: 130
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,8 +170,8 @@ MonoBehaviour:
     y: 0
     width: 373.33325
     height: 926
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 111
+  controlID: 19
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -582,9 +582,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 3e7f0000
-    m_LastClickedID: 32574
-    m_ExpandedIDs: 000000003e7f0000407f0000427f0000447f0000467f000000ca9a3b
+    m_SelectedIDs: 407f0000
+    m_LastClickedID: 32576
+    m_ExpandedIDs: 00000000407f0000427f0000447f0000467f0000487f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -612,7 +612,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e7f0000407f0000427f0000447f0000467f0000
+    m_ExpandedIDs: 00000000407f0000427f0000447f0000467f0000487f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,9 +740,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8ecffff
-      m_LastClickedID: -4888
-      m_ExpandedIDs: 28fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 28fbffff90690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: msVFX_Stylized Smoke 3
@@ -974,7 +974,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 24.666666}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1013,9 +1013,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 21.1, y: -15, z: 215.4}
+    m_Target: {x: 21.10403, y: -15.882791, z: 215.41148}
     speed: 2
-    m_Value: {x: 21.1, y: -15, z: 215.4}
+    m_Value: {x: 21.10403, y: -15.882791, z: 215.41148}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1062,13 +1062,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0058619394, y: 0.98514503, z: -0.034715384, w: -0.16878015}
+    m_Target: {x: -0.00940308, y: 0.98419863, z: -0.055394523, w: -0.16861987}
     speed: 2
-    m_Value: {x: -0.0058612437, y: 0.9850283, z: -0.03471127, w: -0.16876015}
+    m_Value: {x: -0.009401968, y: 0.9840823, z: -0.055387974, w: -0.16859993}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 1.5872197
     speed: 2
-    m_Value: 0.86602545
+    m_Value: 1.5872197
   m_Ortho:
     m_Target: 0
     speed: 2
