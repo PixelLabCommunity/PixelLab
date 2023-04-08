@@ -6,7 +6,6 @@ using UnityEngine;
 public class SkyboxRotation : MonoBehaviour
 {
     [SerializeField] private Material _skyboxMaterial;
-    [SerializeField] private float _speed = 2f;
 
     private float _elapsedTime = 0f;
     private float _timeScale = 2.5f;

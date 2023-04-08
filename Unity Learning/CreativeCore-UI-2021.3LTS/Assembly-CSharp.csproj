@@ -57,8 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CreativeCore_UI\Scripts\ToggleFireParticle.cs" />
+    <Compile Include="Assets\CreativeCore_UI\Scripts\EnableDisable.cs" />
     <Compile Include="Assets\CreativeCore_UI\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\CreativeCore_UI\Scripts\ToggleFireVFXGraph.cs" />
+    <Compile Include="Assets\CreativeCore_UI\Scripts\BrightnessSlider.cs" />
     <Compile Include="Assets\CreativeCore_UI\Scripts\SkyboxRotation.cs" />
   </ItemGroup>
   <ItemGroup>
