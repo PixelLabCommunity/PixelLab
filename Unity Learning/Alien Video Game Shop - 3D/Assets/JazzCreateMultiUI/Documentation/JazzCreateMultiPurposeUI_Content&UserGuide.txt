@@ -1,0 +1,69 @@
+﻿                   JazzCreateMultiPurposeUI/Sprites Content & User Guide_1.1  date format = (dd/mm/yy)
+                                                     (23/09/2015)
+
+Contents
+
+                                                    (MainAsset)
+1, 1 x UI/Sprite sheet dimensions 2048 x 2048px, each UI dimensions 128 x 128px made up of 8 x 8px pixels
+      sliced by cell size = 128 x 128px which makes the 256 UI(Images)/Sprites.
+                                                    
+                                                    (DemonstrationAssets) 
+                                                     Project settings 2D
+2, 1 x Demo Scene - shows examples of Some UI images and Sprites made with some of the contents in this package
+3, MenuCanvas Prefab + trafficLights,XmasTree,SnowMan,TitlePanel,JoyPad,House,XmasPresent,Car + Play Button
+   HudCanvas Prefab + health heart, health fill
+   Player Prefab
+   Enemy Prefab 
+   Bullet Prefab
+   Enemy Launcher Prefab
+   MainCamera & EventSystem prefabs( required for scene to display and for UI functionality to work).
+4, (5 example Scripts)
+      1) to set up scene and start game.
+      2) New - now uses simple animation for ufo lights(replaced IEnumerator from script)
+         New, now enemies are pool, so no more destroy objects (better performance)
+      3)  control for Player and Shooting + collision detection and health heart control, clamp player to screen.
+          New - player scripts seperated health, move, shoot - for easier understanding and extendability.
+          *player bullets are now pooled
+      4) spawn(Invoke) enemies in a random place in a range across top of screen by a repeat and delay time,
+         *from the new pooled enemies
+      5) control bullet collision and set time until bullet destroys itself if nothing is hit
+         (to avoid build up of bullets in hierarchy).
+5, 63 UI image prefabs ready to use, a few with animations for example. (easier to use can just change colors to liking)
+   
+
+6, Documentation = Version History + this document(Content&UserGuide)
+
+UserGuide 
+
+Import settings for  JazzCreateUI_SpritesNewEdited Texture type = Sprite(2D and UI)
+                                                          Sprite Mode = Multiple
+                                                          Packing Tag = 
+                                                          Pixels Per Unit = 100 
+                                                          Max Size = 2048 (this is the actual size)
+To complete setup click Sprite Editor, in editor window click slice at top left then change Type - Grid by Cell size
+and change the Pixel Size to X 128 Y 128. Click slice then Apply (UI/Sprites ready to use).
+
+each individual UI/Sprites can be scaled e.g. 128x128px, 64x64px, 32x32px, 16x16px, 8x8px to keep best pixel scales
+and for UI&Sprite combinations.
+
+This pack is design to give a wide variety of UI(Images or Sprites)
+which have assosiated UI(Images)/Sprites to build multi coloured UI(Images) or Sprites.
+
+See what you can create, get ideas and examples from the demo scene included showing how multi color UI(Images)
+are put together, and some animations examples altering colours of enemy sprite/and UI's, button to start 2D shooter game,
+health heart example.
+
+Hints
+
+a, when adding new Image to UI canvas, after choosing the UI image from the sprite sheet and populating
+   click set to native size(which is 128px x 128px).
+b, if making multicolour child the next UI image to the first, populate from sprite sheet and click native size
+  this will then correct sizing to match first image and so on
+c, Sometimes adjustments may be needed in hierarchy if an image is suppose to be on top of another,
+   simply drag object above of below in Hierarchy.(see next tip)
+d, sometimes its good practice to change colour of UI(Image) or sprite as building layers of a multi-colour 
+   UI(image) or Sprite to help with getting them in correct order of Hierarchy.
+
+
+              
+by JazzCreate©2015.

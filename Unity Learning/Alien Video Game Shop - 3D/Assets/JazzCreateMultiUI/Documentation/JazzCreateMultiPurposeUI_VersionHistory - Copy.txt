@@ -1,0 +1,22 @@
+﻿                          JazzCreateMultiPurposeUI/Sprites Version History_1.0  date format = (dd/mm/yy)
+
+Version 1.0 - First Submission
+Version 1.0 - Submitted (24/09/2015)
+Version 1.0.1 - fixed pixel for car not alligned correctly, and changed road UI
+Version 1.0.1 - pre-release update submitted (03/10/2015)
+
+Version 1.0.2 - a) Updated script to use SceneManger, replacement for (application.load) - obselete
+                b) changed scripting for demo mini game scene, 
+                            split script on player - player move, player health, player shoot
+                            Now player uses pooled bullets
+                C) Enemies are now pooled
+                D) changed how lights change on enemy ship, before used IEnumerator in script, now uses simple Animation
+                E) added a boundary collider which sets enemies and bullets that leave the screen to (false).
+                F) added JazzCreatePixelArt(lite) font to package
+                G) Update store icons and meta
+                H) Extended Demo scene menu, to display most UI elements in this package.
+                I) made prefabs for easier use and setup
+Version 1.0.2 submitted 13/8/2016
+
+              
+JazzCreate©2015.
