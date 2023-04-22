@@ -385,6 +385,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 3.421
       objectReference: {fileID: 0}
+    - target: {fileID: 3967845081999068000, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967845081999068000, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967845081999068000, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.982
+      objectReference: {fileID: 0}
     - target: {fileID: 8209017607370310721, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.0025886532
@@ -425,6 +437,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &24849852
 GameObject:
   m_ObjectHideFlags: 0

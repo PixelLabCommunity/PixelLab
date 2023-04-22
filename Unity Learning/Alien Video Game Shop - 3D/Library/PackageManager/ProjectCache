@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638167394399263953
-    m_Hash: 205267715
+      ticks: 638177927139671567
+    m_Hash: 1897334738
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
       - 3D/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638167394399313693
-    m_Hash: 3606132337
+      ticks: 638177927891774464
+    m_Hash: 1953575765
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
   - 3D/Packages
-m_EditorVersion: 2021.3.16f1 (4016570cf34f)
+m_EditorVersion: 2021.3.22f1 (b6c551784ba3)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -130,13 +130,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.17.7
+- packageId: com.unity.collab-proxy@2.0.1
   testable: 0
   isDirectDependency: 1
-  version: 1.17.7
+  version: 2.0.1
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.collab-proxy@1.17.7
+    - 3D\Library\PackageCache\com.unity.collab-proxy@2.0.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -146,10 +146,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use the Unity Version Control
+    in the Unity editor. To use Unity Version Control, a subscription is required.
+    Learn more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -216,37 +215,20 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.3
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
     - 2.0.1
     - 2.0.3
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.7
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.6.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    verified: 2.0.4
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -254,6 +236,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -271,16 +254,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638036787040000000
-  documentationUrl: 
+  datePublishedTicks: 638125977010000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1641a631fd39029595decb52bdfb641b32ed194c
+    revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
     path: 
   unityLifecycle:
-    version: 1.17.7
+    version: 2.0.1
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
@@ -327,7 +310,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.16
+    version: 2.0.17
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
@@ -337,13 +320,13 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.16
+    version: 3.0.18
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
-    version: 1.1.1
+    version: 1.2.2
   - name: com.unity.testtools.codecoverage
     version: 1.2.2
   - name: com.unity.settings-manager
@@ -370,13 +353,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.18
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.ide.rider@3.0.16
+    - 3D\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -427,11 +410,13 @@ m_ResolvedPackages:
     - 3.0.16
     - 3.0.17
     - 3.0.18
+    - 3.0.20
+    - 3.0.21
     compatible:
-    - 3.0.16
-    - 3.0.17
     - 3.0.18
-    verified: 3.0.18
+    - 3.0.20
+    - 3.0.21
+    verified: 3.0.21
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -449,24 +434,24 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638088746970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.16
+    version: 3.0.18
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.17
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+    - 3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -503,10 +488,11 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     - 2.0.17
+    - 2.0.18
     compatible:
-    - 2.0.16
     - 2.0.17
-    verified: 2.0.17
+    - 2.0.18
+    verified: 2.0.18
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -530,16 +516,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638059987360000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.17
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -604,13 +590,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.8
+- packageId: com.unity.render-pipelines.universal@12.1.10
   testable: 0
   isDirectDependency: 1
-  version: 12.1.8
+  version: 12.1.10
   source: 2
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.render-pipelines.universal@12.1.8
+    - 3D\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -673,26 +659,26 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.10
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
     version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.shadergraph
-    version: 12.1.8
+    version: 12.1.10
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
     version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -704,7 +690,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.searcher
     version: 4.9.1
   keywords:
@@ -733,7 +719,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.10
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -1242,13 +1228,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.7.8
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.visualscripting@1.7.8
+    - 3D\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1274,27 +1260,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.5.0
-    - 1.5.1-pre.3
-    - 1.5.1-pre.5
-    - 1.5.1
-    - 1.5.2
-    - 1.6.0-pre.3
-    - 1.6.0
-    - 1.6.1
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.5
-    - 1.7.6
-    - 1.7.7
-    - 1.7.8
-    - 1.8.0-pre.1
     - 1.8.0
     compatible:
-    - 1.7.8
     - 1.8.0
-    verified: 1.7.8
+    verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1320,16 +1289,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
 - packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
@@ -1346,7 +1315,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: XR
-  type: asset
+  type: 
   description: This package includes the tracked pose driver for the legacy input
     system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
     Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
@@ -1357,30 +1326,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
-    - 1.0.2
-    - 1.0.3
-    - 1.3.1
-    - 1.3.2
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.11
-    - 2.0.1
-    - 2.0.2
-    - 2.0.4
-    - 2.0.6
-    - 2.0.8
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.6
-    - 2.1.7
-    - 2.1.8
-    - 2.1.9
     - 2.1.10
     compatible:
     - 2.1.10
@@ -1415,9 +1360,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637958908030000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3550,13 +3495,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.6.6
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.8
+- packageId: com.unity.render-pipelines.core@12.1.10
   testable: 0
   isDirectDependency: 0
-  version: 12.1.8
+  version: 12.1.10
   source: 2
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.render-pipelines.core@12.1.8
+    - 3D\Library\PackageCache\com.unity.render-pipelines.core@12.1.10
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3675,10 +3620,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.10
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3717,15 +3662,15 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.10
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.8
+- packageId: com.unity.shadergraph@12.1.10
   testable: 0
   isDirectDependency: 0
-  version: 12.1.8
+  version: 12.1.10
   source: 2
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.shadergraph@12.1.8
+    - 3D\Library\PackageCache\com.unity.shadergraph@12.1.10
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3841,18 +3786,18 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.10
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.searcher
     version: 4.9.1
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3885,7 +3830,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.10
     nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
@@ -3902,7 +3847,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -3910,12 +3855,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.1-preview.3
-    - 0.0.1-preview.4
-    - 0.0.1-preview.5
-    - 0.0.2-preview.1
-    - 0.1.0-preview.1
-    - 0.1.0-preview.2
     - 1.0.0
     compatible:
     - 1.0.0
@@ -3934,9 +3873,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3947,13 +3886,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.performance.profile-analyzer@1.1.1
+- packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
-  version: 1.1.1
+  version: 1.2.2
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
+    - 3D\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3962,7 +3901,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
@@ -3972,24 +3911,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.4.0-preview.3
-    - 0.4.0-preview.5
-    - 0.4.0-preview.6
-    - 0.5.0-preview.1
-    - 0.6.0-preview.1
-    - 0.7.0-preview.4
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 1.1.0-pre.2
-    - 1.1.0
-    - 1.1.1
     - 1.2.2
     compatible:
-    - 1.1.1
     - 1.2.2
-    verified: 1.1.1
+    verified: 1.2.2
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -4001,18 +3926,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637705021060000000
-  documentationUrl: 
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 6dcda6aee96901e98a4f01b85589054b9274ba74
+    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
     path: 
   unityLifecycle:
-    version: 1.1.1
+    version: 1.2.2
     nextVersion: 
 - packageId: com.unity.testtools.codecoverage@1.2.2
   testable: 0
@@ -4029,7 +3954,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4038,33 +3963,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.2.0-preview
-    - 0.2.1-preview
-    - 0.2.2-preview
-    - 0.2.3-preview
-    - 0.3.0-preview
-    - 0.3.1-preview
-    - 0.4.0-preview
-    - 0.4.1-preview
-    - 0.4.2-preview
-    - 0.4.3-preview
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0
-    - 1.1.1
-    - 1.2.0-exp.1
-    - 1.2.0-exp.2
-    - 1.2.0-exp.3
-    - 1.2.0-exp.4
-    - 1.2.0-exp.5
-    - 1.2.0-exp.6
-    - 1.2.0-exp.7
-    - 1.2.0
-    - 1.2.1
     - 1.2.2
     compatible:
     - 1.2.2
@@ -4098,9 +3996,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638047147810000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4110,95 +4008,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.2
-    nextVersion: 
-- packageId: com.unity.services.core@1.6.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.6.0
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.services.core@1.6.0
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    compatible:
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    verified: 1.6.0
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638030857680000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
-    path: 
-  unityLifecycle:
-    version: 1.6.0
     nextVersion: 
 - packageId: com.unity.searcher@4.9.1
   testable: 0
@@ -4326,76 +4135,4 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.3
-    nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.2
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: library
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    - 3.0.1
-    - 3.0.2
-    - 3.1.0
-    compatible:
-    - 3.0.2
-    - 3.1.0
-    verified: 3.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637846828220000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
-    path: 
-  unityLifecycle:
-    version: 3.0.2
     nextVersion: 
