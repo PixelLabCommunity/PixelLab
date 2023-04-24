@@ -154,6 +154,7 @@ Transform:
   - {fileID: 826557617}
   - {fileID: 676657241}
   - {fileID: 1027566392}
+  - {fileID: 409424314}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -553,8 +554,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 262363842}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 79762751}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1454,7 +1455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 740268046}
   m_Layer: 0
-  m_Name: '####CREATURE####'
+  m_Name: '####PLAYER####'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
