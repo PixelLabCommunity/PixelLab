@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip _getBox;
     [SerializeField] private GameObject _thirdPersonView;
     [SerializeField] private GameObject _firstPersonView;
+    [SerializeField] private GameObject _buttonRestart;
     [SerializeField] private TextMeshProUGUI _speedometrText;
     [SerializeField] private TextMeshProUGUI _boxCountText;
     [SerializeField] private TextMeshProUGUI _gameOverText;
@@ -36,7 +37,7 @@ public class PlayerController : MonoBehaviour
         _gameOver = false;
 
         _gameOverText.gameObject.SetActive(false);
-
+        _buttonRestart.gameObject.SetActive(false);
         _playerAudioSource = GetComponent<AudioSource>();
         _playerRigidbody = GetComponent<Rigidbody>();
         _count = 0;
@@ -109,7 +110,10 @@ public class PlayerController : MonoBehaviour
         {
             _gameOver = true;
             _gameOverText.gameObject.SetActive(true);
+            _buttonRestart.gameObject.SetActive(true);
+
             Debug.Log("Game Over! Press 'ESC' for restart the Game!");
+
             _smokeParticle.Play();
             _playerAudioSource.PlayOneShot(_crashSound);
             _carDriveParticle.Stop();
@@ -119,7 +123,9 @@ public class PlayerController : MonoBehaviour
             _count++;
             BoxCount();
             Destroy(collision.gameObject);
+
             Debug.Log("You got a Box!");
+
             _playerAudioSource.PlayOneShot(_getBox, 0.5f);
             _boxParticle.Play();
         }
