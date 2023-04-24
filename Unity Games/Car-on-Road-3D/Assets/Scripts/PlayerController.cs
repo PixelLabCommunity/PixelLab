@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject _firstPersonView;
     [SerializeField] private TextMeshProUGUI _speedometrText;
     [SerializeField] private TextMeshProUGUI _boxCountText;
+    [SerializeField] private TextMeshProUGUI _gameOverText;
 
     private AudioSource _playerAudioSource;
     private Rigidbody _playerRigidbody;
@@ -33,6 +34,9 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         _gameOver = false;
+
+        _gameOverText.gameObject.SetActive(false);
+
         _playerAudioSource = GetComponent<AudioSource>();
         _playerRigidbody = GetComponent<Rigidbody>();
         _count = 0;
@@ -104,6 +108,7 @@ public class PlayerController : MonoBehaviour
             || collision.gameObject.CompareTag("Obstacle 180"))
         {
             _gameOver = true;
+            _gameOverText.gameObject.SetActive(true);
             Debug.Log("Game Over! Press 'ESC' for restart the Game!");
             _smokeParticle.Play();
             _playerAudioSource.PlayOneShot(_crashSound);
