@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject _thirdPersonView;
     [SerializeField] private GameObject _firstPersonView;
     [SerializeField] private GameObject _buttonRestart;
+    [SerializeField] private GameObject _playerUI;
     [SerializeField] private TextMeshProUGUI _speedometrText;
     [SerializeField] private TextMeshProUGUI _boxCountText;
     [SerializeField] private TextMeshProUGUI _gameOverText;
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
 
         _gameOverText.gameObject.SetActive(false);
         _buttonRestart.gameObject.SetActive(false);
+        _playerUI.gameObject.SetActive(true);
         _playerAudioSource = GetComponent<AudioSource>();
         _playerRigidbody = GetComponent<Rigidbody>();
         _count = 0;
