@@ -1,6 +1,3 @@
-using System.IO;
-using System.Reflection;
-using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -30,6 +27,7 @@ public class PlayerController : MonoBehaviour
     private int _speedMax = 82;
     private float _constKMh = 3.6f;
     private readonly float _xRange = 8.5f;
+    private int _sceneNumber = 1;
     public bool _gameOver;
     private int _count;
 
@@ -52,6 +50,11 @@ public class PlayerController : MonoBehaviour
         PlayerControls();
         CameraView();
         CarSpeedText();
+    }
+
+    public void Update()
+    {
+        MainMenu();
     }
 
     private void PlayerBounds()
@@ -77,10 +80,13 @@ public class PlayerController : MonoBehaviour
             transform.Translate(Vector3.right * Time.deltaTime * _turnSpeed *
             _horizontalInput);
         }
+    }
+
+    private void MainMenu()
+    {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            var scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - _sceneNumber);
         }
     }
 
