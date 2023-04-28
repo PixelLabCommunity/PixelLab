@@ -685,21 +685,17 @@
       <Project>{1277CEC5-85DD-0C09-3C8C-8A2FC32C62EF}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
-      <Project>{83B3BF90-C6DE-4058-1B64-5CF7A61A5055}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{9604AFDE-350A-8EF1-1729-77E028F83459}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{83B3BF90-C6DE-4058-1B64-5CF7A61A5055}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
       <Project>{23129225-E4AA-A4DE-8AE5-DE767FEE00FE}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{49C921F6-549D-5CA4-1070-A4DE0F1B0C50}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{B6D3BF45-3D48-F35B-A2CA-7DA14B5EC90E}</Project>
@@ -708,6 +704,10 @@
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
       <Project>{71EAE2E9-0215-4973-12D7-0FEA4EB0FE9E}</Project>
       <Name>Unity.Mathematics.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{49C921F6-549D-5CA4-1070-A4DE0F1B0C50}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{CE813E5C-2D12-B495-3B63-0E32635E9234}</Project>

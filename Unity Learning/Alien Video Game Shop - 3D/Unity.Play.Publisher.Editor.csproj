@@ -56,19 +56,19 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Localization\Localization.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\Store.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\Middleware.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Examples\PublisherExamples.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\AppState.cs" />
     <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\AnalyticsHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\Reducer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\UIElementsUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherSettingsManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Localization\Localization.cs" />
     <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\AppState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherSettingsManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\Middleware.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\Reducer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\Store.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Examples\PublisherExamples.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\AnalyticsHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\UIElementsUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Unity.Play.Publisher.Editor.asmdef" />

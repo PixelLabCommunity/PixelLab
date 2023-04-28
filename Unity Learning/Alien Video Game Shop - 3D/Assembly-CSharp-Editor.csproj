@@ -843,21 +843,21 @@
       <Project>{00199D68-B3F2-C3C9-2620-47930DDFF744}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{C3A679EE-87BD-76B0-7CE1-6AC4C578F071}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    <ProjectReference Include="Unity.Play.Publisher.Editor.csproj">
+      <Project>{50AF060C-39B2-E30D-1BD4-181F5CFED2E0}</Project>
+      <Name>Unity.Play.Publisher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{4090EE0A-55BE-FC59-99C7-F961BCE5F773}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{C3A679EE-87BD-76B0-7CE1-6AC4C578F071}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{51F66718-3EB8-206D-18B2-B747FE456374}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{9ECC4713-93E8-339D-403D-8379160A02C2}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{BD02F8F8-1457-A698-8BE2-BAADAEC636F2}</Project>
@@ -871,9 +871,17 @@
       <Project>{7875B63C-12F3-A289-A928-E30D161C9FD0}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridgeDev.001.csproj">
+      <Project>{1E4708F4-855E-87EB-5F6A-E650DF62B119}</Project>
+      <Name>Unity.InternalAPIEditorBridgeDev.001</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
       <Project>{DDA52537-602D-3D4B-AF18-8A062ACE6D26}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{9ECC4713-93E8-339D-403D-8379160A02C2}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{E62A05C1-1469-D56D-FEE9-FEE813069A58}</Project>
