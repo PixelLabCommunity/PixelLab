@@ -64,13 +64,13 @@
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\JazzCreateMultiUI\DemoScripts\PlayerHealthScript.cs" />
     <Compile Include="Assets\JazzCreateMultiUI\DemoScripts\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\JazzCreateMultiUI\DemoScripts\EnemyPoolScript.cs" />
     <Compile Include="Assets\JazzCreateMultiUI\DemoScripts\PlayerShoot.cs" />
     <Compile Include="Assets\JazzCreateMultiUI\DemoScripts\BulletDestroy.cs" />
     <Compile Include="Assets\JazzCreateMultiUI\DemoScripts\Boundary.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\InputActions\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\MouseMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
