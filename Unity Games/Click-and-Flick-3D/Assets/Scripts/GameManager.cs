@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _spawnTargets;
     [SerializeField] private TextMeshProUGUI _scoreText;
+    [SerializeField] private TextMeshProUGUI _failedText;
+    [SerializeField] private TextMeshProUGUI _failedMaxText;
     [SerializeField] private TextMeshProUGUI _gameOverText;
     [SerializeField] private Button _restartButton;
     [SerializeField] private GameObject _titleScreen;
@@ -17,6 +19,9 @@ public class GameManager : MonoBehaviour
     private int _spawnCountMin = 0;
     private int _score = 0;
     private int _scoreOnStart = 0;
+    private int _goodFailed = 0;
+    private int _goodFailedOnStart = 0;
+    private int _goodFailedMax = 5;
 
     public bool _isGameStart;
 
@@ -55,11 +60,24 @@ public class GameManager : MonoBehaviour
 
         StartCoroutine(SpawnTarget());
         UpdateScore(_scoreOnStart);
+        UpdateFailed(_goodFailedOnStart);
         _titleScreen.gameObject.SetActive(false);
     }
 
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void UpdateFailed(int _failedAdd)
+    {
+        _goodFailed += _failedAdd;
+        _failedText.text = "Failed: " + _goodFailed;
+        _failedMaxText.text = "of " + _goodFailedMax;
+
+        if (_goodFailed == _goodFailedMax)
+        {
+            GameOver();
+        }
     }
 }

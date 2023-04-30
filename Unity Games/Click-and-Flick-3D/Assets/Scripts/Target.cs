@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     [SerializeField] private int _pointValue;
+    [SerializeField] private int _failedValue;
     [SerializeField] private ParticleSystem _explosionParticle;
 
     private Rigidbody _targetRb;
@@ -45,9 +46,9 @@ public class Target : MonoBehaviour
         if (other.CompareTag("SensorDestroy"))
         {
             Destroy(gameObject);
-            if (!gameObject.CompareTag("Bad"))
+            if (!gameObject.CompareTag("Bad") && _gameManager._isGameStart)
             {
-                _gameManager.GameOver();
+                _gameManager.UpdateFailed(_failedValue);
             }
         }
     }
