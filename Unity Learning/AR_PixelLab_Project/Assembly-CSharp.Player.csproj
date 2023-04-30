@@ -703,6 +703,10 @@
       <Project>{F7608DCD-7DBE-2FC4-987F-AD797D8B561A}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.Player.csproj">
+      <Project>{AF10ED5E-121B-F22A-9202-8FE50225ECE7}</Project>
+      <Name>Unity.XR.Oculus.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{1E497E7F-8C77-83AB-4853-E13BD20CEAFA}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>

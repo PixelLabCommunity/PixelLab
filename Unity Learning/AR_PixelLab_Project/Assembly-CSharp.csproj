@@ -766,6 +766,10 @@
       <Project>{109793A5-D851-ADCE-7DA6-709B559E7DF9}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
+      <Project>{249E84C9-3EBA-B473-9C1D-932E01F54088}</Project>
+      <Name>Unity.XR.Oculus.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARKit.FaceTracking.csproj">
       <Project>{1D5D249A-9BB3-1644-2764-11083791412B}</Project>
       <Name>Unity.XR.ARKit.FaceTracking</Name>
@@ -813,6 +817,10 @@
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{6150BBD5-B114-15C9-BE80-9405DB259859}</Project>
       <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
+      <Project>{F51D53C2-2751-465D-9F1E-96A12EC73ABB}</Project>
+      <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
       <Project>{EE980F46-A6E6-8535-DBCE-B6C4D67FF440}</Project>
@@ -869,6 +877,14 @@
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{F131BC9C-CA62-4638-A9A4-7C637D58C089}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
+      <Project>{A479AC81-9D39-EBF2-8782-C5A38B07921D}</Project>
+      <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.csproj">
+      <Project>{7EA3D498-0F67-6AA2-11EE-9EE7AFA0B043}</Project>
+      <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{49C58340-DE50-24FB-5576-5A9280AD8489}</Project>
