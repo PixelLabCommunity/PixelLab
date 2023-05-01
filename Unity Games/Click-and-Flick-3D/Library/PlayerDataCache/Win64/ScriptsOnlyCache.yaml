@@ -5,17 +5,6 @@ ScriptsOnlyBuild:
     - DifficultyButton
     - GameManager
     - Target
-    Bolt.Core.Editor.dll:
-    - Bolt.VariablesWindow
-    Bolt.Core.Runtime.dll:
-    - Bolt.SceneVariables
-    - Bolt.Variables
-    - Bolt.VariablesAsset
-    Ludiq.Core.Runtime.dll:
-    - Ludiq.DictionaryAsset
-    Ludiq.Graphs.Editor.dll:
-    - Ludiq.GraphInspectorWindow
-    - Ludiq.GraphWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -38,8 +27,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   serializedClasses:
-    Ludiq.Core.Runtime:
-    - Ludiq.SerializationData
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -76,21 +63,24 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: ExitGame
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: RestartGame
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: ExitGame
   sceneClasses:
     Assets/Scenes/Click-and-Flick-3D.unity:
     - Class: 1
@@ -130,45 +120,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 4038}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 4152}
+      Script: {instanceID: 4028}
+    - Class: 114
+      Script: {instanceID: 4142}
+    - Class: 114
+      Script: {instanceID: 4254}
     - Class: 114
       Script: {instanceID: 4260}
-    - Class: 114
-      Script: {instanceID: 4266}
     - Class: 114
       Script: {instanceID: 4482}
     - Class: 114
       Script: {instanceID: 4540}
     - Class: 114
-      Script: {instanceID: 5322}
+      Script: {instanceID: 5314}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5928}
     - Class: 114
-      Script: {instanceID: 6094}
+      Script: {instanceID: 6084}
     - Class: 114
-      Script: {instanceID: 6440}
+      Script: {instanceID: 6428}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 6864}
     - Class: 114
-      Script: {instanceID: 7214}
+      Script: {instanceID: 23372}
     - Class: 114
-      Script: {instanceID: 31822}
+      Script: {instanceID: 23374}
     - Class: 114
-      Script: {instanceID: 31926}
-    - Class: 114
-      Script: {instanceID: 31928}
+      Script: {instanceID: 24104}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -196,6 +186,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -624,7 +620,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 29939f0f1afd37ebe4df14c3f725b7d1
+      Hash: c94c2b2ca6641a5aacd61b8e5ce505fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Target
@@ -666,7 +662,7 @@ ScriptsOnlyBuild:
     className: DestroyAfterDelay
   - hash:
       serializedVersion: 2
-      Hash: fd68d84f33fad85aac38f2739c0ee270
+      Hash: 75de60bccbd35c2e82026d4a60733734
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
@@ -810,7 +806,7 @@ ScriptsOnlyBuild:
     className: WarpTextExample
   - hash:
       serializedVersion: 2
-      Hash: 300fd99066f8c288e85f5e81ce65fe34
+      Hash: e78765d93b37fe61ed100bbbc2be3ac6
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
@@ -972,7 +968,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 10ebd90dba9c609b37cae44cc6149481
+      Hash: d2ea706bdceec85775690b8b907ea122
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1042,12 +1038,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
-  - hash:
-      serializedVersion: 2
-      Hash: 134322c9293c1896357cce271b819ce4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventTrigger
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1192,384 +1182,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: AnimatorMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: GlobalMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: SceneVariables
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnBecameInvisibleMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnBecameVisibleMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnBeginDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnButtonClickMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnCancelMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnCollisionEnter2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnCollisionEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnCollisionExit2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnCollisionExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnCollisionStay2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnCollisionStayMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnControllerColliderHitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnDeselectMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnDropdownValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnDropMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnEndDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnInputFieldEndEditMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnInputFieldValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnJointBreak2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnJointBreakMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMouseDownMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMouseDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMouseEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMouseExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMouseOverMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMouseUpAsButtonMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMouseUpMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnMoveMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnParticleCollisionMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnPointerClickMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnPointerDownMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnPointerEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnPointerExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnPointerUpMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnScrollbarValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnScrollMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnScrollRectValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnSelectMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnSubmitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnToggleValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTransformChildrenChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTransformParentChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTriggerEnter2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTriggerEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTriggerExit2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTriggerExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTriggerStay2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: UnityOnTriggerStayMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: Variables
-  - hash:
-      serializedVersion: 2
-      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: VariablesAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Bolt.Core.Runtime.dll
-    namespaceName: Bolt
-    className: VariablesSaver
-  - hash:
-      serializedVersion: 2
-      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
-    assemblyName: Bolt.Flow.Runtime.dll
-    namespaceName: Bolt
-    className: FlowMachine
-  - hash:
-      serializedVersion: 2
-      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
-    assemblyName: Bolt.Flow.Runtime.dll
-    namespaceName: Bolt
-    className: FlowMacro
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Ludiq.Core.Runtime.dll
-    namespaceName: Ludiq
-    className: CoroutineRunner
-  - hash:
-      serializedVersion: 2
-      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
-    assemblyName: Ludiq.Core.Runtime.dll
-    namespaceName: Ludiq
-    className: DictionaryAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
-    assemblyName: Bolt.State.Runtime.dll
-    namespaceName: Bolt
-    className: StateMachine
-  - hash:
-      serializedVersion: 2
-      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
-    assemblyName: Bolt.State.Runtime.dll
-    namespaceName: Bolt
-    className: StateMacro
   platform: 19
   scenePathNames:
   - Assets/Scenes/Click-and-Flick-3D.unity
