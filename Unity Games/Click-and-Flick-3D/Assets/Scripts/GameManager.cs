@@ -11,13 +11,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private TextMeshProUGUI _failedText;
     [SerializeField] private TextMeshProUGUI _failedMaxText;
-    [SerializeField] private TextMeshProUGUI _gameOverText;
-    [SerializeField] private Button _restartButton;
-    [SerializeField] private Button _exitButton;
+    [SerializeField] private GameObject _gameOverScreen;
     [SerializeField] private GameObject _titleScreen;
 
     [SerializeField] private int _goodFailedMax = 5;
-    [SerializeField] private float _spawnTime = 1.0f;
+    [SerializeField] private float _spawnTime = 5.0f;
 
     private int _spawnCountMin = 0;
     private int _score = 0;
@@ -45,9 +43,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        _gameOverText.gameObject.SetActive(true);
-        _restartButton.gameObject.SetActive(true);
-        _exitButton.gameObject.SetActive(true);
+        _gameOverScreen.gameObject.SetActive(true);
         _isGameStart = false;
     }
 
