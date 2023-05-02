@@ -25,6 +25,11 @@ public class GameManager : MonoBehaviour
 
     public bool _isGameStart;
 
+    private void Update()
+    {
+        GamePaused();
+    }
+
     private IEnumerator SpawnTarget()
     {
         while (_isGameStart)
@@ -39,6 +44,10 @@ public class GameManager : MonoBehaviour
     {
         _score += _scoreToAdd;
         _scoreText.text = "Score: " + _score;
+        if (_score < _scoreOnStart)
+        {
+            GameOver();
+        }
     }
 
     public void GameOver()
@@ -77,6 +86,14 @@ public class GameManager : MonoBehaviour
         if (_goodFailed == _goodFailedMax)
         {
             GameOver();
+        }
+    }
+
+    private void GamePaused()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            RestartGame();
         }
     }
 }
