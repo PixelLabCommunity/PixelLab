@@ -202,29 +202,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skull_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1758002909022086, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4721473126883556, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4721473126883556, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5000002
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4721473126883556, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.4999995
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4721473126883556, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.4999995
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4721473126883556, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -506.28998
+      value: -506.4937
       objectReference: {fileID: 0}
     - target: {fileID: 4721473126883556, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -141.80003
+      value: -142.146
       objectReference: {fileID: 0}
     - target: {fileID: 4721473126883556, guid: f8b4b653b3653b042b6a5ccd7e791f21, type: 3}
       propertyPath: m_LocalPosition.z
@@ -409,6 +413,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 131098735}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &131098739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,6 +572,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 884161557}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &147151060
 MonoBehaviour:
@@ -933,6 +961,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 884161557}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &180070539
 MonoBehaviour:
@@ -2450,7 +2490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &884161558
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5013,6 +5053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spawnTargets:
   - {fileID: 1758002909022086, guid: 1aeca1bd9f707c245a80c7f103d235f9, type: 3}
+  - {fileID: 2194952564112363644, guid: 77eb863a845205f4983e109b06cc8e7a, type: 3}
   - {fileID: 1559113662988582, guid: 06c56dfbbfe0f214c9a417c14f0f80e6, type: 3}
   - {fileID: 100000, guid: e66cbb7109b8a824f877db9c34720ddc, type: 3}
   - {fileID: 1529207471264370, guid: 54627cfeab27f0044a6927d0e123f388, type: 3}
