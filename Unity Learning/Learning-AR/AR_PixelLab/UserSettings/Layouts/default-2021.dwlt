@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 3642
+  controlID: 107
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 3648
+  controlID: 112
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3649
+  controlID: 22
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3567
+  controlID: 113
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -499,7 +499,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.666666}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -648,9 +648,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.1481571, y: 1.026341, z: 0.3085574}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 3.1481571, y: 1.026341, z: 0.3085574}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -697,13 +697,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.12802501, y: -0.44354618, z: 0.064196534, w: 0.8847564}
+    m_Target: {x: 0.121706426, y: 0.1382903, z: -0.017105361, w: 0.9827667}
     speed: 2
-    m_Value: {x: -0.12802501, y: 0.4435462, z: -0.064196534, w: -0.88475645}
+    m_Value: {x: 0.1217028, y: 0.13828617, z: -0.017104851, w: 0.9827374}
   m_Size:
-    m_Target: 0.70710677
+    m_Target: 1.6038315
     speed: 2
-    m_Value: 0.70710677
+    m_Value: 1.534767
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -791,23 +791,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 6092ffff1e93ffffb695ffff6eaeffff26afffff3eafffff8eb1ffff46b2ffffdab4ffff2afbffff20700000
+      m_SelectedIDs: c67f0000
+      m_LastClickedID: 32710
+      m_ExpandedIDs: 74e3ffff30e4ffff66e4ffff54f4ffff0ef5ffffc2f7ffff2afbffff107e00003c7e00004a7e0000627e0000a87f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: AR Default Face
+        m_OriginalName: AR Default Face
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 32710
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -890,22 +890,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Rendering
+    - Assets/AR face Assets/Face Textures/Robot Face/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Rendering
+  - Assets/AR face Assets/Face Textures/Robot Face/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a810000
-    m_LastClickedID: 33114
-    m_ExpandedIDs: 000000008c7000008e700000907000009270000094700000748100007681000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 707e0000
+    m_LastClickedID: 32368
+    m_ExpandedIDs: 00000000027100000471000006710000087100000a7100000c7100000e71000010710000127100001471000016710000c872000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -933,7 +933,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c7000008e70000090700000927000009470000000ca9a3b
+    m_ExpandedIDs: 00000000027100000471000006710000087100000a7100000c7100000e71000010710000127100001471000016710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
