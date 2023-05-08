@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - DestroyAfterDelay
     - DifficultyButton
     - GameManager
+    - GameObjectRotation
     - Target
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -14,6 +15,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -60,18 +63,24 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: ExitGame
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: RestartGame
@@ -81,6 +90,54 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: ExitGame
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: ExitGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   sceneClasses:
     Assets/Scenes/Click-and-Flick-3D.unity:
     - Class: 1
@@ -115,50 +172,50 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1550}
+    - Class: 114
       Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1554}
+      Script: {instanceID: 2214}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4028}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 4142}
+      Script: {instanceID: 4248}
     - Class: 114
       Script: {instanceID: 4254}
     - Class: 114
-      Script: {instanceID: 4260}
+      Script: {instanceID: 4476}
     - Class: 114
-      Script: {instanceID: 4482}
+      Script: {instanceID: 4534}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 5314}
+      Script: {instanceID: 5922}
     - Class: 114
-      Script: {instanceID: 5928}
+      Script: {instanceID: 6078}
     - Class: 114
-      Script: {instanceID: 6084}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 6428}
+      Script: {instanceID: 6858}
     - Class: 114
-      Script: {instanceID: 6864}
-    - Class: 114
-      Script: {instanceID: 23372}
-    - Class: 114
-      Script: {instanceID: 23374}
-    - Class: 114
-      Script: {instanceID: 24104}
+      Script: {instanceID: 8178}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -968,7 +1025,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: d2ea706bdceec85775690b8b907ea122
+      Hash: 40deb1004ca895a85773afe399e268de
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1146,6 +1203,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 2970dd843b37111c18455949797325c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameObjectRotation
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
