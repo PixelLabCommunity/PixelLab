@@ -98,8 +98,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Artistic\Normal\NormalFromHeightNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Implementation\IHasDependencies.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Generation\Processors\PropertyCollector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Input\Texture\SampleTexture2DArrayNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Generation\Enumerations\KeywordDefinition.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Input\Texture\SampleTexture2DArrayNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\IPropertyFromNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Utility\SubGraphNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Generation\Descriptors\SubShaderDescriptor.cs" />
@@ -496,10 +496,10 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Util\KeywordCollector.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Input\Basic\Vector3Node.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Input\Texture\Texture2DArrayAssetNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\GeometryNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Math\Trigonometry\HyperbolicSineNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Math\Interpolation\InverseLerpNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\UV\TriplanarNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\GeometryNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Data\Nodes\Math\Derivative\DDXNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Drawing\Inspector\PropertyDrawers\DropdownPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Drawing\Manipulators\Scrollable.cs" />
