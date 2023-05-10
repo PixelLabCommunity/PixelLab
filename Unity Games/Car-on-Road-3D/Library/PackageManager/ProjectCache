@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638183154724340352
-    m_Hash: 2514904470
+      ticks: 638193477741550160
+    m_Hash: 981027221
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Car-on-Road-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638183154724380478
-    m_Hash: 2200219555
+      ticks: 638193478086042539
+    m_Hash: 3435070426
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Car-on-Road-3D/Packages
-m_EditorVersion: 2021.3.22f1 (b6c551784ba3)
+m_EditorVersion: 2021.3.24f1 (cf10dcf7010d)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.0.1
+- packageId: com.unity.collab-proxy@2.0.3
   testable: 0
   isDirectDependency: 1
-  version: 2.0.1
+  version: 2.0.3
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.collab-proxy@2.0.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.collab-proxy@2.0.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -37,9 +37,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The package gives you the ability to use the Unity Version Control
-    in the Unity editor. To use Unity Version Control, a subscription is required.
-    Learn more about how you can get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -111,7 +111,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.1
     - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
@@ -145,16 +144,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638125977010000000
+  datePublishedTicks: 638158826940000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
+    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 2.0.3
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
@@ -200,7 +199,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.17
+    version: 2.0.18
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
@@ -210,7 +209,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.18
+    version: 3.0.20
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -243,12 +242,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.18
+- packageId: com.unity.ide.rider@3.0.20
   testable: 0
   isDirectDependency: 1
-  version: 3.0.18
+  version: 3.0.20
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.ide.rider@3.0.18
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.ide.rider@3.0.20
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -302,7 +301,6 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.18
     - 3.0.20
     - 3.0.21
     verified: 3.0.21
@@ -323,23 +321,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638088746970000000
+  datePublishedTicks: 638173205930000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
+    revision: b0b5d281f6e3a1b7e7c73939f5ed03dc0668bcc1
     path: 
   unityLifecycle:
-    version: 3.0.18
+    version: 3.0.20
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.17
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.17
+  version: 2.0.18
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -378,7 +376,6 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
-    - 2.0.17
     - 2.0.18
     verified: 2.0.18
   dependencies:
@@ -404,16 +401,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638059987360000000
+  datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 1f126893bfb18ea9661fb15771613e841467073c
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.17
+    version: 2.0.18
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -566,12 +563,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.2.2
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.10
+- packageId: com.unity.render-pipelines.universal@12.1.11
   testable: 0
   isDirectDependency: 1
-  version: 12.1.10
+  version: 12.1.11
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.render-pipelines.universal@12.1.11
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -634,26 +631,26 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.10
+    - 12.1.11
     compatible:
-    - 12.1.10
-    verified: 12.1.10
+    - 12.1.11
+    verified: 12.1.11
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
-    version: 1.8.2
+    version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 12.1.10
+    version: 12.1.11
   - name: com.unity.shadergraph
-    version: 12.1.10
+    version: 12.1.11
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.2
+    version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 12.1.10
+    version: 12.1.11
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -665,7 +662,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.10
+    version: 12.1.11
   - name: com.unity.searcher
     version: 4.9.1
   keywords:
@@ -694,7 +691,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.10
+    version: 12.1.11
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -3189,12 +3186,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
-- packageId: com.unity.burst@1.8.2
+- packageId: com.unity.burst@1.8.4
   testable: 0
   isDirectDependency: 0
-  version: 1.8.2
+  version: 1.8.4
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.burst@1.8.2
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.burst@1.8.4
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3364,23 +3361,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638046369550000000
-  documentationUrl: 
+  datePublishedTicks: 638150963640000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 695ae863dfb82b807b4deb649b41575aed09b544
+    revision: b05f7d57a035997c1abc0c742e812dadd107d467
     path: 
   unityLifecycle:
     version: 1.6.6
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.10
+- packageId: com.unity.render-pipelines.core@12.1.11
   testable: 0
   isDirectDependency: 0
-  version: 12.1.10
+  version: 12.1.11
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.render-pipelines.core@12.1.10
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.render-pipelines.core@12.1.11
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3499,10 +3496,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.10
+    - 12.1.11
     compatible:
-    - 12.1.10
-    verified: 12.1.10
+    - 12.1.11
+    verified: 12.1.11
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3541,14 +3538,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.10
+    version: 12.1.11
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.10
+- packageId: com.unity.shadergraph@12.1.11
   testable: 0
   isDirectDependency: 0
-  version: 12.1.10
+  version: 12.1.11
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.shadergraph@12.1.10
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.shadergraph@12.1.11
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3664,18 +3661,18 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.10
+    - 12.1.11
     compatible:
-    - 12.1.10
-    verified: 12.1.10
+    - 12.1.11
+    verified: 12.1.11
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.10
+    version: 12.1.11
   - name: com.unity.searcher
     version: 4.9.1
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.10
+    version: 12.1.11
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3708,7 +3705,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.10
+    version: 12.1.11
     nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
