@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638191453393175175
-    m_Hash: 3083678968
+      ticks: 638193851550295517
+    m_Hash: 2115832412
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Click-and-Flick-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638191453393703760
-    m_Hash: 2760925444
+      ticks: 638193851656198188
+    m_Hash: 1509208541
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Click-and-Flick-3D/Packages
-m_EditorVersion: 2021.3.16f1 (4016570cf34f)
+m_EditorVersion: 2021.3.24f1 (cf10dcf7010d)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.17.7
+- packageId: com.unity.collab-proxy@2.0.3
   testable: 0
   isDirectDependency: 1
-  version: 1.17.7
+  version: 2.0.3
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.collab-proxy@1.17.7
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.collab-proxy@2.0.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -37,10 +37,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -112,34 +111,14 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
-    - 2.0.1
     - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.7
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.6.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    verified: 2.0.4
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -147,6 +126,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -164,16 +144,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638036787040000000
-  documentationUrl: 
+  datePublishedTicks: 638158826940000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1641a631fd39029595decb52bdfb641b32ed194c
+    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
     path: 
   unityLifecycle:
-    version: 1.17.7
+    version: 2.0.3
     nextVersion: 
 - packageId: com.unity.connect.share@4.2.3
   testable: 0
@@ -307,7 +287,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.16
+    version: 2.0.18
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
@@ -317,13 +297,13 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.16
+    version: 3.0.20
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
-    version: 1.1.1
+    version: 1.2.2
   - name: com.unity.testtools.codecoverage
     version: 1.2.2
   - name: com.unity.settings-manager
@@ -350,12 +330,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.20
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.20
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.ide.rider@3.0.16
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.ide.rider@3.0.20
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -409,9 +389,6 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.16
-    - 3.0.17
-    - 3.0.18
     - 3.0.20
     - 3.0.21
     verified: 3.0.21
@@ -432,23 +409,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638173205930000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b0b5d281f6e3a1b7e7c73939f5ed03dc0668bcc1
     path: 
   unityLifecycle:
-    version: 3.0.16
+    version: 3.0.20
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.18
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -487,8 +464,6 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
-    - 2.0.16
-    - 2.0.17
     - 2.0.18
     verified: 2.0.18
   dependencies:
@@ -514,16 +489,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638173205920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.18
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -587,12 +562,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.inputsystem@1.4.4
+- packageId: com.unity.inputsystem@1.5.1
   testable: 0
   isDirectDependency: 1
-  version: 1.4.4
+  version: 1.5.1
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.inputsystem@1.4.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.inputsystem@1.5.1
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -647,10 +622,8 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     compatible:
-    - 1.4.4
-    - 1.5.0
     - 1.5.1
-    verified: 1.4.4
+    verified: 1.5.1
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -684,16 +657,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638030660210000000
-  documentationUrl: 
+  datePublishedTicks: 638152610980000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 59db7b7bcc31bad254947e3189e6ec125f67e3e7
+    revision: 3062b2c3402b5f7f435d79acbd6011a621bfeb3e
     path: 
   unityLifecycle:
-    version: 1.4.4
+    version: 1.5.1
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -1201,12 +1174,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.7.8
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1250,9 +1223,8 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     compatible:
-    - 1.7.8
     - 1.8.0
-    verified: 1.7.8
+    verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1278,16 +1250,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3182,12 +3154,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.performance.profile-analyzer@1.1.1
+- packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
-  version: 1.1.1
+  version: 1.2.2
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3221,9 +3193,8 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.2.2
     compatible:
-    - 1.1.1
     - 1.2.2
-    verified: 1.1.1
+    verified: 1.2.2
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3237,16 +3208,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637705021060000000
-  documentationUrl: 
+  datePublishedTicks: 638108624620000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 6dcda6aee96901e98a4f01b85589054b9274ba74
+    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
     path: 
   unityLifecycle:
-    version: 1.1.1
+    version: 1.2.2
     nextVersion: 
 - packageId: com.unity.testtools.codecoverage@1.2.2
   testable: 0
@@ -3403,167 +3374,4 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.3
-    nextVersion: 
-- packageId: com.unity.services.core@1.6.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.6.0
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.services.core@1.6.0
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    compatible:
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    verified: 1.6.0
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638030857680000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
-    path: 
-  unityLifecycle:
-    version: 1.6.0
-    nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.2
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Click-and-Flick-3D\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: library
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    - 3.0.1
-    - 3.0.2
-    - 3.1.0
-    - 3.2.0
-    - 3.2.1
-    compatible:
-    - 3.0.2
-    - 3.1.0
-    - 3.2.0
-    - 3.2.1
-    verified: 3.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637846828220000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
-    path: 
-  unityLifecycle:
-    version: 3.0.2
     nextVersion: 
