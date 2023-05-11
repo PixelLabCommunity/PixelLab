@@ -59,21 +59,21 @@
     <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
     <Compile Include="Assets\Scripts\UnitRotation.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
-    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
-    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
@@ -701,6 +701,10 @@
       <Project>{29A587A1-07E2-8E60-76CB-22416A734563}</Project>
       <Name>Unity.XR.ARSubsystems.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.Player.csproj">
+      <Project>{68E86BEF-4674-069B-A315-4010E96D1871}</Project>
+      <Name>CFXRRuntime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Player.csproj">
       <Project>{E347A09E-5E80-90E1-34DC-B3A682B7B718}</Project>
       <Name>Unity.Tutorials.Core.Player</Name>
@@ -717,6 +721,10 @@
       <Project>{98260420-4FB6-9E3A-A80C-D48CB1375895}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.Player.csproj">
+      <Project>{6AA32CF6-CDEF-66F4-482D-E2E1D4CACBCE}</Project>
+      <Name>KinoBloom.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
       <Project>{FAC688FB-1FA8-85CE-632C-AD1FAA904D45}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
@@ -724,6 +732,10 @@
     <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
       <Project>{81BCFC59-FC2F-89F3-891B-C7672242DA37}</Project>
       <Name>Unity.Subsystem.Registration.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.Player.csproj">
+      <Project>{0985E83B-6700-F33A-B9FC-D3081AB2D51C}</Project>
+      <Name>CFXRDemo.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{EBCF57F5-EC7E-DA20-EFED-44708ABB6CF7}</Project>
@@ -768,18 +780,6 @@
     <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
       <Project>{C491CFAF-E0F9-754E-1832-B03EE54DE266}</Project>
       <Name>Unity.XR.ARFoundation.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXRRuntime.Player.csproj">
-      <Project>{68E86BEF-4674-069B-A315-4010E96D1871}</Project>
-      <Name>CFXRRuntime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="KinoBloom.Runtime.Player.csproj">
-      <Project>{6AA32CF6-CDEF-66F4-482D-E2E1D4CACBCE}</Project>
-      <Name>KinoBloom.Runtime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXRDemo.Player.csproj">
-      <Project>{0985E83B-6700-F33A-B9FC-D3081AB2D51C}</Project>
-      <Name>CFXRDemo.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -59,21 +59,21 @@
     <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
     <Compile Include="Assets\Scripts\UnitRotation.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
-    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
-    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
-    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.11\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
@@ -735,6 +735,10 @@
       <Project>{0DE05C1E-0DC9-CB0B-F97B-52FE23E7AB1B}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
+      <Project>{0BFD0842-4D15-E157-6810-229BAA131862}</Project>
+      <Name>ToonyColorsPro.Demo.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{33186E90-8FC9-6804-5EB5-5AAC18413B3C}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
@@ -754,6 +758,10 @@
     <ProjectReference Include="Unity.XR.ARKit.Editor.csproj">
       <Project>{AF98B024-CF80-1B0C-E8B3-D1388FA56FCC}</Project>
       <Name>Unity.XR.ARKit.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{33609219-A953-6351-8F1C-198D4347884F}</Project>
+      <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
       <Project>{0B2F9F4E-F7F8-57EB-3E3B-E84D5A94658D}</Project>
@@ -827,6 +835,10 @@
       <Project>{C2014E5E-85FB-3D36-68A4-46B8282ACC35}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
+    <ProjectReference Include="CFXR.WelcomeScreen.csproj">
+      <Project>{AE3AE4E1-4AFF-B4B4-7165-6AD35C3A8452}</Project>
+      <Name>CFXR.WelcomeScreen</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARKit.FaceTracking.csproj">
       <Project>{91D3EE38-1AAE-6F16-5ED1-C93FE7E0792A}</Project>
       <Name>Unity.XR.ARKit.FaceTracking</Name>
@@ -834,6 +846,10 @@
     <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
       <Project>{FE7114F0-E6F0-793F-7FDE-C17687C7E47A}</Project>
       <Name>Unity.XR.ARFoundation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.csproj">
+      <Project>{0B67C71E-1297-917C-55F0-16A8A2869FAD}</Project>
+      <Name>CFXRRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.csproj">
       <Project>{5875913B-78A2-D961-BA68-45416DCAAD69}</Project>
@@ -891,6 +907,10 @@
       <Project>{84FBBF1C-D4FD-F825-BF51-A940D18CDECB}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{E021FD64-AAE0-6797-E657-D50F7E987B54}</Project>
+      <Name>KinoBloom.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
       <Project>{C49DDE45-6E18-0838-FD9F-590BA3AF9CD6}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
@@ -898,6 +918,10 @@
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
       <Project>{564B53EE-F68E-4ADA-763E-1F1776FB53EB}</Project>
       <Name>Unity.Subsystem.Registration</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.csproj">
+      <Project>{B52698B5-09B2-BFE7-A466-41BE2FAC70FC}</Project>
+      <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{A1ED2419-BAE2-9785-B178-6454E28B1FCF}</Project>
@@ -994,30 +1018,6 @@
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
       <Project>{AD2E30E1-3234-EFB6-DADE-585DF758C208}</Project>
       <Name>Unity.XR.ARFoundation</Name>
-    </ProjectReference>
-    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{0BFD0842-4D15-E157-6810-229BAA131862}</Project>
-      <Name>ToonyColorsPro.Demo.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXREditor.csproj">
-      <Project>{33609219-A953-6351-8F1C-198D4347884F}</Project>
-      <Name>CFXREditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{AE3AE4E1-4AFF-B4B4-7165-6AD35C3A8452}</Project>
-      <Name>CFXR.WelcomeScreen</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{0B67C71E-1297-917C-55F0-16A8A2869FAD}</Project>
-      <Name>CFXRRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{E021FD64-AAE0-6797-E657-D50F7E987B54}</Project>
-      <Name>KinoBloom.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{B52698B5-09B2-BFE7-A466-41BE2FAC70FC}</Project>
-      <Name>CFXRDemo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
