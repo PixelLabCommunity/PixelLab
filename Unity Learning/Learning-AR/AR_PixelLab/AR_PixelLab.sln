@@ -177,6 +177,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEditorBridge.005", "Unity.InternalAPIEditorBridge.005.csproj", "{7D2C97D3-1469-C2E1-939A-58A5C42A9618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Play.Publisher.Editor", "Unity.Play.Publisher.Editor.csproj", "{F101DADE-5CD2-2FFB-9149-743F21F7779E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEditorBridgeDev.001", "Unity.InternalAPIEditorBridgeDev.001.csproj", "{9CD88799-752C-EBCC-862D-D3FFDBEC457B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.Player.csproj", "{4E60AD81-DAD0-256F-5A0F-743710361D7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking", "UnityEngine.SpatialTracking.Player.csproj", "{FB9D4F95-30F3-27BF-15D4-777D922A5EC5}"
@@ -607,6 +611,14 @@ Global
 		{7D2C97D3-1469-C2E1-939A-58A5C42A9618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2C97D3-1469-C2E1-939A-58A5C42A9618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2C97D3-1469-C2E1-939A-58A5C42A9618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F101DADE-5CD2-2FFB-9149-743F21F7779E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F101DADE-5CD2-2FFB-9149-743F21F7779E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F101DADE-5CD2-2FFB-9149-743F21F7779E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F101DADE-5CD2-2FFB-9149-743F21F7779E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD88799-752C-EBCC-862D-D3FFDBEC457B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD88799-752C-EBCC-862D-D3FFDBEC457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD88799-752C-EBCC-862D-D3FFDBEC457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD88799-752C-EBCC-862D-D3FFDBEC457B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E60AD81-DAD0-256F-5A0F-743710361D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E60AD81-DAD0-256F-5A0F-743710361D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E60AD81-DAD0-256F-5A0F-743710361D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
