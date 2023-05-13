@@ -807,6 +807,10 @@
       <Project>{6F28D18E-36B7-9BE7-47C9-EBED1D734E7B}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridgeDev.001.csproj">
+      <Project>{9CD88799-752C-EBCC-862D-D3FFDBEC457B}</Project>
+      <Name>Unity.InternalAPIEditorBridgeDev.001</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{0DB09923-60F4-3B5F-83DC-CD56636827C5}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
@@ -930,6 +934,10 @@
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{CD6D4849-A8A4-3B6C-63B9-FEA311FF7519}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Play.Publisher.Editor.csproj">
+      <Project>{F101DADE-5CD2-2FFB-9149-743F21F7779E}</Project>
+      <Name>Unity.Play.Publisher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
       <Project>{34C48A80-29FF-C0B3-4CF8-6A80743D2EE3}</Project>
