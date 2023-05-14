@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638195065267218053
-    m_Hash: 3513630427
+      ticks: 638196948644237695
+    m_Hash: 3082642640
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/AR_PixelLab/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638195065267260250
-    m_Hash: 3596371635
+      ticks: 638196949146845422
+    m_Hash: 672801212
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/AR_PixelLab/Packages
-m_EditorVersion: 2021.3.24f1 (cf10dcf7010d)
+m_EditorVersion: 2021.3.25f1 (68ef2c4f8861)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.0.3
+- packageId: com.unity.collab-proxy@2.0.4
   testable: 0
   isDirectDependency: 1
-  version: 2.0.3
+  version: 2.0.4
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.collab-proxy@2.0.3
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.collab-proxy@2.0.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -111,7 +111,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
@@ -144,16 +143,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638158826940000000
+  datePublishedTicks: 638176024310000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
+    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
     path: 
   unityLifecycle:
-    version: 2.0.3
+    version: 2.0.4
     nextVersion: 
 - packageId: com.unity.connect.share@4.2.3
   testable: 0
@@ -415,7 +414,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.20
+    version: 3.0.21
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -423,7 +422,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.2
+    version: 1.2.3
   - name: com.unity.settings-manager
     version: 1.0.3
   keywords: []
@@ -448,12 +447,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.20
+- packageId: com.unity.ide.rider@3.0.21
   testable: 0
   isDirectDependency: 1
-  version: 3.0.20
+  version: 3.0.21
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.ide.rider@3.0.20
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.ide.rider@3.0.21
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -507,7 +506,6 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.20
     - 3.0.21
     verified: 3.0.21
   dependencies:
@@ -527,16 +525,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205930000000
+  datePublishedTicks: 638175749180000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b0b5d281f6e3a1b7e7c73939f5ed03dc0668bcc1
+    revision: bb7732dcafe867368246b7661dda05368b74dd8e
     path: 
   unityLifecycle:
-    version: 3.0.20
+    version: 3.0.21
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
@@ -1205,12 +1203,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.6.4
+- packageId: com.unity.timeline@1.6.5
   testable: 0
   isDirectDependency: 1
-  version: 1.6.4
+  version: 1.6.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.timeline@1.6.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1306,7 +1304,6 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     compatible:
-    - 1.6.4
     - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
@@ -1353,16 +1350,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637789039180000000
-  documentationUrl: 
+  datePublishedTicks: 638182037450000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d7e1eb6805737974459309b7d6e7db58635dd167
+    revision: 4ed67a7e62ce940db3d44dc5eca8fade1c664aed
     path: 
   unityLifecycle:
-    version: 1.6.4
+    version: 1.6.5
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
@@ -4706,12 +4703,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.2
     nextVersion: 
-- packageId: com.unity.testtools.codecoverage@1.2.2
+- packageId: com.unity.testtools.codecoverage@1.2.3
   testable: 0
   isDirectDependency: 0
-  version: 1.2.2
+  version: 1.2.3
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4759,7 +4756,6 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     compatible:
-    - 1.2.2
     - 1.2.3
     verified: 1.2.3
   dependencies:
@@ -4793,16 +4789,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638047147810000000
-  documentationUrl: 
+  datePublishedTicks: 638169790470000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 4178e047a15e206f715d23af69b02acd367bb000
+    revision: d4b7ffdbe5fd9b2506f04f112caa0ed3f898c59b
     path: 
   unityLifecycle:
-    version: 1.2.2
+    version: 1.2.3
     nextVersion: 
 - packageId: com.unity.xr.arfoundation@4.2.7
   testable: 0
