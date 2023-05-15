@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private TextMeshProUGUI _failedText;
     [SerializeField] private TextMeshProUGUI _failedMaxText;
+    [SerializeField] private TextMeshProUGUI _levelText;
     [SerializeField] private GameObject _gameOverScreen;
     [SerializeField] private GameObject _titleScreen;
 
@@ -22,6 +22,10 @@ public class GameManager : MonoBehaviour
     private int _scoreOnStart = 0;
     private int _goodFailed = 0;
     private int _goodFailedOnStart = 0;
+    private int _level = 0;
+    private int _levelOnStart = 1;
+    private int _levelUpdate = 1;
+    private int _levelUpScore = 100;
 
     public bool _isGameStart;
 
@@ -44,10 +48,22 @@ public class GameManager : MonoBehaviour
     {
         _score += _scoreToAdd;
         _scoreText.text = "Score: " + _score;
+
         if (_score < _scoreOnStart)
         {
             GameOver();
         }
+
+        if (_score >= _levelUpScore && _score % _levelUpScore == 0)
+        {
+            UpdateLevel(_levelUpdate);
+        }
+    }
+
+    public void UpdateLevel(int _levelToAdd)
+    {
+        _level += _levelToAdd;
+        _levelText.text = "Level: " + _level;
     }
 
     public void GameOver()
@@ -68,6 +84,7 @@ public class GameManager : MonoBehaviour
 
         StartCoroutine(SpawnTarget());
         UpdateScore(_scoreOnStart);
+        UpdateLevel(_levelOnStart);
         UpdateFailed(_goodFailedOnStart);
         _titleScreen.gameObject.SetActive(false);
     }
