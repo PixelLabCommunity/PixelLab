@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Target : MonoBehaviour
 {
@@ -10,32 +9,12 @@ public class Target : MonoBehaviour
     private Rigidbody _targetRb;
     private GameManager _gameManager;
     private AudioSource _clickSoundSource;
-    private InputControls _playerInput = null;
 
     private float _minForce = 12.0f;
     private float _maxForce = 16.0f;
     private float _valueTorque = 10.0f;
     private float _spawnX = 4.0f;
     private float _spawnY = -2.0f;
-
-    private void Awake()
-    {
-        _playerInput = new InputControls();
-    }
-
-    private void OnEnable()
-    {
-        _playerInput.Enable();
-        _playerInput.Controls.Mouse.performed += OnClick;
-        _playerInput.Controls.Phone.performed += OnTap;
-    }
-
-    private void OnDisable()
-    {
-        _playerInput.Disable();
-        _playerInput.Controls.Mouse.performed -= OnClick;
-        _playerInput.Controls.Phone.performed -= OnTap;
-    }
 
     private void Start()
     {
@@ -49,18 +28,7 @@ public class Target : MonoBehaviour
         SpawnPosition();
     }
 
-    private void OnClick(InputAction.CallbackContext value)
-    {
-        if (_gameManager._isGameStart)
-        {
-            _clickSoundSource.Play();
-            Destroy(gameObject);
-            Instantiate(_explosionParticle, transform.position, transform.rotation);
-            _gameManager.UpdateScore(_pointValue);
-        }
-    }
-
-    private void OnTap(InputAction.CallbackContext value)
+    private void OnMouseDown()
     {
         if (_gameManager._isGameStart)
         {
