@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Target : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Target : MonoBehaviour
     private Rigidbody _targetRb;
     private GameManager _gameManager;
     private AudioSource _clickSoundSource;
+    private InputAction _clickAction;
 
     private float _minForce = 12.0f;
     private float _maxForce = 16.0f;
@@ -28,14 +30,33 @@ public class Target : MonoBehaviour
         SpawnPosition();
     }
 
-    private void OnMouseDown()
+    private void OnEnable()
     {
-        if (_gameManager._isGameStart)
+        _clickAction = new InputAction(binding: "<Mouse>/leftButton");
+        _clickAction.performed += OnClick;
+        _clickAction.Enable();
+    }
+
+    private void OnDisable()
+    {
+        _clickAction.performed -= OnClick;
+        _clickAction.Disable();
+    }
+
+    private void OnClick(InputAction.CallbackContext context)
+    {
+        Vector2 mousePosition = Mouse.current.position.ReadValue();
+        Ray ray = Camera.main.ScreenPointToRay(mousePosition);
+
+        if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.gameObject == gameObject)
         {
-            _clickSoundSource.Play();
-            Destroy(gameObject);
-            Instantiate(_explosionParticle, transform.position, transform.rotation);
-            _gameManager.UpdateScore(_pointValue);
+            if (_gameManager._isGameStart)
+            {
+                _clickSoundSource.Play();
+                Destroy(gameObject);
+                Instantiate(_explosionParticle, transform.position, transform.rotation);
+                _gameManager.UpdateScore(_pointValue);
+            }
         }
     }
 
