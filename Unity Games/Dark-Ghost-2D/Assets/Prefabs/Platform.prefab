@@ -11,9 +11,6 @@ GameObject:
   - component: {fileID: 1894781407913645455}
   - component: {fileID: 1894781407913645454}
   - component: {fileID: 1894781407913645452}
-  - component: {fileID: 1894781407913645453}
-  - component: {fileID: -3590722886856901615}
-  - component: {fileID: 3494794258870410047}
   m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
@@ -114,44 +111,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1894781407913645453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894781407913645449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9b5ca6f9c1130e4fa020da7af443cea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 5
---- !u!114 &-3590722886856901615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894781407913645449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9d5a8b3bbec0e84a9a67bce86ae1e52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _platformPrefab:
-  - {fileID: 1894781407913645449}
-  - {fileID: 1894781407913645449, guid: 7dcc106d2cdb3d7448113c2950e658d6, type: 3}
-  - {fileID: 1894781407913645449, guid: a25b3e1a7a423894481f86a77a959321, type: 3}
---- !u!114 &3494794258870410047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894781407913645449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21742cb55e79498419a1afcca9168483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
