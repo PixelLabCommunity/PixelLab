@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Scripts
@@ -9,6 +7,7 @@ namespace Scripts
         [SerializeField] private float _speed;
         [SerializeField] private Rigidbody2D _rigidbody;
         [SerializeField] private float _lifetime;
+        [SerializeField] private int _damage = 5;
 
         private void Start()
         {
@@ -20,6 +19,20 @@ namespace Scripts
         private void BulletLife()
         {
             Destroy(gameObject);
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.Damage(_damage);
+                }
+
+                Destroy(gameObject);
+            }
         }
     }
 }
