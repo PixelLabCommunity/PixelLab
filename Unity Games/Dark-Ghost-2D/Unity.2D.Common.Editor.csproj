@@ -56,11 +56,11 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\ImagePacker\Jobs\FindTightRectJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\InspectorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\ImagePacker\ImagePacker.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\TextureGenerator\TextureGeneratorHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\ImagePacker\Jobs\FindTightRectJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\TextureGenerator\TextureGeneratorHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\ImagePacker\ImagePackNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@6.0.3\Editor\ImagePacker\ImagePackerDebugEditor.cs" />
   </ItemGroup>

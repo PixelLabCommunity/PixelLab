@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\FunctionPointerInvokeTransform.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\BurstILPostProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\AssemblyLoader.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\ILPostProcessing.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\BurstILPostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll" />

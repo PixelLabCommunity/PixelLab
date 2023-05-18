@@ -57,22 +57,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteSkin.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteSkinBatch.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\UpdateBoundsJob.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SkeletonAsset.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\Bone.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteLib\SpriteLibraryData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\BufferManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\TransformAccessJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\NativeArrayHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteSkinBatch.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\UpdateBoundsJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteSkinUpdateHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SkeletonAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteSkinUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\Bone.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteLib\SpriteLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteLib\SpriteLibraryData.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\NativeCustomSlice.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteLib\SpriteResolver.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteLib\SpriteLibraryAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteLib\SpriteLibrarySourceAsset.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\BufferManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.6\Runtime\SpriteSkinComposite.cs" />
   </ItemGroup>
   <ItemGroup>

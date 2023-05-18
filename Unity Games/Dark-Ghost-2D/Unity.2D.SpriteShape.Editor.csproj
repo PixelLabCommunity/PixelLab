@@ -56,25 +56,25 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeControllerEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\AngleRangeController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeEditorAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeHandleUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\AngleRangeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\ContextMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeEditorTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\EditorSpriteGUIUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeEditorGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\ObjectMenuCreation\AssetCreation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeControllerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SceneDragAndDrop.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\AngleRangeGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeEditorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\AngleRangeController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeAssetPostProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeEditorAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\SpriteShapeHandleUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.spriteshape@7.0.5\Editor\Handles\Shaders\Sprites-Inspector.shader" />
