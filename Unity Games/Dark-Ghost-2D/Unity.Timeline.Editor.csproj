@@ -218,8 +218,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\ItemGui\ISelectable.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\MenuPriority.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Animation\ClipCurveEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\HeaderSplitterManipulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Actions\TimelineAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\HeaderSplitterManipulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Actions\TrackActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\TimelineClipHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Items\MarkerItem.cs" />
@@ -300,8 +300,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Window\TimelineWindow_TrackGui.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Utilities\ObjectReferenceField.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Utilities\Clipboard.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\IPropertyKeyDataSource.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\TrackGui\TimelineTrackErrorGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\IPropertyKeyDataSource.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Utilities\TimeReferenceUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Window\TimelineWindow_PlayRange.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\TrackGui\TimelineTrackGUI.cs" />
