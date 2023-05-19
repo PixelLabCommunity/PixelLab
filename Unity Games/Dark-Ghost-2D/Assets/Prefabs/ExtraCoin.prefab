@@ -125,4 +125,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pointValue: 3
-  _respawnTime: 10
+  _lifeTime: 5
+  _coinParticlePrefab: {fileID: 100000, guid: f2dba9e16cd347f44a395b8204544ee5, type: 3}
+  _coinSound: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}

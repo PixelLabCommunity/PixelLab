@@ -5,6 +5,8 @@ public class Coins : MonoBehaviour
 {
     [SerializeField] private int _pointValue;
     [SerializeField] private float _lifeTime = 5.0f;
+    [SerializeField] private GameObject _coinParticlePrefab;
+    
 
     private GameManager _gameManager;
 
@@ -23,14 +25,16 @@ public class Coins : MonoBehaviour
         Invoke("CoinLife", _lifeTime);
     }
 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             _gameManager.UpdateScoreCoins(_pointValue);
+            PlayCoinParticle();
             Destroy(gameObject);
         }
-    }    
+    }
 
     private void SpawnPosition()
     {
@@ -42,5 +46,13 @@ public class Coins : MonoBehaviour
     private void CoinLife()
     {
         Destroy(gameObject);
+    }
+
+    private void PlayCoinParticle()
+    {
+        GameObject coinParticle = Instantiate(_coinParticlePrefab, transform.position, Quaternion.identity);
+        ParticleSystem particleSystem = coinParticle.GetComponent<ParticleSystem>();
+        particleSystem.Play();
+        Destroy(coinParticle, particleSystem.main.duration);
     }
 }

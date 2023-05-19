@@ -17,6 +17,8 @@ namespace Scripts
         [SerializeField] private float _chargeJumpTime;
         [SerializeField] private FixedJoystick _joystick;
 
+        
+
         private Rigidbody2D _rb;
         private float _input;
         private bool _isFacingRight = true;
@@ -26,9 +28,13 @@ namespace Scripts
         private bool _isChargingJump;
         private bool _canDoubleJump = true;
 
+        
+
         private void Start()
         {
             _rb = GetComponent<Rigidbody2D>();
+
+           
         }
 
         private void Update()
@@ -107,5 +113,7 @@ namespace Scripts
                 _chargeJumpTime = 0;
             }
         }
+
+        
     }
 }

@@ -696,6 +696,18 @@
       <Project>{8B225B6E-F32C-6708-F555-D946DAE00035}</Project>
       <Name>Unity.2D.SpriteShape.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.Player.csproj">
+      <Project>{DA5DB22D-7909-438B-511A-3C775C865AF3}</Project>
+      <Name>CFXRRuntime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.Player.csproj">
+      <Project>{DDB90B8A-8A8D-1568-510D-0CF3CD97EA24}</Project>
+      <Name>KinoBloom.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.Player.csproj">
+      <Project>{08F24C58-F9AD-17EB-249F-F0F2E20B1AAF}</Project>
+      <Name>CFXRDemo.Player</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
