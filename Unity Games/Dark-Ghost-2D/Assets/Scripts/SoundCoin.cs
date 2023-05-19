@@ -6,6 +6,8 @@ public class SoundCoin : MonoBehaviour
 
     private AudioSource _playerAudioSource;
 
+    private float _soundVolume = 0.5f;
+
     private void Start()
     {
         _playerAudioSource = GetComponent<AudioSource>();
@@ -14,9 +16,9 @@ public class SoundCoin : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     { 
 
-        if (other.CompareTag("Coin"))
+        if (other.CompareTag("Coin") || other.CompareTag("ExtraCoin"))
         {
-            _playerAudioSource.PlayOneShot(_coinSound, 0.5f);
+            _playerAudioSource.PlayOneShot(_coinSound, _soundVolume);
         }
     }
 }

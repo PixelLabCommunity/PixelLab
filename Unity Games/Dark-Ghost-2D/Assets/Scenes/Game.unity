@@ -3137,6 +3137,7 @@ GameObject:
   - component: {fileID: 1737538932}
   - component: {fileID: 1737538933}
   - component: {fileID: 1737538935}
+  - component: {fileID: 1737538936}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3372,6 +3373,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coinSound: {fileID: 8300000, guid: 0f7d0b7c3397f4dac91f20e8a77d2d57, type: 3}
+--- !u!114 &1737538936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737538927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae51028da40b6546a6a9cf7a38c6c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointText: {fileID: 1882167073}
+  _coinPoint: 1
+  _coinExtraPoint: 3
 --- !u!224 &1755266035 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
@@ -3560,7 +3576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1882167072
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3578,7 +3594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 33.5}
+  m_AnchoredPosition: {x: 4, y: 47.6}
   m_SizeDelta: {x: 77.0308, y: 20.7155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1882167073

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -9042278347508031795}
   m_Layer: 0
   m_Name: ExtraCoin
-  m_TagString: Coin
+  m_TagString: ExtraCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,4 +127,3 @@ MonoBehaviour:
   _pointValue: 3
   _lifeTime: 5
   _coinParticlePrefab: {fileID: 100000, guid: f2dba9e16cd347f44a395b8204544ee5, type: 3}
-  _coinSound: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}

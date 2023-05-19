@@ -6,21 +6,21 @@ namespace Scripts
 {
     public class HoldButtonEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
-        public UnityEvent onHoldEvent;
-        public float holdDuration = 1f;
+        public UnityEvent _onHoldEvent;
+        public float _holdDuration = 1f;
 
-        private bool isPointerDown = false;
-        private float holdTimer = 0f;
+        private bool _isPointerDown = false;
+        private float _holdTimer = 0f;
 
         private void Update()
         {
-            if (isPointerDown)
+            if (_isPointerDown)
             {
-                holdTimer += Time.deltaTime;
+                _holdTimer += Time.deltaTime;
 
-                if (holdTimer >= holdDuration)
+                if (_holdTimer >= _holdDuration)
                 {
-                    onHoldEvent.Invoke();
+                    _onHoldEvent.Invoke();
                     ResetHold();
                 }
             }
@@ -28,7 +28,7 @@ namespace Scripts
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            isPointerDown = true;
+            _isPointerDown = true;
         }
 
         public void OnPointerUp(PointerEventData eventData)
@@ -38,8 +38,8 @@ namespace Scripts
 
         private void ResetHold()
         {
-            isPointerDown = false;
-            holdTimer = 0f;
+            _isPointerDown = false;
+            _holdTimer = 0f;
         }
     }
 }

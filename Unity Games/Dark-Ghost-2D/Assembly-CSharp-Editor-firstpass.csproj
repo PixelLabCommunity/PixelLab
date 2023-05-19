@@ -781,9 +781,17 @@
       <Project>{1C0CD57F-8C3D-C2B6-B878-4C02CE41AB7B}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
+      <Project>{FC9F9CCA-D22B-8868-92C2-8B4D29AFD7CA}</Project>
+      <Name>ToonyColorsPro.Demo.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{6DDF5854-D5DC-FDB6-547B-110BABB1845B}</Project>
       <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{1B46D95B-0A90-10FA-6DAF-ED03EFCFDF67}</Project>
+      <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{D32936D8-F517-E28B-3C67-50C39A31B9CC}</Project>
@@ -797,9 +805,9 @@
       <Project>{8E8F7E07-D66B-328E-3958-1FC98CB1D954}</Project>
       <Name>Unity.2D.IK.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{EF6D7DF8-8473-61C0-EF0C-0CD1703BE1B9}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{8B870874-C082-12DA-4E6A-0A23A35B7D5D}</Project>
+      <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Path.Editor.csproj">
       <Project>{EC4E6AB0-136D-C610-10A7-B192FCDDDE4C}</Project>
@@ -808,6 +816,10 @@
     <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
       <Project>{BC5A8C53-FF5A-532F-CB96-8ADC2C764E4E}</Project>
       <Name>Unity.2D.Psdimporter.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.csproj">
+      <Project>{404D5D69-BCA0-3D9B-B7C8-968C70CFC06F}</Project>
+      <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{5D22DFB7-17EE-65ED-5D13-683344FF95E5}</Project>
@@ -832,6 +844,10 @@
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
       <Project>{DA2FF5E1-9B0E-C234-4BD8-AF5175F77E95}</Project>
       <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{EF6D7DF8-8473-61C0-EF0C-0CD1703BE1B9}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{69D24479-57F0-252E-0A76-887A5F2CBD99}</Project>
@@ -877,37 +893,21 @@
       <Project>{82553A4A-939C-F3CB-79B8-8AB82876EB51}</Project>
       <Name>Unity.2D.SpriteShape.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{98C56B4C-27A3-F542-59F5-EF9E2BFE3430}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{D2099B2B-DF04-F2BD-38B7-336E778E25F5}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{FC9F9CCA-D22B-8868-92C2-8B4D29AFD7CA}</Project>
-      <Name>ToonyColorsPro.Demo.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXREditor.csproj">
-      <Project>{8B870874-C082-12DA-4E6A-0A23A35B7D5D}</Project>
-      <Name>CFXREditor</Name>
-    </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
       <Project>{16E1AD62-143C-95F6-2B7C-DED6ACD47291}</Project>
       <Name>CFXR.WelcomeScreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{98C56B4C-27A3-F542-59F5-EF9E2BFE3430}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRRuntime.csproj">
       <Project>{49C78DA1-D6A5-8043-7808-85134D47A3B9}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
-    <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{1B46D95B-0A90-10FA-6DAF-ED03EFCFDF67}</Project>
-      <Name>KinoBloom.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{404D5D69-BCA0-3D9B-B7C8-968C70CFC06F}</Project>
-      <Name>CFXRDemo</Name>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{D2099B2B-DF04-F2BD-38B7-336E778E25F5}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
