@@ -2060,7 +2060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed54163ead9db7438aad160e5ec0058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHoldEvent:
+  _onHoldEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 400491030}
@@ -2087,7 +2087,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  holdDuration: 1
+  _holdDuration: 1
 --- !u!1 &1127148571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8811652052387738479, guid: 64554c6149262af4bbdb095c3684f075, type: 3}

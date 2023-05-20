@@ -6,7 +6,7 @@ Library: lib_burst_generated
 --dump=Function
 --float-precision=Standard
 --disable-warnings=BC1370
---compilation-defines=UNITY_2021_3_9
+--compilation-defines=UNITY_2021_3_25
 --compilation-defines=UNITY_2021_3
 --compilation-defines=UNITY_2021
 --compilation-defines=UNITY_5_3_OR_NEWER
@@ -31,12 +31,6 @@ Library: lib_burst_generated
 --compilation-defines=UNITY_2021_1_OR_NEWER
 --compilation-defines=UNITY_2021_2_OR_NEWER
 --compilation-defines=UNITY_2021_3_OR_NEWER
---compilation-defines=USE_SEARCH_ENGINE_API
---compilation-defines=USE_SEARCH_TABLE
---compilation-defines=USE_SEARCH_MODULE
---compilation-defines=USE_PROPERTY_DATABASE
---compilation-defines=USE_SEARCH_EXTENSION_API
---compilation-defines=SCENE_TEMPLATE_MODULE
 --compilation-defines=ENABLE_AR
 --compilation-defines=ENABLE_AUDIO
 --compilation-defines=ENABLE_CACHING
@@ -115,6 +109,7 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_TILEMAP
 --compilation-defines=ENABLE_TIMELINE
 --compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
+--compilation-defines=TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 --compilation-defines=CROSS_PLATFORM_INPUT
 --compilation-defines=MOBILE_INPUT
 --compilation-defines=PACKAGE_PHYSICS
@@ -146,16 +141,17 @@ Library: lib_burst_generated
 --root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
 --root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
+--root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\CFXRDemo.dll
 --root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Assembly-CSharp-firstpass.dll
 --root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.2D.Common.Runtime.dll
---root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
---root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
---root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\CFXRRuntime.dll
---root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\CFXRDemo.dll
 --root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\KinoBloom.Runtime.dll
+--root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
+--root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\CFXRRuntime.dll
+--root-assembly=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
 --assembly-folder=D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
+--method=UnityEngine.U2D.Animation.BurstedSpriteSkinUtilities, Unity.2D.Animation.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::ValidateBoneWeights(Unity.Collections.NativeSlice`1[[UnityEngine.BoneWeight, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--5bf0a813706ef9287fcaa55dd0ccb876
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.U2D.SpriteShapeGenerator, Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.U2D.SpriteShapeGenerator&, Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--a185c62eba2497c95197140e5282b27a
 
