@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 7190942530463615579}
   m_Layer: 7
   m_Name: Animal_Rooster_Brown
-  m_TagString: Untagged
+  m_TagString: LightEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,8 +147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 562b0a98f335f314093a77030bec64f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pointValue: 10
   _spawnTextPrefab: {fileID: 7158899585622744305, guid: 435ecc1674a2ada498a4266bcdd6efc1, type: 3}
+  _explosionParticle: {fileID: 1170647396387605274, guid: 87f387d6a8ee571418b6adae2ad2506b, type: 3}
+  _pointValue: 10
+  _spawnTextOptions:
+  - '!!!!'
+  _pointSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
 --- !u!1 &9189571102304180822
 GameObject:
   m_ObjectHideFlags: 0

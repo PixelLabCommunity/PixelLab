@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] _animalPrefabs;
 
+    
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private GameObject _gameOverScreen;
 
