@@ -141,9 +141,13 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\EventHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Layout\LayoutGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\InputModules\TouchInputModule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\ShaderGUI\MaterialAssemblyReference\RawRenderQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Generation\Targets\BuiltIn\Editor\ShaderGUI\MaterialAssemblyReference\RawRenderQueue.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.shadergraph@12.1.11\Editor\Generation\Targets\BuiltIn\Editor\ShaderGUI\MaterialAssemblyReference\MaterialAssemblyReference.asmref" />
     <None Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UnityEngine.UI.asmdef" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\ShaderGUI\MaterialAssemblyReference\MaterialAssemblyReference.asmref" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
