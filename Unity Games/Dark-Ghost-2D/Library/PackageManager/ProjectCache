@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638191651574890251
-    m_Hash: 3158308525
+      ticks: 638201327484378773
+    m_Hash: 3163763288
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Dark-Ghost-2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638191652201492229
-    m_Hash: 3281591326
+      ticks: 638201327696197153
+    m_Hash: 3345082954
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Dark-Ghost-2D/Packages
-m_EditorVersion: 2021.3.24f1 (cf10dcf7010d)
+m_EditorVersion: 2021.3.25f1 (68ef2c4f8861)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@2.8.9
   testable: 0
@@ -110,10 +110,12 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.4
     - 2.9.5
+    - 2.9.7
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
     - 3.0.0-pre.6
+    - 3.0.0-pre.7
     compatible:
     - 2.8.9
     - 2.9.0-pre.1
@@ -122,6 +124,7 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.4
     - 2.9.5
+    - 2.9.7
     verified: 2.8.9
   dependencies:
   - name: com.unity.test-framework
@@ -179,12 +182,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.8.9
     nextVersion: 
-- packageId: com.unity.collab-proxy@2.0.3
+- packageId: com.unity.collab-proxy@2.0.4
   testable: 0
   isDirectDependency: 1
-  version: 2.0.3
+  version: 2.0.4
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Library\PackageCache\com.unity.collab-proxy@2.0.3
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Library\PackageCache\com.unity.collab-proxy@2.0.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -268,7 +271,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
@@ -301,16 +303,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638158826940000000
+  datePublishedTicks: 638176024310000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
+    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
     path: 
   unityLifecycle:
-    version: 2.0.3
+    version: 2.0.4
     nextVersion: 
 - packageId: com.unity.feature.2d@1.0.0
   testable: 0
@@ -418,12 +420,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.20
+- packageId: com.unity.ide.rider@3.0.21
   testable: 0
   isDirectDependency: 1
-  version: 3.0.20
+  version: 3.0.21
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Library\PackageCache\com.unity.ide.rider@3.0.20
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Library\PackageCache\com.unity.ide.rider@3.0.21
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -477,7 +479,6 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.20
     - 3.0.21
     verified: 3.0.21
   dependencies:
@@ -497,16 +498,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205930000000
+  datePublishedTicks: 638175749180000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b0b5d281f6e3a1b7e7c73939f5ed03dc0668bcc1
+    revision: bb7732dcafe867368246b7661dda05368b74dd8e
     path: 
   unityLifecycle:
-    version: 3.0.20
+    version: 3.0.21
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
@@ -933,12 +934,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.6.4
+- packageId: com.unity.timeline@1.6.5
   testable: 0
   isDirectDependency: 1
-  version: 1.6.4
+  version: 1.6.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Library\PackageCache\com.unity.timeline@1.6.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1034,7 +1035,6 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     compatible:
-    - 1.6.4
     - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
@@ -1081,16 +1081,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637789039180000000
-  documentationUrl: 
+  datePublishedTicks: 638182037450000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d7e1eb6805737974459309b7d6e7db58635dd167
+    revision: 4ed67a7e62ce940db3d44dc5eca8fade1c664aed
     path: 
   unityLifecycle:
-    version: 1.6.4
+    version: 1.6.5
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
@@ -1155,93 +1155,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
-    nextVersion: 
-- packageId: com.unity.visualscripting@1.8.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.8.0
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Dark-Ghost-2D\Library\PackageCache\com.unity.visualscripting@1.8.0
-  assetPath: Packages/com.unity.visualscripting
-  name: com.unity.visualscripting
-  displayName: Visual Scripting
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: tool
-  description: 'Visual scripting is a workflow that uses visual, node-based graphs
-    to design behaviors rather than write lines of C# script.
-
-
-    Enabling artists,
-    designers and programmers alike, visual scripting can be used to design final
-    logic, quickly create prototypes, iterate on gameplay and create custom nodes
-    to help streamline collaboration.
-
-
-    Visual scripting is compatible with third-party
-    APIs, including most packages, assets and custom libraries.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.5.0
-    - 1.5.1-pre.3
-    - 1.5.1-pre.5
-    - 1.5.1
-    - 1.5.2
-    - 1.6.0-pre.3
-    - 1.6.0
-    - 1.6.1
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.5
-    - 1.7.6
-    - 1.7.7
-    - 1.7.8
-    - 1.8.0-pre.1
-    - 1.8.0
-    compatible:
-    - 1.8.0
-    verified: 1.8.0
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638060044680000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
-    path: 
-  unityLifecycle:
-    version: 1.8.0
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3192,6 +3105,7 @@ m_ResolvedPackages:
     - 7.0.8
     - 7.0.9
     - 7.0.10
+    - 7.0.11
     - 8.0.0-pre.3
     - 8.0.0-pre.4
     - 8.0.0
@@ -3205,12 +3119,15 @@ m_ResolvedPackages:
     - 9.0.0
     - 9.0.1
     - 9.0.2
+    - 9.0.3
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
+    - 10.0.1
     compatible:
     - 7.0.10
-    verified: 7.0.10
+    - 7.0.11
+    verified: 7.0.11
   dependencies:
   - name: com.unity.2d.common
     version: 6.0.6
@@ -3955,14 +3872,61 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
   status: 0
   errors: []
   versions:
     all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
     - 6.0.6
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
+    - 8.0.1
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
     compatible:
     - 6.0.6
     verified: 6.0.6
@@ -4002,9 +3966,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638035874770000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4029,13 +3993,33 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier splines)
     in EditorWindows and the SceneView."
   status: 0
   errors: []
   versions:
     all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.4
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 5.0.1
     - 5.0.2
     compatible:
     - 5.0.2
@@ -4053,9 +4037,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637817447940000000
   documentationUrl: 
   hasRepository: 1
   repository:

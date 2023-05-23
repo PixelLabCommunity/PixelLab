@@ -5071,7 +5071,7 @@ GameObject:
   - component: {fileID: 5744271671303818555}
   m_Layer: 7
   m_Name: Dog_Doberman_01
-  m_TagString: Untagged
+  m_TagString: MediumEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5130,7 +5130,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &3240569305783639093
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5147,7 +5147,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3240569306046259567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5160,7 +5161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556d71687ad3afe4082023bcbe476cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 15
+  _speed: 12
 --- !u!114 &3181440680087636314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5198,6 +5199,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 562b0a98f335f314093a77030bec64f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spawnTextPrefab: {fileID: 7158899585622744305, guid: 435ecc1674a2ada498a4266bcdd6efc1, type: 3}
+  _explosionParticle: {fileID: 1170647396387605274, guid: 87f387d6a8ee571418b6adae2ad2506b, type: 3}
+  _pointValue: 20
+  _spawnTextOptions:
+  - '!!!!!!'
+  _pointSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
 --- !u!1 &3240569305793250617
 GameObject:
   m_ObjectHideFlags: 0

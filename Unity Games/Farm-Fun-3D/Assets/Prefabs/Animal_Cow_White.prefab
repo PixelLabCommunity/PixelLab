@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 8858874490780877849}
   m_Layer: 7
   m_Name: Animal_Cow_White
-  m_TagString: Untagged
+  m_TagString: HardEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1772,7 +1772,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &1191534088498010485
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1789,7 +1789,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1191534087865025879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1840,6 +1841,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 562b0a98f335f314093a77030bec64f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spawnTextPrefab: {fileID: 7158899585622744305, guid: 435ecc1674a2ada498a4266bcdd6efc1, type: 3}
+  _explosionParticle: {fileID: 1170647396387605274, guid: 87f387d6a8ee571418b6adae2ad2506b, type: 3}
+  _pointValue: 40
+  _spawnTextOptions:
+  - BEST!!!!!
+  - AWESOME!!!!
+  _pointSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
 --- !u!1 &1191534088488654021
 GameObject:
   m_ObjectHideFlags: 0

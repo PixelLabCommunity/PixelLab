@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Scripts
@@ -17,6 +15,9 @@ namespace Scripts
         [SerializeField] private float _chargeJumpForce;
         [SerializeField] private float _chargeJumpSpeed;
         [SerializeField] private float _chargeJumpTime;
+        [SerializeField] private FixedJoystick _joystick;
+
+        
 
         private Rigidbody2D _rb;
         private float _input;
@@ -24,46 +25,26 @@ namespace Scripts
         private bool _isGrounded;
         private float _jumpTimeCounter;
         private bool _isJumping;
-        private int _extraJump;
         private bool _isChargingJump;
+        private bool _canDoubleJump = true;
+
+        
 
         private void Start()
         {
             _rb = GetComponent<Rigidbody2D>();
+
+           
         }
 
         private void Update()
         {
-            _isGrounded = Physics2D.OverlapCircle(_checkGround.position, _checkJumpRadius, _whatIsGround);
-            if (Input.GetKeyDown(KeyCode.Space) && _isGrounded == true)
-            {
-                _isJumping = true;
-                _jumpTimeCounter = _jumpTime;
-                _rb.velocity = Vector2.up * _jumpForce;
-            }
-            if (Input.GetKey(KeyCode.Space) && _isJumping == true)
-            {
-                if (_jumpTimeCounter > 0)
-                {
-                    _rb.velocity = Vector2.up * _jumpForce;
-                    _jumpTimeCounter -= Time.deltaTime;
-                }
-                else
-                {
-                    _isJumping = false;
-                }
-            }
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                _isJumping = false;
-            }
-            ExtraJump();
             ChargeJump();
         }
 
         private void FixedUpdate()
         {
-            _input = Input.GetAxisRaw("Horizontal");
+            _input = _joystick.Horizontal;
             _rb.velocity = new Vector2(_input * _speed, _rb.velocity.y);
 
             if (_input > 0 && _isFacingRight == false)
@@ -76,29 +57,41 @@ namespace Scripts
             }
         }
 
+        public void JumpButton()
+        {
+            _isGrounded = Physics2D.OverlapCircle(_checkGround.position, _checkJumpRadius, _whatIsGround);
+
+            if (_isGrounded)
+            {
+                _isJumping = true;
+                _jumpTimeCounter = _jumpTime;
+                _rb.velocity = Vector2.up * _jumpForce;
+            }
+            else if (_canDoubleJump)
+            {
+                _isJumping = true;
+                _canDoubleJump = false;
+                _jumpTimeCounter = _jumpTime;
+                _rb.velocity = Vector2.up * _jumpForce;
+            }
+        }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Ground"))
+            {
+                _isJumping = false;
+                _canDoubleJump = true;
+            }
+        }
+
         private void Flip()
         {
             transform.Rotate(0f, 180f, 0f);
             _isFacingRight = !_isFacingRight;
         }
 
-        private void ExtraJump()
-        {
-            if (Input.GetKeyDown(KeyCode.Space) && _extraJump > 0 && _isGrounded == false)
-            {
-                _rb.velocity = Vector2.up * _extraJumpForce;
-                _extraJump--;
-            }
-            else if (Input.GetKeyDown(KeyCode.Space) && _extraJump == 0 && _isGrounded == true)
-            {
-                _rb.velocity = Vector2.up * _jumpForce;
-            }
-            if (_isGrounded == true)
-            {
-                _extraJump = _extraJumpValue;
-            }
-        }
-
+        // Reserve
         private void ChargeJump()
         {
             if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
@@ -120,5 +113,7 @@ namespace Scripts
                 _chargeJumpTime = 0;
             }
         }
+
+        
     }
 }
