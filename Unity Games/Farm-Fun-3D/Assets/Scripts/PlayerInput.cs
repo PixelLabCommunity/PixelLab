@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerInput : MonoBehaviour
 {
@@ -14,8 +15,6 @@ public class PlayerInput : MonoBehaviour
         PlayerBounds();
 
         PlayerMovement();
-
-        PlayerShoot();
     }
 
     private void PlayerMovement()
@@ -33,9 +32,9 @@ public class PlayerInput : MonoBehaviour
         transform.Translate(horizontalInput * _speed * Time.deltaTime * Vector3.right);
     }
 
-    private void PlayerShoot()
+    public void PlayerShoot()
     {
-        // Keep Player throw pizza
+        Instantiate(_prefabPizza, transform.position, _prefabPizza.transform.rotation);
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(_prefabPizza, transform.position, _prefabPizza.transform.rotation);

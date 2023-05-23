@@ -1,11 +1,14 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+
+
+
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] _animalPrefabs;
 
-    
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private GameObject _gameOverScreen;
 
@@ -42,13 +45,14 @@ public class GameManager : MonoBehaviour
     public void UpdateScore(int _scoreToAdd)
     {
         _score += _scoreToAdd;
-        _scoreText.text = "Score: " + _score;
+        _scoreText.SetText("Score: " + _score);
 
         if (_score < _scoreOnStart)
         {
             GameOver();
         }
     }
+
 
     public void GameOver()
     {
