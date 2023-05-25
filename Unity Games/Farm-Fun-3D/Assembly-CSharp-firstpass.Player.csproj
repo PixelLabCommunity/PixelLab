@@ -660,10 +660,6 @@
       <Project>{6BA66A3F-51E0-9BCA-382D-51551267E257}</Project>
       <Name>CFXRDemo.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="CFXRRuntime.Player.csproj">
-      <Project>{6E87691B-34B7-57A4-ED3F-A7EDBA2BA77C}</Project>
-      <Name>CFXRRuntime.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{62E95DB4-6642-8ED0-F167-FEAA286F41C3}</Project>
       <Name>UnityEngine.UI.Player</Name>
@@ -672,13 +668,17 @@
       <Project>{E93C0428-AAA0-B52C-99B8-64CDDC25C5ED}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{44AD6BB4-A8FA-D7AF-F705-CE08D2DDDD04}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{A6DB5A22-7FBA-65C4-A5D4-2AFCC6399BA2}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.Player.csproj">
+      <Project>{6E87691B-34B7-57A4-ED3F-A7EDBA2BA77C}</Project>
+      <Name>CFXRRuntime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{44AD6BB4-A8FA-D7AF-F705-CE08D2DDDD04}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
