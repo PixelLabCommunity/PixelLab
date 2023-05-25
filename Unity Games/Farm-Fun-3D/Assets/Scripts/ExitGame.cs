@@ -5,9 +5,15 @@ public class ExitGame : MonoBehaviour
 {
     private readonly int _buildIndexClose = 2;
 
-    public void ExitGameTitle()
+    public void ReturnMainMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - _buildIndexClose);
+        Debug.Log("Returned to Main Menu");
+    }
+
+    public void ExitGameButton()
+    {
+        Application.Quit();
         Debug.Log("Game Closed");
     }
 

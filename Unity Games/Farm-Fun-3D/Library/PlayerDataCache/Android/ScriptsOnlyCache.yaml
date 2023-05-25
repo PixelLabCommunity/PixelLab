@@ -91,7 +91,7 @@ ScriptsOnlyBuild:
     methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: ExitGame
-    methodName: ExitGameTitle
+    methodName: ExitGameButton
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
@@ -112,7 +112,7 @@ ScriptsOnlyBuild:
     methodName: PlayerShoot
   - assembly: Assembly-CSharp
     fullTypeName: ExitGame
-    methodName: ExitGameTitle
+    methodName: ReturnMainMenu
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -170,29 +170,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17130}
     - Class: 114
-      Script: {instanceID: 17338}
+      Script: {instanceID: 17340}
     - Class: 114
-      Script: {instanceID: 17466}
+      Script: {instanceID: 17468}
     - Class: 114
-      Script: {instanceID: 17952}
+      Script: {instanceID: 17954}
     - Class: 114
-      Script: {instanceID: 18056}
+      Script: {instanceID: 18058}
     - Class: 114
-      Script: {instanceID: 18900}
+      Script: {instanceID: 18904}
     - Class: 114
-      Script: {instanceID: 18924}
+      Script: {instanceID: 18928}
     - Class: 114
-      Script: {instanceID: 19590}
+      Script: {instanceID: 19594}
     - Class: 114
-      Script: {instanceID: 19624}
+      Script: {instanceID: 19628}
     - Class: 114
-      Script: {instanceID: 20144}
+      Script: {instanceID: 20148}
     - Class: 114
-      Script: {instanceID: 20296}
+      Script: {instanceID: 20300}
     - Class: 114
-      Script: {instanceID: 20618}
+      Script: {instanceID: 20622}
     - Class: 114
-      Script: {instanceID: 21428}
+      Script: {instanceID: 21432}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -245,13 +245,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17130}
     - Class: 114
-      Script: {instanceID: 17338}
+      Script: {instanceID: 17340}
     - Class: 114
-      Script: {instanceID: 20144}
+      Script: {instanceID: 18124}
     - Class: 114
-      Script: {instanceID: 20618}
+      Script: {instanceID: 20148}
     - Class: 114
-      Script: {instanceID: 95352}
+      Script: {instanceID: 20622}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -302,31 +302,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17130}
     - Class: 114
-      Script: {instanceID: 17338}
+      Script: {instanceID: 17340}
     - Class: 114
-      Script: {instanceID: 17952}
+      Script: {instanceID: 17954}
     - Class: 114
-      Script: {instanceID: 18088}
+      Script: {instanceID: 18090}
     - Class: 114
-      Script: {instanceID: 18510}
+      Script: {instanceID: 18514}
     - Class: 114
-      Script: {instanceID: 18616}
+      Script: {instanceID: 18620}
     - Class: 114
-      Script: {instanceID: 18872}
+      Script: {instanceID: 18876}
     - Class: 114
-      Script: {instanceID: 19462}
+      Script: {instanceID: 19466}
     - Class: 114
-      Script: {instanceID: 19512}
+      Script: {instanceID: 19516}
     - Class: 114
-      Script: {instanceID: 19556}
+      Script: {instanceID: 19560}
     - Class: 114
-      Script: {instanceID: 19590}
+      Script: {instanceID: 19594}
     - Class: 114
-      Script: {instanceID: 20144}
+      Script: {instanceID: 20148}
     - Class: 114
-      Script: {instanceID: 20296}
+      Script: {instanceID: 20300}
     - Class: 114
-      Script: {instanceID: 20618}
+      Script: {instanceID: 20622}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -592,6 +592,12 @@ ScriptsOnlyBuild:
     className: UnityMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 918b9a7960f0785cd0daeca135870ef6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -818,6 +824,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMusic
+  - hash:
+      serializedVersion: 2
+      Hash: 14b3b119784ae971b6737773fd2d2a34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadingScreen
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1616,18 +1628,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 918b9a7960f0785cd0daeca135870ef6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SoundManager
-  - hash:
-      serializedVersion: 2
-      Hash: 284ccda38a99327e52fb201e881ad9a6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadingScreen
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
