@@ -1,20 +1,60 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MusicSettings : MonoBehaviour
 {
-    public AudioSource _audioSource;
+    private static readonly string FirstPlay = "FirstPlay";
+    private static readonly string BackgroundPref = "BackgroundPref";
+    private static readonly string SoundEffectPref = "SoundEffectPref";
 
-    public void SaveSettings()
+    private int firstPlayInt;
+    public Slider backgroundSlider, soundEffectSlider;
+    private float backgroundFloat, soundEffectFloat;
+
+    public AudioSource backgroundAudio;
+    public AudioSource [] soundEffectAudio;
+
+    private void Start()
     {
-        PlayerPrefs.SetFloat("volume", _audioSource.volume);
+        firstPlayInt = PlayerPrefs.GetInt(FirstPlay);
+
+        if (firstPlayInt == 0)
+        {
+            backgroundFloat = 1f;
+            soundEffectFloat = 1f;
+            backgroundSlider.value = backgroundFloat;
+            soundEffectSlider.value = soundEffectFloat;
+            PlayerPrefs.SetFloat(BackgroundPref, backgroundFloat);
+            PlayerPrefs.SetFloat(SoundEffectPref, soundEffectFloat);
+            PlayerPrefs.SetInt(FirstPlay, -1);
+        }
+        else 
+        {
+            backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
+            backgroundSlider.value = backgroundFloat;
+            soundEffectFloat = PlayerPrefs.GetFloat(SoundEffectPref);
+            soundEffectSlider.value = soundEffectFloat;
+        }
+
     }
 
-    public void LoadSettinds()
+    public void SaveSoundSettings()
     {
-        var volume = PlayerPrefs.GetFloat("volume");
-        _audioSource.volume = volume;
+        PlayerPrefs.SetFloat(BackgroundPref, backgroundSlider.value);
+        PlayerPrefs.SetFloat(SoundEffectPref, soundEffectSlider.value);
+    }
 
+    private void OnApplicationFocus(bool focus)
+    {
+        if (!focus) { SaveSoundSettings(); }
+    }
+
+    public void UpdateSound()
+    {
+        backgroundAudio.volume = backgroundSlider.value;
+        for (int i = 0; i < soundEffectAudio.Length; i++)
+        {
+            soundEffectAudio[i].volume = soundEffectSlider.value;
+        }
     }
 }

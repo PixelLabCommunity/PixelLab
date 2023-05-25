@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        _playerAudioSource = GameObject.Find("SoundManager").GetComponent<AudioSource>();
+        _playerAudioSource = GameObject.Find("Main Music").GetComponent<AudioSource>();
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 

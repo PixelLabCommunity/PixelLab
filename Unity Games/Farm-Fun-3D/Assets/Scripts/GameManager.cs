@@ -1,9 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-
-
-
 
 public class GameManager : MonoBehaviour
 {
@@ -52,7 +48,6 @@ public class GameManager : MonoBehaviour
             GameOver();
         }
     }
-
 
     public void GameOver()
     {

@@ -196,7 +196,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878734940933766951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.13337907, z: -0.05985334}
+  m_LocalPosition: {x: 0.293, y: 0.13337907, z: -0.034}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -383,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878734940933780767}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -8.37, y: -0.24, z: 6.6431036}
+  m_LocalPosition: {x: -6.87, y: -0.24, z: 6.31}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -476,10 +476,10 @@ MonoBehaviour:
   _spawnTextPrefab: {fileID: 7158899585622744305, guid: 435ecc1674a2ada498a4266bcdd6efc1, type: 3}
   _explosionParticle: {fileID: 1170647396387605274, guid: 87f387d6a8ee571418b6adae2ad2506b, type: 3}
   _pointValue: 20
+  _pointSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
   _spawnTextOptions:
   - NICE!!!!
   - GOOODDD!!!!
-  _pointSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
 --- !u!1 &1878734940933921861
 GameObject:
   m_ObjectHideFlags: 0
