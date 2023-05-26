@@ -1,37 +1,51 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LoadingScreen : MonoBehaviour
 {
     [SerializeField] private GameObject _loadingScreen;
-    //[SerializeField] private Image loadingImage;
-
-    private int _sceneDelayId = 2;
-    private float _sceneDelaySec = 5.0f;
+    [SerializeField] private Image _loadingImage;
+    [SerializeField] private float _loadingSpeed = 0.5f;
+    [SerializeField] private int _sceneId = 2;
+    [SerializeField] private float _delaySeconds = 5.0f;
 
     private void Start()
     {
-        StartCoroutine(AutoLoadSceneAsync(_sceneDelayId, _sceneDelaySec));
+        StartCoroutine(LoadSceneWithDelayAsync());
     }
 
-    IEnumerator AutoLoadSceneAsync(int sceneId, float delaySeconds)
+    IEnumerator LoadSceneWithDelayAsync()
     {
-        yield return new WaitForSeconds(delaySeconds);
+        yield return new WaitForSeconds(_delaySeconds);
 
-        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneId);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(_sceneId);
 
         _loadingScreen.SetActive(true);
 
         while (!operation.isDone)
         {
-            var _progressBar = Mathf.Clamp01(operation.progress / 0.9f);
-
-            //loadingImage.fillAmount = _progressBar;
+            float progressValue = Mathf.Clamp01(operation.progress / 0.9f);
+            _loadingImage.fillAmount = progressValue;
 
             yield return null;
         }
     }
 
-
+    private void Update()
+    {
+        if (_loadingImage.fillAmount != 1f)
+        {
+            float fillAmountDelta = Time.deltaTime * _loadingSpeed;
+            if (_loadingImage.fillAmount + fillAmountDelta > 1f)
+                _loadingImage.fillAmount = 1f;
+            else
+                _loadingImage.fillAmount += fillAmountDelta;
+        }
+        else
+        {
+            // Scene loading complete, perform any necessary actions
+        }
+    }
 }
