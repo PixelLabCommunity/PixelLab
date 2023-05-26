@@ -9,6 +9,7 @@ public class PlayerInput : MonoBehaviour
 
     private float _horizontalInput;
     private readonly float _xRange = 16.5f;
+    private Vector3 _pizzaPosition = new Vector3(0f,0f,1f);
 
     private void Update()
     {
@@ -34,12 +35,13 @@ public class PlayerInput : MonoBehaviour
 
     public void PlayerShoot()
     {
-        Instantiate(_prefabPizza, transform.position, _prefabPizza.transform.rotation);
+        Instantiate(_prefabPizza, transform.position + _pizzaPosition, _prefabPizza.transform.rotation);
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(_prefabPizza, transform.position, _prefabPizza.transform.rotation);
+            Instantiate(_prefabPizza, transform.position + _pizzaPosition, _prefabPizza.transform.rotation);
         }
     }
+
 
     private void PlayerBounds()
     {

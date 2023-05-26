@@ -7,7 +7,7 @@ public class LoadingScreen : MonoBehaviour
 {
     [SerializeField] private GameObject _loadingScreen;
     [SerializeField] private Image _loadingImage;
-    [SerializeField] private float _loadingSpeed = 0.5f;
+    [SerializeField] private float _loadingSpeed = 0.15f;
     [SerializeField] private int _sceneId = 2;
     [SerializeField] private float _delaySeconds = 5.0f;
 

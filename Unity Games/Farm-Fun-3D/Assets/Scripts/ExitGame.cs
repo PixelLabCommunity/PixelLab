@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ExitGame : MonoBehaviour
 {
-    private readonly int _buildIndexClose = 2;
+    [SerializeField] private int _buildIndexClose = 2;
 
     public void ReturnMainMenu()
     {
@@ -16,5 +16,4 @@ public class ExitGame : MonoBehaviour
         Application.Quit();
         Debug.Log("Game Closed");
     }
-
 }
