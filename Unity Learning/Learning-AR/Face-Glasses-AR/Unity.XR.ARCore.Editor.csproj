@@ -56,14 +56,14 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\Gradle.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\Java.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\ARCoreImageLibraryBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\Cli.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\ARCorePackageMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\ArCoreImg.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\ARCoreSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\Cli.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\ARCoreBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@4.2.8\Editor\ARCoreSettingsProvider.cs" />
   </ItemGroup>

@@ -56,25 +56,25 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\LongTextArea.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.LLVMIR.info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstAotCompiler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.Wasm.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.LLVMIR.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.ARM64.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstStringSearch.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.x86.info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstInspectorGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstAotSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\LabeledPopup.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.ARM64.info.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstMath.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.x86.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.ARM64.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstAotCompiler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.Wasm.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstStringSearch.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.x86.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\LongTextArea.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.LLVMIR.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.LLVMIR.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstInspectorGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstAotSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstDisassembler.Core.Wasm.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\BurstMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.burst@1.8.4\Editor\Unity.Burst.Editor.asmdef" />

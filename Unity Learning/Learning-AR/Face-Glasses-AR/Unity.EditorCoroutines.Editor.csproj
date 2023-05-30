@@ -56,8 +56,8 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutine.cs" />
     <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorWindowCoroutineExtension.cs" />
+    <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutine.cs" />
     <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorWaitForSeconds.cs" />
     <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutineUtility.cs" />
   </ItemGroup>

@@ -60,24 +60,24 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARKitBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\NoniOSBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ObjectTracking\ARKitReferenceObjectEntryEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\Json.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARResourceGroup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARResource.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARKitSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ACTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARKitBuildHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ObjectTracking\ARObject.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ObjectTracking\ARKitReferenceObjectLibraryBuildProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARReferenceImage.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ObjectTracking\ARObjectImporter.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\GuidExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\XcodeAssetCatalog.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ObjectTracking\ARObjectInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARKitReferenceImageLibraryBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\Cli.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARKitSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\Plist.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\Json.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARResource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARKitBuildHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARReferenceImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ObjectTracking\ARObjectInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\ARKitReferenceImageLibraryBuildProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.arkit@4.2.8\Editor\Unity.XR.ARKit.Editor.asmdef" />

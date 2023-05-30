@@ -56,36 +56,36 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\WaitForRestartFinish.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\input\OpenXRInput.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\input\OpenXRHmd.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\input\HapticControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRLoaderInternal.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRDiagnosticReport.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\MicrosoftHandInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRRestarter.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\MetaQuestTouchProControllerProfile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRRenderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRFeatureInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRFeatureSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRInteractionFeature.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\OculusTouchControllerProfile.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\EyeGazeInteraction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\WaitForRestartFinish.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\input\OpenXRInput.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRDiagnosticReport.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRRenderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRFeatureAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\MicrosoftMotionControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\KHRSimpleControllerProfile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRFeatureInternal.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRNativeTypes.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\input\OpenXRDevice.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRProjectValidation.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\HTCViveControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRLoader.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRRuntime.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRFeatureSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRLoaderNoPreInit.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\input\PoseControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRFeature.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\OpenXRInteractionFeature.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\OculusTouchControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\OpenXRAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\EyeGazeInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\Runtime\Features\Interactions\ValveIndexControllerProfile.cs" />
   </ItemGroup>
   <ItemGroup>

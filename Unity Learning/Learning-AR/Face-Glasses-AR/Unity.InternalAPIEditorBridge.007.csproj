@@ -56,18 +56,18 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\LocalizationDatabaseProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\GUIViewProxy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\AudioUtilProxy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\AssemblyInfo.cs.cs" />
     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\WindowLayoutProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\EditorGUIProxy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\UIElementsHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\GUIViewDebuggerHelperProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\EditorGUIUtilityProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\InspectorWindowProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\EditorWindowProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\UnityConnectSession.cs" />
+    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\LocalizationDatabaseProxy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\AudioUtilProxy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\AssemblyInfo.cs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\UIElementsHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\GUIViewDebuggerHelperProxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.1\Editor\InternalBridge\InternalBridge.asmdef" />

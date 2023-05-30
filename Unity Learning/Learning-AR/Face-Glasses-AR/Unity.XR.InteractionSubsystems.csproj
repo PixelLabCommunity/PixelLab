@@ -56,13 +56,13 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\GestureSubsystem\Gestures\ActivateGestureEvent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\GestureSubsystem\GestureId.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\GestureSubsystem\GestureState.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\GestureSubsystem\XRGestureSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\SubsystemLifecycleManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\GestureSubsystem\Gestures\ActivateGestureEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\NativeCopyUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\GestureSubsystem\GestureId.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1\Runtime\GestureSubsystem\XRGestureSubsystem.cs" />
   </ItemGroup>
   <ItemGroup>

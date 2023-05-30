@@ -56,27 +56,27 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\GUI\ReadOnlyPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\GUI\EnumDisplayPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Datums\DatumPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\BuildValidator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\XROriginEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\EditorScriptableSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Datums\IntDatumPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\PackageVersionUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\ProjectValidationSettingsProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\EditorPrefsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ScriptableSettingsProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Datums\AnimationCurveDatumPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\BuildValidationRule.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\PackageVersion.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\ProjectValidationDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Datums\StringDatumPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Datums\FloatDatumPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\EditorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\GUI\FlagsPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ScriptableSettingsInitializer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\GUI\ReadOnlyPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\GUI\EnumDisplayPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Datums\DatumPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\XROriginEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\EditorPrefsUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Datums\AnimationCurveDatumPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\PackageVersion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\ProjectValidation\ProjectValidationDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\Editor\Unity.XR.CoreUtils.Editor.asmdef" />

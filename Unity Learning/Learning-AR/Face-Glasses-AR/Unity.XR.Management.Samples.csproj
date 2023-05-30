@@ -56,9 +56,9 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\SampleSettings.cs" />
     <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\SampleConstants.cs" />
     <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\SampleLoader.cs" />
+    <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\SampleSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\Unity.XR.Management.Samples.asmdef" />

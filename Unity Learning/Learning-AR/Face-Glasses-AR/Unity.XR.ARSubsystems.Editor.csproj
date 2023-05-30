@@ -57,14 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\XRReferenceImageLibraryBuildProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\XRReferenceImageLibraryEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\SerializableGuidUtil.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\XRReferenceImageLibraryExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\XRReferenceObjectLibraryEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\PreprocessBuildEventArgs.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\BuildHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\GuidExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\ARBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\XRReferenceImageLibraryEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\XRReferenceImageLibraryExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\PreprocessBuildEventArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\BuildHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.8\Editor\XRReferenceObjectLibraryExtensions.cs" />
   </ItemGroup>
   <ItemGroup>

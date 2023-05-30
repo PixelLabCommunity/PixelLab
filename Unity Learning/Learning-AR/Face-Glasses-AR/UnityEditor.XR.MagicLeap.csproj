@@ -57,9 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\ManifestEditorGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\MagicLeapManifestBuildProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\Privilege.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\MagicLeapBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\Privilege.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\MLSpatialMapperEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\MagicLeapManifestSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\ImageDatabase\MagicLeapImageDatabaseLibraryCache.cs" />
@@ -67,13 +66,14 @@
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\SDKUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\PlatformLevelSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\MagicLeapPackageMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\MLDashboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Remote\MacOSDependencyTools.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\ImageDatabase\MagicLeapImageDatabaseBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\PrivilegeGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Remote\MagicLeapRemoteImportSupport.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\PrivilegeParser.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\ReflectionUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\Manifest\MagicLeapManifestBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\MLDashboard.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\ImageDatabase\MagicLeapImageDatabaseBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@6.4.1\Editor\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

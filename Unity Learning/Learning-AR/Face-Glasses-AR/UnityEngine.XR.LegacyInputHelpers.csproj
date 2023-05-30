@@ -56,9 +56,9 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Runtime\ArmModels\TransitionArmModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Runtime\ArmModels\ArmModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Runtime\CameraOffset.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Runtime\ArmModels\TransitionArmModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Runtime\ArmModels\SwingArmModel.cs" />
   </ItemGroup>
   <ItemGroup>

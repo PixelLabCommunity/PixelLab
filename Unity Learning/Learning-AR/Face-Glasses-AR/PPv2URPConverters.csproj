@@ -56,17 +56,17 @@
     <Analyzer Include="D:\ProgramData\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\GrainConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\BloomConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\ColorGradingConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\PostProcessEffectSettingsConverter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\GrainConverter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\VignetteConverter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\PPv2Converter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\ChromaticAberrationConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\DepthOfFieldConverter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\BloomConverter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\LensDistortionConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\PropertyConversions.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\MotionBlurConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\ChromaticAberrationConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\VignetteConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\PPv2Converter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\EffectConverters\LensDistortionConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.11\Editor\Converter\PPv2\PPv2ConversionIndexers.cs" />
   </ItemGroup>
   <ItemGroup>
