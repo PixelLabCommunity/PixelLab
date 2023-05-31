@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202929065063855
-    m_Hash: 1750751576
+      ticks: 638211602889582490
+    m_Hash: 3449257324
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Car-on-Road-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202929528984617
-    m_Hash: 3000115287
+      ticks: 638211603217395561
+    m_Hash: 2913123326
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Car-on-Road-3D/Packages
-m_EditorVersion: 2021.3.25f1 (68ef2c4f8861)
+m_EditorVersion: 2021.3.26f1 (a16dc32e0ff2)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.0.4
   testable: 0
@@ -200,7 +200,7 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.18
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -381,7 +381,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -693,12 +693,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 12.1.11
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.31
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.31
+  version: 1.1.33
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Car-on-Road-3D\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -752,18 +752,19 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.1.31
     - 1.1.33
     - 1.3.0
     - 1.3.1
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -796,16 +797,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637804266210000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
-    version: 1.1.31
+    version: 1.1.33
     nextVersion: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
@@ -3892,7 +3893,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
