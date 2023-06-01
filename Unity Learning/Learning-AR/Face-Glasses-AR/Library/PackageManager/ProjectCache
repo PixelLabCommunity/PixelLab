@@ -5596,9 +5596,11 @@ m_ResolvedPackages:
     - 1.2.1
     - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.2.3
-    verified: 1.2.3
+    - 1.2.4
+    verified: 1.2.4
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
@@ -5841,8 +5843,10 @@ m_ResolvedPackages:
     - 1.5.3
     - 1.6.0
     - 1.7.0
+    - 1.8.0
     compatible:
     - 1.7.0
+    - 1.8.0
     verified: 1.7.0
   dependencies:
   - name: com.unity.xr.management
