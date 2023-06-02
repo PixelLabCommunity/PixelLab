@@ -5,23 +5,90 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638208038328227748
-    m_Hash: 1629394626
+      ticks: 638213339230103838
+    m_Hash: 3379665219
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/AR_PixelLab/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638208038610113076
-    m_Hash: 4039563359
+      ticks: 638213339682757201
+    m_Hash: 47894367
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/AR_PixelLab/Packages
-m_EditorVersion: 2021.3.26f1 (a16dc32e0ff2)
+m_EditorVersion: 2022.3.0f1 (fb119bb0b476)
 m_ResolvedPackages:
+- packageId: com.unity.ai.navigation@1.1.3
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.3
+  source: 1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.ai.navigation@1.1.3
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 2.0.0-pre.3
+    compatible:
+    - 1.1.3
+    recommended: 1.1.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638173260900000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 21cc07be635247d730f8d1ef7c1987e222159a45
+    path: 
+  unityLifecycle:
+    version: 1.1.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collab-proxy@2.0.4
   testable: 0
   isDirectDependency: 1
@@ -115,7 +182,8 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 2.0.4
+    recommended: 2.0.4
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -154,6 +222,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.0.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.connect.share@4.2.3
   testable: 0
   isDirectDependency: 1
@@ -206,7 +279,8 @@ m_ResolvedPackages:
     - 4.2.3
     compatible:
     - 4.2.3
-    verified: 4.2.3
+    recommended: 4.2.3
+    deprecated: []
   dependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
@@ -216,7 +290,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   keywords:
   - webgl
   - share
@@ -242,12 +316,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.2.3
     nextVersion: 
-- packageId: com.unity.feature.ar@1.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.feature.ar@1.0.1
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 1.0.1
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.feature.ar@1.0.0
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.feature.ar@1.0.1
   assetPath: Packages/com.unity.feature.ar
   name: com.unity.feature.ar
   displayName: AR
@@ -264,10 +343,11 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 1.0.1
     compatible:
-    - 1.0.0
-    verified: 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
   dependencies:
   - name: com.unity.xr.arfoundation
     version: default
@@ -277,67 +357,63 @@ m_ResolvedPackages:
     version: default
   - name: com.unity.xr.magicleap
     version: default
-  - name: com.unity.xr.arkit-face-tracking
-    version: default
   - name: com.unity.xr.openxr
     version: default
   resolvedDependencies:
   - name: com.unity.xr.arfoundation
-    version: 4.2.7
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.3.3
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.xr.arkit
-    version: 4.2.7
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.xr.arcore
-    version: 4.2.7
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.xr.magicleap
-    version: 6.4.1
-  - name: com.unity.modules.screencapture
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  - name: com.unity.ugui
+    version: 5.0.5
+  - name: com.unity.inputsystem
+    version: 1.5.1
+  - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.3.3
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.xr.arkit
+    version: 5.0.5
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.xr.arcore
+    version: 5.0.5
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.xr.magicleap
+    version: 7.0.0
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
   - name: com.unity.xr.interactionsubsystems
-    version: 1.0.1
-  - name: com.unity.xr.arkit-face-tracking
-    version: 4.2.7
+    version: 2.0.0
   - name: com.unity.xr.openxr
     version: 1.7.0
-  - name: com.unity.inputsystem
-    version: 1.5.1
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -358,8 +434,13 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.0.1
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
@@ -386,7 +467,8 @@ m_ResolvedPackages:
     - 1.0.1
     compatible:
     - 1.0.1
-    verified: 1.0.1
+    recommended: 1.0.1
+    deprecated: []
   dependencies:
   - name: com.unity.ide.visualstudio
     version: default
@@ -424,7 +506,7 @@ m_ResolvedPackages:
   - name: com.unity.testtools.codecoverage
     version: 1.2.3
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   keywords: []
   registry:
     id: main
@@ -447,6 +529,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.rider@3.0.21
   testable: 0
   isDirectDependency: 1
@@ -505,9 +592,12 @@ m_ResolvedPackages:
     - 3.0.18
     - 3.0.20
     - 3.0.21
+    - 3.0.22
     compatible:
     - 3.0.21
-    verified: 3.0.21
+    - 3.0.22
+    recommended: 3.0.22
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -536,6 +626,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.21
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
@@ -581,7 +676,8 @@ m_ResolvedPackages:
     - 2.0.18
     compatible:
     - 2.0.18
-    verified: 2.0.18
+    recommended: 2.0.18
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -616,6 +712,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.0.18
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
@@ -653,7 +754,8 @@ m_ResolvedPackages:
     - 1.2.5
     compatible:
     - 1.2.5
-    verified: 1.2.5
+    recommended: 1.2.5
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -678,12 +780,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.learn.iet-framework@3.1.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.learn.iet-framework@3.1.3
   testable: 0
   isDirectDependency: 1
-  version: 3.1.1
+  version: 3.1.3
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.learn.iet-framework@3.1.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.learn.iet-framework@3.1.3
   assetPath: Packages/com.unity.learn.iet-framework
   name: com.unity.learn.iet-framework
   displayName: Tutorial Framework
@@ -753,10 +860,9 @@ m_ResolvedPackages:
     - 3.1.2
     - 3.1.3
     compatible:
-    - 3.1.1
-    - 3.1.2
     - 3.1.3
-    verified: 3.1.3
+    recommended: 3.1.3
+    deprecated: []
   dependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
@@ -766,7 +872,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   keywords:
   - tutorials
   registry:
@@ -779,23 +885,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637986692310000000
+  datePublishedTicks: 638064373090000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/iet-package.git
-    revision: 72747f66cf61e0f22da00baa7b25bde17b14c3dd
+    revision: 803438c4505769ffe25d5e411a59a8f2c8d8831a
     path: 
   unityLifecycle:
-    version: 3.1.1
+    version: 3.1.3
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.11
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.universal@14.0.7
   testable: 0
   isDirectDependency: 1
-  version: 12.1.11
+  version: 14.0.7
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.render-pipelines.universal@12.1.11
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.render-pipelines.universal@14.0.7
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -858,26 +969,27 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.11
+    - 14.0.7
     compatible:
-    - 12.1.11
-    verified: 12.1.11
+    - 14.0.7
+    recommended: 14.0.7
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 14.0.7
   - name: com.unity.shadergraph
-    version: 12.1.11
+    version: 14.0.7
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 14.0.7
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -886,12 +998,14 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.11
+    version: 14.0.7
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords:
   - graphics
   - performance
@@ -918,8 +1032,13 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.11
+    version: 14.0.7
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
@@ -996,7 +1115,8 @@ m_ResolvedPackages:
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.33
+    recommended: 1.1.33
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1035,6 +1155,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.1.33
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
@@ -1166,7 +1291,10 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
-    verified: 3.0.6
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    recommended: 3.0.6
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1204,12 +1332,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.6.5
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.timeline@1.7.4
   testable: 0
   isDirectDependency: 1
-  version: 1.6.5
+  version: 1.7.4
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.timeline@1.6.5
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1305,18 +1438,12 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     compatible:
-    - 1.6.5
-    - 1.7.0-pre.1
-    - 1.7.0-pre.2
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
     - 1.7.4
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.5
+    recommended: 1.7.4
+    deprecated: []
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1351,17 +1478,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638182037450000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.6/manual/index.html
+  datePublishedTicks: 638143790870000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 4ed67a7e62ce940db3d44dc5eca8fade1c664aed
+    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
     path: 
   unityLifecycle:
-    version: 1.6.5
+    version: 1.7.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1389,7 +1521,8 @@ m_ResolvedPackages:
     - 3.0.0-exp.1
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1426,6 +1559,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
@@ -1476,7 +1614,9 @@ m_ResolvedPackages:
     - 1.8.0
     compatible:
     - 1.8.0
-    verified: 1.8.0
+    recommended: 1.8.0
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1513,15 +1653,20 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.8.0
     nextVersion: 
-- packageId: com.unity.xr.arcore@4.2.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.arcore@5.0.5
   testable: 0
   isDirectDependency: 1
-  version: 4.2.7
+  version: 5.0.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arcore@4.2.7
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arcore@5.0.5
   assetPath: Packages/com.unity.xr.arcore
   name: com.unity.xr.arcore
-  displayName: ARCore XR Plugin
+  displayName: Google ARCore XR Plugin
   author:
     name: 
     email: 
@@ -1646,18 +1791,6 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     compatible:
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
     - 5.0.5
     - 5.0.6
     - 5.1.0-pre.1
@@ -1665,10 +1798,13 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
-    verified: 4.2.8
+    recommended: 5.0.6
+    deprecated: []
   dependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
+  - name: com.unity.xr.arfoundation
+    version: 5.0.5
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
   - name: com.unity.xr.management
     version: 4.0.1
   - name: com.unity.modules.androidjni
@@ -1676,27 +1812,43 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
+  - name: com.unity.xr.arfoundation
+    version: 5.0.5
+  - name: com.unity.inputsystem
+    version: 1.5.1
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
     version: 4.3.3
   - name: com.unity.modules.vr
     version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
-  - name: com.unity.modules.androidjni
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords:
   - arcore
@@ -1715,17 +1867,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638034330180000000
-  documentationUrl: 
+  datePublishedTicks: 638143792490000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: f49c023e846a14016db6ff2bc4c5d0d2e421bef6
+    revision: 859a5fcab05cb6cc9560d95819f3741ec1b72063
     path: 
   unityLifecycle:
-    version: 4.2.7
+    version: 5.0.5
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.xr.management@4.3.3
   testable: 0
   isDirectDependency: 1
@@ -1801,7 +1958,8 @@ m_ResolvedPackages:
     - 4.3.3
     compatible:
     - 4.3.3
-    verified: 4.3.3
+    recommended: 4.3.3
+    deprecated: []
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -1853,6 +2011,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.3.3
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1877,7 +2040,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1902,6 +2066,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1925,7 +2094,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1950,6 +2120,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1974,7 +2149,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1999,6 +2175,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2023,7 +2204,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2048,6 +2230,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2072,7 +2259,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2097,6 +2285,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2121,7 +2314,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2150,6 +2344,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2174,7 +2373,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -2207,6 +2407,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2232,7 +2437,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2257,6 +2463,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2281,7 +2492,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2306,6 +2518,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2330,7 +2547,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2355,6 +2573,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2379,7 +2602,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2404,6 +2628,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2428,7 +2657,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2453,6 +2683,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2477,7 +2712,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2502,6 +2738,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2526,7 +2767,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -2555,6 +2797,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2579,7 +2826,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2604,6 +2852,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2628,7 +2881,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2661,6 +2915,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2684,7 +2943,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -2713,6 +2973,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2737,7 +3002,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2762,6 +3028,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2786,7 +3057,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -2794,16 +3066,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -2827,6 +3095,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2851,7 +3124,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2876,6 +3150,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2900,7 +3179,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2933,6 +3213,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2957,7 +3242,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2982,6 +3268,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3006,7 +3297,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -3039,6 +3331,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3063,7 +3360,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3096,6 +3394,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3120,7 +3423,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3153,6 +3457,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3177,7 +3486,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3226,6 +3536,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3250,7 +3565,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3279,6 +3595,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3303,7 +3624,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -3340,6 +3662,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3364,7 +3691,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3403,6 +3731,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3427,7 +3760,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3452,6 +3786,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3476,7 +3815,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3513,6 +3853,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3537,7 +3882,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3566,66 +3912,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.modules.uielementsnative@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
-  assetPath: Packages/com.unity.modules.uielementsnative
-  name: com.unity.modules.uielementsnative
-  displayName: UIElements Native
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 0
@@ -3678,7 +3969,8 @@ m_ResolvedPackages:
     - 2.1.10
     compatible:
     - 2.1.10
-    verified: 2.1.10
+    recommended: 2.1.10
+    deprecated: []
   dependencies:
   - name: com.unity.modules.vr
     version: 1.0.0
@@ -3722,34 +4014,57 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.1.10
     nextVersion: 
-- packageId: com.unity.xr.arsubsystems@4.2.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.arfoundation@5.0.5
   testable: 0
   isDirectDependency: 0
-  version: 4.2.7
+  version: 5.0.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arsubsystems@4.2.7
-  assetPath: Packages/com.unity.xr.arsubsystems
-  name: com.unity.xr.arsubsystems
-  displayName: AR Subsystems
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arfoundation@5.0.5
+  assetPath: Packages/com.unity.xr.arfoundation
+  name: com.unity.xr.arfoundation
+  displayName: AR Foundation
   author:
     name: 
     email: 
     url: 
   category: 
   type: asset
-  description: Contains definitions for AR Subsystems. This package is a dependency
-    of provider packages, as well as AR Foundation.
+  description: "A collection of Subsystems as well as MonoBehaviours and C# utilities
+    for working with the Subsystems. \n\nIncludes: \n\u25AA Definitions of Subsystems
+    \n\u25AA GameObject menu items for creating an AR setup \n\u25AA MonoBehaviours
+    that control AR session lifecycle and create GameObjects from detected, real-world
+    trackable features \n\u25AA Scale handling \n\u25AA Face tracking\n\nSamples
+    available at https://github.com/Unity-Technologies/arfoundation-samples"
   status: 0
   errors: []
   versions:
     all:
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.22
+    - 1.1.0-preview.6
+    - 1.5.0-preview.2
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
     - 2.0.2
-    - 2.1.0-preview.1
     - 2.1.0-preview.2
-    - 2.1.0
+    - 2.1.0-preview.3
     - 2.1.1
-    - 2.1.2
     - 2.1.3
+    - 2.1.4
+    - 2.1.8
+    - 2.1.10
     - 2.1.14
     - 2.1.16
     - 2.1.18
@@ -3761,10 +4076,10 @@ m_ResolvedPackages:
     - 3.0.0-preview.2
     - 3.0.0-preview.3
     - 3.0.0-preview.4
-    - 3.0.0
-    - 3.0.2
+    - 3.0.0-preview.6
+    - 3.0.1
     - 3.1.0-preview.1
-    - 3.1.0-preview.2
+    - 3.1.0-preview.3
     - 3.1.0-preview.4
     - 3.1.0-preview.6
     - 3.1.0-preview.7
@@ -3775,7 +4090,7 @@ m_ResolvedPackages:
     - 3.1.10
     - 4.0.0-preview.1
     - 4.0.0-preview.3
-    - 4.0.1
+    - 4.0.2
     - 4.0.8
     - 4.0.9
     - 4.0.10
@@ -3823,44 +4138,91 @@ m_ResolvedPackages:
     - 5.0.0-pre.12
     - 5.0.0-pre.13
     - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
     compatible:
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    verified: 4.2.8
+    - 5.0.5
+    - 5.0.6
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    recommended: 5.0.6
+    deprecated: []
   dependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
   - name: com.unity.xr.management
     version: 4.0.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
+  - name: com.unity.inputsystem
+    version: 1.5.1
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
     version: 4.3.3
   - name: com.unity.modules.vr
     version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
   keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - foundation
+  - core
   - subsystem
-  - XR
-  - AR
+  - xreditorsubsystem
+  - arsimulation
   registry:
     id: main
     name: 
@@ -3871,17 +4233,111 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638034330150000000
-  documentationUrl: 
+  datePublishedTicks: 638143792460000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: f49c023e846a14016db6ff2bc4c5d0d2e421bef6
+    revision: 859a5fcab05cb6cc9560d95819f3741ec1b72063
     path: 
   unityLifecycle:
-    version: 4.2.7
+    version: 5.0.5
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.core-utils@2.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.2.1
+  source: 1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.core-utils@2.2.1
+  assetPath: Packages/com.unity.xr.core-utils
+  name: com.unity.xr.core-utils
+  displayName: XR Core Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "Common utility classes for XR projects\nRefer to API documentation
+    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
+    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
+    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
+    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
+    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
+    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
+    XR Origin Implementation"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    compatible:
+    - 2.2.1
+    recommended: 2.2.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638187829490000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+    revision: 0ec01755305a46c64c285b7ff29bc99eabf34a87
+    path: 
+  unityLifecycle:
+    version: 2.2.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
@@ -3915,7 +4371,8 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
-    verified: 1.0.6
+    recommended: 1.0.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3943,6 +4400,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
@@ -3983,7 +4445,8 @@ m_ResolvedPackages:
     - 1.2.6
     compatible:
     - 1.2.6
-    verified: 1.2.6
+    recommended: 1.2.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4009,6 +4472,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.burst@1.8.4
   testable: 0
   isDirectDependency: 0
@@ -4152,21 +4620,9 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     compatible:
-    - 1.6.6
-    - 1.7.0-pre.1
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.8.0-pre.1
-    - 1.8.0-pre.2
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
     - 1.8.4
-    verified: 1.6.6
+    recommended: 1.8.4
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -4193,14 +4649,19 @@ m_ResolvedPackages:
     revision: b05f7d57a035997c1abc0c742e812dadd107d467
     path: 
   unityLifecycle:
-    version: 1.6.6
+    version: 1.8.4
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.11
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.core@14.0.7
   testable: 0
   isDirectDependency: 0
-  version: 12.1.11
+  version: 14.0.7
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.render-pipelines.core@12.1.11
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.render-pipelines.core@14.0.7
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4319,14 +4780,17 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.11
+    - 14.0.7
     compatible:
-    - 12.1.11
-    verified: 12.1.11
+    - 14.0.7
+    recommended: 14.0.7
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -4338,6 +4802,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -4361,14 +4827,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.11
+    version: 14.0.7
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.11
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.shadergraph@14.0.7
   testable: 0
   isDirectDependency: 0
-  version: 12.1.11
+  version: 14.0.7
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.shadergraph@12.1.11
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.shadergraph@14.0.7
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4484,18 +4955,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.11
+    - 14.0.7
     compatible:
-    - 12.1.11
-    verified: 12.1.11
+    - 14.0.7
+    recommended: 14.0.7
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 14.0.7
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 14.0.7
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4504,10 +4976,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords: []
   registry:
     id: main
@@ -4528,8 +5002,13 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.11
+    version: 14.0.7
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -4561,7 +5040,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4589,12 +5069,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.settings-manager@1.0.3
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.3
+  version: 2.0.1
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.settings-manager@1.0.3
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4619,10 +5104,9 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     compatible:
-    - 1.0.3
-    - 2.0.0
     - 2.0.1
-    verified: 1.0.3
+    recommended: 2.0.1
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -4636,17 +5120,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
+  datePublishedTicks: 637744099390000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
     path: 
   unityLifecycle:
-    version: 1.0.3
+    version: 2.0.1
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
@@ -4687,7 +5176,8 @@ m_ResolvedPackages:
     - 1.2.2
     compatible:
     - 1.2.2
-    verified: 1.2.2
+    recommended: 1.2.2
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -4712,6 +5202,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.2
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.testtools.codecoverage@1.2.3
   testable: 0
   isDirectDependency: 0
@@ -4764,9 +5259,12 @@ m_ResolvedPackages:
     - 1.2.1
     - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.2.3
-    verified: 1.2.3
+    - 1.2.4
+    recommended: 1.2.4
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
@@ -4782,7 +5280,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   keywords:
   - test
   - coverage
@@ -4809,221 +5307,20 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.3
     nextVersion: 
-- packageId: com.unity.xr.arfoundation@4.2.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.arkit@5.0.5
   testable: 0
   isDirectDependency: 0
-  version: 4.2.7
+  version: 5.0.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arfoundation@4.2.7
-  assetPath: Packages/com.unity.xr.arfoundation
-  name: com.unity.xr.arfoundation
-  displayName: AR Foundation
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: "A collection of MonoBehaviours and C# utilities for working with
-    AR Subsystems. \n\nIncludes: \n\u25AA GameObject menu items for creating an AR
-    setup \n\u25AA MonoBehaviours that control AR session lifecycle and create GameObjects
-    from detected, real-world trackable features \n\u25AA Scale handling \n\u25AA
-    Face tracking\n\nSamples available at https://github.com/Unity-Technologies/arfoundation-samples"
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.12
-    - 1.0.0-preview.13
-    - 1.0.0-preview.14
-    - 1.0.0-preview.17
-    - 1.0.0-preview.18
-    - 1.0.0-preview.19
-    - 1.0.0-preview.20
-    - 1.0.0-preview.22
-    - 1.1.0-preview.6
-    - 1.5.0-preview.2
-    - 1.5.0-preview.5
-    - 1.5.0-preview.6
-    - 1.5.0-preview.7
-    - 2.0.2
-    - 2.1.0-preview.2
-    - 2.1.0-preview.3
-    - 2.1.1
-    - 2.1.3
-    - 2.1.4
-    - 2.1.8
-    - 2.1.10
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0-preview.6
-    - 3.0.1
-    - 3.1.0-preview.1
-    - 3.1.0-preview.3
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.5
-    - 3.1.6
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.2
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.1
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.1.10
-    - 4.1.12
-    - 4.1.13
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.5
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    compatible:
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    verified: 4.2.8
-  dependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  - name: com.unity.xr.management
-    version: 4.0.1
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.3.3
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  keywords:
-  - xr
-  - ar
-  - augmented
-  - reality
-  - utility
-  - utilities
-  - foundation
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638034330250000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: f49c023e846a14016db6ff2bc4c5d0d2e421bef6
-    path: 
-  unityLifecycle:
-    version: 4.2.7
-    nextVersion: 
-- packageId: com.unity.xr.arkit@4.2.7
-  testable: 0
-  isDirectDependency: 0
-  version: 4.2.7
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arkit@4.2.7
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arkit@5.0.5
   assetPath: Packages/com.unity.xr.arkit
   name: com.unity.xr.arkit
-  displayName: ARKit XR Plugin
+  displayName: Apple ARKit XR Plugin
   author:
     name: 
     email: 
@@ -5053,7 +5350,11 @@ m_ResolvedPackages:
 
     -Meshing
 
-    -Occlusion'
+    -Occlusion
+
+
+    * Apple and ARKit are trademarks of
+    Apple Inc., registered in the U.S. and other countries and regions.'
   status: 0
   errors: []
   versions:
@@ -5163,18 +5464,6 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     compatible:
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
     - 5.0.5
     - 5.0.6
     - 5.1.0-pre.1
@@ -5182,35 +5471,56 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
-    verified: 4.2.8
+    recommended: 5.0.6
+    deprecated: []
   dependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
+  - name: com.unity.xr.arfoundation
+    version: 5.0.5
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
   - name: com.unity.xr.management
     version: 4.0.1
   resolvedDependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
+  - name: com.unity.xr.arfoundation
+    version: 5.0.5
+  - name: com.unity.inputsystem
+    version: 1.5.1
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
     version: 4.3.3
   - name: com.unity.modules.vr
     version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
   keywords:
   - arkit
   - ar
@@ -5227,23 +5537,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638034330210000000
-  documentationUrl: 
+  datePublishedTicks: 638143792550000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: f49c023e846a14016db6ff2bc4c5d0d2e421bef6
+    revision: 859a5fcab05cb6cc9560d95819f3741ec1b72063
     path: 
   unityLifecycle:
-    version: 4.2.7
+    version: 5.0.5
     nextVersion: 
-- packageId: com.unity.xr.magicleap@6.4.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.magicleap@7.0.0
   testable: 0
   isDirectDependency: 0
-  version: 6.4.1
+  version: 7.0.0
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.magicleap@6.4.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.magicleap@7.0.0
   assetPath: Packages/com.unity.xr.magicleap
   name: com.unity.xr.magicleap
   displayName: Magic Leap XR Plugin
@@ -5253,16 +5568,7 @@ m_ResolvedPackages:
     url: 
   category: 
   type: asset
-  description: 'Provides rendering and spatial mapping support for Magic Leap.
-
-
-    NOTE:
-    Unity 2020 LTS will be the last version of the editor which supports Magic Leap
-    1.
-
-
-    Developers can continue to build for Magic Leap 1 using Unity 2020 LTS
-    or 2019 LTS.'
+  description: Provides rendering and spatial mapping support for Magic Leap 2.
   status: 0
   errors: []
   versions:
@@ -5317,10 +5623,9 @@ m_ResolvedPackages:
     - 7.0.0-pre.2
     - 7.0.0
     compatible:
-    - 6.4.1
-    - 6.4.2-preview.1
-    - 6.4.2-preview.2
-    verified: 6.4.1
+    - 7.0.0
+    recommended: 7.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.screencapture
     version: 1.0.0
@@ -5330,12 +5635,14 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.0.12
+  - name: com.unity.xr.arfoundation
+    version: 5.0.0-pre.12
   - name: com.unity.xr.interactionsubsystems
-    version: 1.0.1
+    version: 2.0.0
   - name: com.unity.xr.management
-    version: 4.0.7
+    version: 4.2.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.screencapture
     version: 1.0.0
@@ -5357,16 +5664,30 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
+  - name: com.unity.xr.arfoundation
+    version: 5.0.5
+  - name: com.unity.inputsystem
+    version: 1.5.1
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
   - name: com.unity.xr.management
     version: 4.3.3
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
   - name: com.unity.xr.interactionsubsystems
-    version: 1.0.1
+    version: 2.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
   keywords:
   - magicleap
   - ar
@@ -5384,182 +5705,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637698073620000000
-  documentationUrl: 
+  datePublishedTicks: 638127684420000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.magicleap@7.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.magicleap.git
-    revision: 676be2c41661d5c4287fb0cac157aedadae166a8
+    revision: ad4312c5c8f60e2b172a47491a9a7cc06c0cf32f
     path: 
   unityLifecycle:
-    version: 6.4.1
+    version: 7.0.0
     nextVersion: 
-- packageId: com.unity.xr.arkit-face-tracking@4.2.7
-  testable: 0
-  isDirectDependency: 0
-  version: 4.2.7
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.arkit-face-tracking@4.2.7
-  assetPath: Packages/com.unity.xr.arkit-face-tracking
-  name: com.unity.xr.arkit-face-tracking
-  displayName: ARKit Face Tracking
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: "Support for face tracking on ARKit.\n\nIncludes support for: \n\u25AA
-    Face pose tracking \n\u25AA Blendshapes \n\nNote: Only supported on devices with
-    a forward-facing depth camera, like the iPhone X"
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.4
-    - 1.0.0-preview.6
-    - 1.0.1
-    - 1.0.2
-    - 1.0.7
-    - 1.0.8
-    - 1.0.9
-    - 1.0.11
-    - 1.0.13
-    - 1.0.14
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.0-preview.4
-    - 1.1.0-preview.5
-    - 1.1.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.1
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.6
-    - 3.1.7
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.1
-    - 4.0.2
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.1
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.1.10
-    - 4.1.12
-    - 4.1.13
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    compatible:
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    verified: 4.2.8
-  dependencies:
-  - name: com.unity.xr.arkit
-    version: 4.2.7
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  resolvedDependencies:
-  - name: com.unity.xr.arkit
-    version: 4.2.7
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.7
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.3.3
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638034330230000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: f49c023e846a14016db6ff2bc4c5d0d2e421bef6
-    path: 
-  unityLifecycle:
-    version: 4.2.7
-    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.xr.openxr@1.7.0
   testable: 0
   isDirectDependency: 0
@@ -5603,9 +5764,12 @@ m_ResolvedPackages:
     - 1.5.3
     - 1.6.0
     - 1.7.0
+    - 1.8.0
     compatible:
     - 1.7.0
-    verified: 1.7.0
+    - 1.8.0
+    recommended: 1.7.0
+    deprecated: []
   dependencies:
   - name: com.unity.xr.management
     version: 4.0.1
@@ -5636,8 +5800,6 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   keywords:
   - openxr
   - xr
@@ -5664,139 +5826,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.7.0
     nextVersion: 
-- packageId: com.unity.subsystemregistration@1.1.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.1.0
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.subsystemregistration@1.1.0
-  assetPath: Packages/com.unity.subsystemregistration
-  name: com.unity.subsystemregistration
-  displayName: Subsystem Registration
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Provides internal registration mechanism for standalone subsystems. 
-    It allows a standalone subsystem to inform the Subsystem Manager of its existence.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.4
-    - 1.0.4
-    - 1.0.5
-    - 1.0.6
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    compatible:
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    verified: 1.1.2
-  dependencies:
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - subsystem
-  - registration
-  - internal
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637314426150000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
-    revision: 72584ba5248fbe79e560e795ad819f876954fceb
-    path: 
-  unityLifecycle:
-    version: 1.1.0
-    nextVersion: 
-- packageId: com.unity.searcher@4.9.1
-  testable: 0
-  isDirectDependency: 0
-  version: 4.9.1
-  source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.searcher@4.9.1
-  assetPath: Packages/com.unity.searcher
-  name: com.unity.searcher
-  displayName: Searcher
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: General search window for use in the Editor. First target use is for
-    GraphView node search.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 4.0.0-preview
-    - 4.0.0
-    - 4.0.7-preview
-    - 4.0.7
-    - 4.0.8-preview
-    - 4.0.9
-    - 4.1.0-preview
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 4.3.2
-    - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
-    - 4.9.2
-    compatible:
-    - 4.9.1
-    - 4.9.2
-    verified: 4.9.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - search
-  - searcher
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637695653650000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 9e68a2a9ba29bd6783bc91d15ff82bbd459f2163
-    path: 
-  unityLifecycle:
-    version: 4.9.1
-    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.inputsystem@1.5.1
   testable: 0
   isDirectDependency: 0
@@ -5860,7 +5894,8 @@ m_ResolvedPackages:
     compatible:
     - 1.5.1
     - 1.6.1
-    verified: 1.5.1
+    recommended: 1.5.1
+    deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -5872,8 +5907,6 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords:
   - input
@@ -5905,12 +5938,89 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.5.1
     nextVersion: 
-- packageId: com.unity.xr.interactionsubsystems@1.0.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
+  version: 4.9.2
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.searcher@4.9.2
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    compatible:
+    - 4.9.2
+    recommended: 4.9.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637831252240000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    path: 
+  unityLifecycle:
+    version: 4.9.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.interactionsubsystems@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\AR_PixelLab\Library\PackageCache\com.unity.xr.interactionsubsystems@2.0.0
   assetPath: Packages/com.unity.xr.interactionsubsystems
   name: com.unity.xr.interactionsubsystems
   displayName: XR Interaction Subsystems
@@ -5931,14 +6041,13 @@ m_ResolvedPackages:
     - 1.0.1
     - 2.0.0
     compatible:
-    - 1.0.1
-    verified: 1.0.1
+    - 2.0.0
+    recommended: 2.0.0
+    deprecated: []
   dependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.0.5
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -5957,14 +6066,19 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637056471600000000
+  datePublishedTicks: 638064766130000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
-    revision: c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.interactionsubsystems.git
+    revision: 22ce6c814bdd3a0e13cf34a88ea166b7745a3214
     path: 
   unityLifecycle:
-    version: 1.0.1
+    version: 2.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
