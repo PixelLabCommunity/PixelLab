@@ -567,6 +567,39 @@ MonoBehaviour:
   _kickPowerUp: {fileID: 8300000, guid: 4bcde6de2166e41e284ec46d8a01fb90, type: 3}
   _indicatorPowerUp: {fileID: 1470424579}
   _indicatorPowerUpExtra: {fileID: 879622341}
+  _playerControls:
+    m_Name: Player Controls
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c1254ad2-5099-421c-a4a8-defd646e0b9f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: WASD
+      m_Id: dd283292-d953-4674-9a44-c995e8645519
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 812cc7f0-c085-44aa-94e3-ebffde0f2ec2
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    - m_Name: down
+      m_Id: ef5d89a8-dcf8-4b5d-82d6-bfe3f0587711
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    m_Flags: 0
 --- !u!82 &1051349644
 AudioSource:
   m_ObjectHideFlags: 0

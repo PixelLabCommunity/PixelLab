@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip _kickPowerUp;
     [SerializeField] private GameObject _indicatorPowerUp;
     [SerializeField] private GameObject _indicatorPowerUpExtra;
+    [SerializeField] private InputAction _playerControls;
 
     private Rigidbody _playerRb;
     private GameObject _focalPoint;
@@ -23,6 +25,16 @@ public class PlayerController : MonoBehaviour
     private bool _hasPowerUpExtra = false;
     private float _timePowerUp = 5.0f;
 
+    private void OnEnable()
+    {
+        _playerControls.Enable();
+    }
+
+    private void OnDisable()
+    {
+        _playerControls.Disable();
+    }
+
     private void Start()
     {
         _playerRb = GetComponent<Rigidbody>();
@@ -32,15 +44,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        float _playerForwardImput = Input.GetAxis("Vertical");
-
-        _playerRb.AddForce(_focalPoint.transform.forward * _playerSpeed *
-            _playerForwardImput);
-
-        _indicatorPowerUp.transform.position = transform.position
-            + _indicatorPosPowerUp;
-        _indicatorPowerUpExtra.transform.position = transform.position
-            + _indicatorPosPowerUp;
+        PlayerMovement();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -93,5 +97,16 @@ public class PlayerController : MonoBehaviour
         _hasPowerUpExtra = false;
         _indicatorPowerUp.SetActive(false);
         _indicatorPowerUpExtra.SetActive(false);
+    }
+
+    private void PlayerMovement()
+    {
+        Vector2 playerInput = _playerControls.ReadValue<Vector2>();
+        Vector3 moveDirection = new Vector3(playerInput.x, 0f, playerInput.y);
+
+        _playerRb.AddForce(moveDirection * _playerSpeed);
+
+        _indicatorPowerUp.transform.position = transform.position + _indicatorPosPowerUp;
+        _indicatorPowerUpExtra.transform.position = transform.position + _indicatorPosPowerUp;
     }
 }
