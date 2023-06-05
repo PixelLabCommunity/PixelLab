@@ -23572,7 +23572,7 @@ IL_000b:
 		RuntimeReferenceImageLibrary_tBAE57A7BC9A82E302D6DC78EB9D90EC36F5995BF* L_2 = ___0_library;
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_2);
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_2);
 		V_0 = L_3;
 		V_2 = 0;
 		goto IL_0038;

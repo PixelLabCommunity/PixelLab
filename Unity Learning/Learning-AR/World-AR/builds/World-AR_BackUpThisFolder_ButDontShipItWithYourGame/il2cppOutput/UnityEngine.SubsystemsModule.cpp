@@ -913,7 +913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Subsystem_Destroy_m0CE70A94D9CAD2E4B2528
 		}
 	}
 	{
-		VirtualActionInvoker0::Invoke(9, __this);
+		VirtualActionInvoker0::Invoke(10, __this);
 	}
 
 IL_0012:
