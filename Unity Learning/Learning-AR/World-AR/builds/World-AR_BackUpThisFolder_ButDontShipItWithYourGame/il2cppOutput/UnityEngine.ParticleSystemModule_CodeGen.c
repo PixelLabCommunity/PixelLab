@@ -39,8 +39,10 @@ extern void Particle_set_rotation3D_mC0B19BFEBA780F95C763DE14C80B29764E519D62 (v
 extern void Particle_set_angularVelocity3D_m56AE22FE7AFB178DD206EA2A7E0DA64B360D7EA8 (void);
 extern void MinMaxCurve_get_constant_m4F2B7693C00CC9FAEDE1DAD32FEEE893414FBE91 (void);
 extern void MinMaxGradient_get_color_m534E35D538D549F006E9F90E453D41B92FBAC3BF (void);
+extern void ParticlePhysicsExtensions_GetCollisionEvents_mD44421A4CC66ECB3D6FD5D9012FE6131D3DB74B7 (void);
 extern void ParticleSystemRenderer_GetMeshes_m3CA9AA8947C7F0468F6C0B7F1344D747EA43D440 (void);
-static Il2CppMethodPointer s_methodPointers[28] = 
+extern void ParticleSystemExtensionsImpl_GetCollisionEvents_mEEDB71C2FE85835660149E03178CFD1F503E15E3 (void);
+static Il2CppMethodPointer s_methodPointers[30] = 
 {
 	ParticleSystem_Emit_m27ED2FE38DEE11C9C98F7D30392BB5B39B6A16ED,
 	ParticleSystem_Emit_m329091E7F55C972CE85A100CA624192AD8442688,
@@ -69,7 +71,9 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	Particle_set_angularVelocity3D_m56AE22FE7AFB178DD206EA2A7E0DA64B360D7EA8,
 	MinMaxCurve_get_constant_m4F2B7693C00CC9FAEDE1DAD32FEEE893414FBE91,
 	MinMaxGradient_get_color_m534E35D538D549F006E9F90E453D41B92FBAC3BF,
+	ParticlePhysicsExtensions_GetCollisionEvents_mD44421A4CC66ECB3D6FD5D9012FE6131D3DB74B7,
 	ParticleSystemRenderer_GetMeshes_m3CA9AA8947C7F0468F6C0B7F1344D747EA43D440,
+	ParticleSystemExtensionsImpl_GetCollisionEvents_mEEDB71C2FE85835660149E03178CFD1F503E15E3,
 };
 extern void MainModule__ctor_m5F7D2DD815C741DE3FA18A0C1BB2F2776612EF7A_AdjustorThunk (void);
 extern void MainModule_get_startSize_m7D92E17A7D36FB18A9D3ADA54D2D1DEDE89601FC_AdjustorThunk (void);
@@ -104,42 +108,44 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[15] =
 	{ 0x0600001A, MinMaxCurve_get_constant_m4F2B7693C00CC9FAEDE1DAD32FEEE893414FBE91_AdjustorThunk },
 	{ 0x0600001B, MinMaxGradient_get_color_m534E35D538D549F006E9F90E453D41B92FBAC3BF_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[28] = 
+static const int32_t s_InvokerIndices[30] = 
 {
-	578,
-	6295,
-	1560,
-	3245,
-	6026,
-	6026,
-	3380,
-	5904,
-	7871,
-	2627,
-	6064,
-	7872,
-	7873,
-	11307,
-	11307,
-	6114,
-	6173,
-	6173,
-	6114,
-	6114,
-	5953,
-	6164,
-	6114,
-	6173,
-	6173,
-	7683,
-	7514,
-	5002,
+	637,
+	7098,
+	1719,
+	3681,
+	6806,
+	6806,
+	3827,
+	6674,
+	8823,
+	2989,
+	6847,
+	8824,
+	8825,
+	12393,
+	12393,
+	6901,
+	6969,
+	6969,
+	6901,
+	6901,
+	6723,
+	6960,
+	6901,
+	6969,
+	6969,
+	8619,
+	8437,
+	10726,
+	5640,
+	10726,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_ParticleSystemModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_ParticleSystemModule_CodeGenModule = 
 {
 	"UnityEngine.ParticleSystemModule.dll",
-	28,
+	30,
 	s_methodPointers,
 	15,
 	s_adjustorThunks,

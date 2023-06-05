@@ -5066,7 +5066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerIntField_SetWidget_mECE6C2
 		String_t* L_4;
 		L_4 = Widget_get_displayName_m1E7836A53BF88619C4815EA70F9243319567F0F4_inline(L_3, NULL);
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_2, L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_4);
 		DebugUIHandlerIntField_UpdateValueLabel_mE37F658D4F377685F119C9C2139970567BBACD79(__this, NULL);
 		return;
 	}
@@ -5222,7 +5222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerIntField_UpdateValueLabel_
 		String_t* L_6;
 		L_6 = Int32_ToString_m967AECC237535C552A97A80C7875E31B98496CA9((&V_1), _stringLiteralA16A5A766620C92E70C8F0C13BC707B1DD24BB40, NULL);
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_3, L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, L_6);
 	}
 
 IL_0035:
@@ -5506,7 +5506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerPanel_SetPanel_mC9EE00598A
 		String_t* L_3;
 		L_3 = Panel_get_displayName_m186C10E927B2800035B328BD9A40D8B5FB3D4EE4_inline(L_2, NULL);
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_1, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_1, L_3);
 		return;
 	}
 }
@@ -5924,7 +5924,7 @@ IL_0098:
 IL_00a3:
 	{
 		NullCheck(G_B5_1);
-		VirtualActionInvoker1< String_t* >::Invoke(73, G_B5_1, G_B5_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75, G_B5_1, G_B5_0);
 		List_1_tF20C51441729CC952E62F1E3EF53FB57F4C15771* L_33 = __this->___m_Items;
 		DebugUIHandlerValue_t6FF8751421AEBD0EDC37F7F506085C3F9B40E7E2* L_34 = V_3;
 		NullCheck(L_33);
@@ -6399,7 +6399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerUIntField_SetWidget_mE43AA
 		String_t* L_4;
 		L_4 = Widget_get_displayName_m1E7836A53BF88619C4815EA70F9243319567F0F4_inline(L_3, NULL);
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_2, L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_4);
 		DebugUIHandlerUIntField_UpdateValueLabel_mC8087A6A5B7CC2A625EB2B037E7C3223EF9AE72F(__this, NULL);
 		return;
 	}
@@ -6593,7 +6593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerUIntField_UpdateValueLabel
 		String_t* L_6;
 		L_6 = UInt32_ToString_m6A665131BC9DC1F70D66117712027604B16EB6C6((&V_1), _stringLiteralA16A5A766620C92E70C8F0C13BC707B1DD24BB40, NULL);
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_3, L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, L_6);
 	}
 
 IL_0035:
@@ -6644,7 +6644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerValue_SetWidget_mA142AE7CC
 		String_t* L_4;
 		L_4 = Widget_get_displayName_m1E7836A53BF88619C4815EA70F9243319567F0F4_inline(L_3, NULL);
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_2, L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_4);
 		return;
 	}
 }
@@ -6726,7 +6726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerValue_Update_mE41E37D577A4
 		String_t* L_9;
 		L_9 = VirtualFuncInvoker1< String_t*, RuntimeObject* >::Invoke(13, L_7, L_8);
 		NullCheck(L_6);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_6, L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_6, L_9);
 		RuntimeObject* L_10 = V_1;
 		V_2 = (bool)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_10, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_11 = V_2;

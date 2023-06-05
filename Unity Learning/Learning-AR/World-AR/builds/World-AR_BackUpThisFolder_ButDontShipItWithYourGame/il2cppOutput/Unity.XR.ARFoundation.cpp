@@ -15489,7 +15489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDebugMenu_Update_m8D04A8338E3AA4315BCD
 		String_t* L_5;
 		L_5 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		NullCheck(L_4);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_4, L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_4, L_5);
 		int32_t L_6 = V_0;
 		__this->___m_PreviousFps = L_6;
 	}
@@ -15521,7 +15521,7 @@ IL_003a:
 		String_t* L_16;
 		L_16 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_15), NULL);
 		NullCheck(L_12);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_12, L_16);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_12, L_16);
 		int32_t L_17 = V_1;
 		__this->___m_PreviousTrackingMode = L_17;
 	}
@@ -17063,7 +17063,7 @@ IL_007a:
 		String_t* L_33;
 		L_33 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_16), NULL);
 		NullCheck(L_31);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_31, L_33);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_31, L_33);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_34 = V_13;
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_35 = __this->___m_MenuFont;
 		NullCheck(L_34);
@@ -17189,7 +17189,7 @@ IL_018b_1:
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_74 = V_22;
 				String_t* L_75 = V_19;
 				NullCheck(L_74);
-				VirtualActionInvoker1< String_t* >::Invoke(73, L_74, L_75);
+				VirtualActionInvoker1< String_t* >::Invoke(75, L_74, L_75);
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_76 = V_22;
 				Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_77 = __this->___m_MenuFont;
 				NullCheck(L_76);

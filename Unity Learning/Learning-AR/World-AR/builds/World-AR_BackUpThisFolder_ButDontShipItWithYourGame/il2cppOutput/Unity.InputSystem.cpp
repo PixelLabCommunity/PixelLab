@@ -23957,7 +23957,7 @@ IL_0040_1:
 				RuntimeObject* L_18 = L_17.___instance;
 				NullCheck(L_16);
 				RuntimeObject* L_19;
-				L_19 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(23, L_16, L_18);
+				L_19 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(24, L_16, L_18);
 				V_4 = L_19;
 				RuntimeObject* L_20 = V_4;
 				PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 L_21;
@@ -29481,7 +29481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParameterEnumerator_FindParameter_mB2688
 		RuntimeObject* L_3 = ___0_instance;
 		NullCheck(L_2);
 		bool L_4;
-		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(112, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(115, L_2, L_3);
 		G_B3_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		goto IL_0021;
 	}
@@ -29514,7 +29514,7 @@ IL_0029:
 		String_t* L_8 = __this->___m_ParameterName;
 		NullCheck(L_7);
 		FieldInfo_t* L_9;
-		L_9 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(83, L_7, L_8, ((int32_t)21));
+		L_9 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85, L_7, L_8, ((int32_t)21));
 		V_0 = L_9;
 		FieldInfo_t* L_10 = V_0;
 		bool L_11;

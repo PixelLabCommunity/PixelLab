@@ -127,6 +127,7 @@ struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D;
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
 struct AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 struct AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938;
 struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
 struct BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622;
@@ -154,6 +155,7 @@ struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
 struct GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940;
 struct HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA;
 struct HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 struct ICanvasElement_t7F0ABB1280486B82E3267F9C26130FD4AAACAE91;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
@@ -224,6 +226,7 @@ IL2CPP_EXTERN_C RuntimeClass* IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_
 IL2CPP_EXTERN_C RuntimeClass* IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
@@ -1152,6 +1155,9 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DE
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
 };
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
@@ -4650,7 +4656,7 @@ IL_0020:
 		L_10 = Graphic_get_defaultGraphicMaterial_mC3D98DC8F6E8826633B17BB4AC6E38DF20A74E78(NULL);
 		NullCheck(L_9);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11;
-		L_11 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(56, L_9, L_10);
+		L_11 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(58, L_9, L_10);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12;
 		L_12 = Texture2D_get_whiteTexture_m3A243ED388F9EF0EC515015A6E0E50FD261D2FA1(NULL);
 		NullCheck(L_8);
@@ -4967,7 +4973,7 @@ IL_001e:
 		L_7 = Graphic_get_defaultGraphicMaterial_mC3D98DC8F6E8826633B17BB4AC6E38DF20A74E78(NULL);
 		NullCheck(L_6);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8;
-		L_8 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(56, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(58, L_6, L_7);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9;
 		L_9 = Texture2D_get_whiteTexture_m3A243ED388F9EF0EC515015A6E0E50FD261D2FA1(NULL);
 		NullCheck(L_5);
@@ -10695,7 +10701,7 @@ IL_01d7:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_67 = __this->___m_TextComponent;
 		String_t* L_68 = V_2;
 		NullCheck(L_67);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_67, L_68);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_67, L_68);
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
 		__this->___m_PreventFontCallback = (bool)0;
 	}
@@ -11787,7 +11793,7 @@ IL_003b:
 		L_36 = Graphic_get_defaultGraphicMaterial_mC3D98DC8F6E8826633B17BB4AC6E38DF20A74E78(NULL);
 		NullCheck(L_35);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_37;
-		L_37 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(56, L_35, L_36);
+		L_37 = VirtualFuncInvoker1< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(58, L_35, L_36);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_38;
 		L_38 = Texture2D_get_whiteTexture_m3A243ED388F9EF0EC515015A6E0E50FD261D2FA1(NULL);
 		NullCheck(L_34);
@@ -15961,6 +15967,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar OnValidateInput_Invoke_m6A7776E0E9
 {
 	typedef Il2CppChar (*FunctionPointerType) (RuntimeObject*, String_t*, int32_t, Il2CppChar, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_text, ___1_charIndex, ___2_addedChar, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValidateInput_BeginInvoke_m2A003B257BC355C137B83FB37B3D9DD34821F9D2 (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, String_t* ___0_text, int32_t ___1_charIndex, Il2CppChar ___2_addedChar, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = ___0_text;
+	__d_args[1] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___1_charIndex);
+	__d_args[2] = Box(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var, &___2_addedChar);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar OnValidateInput_EndInvoke_mE13A5F2C1260AD59F20BFBD7CCC9BE42F84EF6DA (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
+	return *(Il2CppChar*)UnBox ((RuntimeObject*)__result);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

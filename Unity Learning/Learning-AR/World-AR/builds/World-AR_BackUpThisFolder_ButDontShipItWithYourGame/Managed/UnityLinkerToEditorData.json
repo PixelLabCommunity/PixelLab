@@ -2,12 +2,43 @@
   "report": {
     "modules": [
       {
+        "name": "AI",
+        "dependencies": [
+          {
+            "name": "NavMeshAgent",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshProjectSettings",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "NavMeshSettings",
+            "scenes": [
+              "Assets/Scenes/World-AR.unity"
+            ],
+            "dependencyType": 1,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "AndroidJNI",
         "dependencies": []
       },
       {
         "name": "Animation",
         "dependencies": [
+          {
+            "name": "Animation",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
           {
             "name": "AnimationClip",
             "scenes": [
@@ -477,6 +508,12 @@
             "icon": null
           },
           {
+            "name": "Required by AI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ai"
+          },
+          {
             "name": "Required by AndroidJNI Module",
             "scenes": [],
             "dependencyType": 2,
@@ -729,6 +766,12 @@
             "icon": null
           },
           {
+            "name": "CharacterController",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Collider",
             "scenes": [],
             "dependencyType": 1,
@@ -744,6 +787,12 @@
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "Rigidbody",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -770,9 +819,21 @@
             "icon": null
           },
           {
+            "name": "Joint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Physics2DSettings",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "Rigidbody2D",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           }
         ]
@@ -791,6 +852,12 @@
       {
         "name": "SharedInternals",
         "dependencies": [
+          {
+            "name": "Required by AI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ai"
+          },
           {
             "name": "Required by AndroidJNI Module",
             "scenes": [],
@@ -995,6 +1062,12 @@
             "scenes": [
               "Assets/Scenes/World-AR.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TextMesh",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },

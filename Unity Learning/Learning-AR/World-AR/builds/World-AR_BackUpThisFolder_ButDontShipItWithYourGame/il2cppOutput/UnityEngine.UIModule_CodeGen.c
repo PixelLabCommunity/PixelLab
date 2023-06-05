@@ -24,6 +24,8 @@ extern void CanvasRenderer_set_materialCount_m333926C78CD98557B86A8EAC66F47BD4DD
 extern void CanvasRenderer_set_popMaterialCount_m050FF45A10F54F403BBC43AB7C3D919627922A50 (void);
 extern void CanvasRenderer_get_absoluteDepth_m1B5551330C58C020463F56DF65C40A49AEABFED5 (void);
 extern void CanvasRenderer_get_hasMoved_mB87D3AF4E79897CCB8C48A9287093A8E3012362A (void);
+extern void CanvasRenderer_get_cullTransparentMesh_m116BB768D49AC0068E6861A8F7F1A52A0DC5DC7C (void);
+extern void CanvasRenderer_set_cullTransparentMesh_m72093B655EFCCF35FE50C60258F0B1440BFD04BE (void);
 extern void CanvasRenderer_get_cull_m48007D7CB40B3C0EC29F0CB316AFAC88748EF3D7 (void);
 extern void CanvasRenderer_set_cull_mA2A521F41185511CCFF6E2BFCD7B68B1DE3C0D9D (void);
 extern void CanvasRenderer_SetColor_mA65CB97B7C6673C0EA7A42BED93D22DD127C7BFA (void);
@@ -32,14 +34,17 @@ extern void CanvasRenderer_EnableRectClipping_mEE0DE5F753BACD2917366469CBFA21894
 extern void CanvasRenderer_set_clippingSoftness_m5727572B7D9CB6906BB4635F98FB5805675C823C (void);
 extern void CanvasRenderer_DisableRectClipping_mEAD0277DF092A2CF7D2D421336BCB5C8FC84600C (void);
 extern void CanvasRenderer_SetMaterial_mBB733E272FB6A5B30C3B24F557AF5ED9EAC5DBD7 (void);
+extern void CanvasRenderer_GetMaterial_mDA3246B02DDDE378C3E6DED6263F6D989B0982A9 (void);
 extern void CanvasRenderer_SetPopMaterial_m9CE3CD36F79C60B5BBB4A67D6A422756F2E3EF75 (void);
 extern void CanvasRenderer_SetTexture_m8A670DA4B435058550D64A1B16CAB8E421F45AAC (void);
 extern void CanvasRenderer_SetAlphaTexture_mB4EFE8A6962A88CA025D7A4DAB0CF76EED9AD5E3 (void);
 extern void CanvasRenderer_SetMesh_m1DF21BBC31233AC324BC08331BB542C619DC7543 (void);
 extern void CanvasRenderer_Clear_m496D522F1DBD1037417E470CF2D4D9FD22F68E81 (void);
 extern void CanvasRenderer_SetMaterial_m445BACF01EF1997CBFCBB79AB64E09AF39860196 (void);
+extern void CanvasRenderer_GetMaterial_m42376FD7C07D8E1700FC3627D1DCF1AECCC47A1C (void);
 extern void CanvasRenderer_SplitUIVertexStreams_m6B0D82A693A3DA8E08C15BD06484A3AA2A371198 (void);
 extern void CanvasRenderer_CreateUIVertexStream_mBA258E629C862A88FFC03765ADA29AFCD3F1F675 (void);
+extern void CanvasRenderer_AddUIVertexStream_mD839C4D23B91E99AE2BD8F89C537FE62F5DB5DF5 (void);
 extern void CanvasRenderer_SplitIndicesStreamsInternal_m1CAD8F8DFEBFE03778B72F1AD290CADBAFA63848 (void);
 extern void CanvasRenderer_SplitUIVertexStreamsInternal_mE0E7EF4A1B611F30DA5D236F81985154A2D2E50A (void);
 extern void CanvasRenderer_CreateUIVertexStreamInternal_mDCD7E8138A464984EA7F4CE942BA4C0E034B7296 (void);
@@ -84,6 +89,8 @@ extern void Canvas_set_sortingOrder_m70D89DB61A3C0589C0FAB525E613DE9D0C799AAC (v
 extern void Canvas_get_targetDisplay_m2F2FCEA6885820E659F2F520991828DE54CCB6BF (void);
 extern void Canvas_get_sortingLayerID_m38FE23D0D6A2001F62CA24676298E95BEE968AB6 (void);
 extern void Canvas_set_sortingLayerID_m402DC8D59AAF66A6696BFE682D0B7AF489EA13FE (void);
+extern void Canvas_get_additionalShaderChannels_m3039B1E9ADDCDC514E444A4BB56527FFAC3E6287 (void);
+extern void Canvas_set_additionalShaderChannels_m182712BE72B72BE41FAFE97F2FD79C2476132DB0 (void);
 extern void Canvas_get_rootCanvas_m74DEA02014963B54DF651BE14284BDAFDA61DDFE (void);
 extern void Canvas_get_renderingDisplaySize_mE6F90F0F91200179ED84C6F6905343909FAF6312 (void);
 extern void Canvas_get_externBeginRenderOverlays_m7C0F441E294B15AB12249CAC58E6EF9EB1903099 (void);
@@ -94,6 +101,7 @@ extern void Canvas_get_externEndRenderOverlays_m57060A5AAD1A2A1A8D5F8BA75BB4C604
 extern void Canvas_set_externEndRenderOverlays_mA48664910ECE4995245902DDE755C5C18BEF8E32 (void);
 extern void Canvas_SetExternalCanvasEnabled_m13155750F26485027E5558C86AC55579B4CD7B6B (void);
 extern void Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853 (void);
+extern void Canvas_set_worldCamera_m007F7DABDB5A3A6BFB043E3500DA82A4D936EDD4 (void);
 extern void Canvas_GetDefaultCanvasMaterial_m7A0E204A9DC6A1390692788E37DBE7D8C6B71CD2 (void);
 extern void Canvas_GetETC1SupportedCanvasMaterial_mFABE1BCF145256FC155BD038DD44784E8832FAEA (void);
 extern void Canvas_ForceUpdateCanvases_m6ECDBC5E85ADA3301BB20611753C45769F15EB51 (void);
@@ -110,7 +118,7 @@ extern void WillRenderCanvases_Invoke_m47BAAC9AD2F84BF75E0021F436A6286C09A30566 
 extern void UISystemProfilerApi_BeginSample_m6AF893A85204DA2129D9D3D75D8A6EDD329FA23E (void);
 extern void UISystemProfilerApi_EndSample_mAFBCEDF8073F3FB0E1644482D909F108DBE11F3D (void);
 extern void UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B (void);
-static Il2CppMethodPointer s_methodPointers[99] = 
+static Il2CppMethodPointer s_methodPointers[107] = 
 {
 	NULL,
 	CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF,
@@ -125,6 +133,8 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	CanvasRenderer_set_popMaterialCount_m050FF45A10F54F403BBC43AB7C3D919627922A50,
 	CanvasRenderer_get_absoluteDepth_m1B5551330C58C020463F56DF65C40A49AEABFED5,
 	CanvasRenderer_get_hasMoved_mB87D3AF4E79897CCB8C48A9287093A8E3012362A,
+	CanvasRenderer_get_cullTransparentMesh_m116BB768D49AC0068E6861A8F7F1A52A0DC5DC7C,
+	CanvasRenderer_set_cullTransparentMesh_m72093B655EFCCF35FE50C60258F0B1440BFD04BE,
 	CanvasRenderer_get_cull_m48007D7CB40B3C0EC29F0CB316AFAC88748EF3D7,
 	CanvasRenderer_set_cull_mA2A521F41185511CCFF6E2BFCD7B68B1DE3C0D9D,
 	CanvasRenderer_SetColor_mA65CB97B7C6673C0EA7A42BED93D22DD127C7BFA,
@@ -133,14 +143,17 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	CanvasRenderer_set_clippingSoftness_m5727572B7D9CB6906BB4635F98FB5805675C823C,
 	CanvasRenderer_DisableRectClipping_mEAD0277DF092A2CF7D2D421336BCB5C8FC84600C,
 	CanvasRenderer_SetMaterial_mBB733E272FB6A5B30C3B24F557AF5ED9EAC5DBD7,
+	CanvasRenderer_GetMaterial_mDA3246B02DDDE378C3E6DED6263F6D989B0982A9,
 	CanvasRenderer_SetPopMaterial_m9CE3CD36F79C60B5BBB4A67D6A422756F2E3EF75,
 	CanvasRenderer_SetTexture_m8A670DA4B435058550D64A1B16CAB8E421F45AAC,
 	CanvasRenderer_SetAlphaTexture_mB4EFE8A6962A88CA025D7A4DAB0CF76EED9AD5E3,
 	CanvasRenderer_SetMesh_m1DF21BBC31233AC324BC08331BB542C619DC7543,
 	CanvasRenderer_Clear_m496D522F1DBD1037417E470CF2D4D9FD22F68E81,
 	CanvasRenderer_SetMaterial_m445BACF01EF1997CBFCBB79AB64E09AF39860196,
+	CanvasRenderer_GetMaterial_m42376FD7C07D8E1700FC3627D1DCF1AECCC47A1C,
 	CanvasRenderer_SplitUIVertexStreams_m6B0D82A693A3DA8E08C15BD06484A3AA2A371198,
 	CanvasRenderer_CreateUIVertexStream_mBA258E629C862A88FFC03765ADA29AFCD3F1F675,
+	CanvasRenderer_AddUIVertexStream_mD839C4D23B91E99AE2BD8F89C537FE62F5DB5DF5,
 	CanvasRenderer_SplitIndicesStreamsInternal_m1CAD8F8DFEBFE03778B72F1AD290CADBAFA63848,
 	CanvasRenderer_SplitUIVertexStreamsInternal_mE0E7EF4A1B611F30DA5D236F81985154A2D2E50A,
 	CanvasRenderer_CreateUIVertexStreamInternal_mDCD7E8138A464984EA7F4CE942BA4C0E034B7296,
@@ -185,6 +198,8 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	Canvas_get_targetDisplay_m2F2FCEA6885820E659F2F520991828DE54CCB6BF,
 	Canvas_get_sortingLayerID_m38FE23D0D6A2001F62CA24676298E95BEE968AB6,
 	Canvas_set_sortingLayerID_m402DC8D59AAF66A6696BFE682D0B7AF489EA13FE,
+	Canvas_get_additionalShaderChannels_m3039B1E9ADDCDC514E444A4BB56527FFAC3E6287,
+	Canvas_set_additionalShaderChannels_m182712BE72B72BE41FAFE97F2FD79C2476132DB0,
 	Canvas_get_rootCanvas_m74DEA02014963B54DF651BE14284BDAFDA61DDFE,
 	Canvas_get_renderingDisplaySize_mE6F90F0F91200179ED84C6F6905343909FAF6312,
 	Canvas_get_externBeginRenderOverlays_m7C0F441E294B15AB12249CAC58E6EF9EB1903099,
@@ -195,6 +210,7 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	Canvas_set_externEndRenderOverlays_mA48664910ECE4995245902DDE755C5C18BEF8E32,
 	Canvas_SetExternalCanvasEnabled_m13155750F26485027E5558C86AC55579B4CD7B6B,
 	Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853,
+	Canvas_set_worldCamera_m007F7DABDB5A3A6BFB043E3500DA82A4D936EDD4,
 	Canvas_GetDefaultCanvasMaterial_m7A0E204A9DC6A1390692788E37DBE7D8C6B71CD2,
 	Canvas_GetETC1SupportedCanvasMaterial_mFABE1BCF145256FC155BD038DD44784E8832FAEA,
 	Canvas_ForceUpdateCanvases_m6ECDBC5E85ADA3301BB20611753C45769F15EB51,
@@ -212,113 +228,121 @@ static Il2CppMethodPointer s_methodPointers[99] =
 	UISystemProfilerApi_EndSample_mAFBCEDF8073F3FB0E1644482D909F108DBE11F3D,
 	UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B,
 };
-static const int32_t s_InvokerIndices[99] = 
+static const int32_t s_InvokerIndices[107] = 
 {
 	0,
-	7683,
-	6114,
-	7512,
-	7512,
-	7512,
-	2023,
-	5949,
-	7590,
-	6026,
-	6026,
-	7590,
-	7512,
-	7512,
-	5949,
-	5952,
-	7514,
-	6088,
-	6171,
-	7753,
-	3245,
-	3245,
-	6064,
-	6064,
-	6064,
-	7753,
-	3253,
-	7971,
-	7971,
-	11443,
-	8002,
-	7971,
-	5904,
-	5904,
-	5904,
-	5904,
-	9863,
-	11018,
-	8942,
-	9580,
-	8934,
-	8933,
-	8933,
-	11014,
-	11101,
-	9327,
-	10277,
-	12245,
-	12544,
-	9284,
-	10298,
-	8907,
-	12283,
-	12283,
-	12283,
-	12283,
-	7590,
-	6026,
-	7512,
-	7653,
-	7683,
-	6114,
-	7683,
-	6114,
-	7512,
-	7590,
-	7512,
-	5949,
-	7590,
-	6026,
-	7590,
-	7590,
-	6026,
-	7629,
-	7741,
-	12491,
-	12283,
-	12491,
-	12283,
-	12491,
-	12283,
-	12271,
-	7629,
-	12491,
-	12491,
-	12544,
-	12544,
-	12544,
-	12279,
-	11328,
-	12279,
-	7753,
-	5904,
-	5904,
-	3248,
-	7753,
-	12279,
-	12279,
-	11443,
+	8619,
+	6901,
+	8435,
+	8435,
+	8435,
+	2212,
+	6719,
+	8518,
+	6806,
+	6806,
+	8518,
+	8435,
+	8435,
+	6719,
+	8435,
+	6719,
+	6722,
+	8437,
+	6872,
+	6967,
+	8699,
+	3681,
+	5978,
+	3681,
+	6847,
+	6847,
+	6847,
+	8699,
+	3689,
+	8560,
+	8930,
+	8930,
+	8961,
+	12539,
+	8961,
+	8930,
+	6674,
+	6674,
+	6674,
+	6674,
+	10919,
+	12100,
+	9946,
+	10619,
+	9938,
+	9937,
+	9937,
+	12096,
+	12187,
+	10355,
+	11335,
+	13372,
+	13677,
+	10309,
+	11356,
+	9906,
+	13411,
+	13411,
+	13411,
+	13411,
+	8518,
+	6806,
+	8435,
+	8585,
+	8619,
+	6901,
+	8619,
+	6901,
+	8435,
+	8518,
+	8435,
+	6719,
+	8518,
+	6806,
+	8518,
+	8518,
+	6806,
+	8518,
+	6806,
+	8560,
+	8686,
+	13622,
+	13411,
+	13622,
+	13411,
+	13622,
+	13411,
+	13398,
+	8560,
+	6847,
+	13622,
+	13622,
+	13677,
+	13677,
+	13677,
+	13407,
+	12422,
+	13407,
+	8699,
+	6674,
+	6674,
+	3684,
+	8699,
+	13407,
+	13407,
+	12539,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule = 
 {
 	"UnityEngine.UIModule.dll",
-	99,
+	107,
 	s_methodPointers,
 	0,
 	NULL,

@@ -18364,7 +18364,7 @@ IL_000e:
 		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
 		NullCheck(L_3);
 		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_4;
-		L_4 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(84, L_3, ((int32_t)52));
+		L_4 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(86, L_3, ((int32_t)52));
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tD92C425C2093F1AD389A160F70AF1C12310F5424_il2cpp_TypeInfo_var);
 		Func_2_t77AF745C0F9B082CCA8A895BCF11881A4E488892* L_5 = ((U3CU3Ec_tD92C425C2093F1AD389A160F70AF1C12310F5424_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD92C425C2093F1AD389A160F70AF1C12310F5424_il2cpp_TypeInfo_var))->___U3CU3E9__10_0;
 		Func_2_t77AF745C0F9B082CCA8A895BCF11881A4E488892* L_6 = L_5;
@@ -18492,7 +18492,7 @@ IL_007e_1:
 				RuntimeObject* L_29 = ___0_o;
 				NullCheck(L_28);
 				RuntimeObject* L_30;
-				L_30 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(23, L_28, L_29);
+				L_30 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(24, L_28, L_29);
 				V_6 = ((VolumeParameter_t95994C89644D2CC4C11F666571492420D16BED72*)CastclassClass((RuntimeObject*)L_30, VolumeParameter_t95994C89644D2CC4C11F666571492420D16BED72_il2cpp_TypeInfo_var));
 				List_1_tD19F7E0FCBD7C3E8D363733582EF93B341DD3039* L_31 = ___1_parameters;
 				VolumeParameter_t95994C89644D2CC4C11F666571492420D16BED72* L_32 = V_6;
@@ -18550,7 +18550,7 @@ IL_00bb_1:
 				RuntimeObject* L_41 = ___0_o;
 				NullCheck(L_40);
 				RuntimeObject* L_42;
-				L_42 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(23, L_40, L_41);
+				L_42 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(24, L_40, L_41);
 				List_1_tD19F7E0FCBD7C3E8D363733582EF93B341DD3039* L_43 = ___1_parameters;
 				Func_2_t03668587D04B8ECC3E6CE9EF3B2852118286E630* L_44 = ___2_filter;
 				VolumeComponent_FindParameters_m70EDD225C076FCC061E09D01F54933E380460C6B(L_42, L_43, L_44, NULL);
@@ -18964,7 +18964,7 @@ IL_000b_1:
 				VolumeParameter_t95994C89644D2CC4C11F666571492420D16BED72* L_15 = V_1;
 				NullCheck(L_14);
 				RuntimeObject* L_16;
-				L_16 = VirtualFuncInvoker2< RuntimeObject*, RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(21, L_14, L_15, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL);
+				L_16 = VirtualFuncInvoker2< RuntimeObject*, RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(26, L_14, L_15, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL);
 				V_4 = ((ReadOnlyCollection_1_tE414953665CCBE1BFF28E8E32C184621ADDA4B76*)CastclassClass((RuntimeObject*)L_16, ReadOnlyCollection_1_tE414953665CCBE1BFF28E8E32C184621ADDA4B76_il2cpp_TypeInfo_var));
 				ReadOnlyCollection_1_tE414953665CCBE1BFF28E8E32C184621ADDA4B76* L_17 = V_4;
 				V_5 = (bool)((!(((RuntimeObject*)(ReadOnlyCollection_1_tE414953665CCBE1BFF28E8E32C184621ADDA4B76*)L_17) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
@@ -21511,7 +21511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VolumeParameter_IsObjectParameter_m76173
 		Type_t* L_2 = ___0_type;
 		NullCheck(L_2);
 		Type_t* L_3;
-		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_2);
+		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_2);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (ObjectParameter_1_t52268052608F73445A8E6488F56C797F4783917E_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_5;
@@ -21546,7 +21546,7 @@ IL_0029:
 		Type_t* L_8 = ___0_type;
 		NullCheck(L_8);
 		Type_t* L_9;
-		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(109, L_8);
+		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(112, L_8);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_10;
 		L_10 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_9, (Type_t*)NULL, NULL);
@@ -21559,7 +21559,7 @@ IL_0029:
 		Type_t* L_11 = ___0_type;
 		NullCheck(L_11);
 		Type_t* L_12;
-		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(109, L_11);
+		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(112, L_11);
 		bool L_13;
 		L_13 = VolumeParameter_IsObjectParameter_m76173F664C245D5F956B1F00535CF4CBFA422085(L_12, NULL);
 		G_B8_0 = ((int32_t)(L_13));
