@@ -814,7 +814,12 @@ extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Implicit_m59AD
 extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Equality_m30C5C7702A36F2BAEEF9EF82E6F8425500AFAFB9 (void);
 extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Inequality_m5CF222965746AAF9CE984589B2B487C9CC9B0F03 (void);
 extern void AotStubs_UnityEngine_GameObject_FindWithTag_m61DEB78340A4D0173910485927299FDFF9A3AC20 (void);
+extern void AotStubs_UnityEngine_Component_GetComponentInChildren_m5CFA3E5F70967AB1383528A9FE9AC185895C324F (void);
+extern void AotStubs_UnityEngine_Application_Quit_mDAC19F391150FFF3A7E0C6613C01863D86C49018 (void);
+extern void AotStubs_UnityEngine_Debug_Log_m559E2D119BE64B6C2085A8970E1E7AE3741D60A5 (void);
 extern void AotStubs_UnityEngine_Transform_Rotate_mD150EB8144E428A07CCD4643A6934DA3902E6E5B (void);
+extern void AotStubs_UnityEngine_GameObject_SetActive_mAA1A8F49B12772C032F4096DE10A3D753234444E (void);
+extern void AotStubs_UnityEngine_GameObject_activeSelf_m96E0F1C7F8A8E2EA44AEF9388959F92BBE815A36 (void);
 extern void AotStubs__ctor_mD8E1D4EB5BE3B72AE9FD29C595BB7C9A05734676 (void);
 extern void TMP_DigitValidator_Validate_m786CF8A4D85EB9E1BE8785A58007F8796991BDB9 (void);
 extern void TMP_DigitValidator__ctor_m9DC5F1168E5F4963C063C88384ADEBA8980BBFE0 (void);
@@ -1066,7 +1071,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[1054] = 
+static Il2CppMethodPointer s_methodPointers[1059] = 
 {
 	Rotation_Update_m54B806F62ACA173B14FC003BCD36B32D5DBDC118,
 	Rotation__ctor_mC51A8B2D3741FB75120E1D3690D504031D4D77D6,
@@ -1870,7 +1875,12 @@ static Il2CppMethodPointer s_methodPointers[1054] =
 	AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Equality_m30C5C7702A36F2BAEEF9EF82E6F8425500AFAFB9,
 	AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Inequality_m5CF222965746AAF9CE984589B2B487C9CC9B0F03,
 	AotStubs_UnityEngine_GameObject_FindWithTag_m61DEB78340A4D0173910485927299FDFF9A3AC20,
+	AotStubs_UnityEngine_Component_GetComponentInChildren_m5CFA3E5F70967AB1383528A9FE9AC185895C324F,
+	AotStubs_UnityEngine_Application_Quit_mDAC19F391150FFF3A7E0C6613C01863D86C49018,
+	AotStubs_UnityEngine_Debug_Log_m559E2D119BE64B6C2085A8970E1E7AE3741D60A5,
 	AotStubs_UnityEngine_Transform_Rotate_mD150EB8144E428A07CCD4643A6934DA3902E6E5B,
+	AotStubs_UnityEngine_GameObject_SetActive_mAA1A8F49B12772C032F4096DE10A3D753234444E,
+	AotStubs_UnityEngine_GameObject_activeSelf_m96E0F1C7F8A8E2EA44AEF9388959F92BBE815A36,
 	AotStubs__ctor_mD8E1D4EB5BE3B72AE9FD29C595BB7C9A05734676,
 	TMP_DigitValidator_Validate_m786CF8A4D85EB9E1BE8785A58007F8796991BDB9,
 	TMP_DigitValidator__ctor_m9DC5F1168E5F4963C063C88384ADEBA8980BBFE0,
@@ -2123,7 +2133,7 @@ static Il2CppMethodPointer s_methodPointers[1054] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[1054] = 
+static const int32_t s_InvokerIndices[1059] = 
 {
 	8699,
 	8699,
@@ -2146,6 +2156,11 @@ static const int32_t s_InvokerIndices[1054] =
 	8560,
 	13703,
 	8699,
+	13677,
+	13677,
+	13677,
+	13677,
+	13677,
 	13677,
 	13677,
 	13677,
@@ -3184,7 +3199,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1054,
+	1059,
 	s_methodPointers,
 	0,
 	NULL,

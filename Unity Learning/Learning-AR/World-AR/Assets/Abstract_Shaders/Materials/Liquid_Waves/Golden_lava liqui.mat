@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7778034001324247672
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Golden_lava liqui
+  m_Shader: {fileID: -6465566751694194690, guid: 7c3bab67763ec4740895cf5798a71b88,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_6038d80a6cbb4666a3cac6026804ebfd:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_57c003dc9fc64059bddc78f99207ba2a: 29.59
+    - Vector1_5af43bbd85df4762a69f5901805da238: -1.19
+    - Vector1_9b4a3f178958443486afe196100b79bd: -0.01
+    - Vector1_a6ccaf188179433ca3e9f99f8a95733b: 0.04
+    - Vector1_b1cf0e671dcc4b9fb4161fab0cae656a: 11.1
+    - Vector1_c9b7f83c6c804c3ca8e8dc0762cea1e8: 53.86
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_5fe9752705a8428b9d8ba5bbc7573718: {r: 31.999996, g: 4.1884813, b: 0, a: 0}
+    - Vector2_7ace68cef38f41b89fc17159b97f19ac: {r: -0.8, g: -2.7, b: 0, a: 0}
+  m_BuildTextureStacks: []
