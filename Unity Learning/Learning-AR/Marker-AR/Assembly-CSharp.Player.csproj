@@ -777,17 +777,21 @@
       <Project>{5E277143-6982-2CF6-9B08-7A7B34CEA2ED}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{68ACCECE-1873-8D4F-21B5-F7E368FDEECF}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{18C47A82-A6F3-AB59-B3DF-180F761B2518}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
+      <Project>{68ACCECE-1873-8D4F-21B5-F7E368FDEECF}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Player.csproj">
       <Project>{8CCDC560-7FE2-AD61-EED7-CB8E7E294766}</Project>
       <Name>Unity.Tutorials.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.Player.csproj">
+      <Project>{281C1425-0F84-9BB5-E850-A858B166174C}</Project>
+      <Name>KinoBloom.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{E73A0DC0-79E3-A856-81DE-29D413B2A931}</Project>
@@ -800,10 +804,6 @@
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{DDFD65CB-6691-B864-3994-D38674D26C6B}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="KinoBloom.Runtime.Player.csproj">
-      <Project>{281C1425-0F84-9BB5-E850-A858B166174C}</Project>
-      <Name>KinoBloom.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
       <Project>{2C22B963-04CC-03F4-ECD6-62935A03E010}</Project>

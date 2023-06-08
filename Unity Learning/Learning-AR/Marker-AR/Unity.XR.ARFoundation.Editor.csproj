@@ -58,20 +58,20 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\ARUsageAnalyticsArgs.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\ARSceneAnalysis.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\XROriginCreateUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\Hooks\SceneHook.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\CreateUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\ARSceneValidator.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\AROcclusionManagerEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\AREditorAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\PlaneDetectionModeAttributeDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\ARSessionEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\ARCameraBackgroundEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\SceneUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\Hooks\BuildHook.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\ARUsageAnalyticsArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\ARSceneAnalysis.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\XROriginCreateUtil.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\Hooks\SceneHook.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\CreateUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Analytics\AREditorAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\ARSessionEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARFoundation\Unity.XR.ARFoundation.Editor.asmdef" />

@@ -59,9 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARAnalytics\ARAnalyticsConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARAnalytics\AREditorAnalyticsEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARAnalytics\ARAnalyticsEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARAnalytics\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARAnalytics\AREditorAnalyticsEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARAnalytics\Unity.XR.ARAnalytics.Editor.asmdef" />

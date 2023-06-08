@@ -58,14 +58,14 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\XRReferenceObjectLibraryEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\ARBuildProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\BuildHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\XRReferenceImageLibraryEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\XRReferenceImageLibraryExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\PreprocessBuildEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\XRReferenceObjectLibraryExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\SerializableGuidUtil.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\XRReferenceObjectLibraryEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\BuildHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\XRReferenceImageLibraryExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\PreprocessBuildEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\GuidExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\ARSubsystems\XRReferenceImageLibraryBuildProcessor.cs" />
   </ItemGroup>

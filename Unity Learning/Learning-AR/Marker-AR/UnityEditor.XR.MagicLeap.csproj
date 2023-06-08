@@ -60,20 +60,20 @@
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MLSpatialMapperEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MagicLeapSettingsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MagicLeapPackageMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MagicLeapProjectValidationRulesSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\Manifest\PlatformLevelSelector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\SDKUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\Manifest\Privilege.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\Manifest\PrivilegeGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\BuildHelperUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\ReflectionUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MagicLeapPackageMetadata.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\SDKUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MagicLeapTexturePostprocessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MagicLeapLoaderUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\Manifest\PrivilegeParser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\BuildHelperUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\ReflectionUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\MagicLeapBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\Manifest\ModifyAndroidManifestMagicLeap.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Editor\UnityEditor.XR.MagicLeap.asmdef" />

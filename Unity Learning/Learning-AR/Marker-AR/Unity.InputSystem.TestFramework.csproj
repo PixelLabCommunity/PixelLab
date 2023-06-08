@@ -58,10 +58,10 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.5.1\Tests\TestFixture\InputTestFixture.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.5.1\Tests\TestFixture\WinUserInput.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.5.1\Tests\TestFixture\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.5.1\Tests\TestFixture\InputTestRuntime.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.5.1\Tests\TestFixture\InputTestFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.inputsystem@1.5.1\Tests\TestFixture\Unity.InputSystem.TestFramework.asmdef" />

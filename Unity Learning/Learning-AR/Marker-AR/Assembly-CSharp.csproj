@@ -869,10 +869,6 @@
       <Project>{C3604593-1B04-256B-9CA7-5D13CA4528B7}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{4E742C9B-0B89-92E6-7BA5-5D0761551195}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{1DFD25B2-0C0E-9ED4-BFD6-D8BDE3B20A96}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
@@ -881,17 +877,21 @@
       <Project>{A9E63077-9989-D4EA-0B4C-3F2DC3DCCA60}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{4E742C9B-0B89-92E6-7BA5-5D0761551195}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.Editor.csproj">
       <Project>{B8D4B1BC-3C3F-F2FD-C470-C91C53F13B80}</Project>
       <Name>Unity.XR.ARCore.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{07AE50CF-854D-3FA3-91AF-9D73710446C7}</Project>
-      <Name>PPv2URPConverters</Name>
-    </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
       <Project>{05366900-9241-CC80-9233-669A730A072E}</Project>
       <Name>CFXRDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="PPv2URPConverters.csproj">
+      <Project>{07AE50CF-854D-3FA3-91AF-9D73710446C7}</Project>
+      <Name>PPv2URPConverters</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
       <Project>{B41807CF-4FF3-C17E-1948-5F259AB2CF6D}</Project>
@@ -941,21 +941,21 @@
       <Project>{96A07721-7873-580B-461E-0B42E85F2AD8}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{097376EE-974A-E9EB-77CB-F8E137AD6F83}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
       <Project>{95A8AB51-B88F-EAC4-F13D-0098C661AD0C}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{BE9BA2AB-022B-16F7-722D-696436960321}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{097376EE-974A-E9EB-77CB-F8E137AD6F83}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{D1EC59D6-8942-3B44-138C-783803C575C2}</Project>
       <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{BE9BA2AB-022B-16F7-722D-696436960321}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{8E3187E5-2500-BC97-6A83-1F88FC133D92}</Project>
@@ -976,6 +976,10 @@
     <ProjectReference Include="Unity.Tutorials.Core.csproj">
       <Project>{FC872AD9-36B6-B063-31D4-492F732A7E2F}</Project>
       <Name>Unity.Tutorials.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{1F5D224F-E805-38D8-7C15-BCCEF7B240C5}</Project>
+      <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{DCAA4F51-A781-4731-6756-911699661A31}</Project>
@@ -1008,10 +1012,6 @@
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{9FA86A0E-C795-5426-8CB7-C2EE2F59CE8C}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{1F5D224F-E805-38D8-7C15-BCCEF7B240C5}</Project>
-      <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{A17A6713-6E81-0AA9-A1B9-0A14E4470790}</Project>
@@ -1073,6 +1073,10 @@
       <Project>{9BE71B0A-E651-5A08-179D-6072C05072D7}</Project>
       <Name>UnityEngine.XR.MagicLeap</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{F5B43BDC-145C-6D3A-ECBC-572E393DF5B7}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{84E83A53-7EFF-6D3E-06DE-6A80A57965F5}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
@@ -1080,10 +1084,6 @@
     <ProjectReference Include="Unity.Searcher.Editor.csproj">
       <Project>{9114F659-BACB-130F-96B8-28DFBDEEC8A0}</Project>
       <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{F5B43BDC-145C-6D3A-ECBC-572E393DF5B7}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
       <Project>{BFF49923-01DB-D26D-874A-3F78E1EE8958}</Project>

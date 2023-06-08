@@ -58,13 +58,13 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettings\BackupSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettings\CustomPropertyProviderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettingsProviderView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\EditorPreferencesProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettings\AssemblyOptionsSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettings\TypeOptionsSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\EditorPreferencesProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\EditorPreferencesProviderView.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\SettingsProvider\ProjectSettings\ScriptReferenceResolverSettings.cs" />
   </ItemGroup>
