@@ -1,0 +1,63 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "omnisharp.useModernNet": false,
+    "csharpier.enableDebugLogs": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "json.schemas": [],
+    "editor.formatOnSave": false,
+    "[csharp]": {
+        "editor.formatOnSave": true
+    },
+    "editor.defaultFormatter": "csharpier.csharpier-vscode",
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ]
+}

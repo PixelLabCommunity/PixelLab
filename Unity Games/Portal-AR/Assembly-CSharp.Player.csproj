@@ -693,13 +693,13 @@
       <Project>{BCA4CEC6-5ED8-5411-5284-3660729B7739}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{D4F1757F-4CC5-204B-C45D-2B6D87C5CE7D}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{D789497C-8B75-B13B-AB92-47A034E817F5}</Project>
       <Name>Unity.Burst.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
+      <Project>{D4F1757F-4CC5-204B-C45D-2B6D87C5CE7D}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Player.csproj">
       <Project>{3D5D284C-DE3E-8C1E-D409-1DC68E59ADB2}</Project>

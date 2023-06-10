@@ -101,8 +101,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\IntermediateTextureMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\ForwardRendererData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Passes\DrawScreenSpaceUIPass.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Data\UniversalRenderPipelineAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\2D\CinemachineUniversalPixelPerfect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Data\UniversalRenderPipelineAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Overrides\PaniniProjection.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Data\PostProcessData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Debug\DebugDisplaySettingsCommon.cs" />
@@ -179,8 +179,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Overrides\WhiteBalance.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Debug\DebugHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Decal\Entities\DecalDrawSystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Passes\CapturePass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Passes\PostProcessPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Passes\CapturePass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\2D\Light2DManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Decal\DecalProjector.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Passes\ScriptableRenderPass.cs" />
@@ -212,8 +212,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Decal\DecalDrawErrorRenderPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Passes\InvokeOnRenderObjectCallbackPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\2D\Light2DShape.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\2D\Passes\UpscalePass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\RenderingUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\2D\Passes\UpscalePass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\SampleCount.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\Passes\CopyDepthPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Runtime\2D\Passes\PixelPerfectBackgroundPass.cs" />
