@@ -42,23 +42,36 @@
   <ItemGroup>
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_Quaternion.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Glyph.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_LowLevel_GlyphPairAdjustmentRecord.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_Events_UnityEvent.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Slider_SliderEvent.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_InputField_SubmitEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_Character.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_GlyphMetrics.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_Unity_Mathematics_quaternion.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_FontData.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Dropdown_DropdownEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_FontWeightPair.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_SpriteCharacter.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Toggle_ToggleEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Scripts\PointCloudPrefab.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_Style.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_ParticleSystem_MinMaxGradient.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_InputField_OnChangeEvent.cs" />
@@ -70,7 +83,9 @@
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_Character.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Dropdown_OptionDataList.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TextAlignmentOptions.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_InputField_SelectionEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_ColorBlock.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_Dropdown_DropdownEvent.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_AnimationTriggers.cs" />
@@ -79,49 +94,92 @@
      <Compile Include="Assets\_ARPortal\Source Files\Scripts\LightFlicker.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_InputField_TextSelectionEvent.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_Unity_Mathematics_bool2x2.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_Events_UnityEventBase.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_TextStyle.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_ParticleSystem_MinMaxCurve.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_InputField_TouchScreenKeyboardEvent.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_VerticalAlignmentOptions.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Button_ButtonClickedEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_SpriteCharacter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_GlyphPairAdjustmentRecord.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_FontWeightPair.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_SpriteGlyph.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs" />
      <Compile Include="Assets\_ARPortal\Source Files\Scripts\DisplayFPS.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_GlyphRect.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_Dropdown_OptionDataList.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_Unity_Mathematics_bool2.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_ScrollRect_ScrollRectEvent.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_InputField_EndEditEvent.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Ubershader.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX (legacy)\CartoonFX Free.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\_ARPortal\Source Files\Shaders\Toon\CustomLighting.hlsl" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\_ARPortal\Source Files\Shaders\PortalWindowShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\Readme Cartoon FX Remaster FREE.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Procedural Ring.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Distortion.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -861,13 +919,13 @@
       <Project>{7976b0af-18b4-e776-e9a0-c1485462ce51}</Project>
       <Name>Unity.XR.ARCore.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{e2961e0f-5999-8c16-7f9b-ab34fab503e6}</Project>
-      <Name>PPv2URPConverters</Name>
-    </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
       <Project>{91f1bdf2-217a-6fa5-789a-81bfc2f8cb2c}</Project>
       <Name>CFXRDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="PPv2URPConverters.csproj">
+      <Project>{e2961e0f-5999-8c16-7f9b-ab34fab503e6}</Project>
+      <Name>PPv2URPConverters</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
       <Project>{6261f88a-b6bc-ef6f-58ca-2025e4184dad}</Project>
@@ -917,13 +975,13 @@
       <Project>{ef0a2a6d-a944-8043-b778-1cac47687a73}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{dafd960e-7cd2-c3b1-43bf-10a8f2b61b73}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
       <Project>{e5231154-9e67-a3de-32fd-9814eb7b53e4}</Project>
       <Name>CFXR.WelcomeScreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{dafd960e-7cd2-c3b1-43bf-10a8f2b61b73}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{48816a2f-1638-e5a7-27c2-451615e7a22b}</Project>
@@ -952,6 +1010,10 @@
     <ProjectReference Include="Unity.Tutorials.Core.csproj">
       <Project>{d2be9e6b-f9e6-a197-a5ff-d9dd86eca576}</Project>
       <Name>Unity.Tutorials.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{e8ae88e1-b91a-646d-34c4-8555db3cc76b}</Project>
+      <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{01ff84b3-dc31-e0d9-632b-4e86c88237f7}</Project>
@@ -984,10 +1046,6 @@
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{6ea67367-4c2f-3190-c8d7-f4e7786b1233}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{e8ae88e1-b91a-646d-34c4-8555db3cc76b}</Project>
-      <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{d5a452a5-f364-1b7b-96da-87719aa6d5fe}</Project>

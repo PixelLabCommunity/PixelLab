@@ -956,9 +956,17 @@
       <Project>{8f26965a-662a-0e35-18f3-c1690137145c}</Project>
       <Name>Unity.XR.ARAnalytics.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
+      <Project>{f1f37e14-eb93-8301-b2ad-fca9f6dc2118}</Project>
+      <Name>ToonyColorsPro.Demo.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{c65eead0-4af9-aa56-84d5-1f740131f066}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.csproj">
+      <Project>{1ee6e0d7-82b2-9266-d519-352a09537d71}</Project>
+      <Name>CFXRRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
       <Project>{f76c9ecf-977c-e3a8-11bd-430a7de64f24}</Project>
@@ -983,6 +991,10 @@
     <ProjectReference Include="Unity.XR.ARCore.Editor.csproj">
       <Project>{7976b0af-18b4-e776-e9a0-c1485462ce51}</Project>
       <Name>Unity.XR.ARCore.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.csproj">
+      <Project>{91f1bdf2-217a-6fa5-789a-81bfc2f8cb2c}</Project>
+      <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="PPv2URPConverters.csproj">
       <Project>{e2961e0f-5999-8c16-7f9b-ab34fab503e6}</Project>
@@ -1036,6 +1048,10 @@
       <Project>{ef0a2a6d-a944-8043-b778-1cac47687a73}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
+    <ProjectReference Include="CFXR.WelcomeScreen.csproj">
+      <Project>{e5231154-9e67-a3de-32fd-9814eb7b53e4}</Project>
+      <Name>CFXR.WelcomeScreen</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
       <Project>{dafd960e-7cd2-c3b1-43bf-10a8f2b61b73}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
@@ -1067,6 +1083,10 @@
     <ProjectReference Include="Unity.Tutorials.Core.csproj">
       <Project>{d2be9e6b-f9e6-a197-a5ff-d9dd86eca576}</Project>
       <Name>Unity.Tutorials.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{e8ae88e1-b91a-646d-34c4-8555db3cc76b}</Project>
+      <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{01ff84b3-dc31-e0d9-632b-4e86c88237f7}</Project>
@@ -1135,6 +1155,10 @@
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
       <Project>{2bda9b78-bd4a-e563-dbeb-67710e20687a}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{1e4d9837-c6c7-1c67-51b0-950b5026f59c}</Project>
+      <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARKit.Editor.csproj">
       <Project>{3cca298b-b3ca-a2e2-973f-c58f32e917f7}</Project>
