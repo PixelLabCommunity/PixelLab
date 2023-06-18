@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject[] _enemyPrefab;
-    [SerializeField] private GameObject[] _powerUpPrefab;
-    [SerializeField] private GameObject _bossPrefab;
-    [SerializeField] private int _enemiesCountMin = 1;
+    [SerializeField]
+    private GameObject[] _enemyPrefab;
+
+    [SerializeField]
+    private GameObject[] _powerUpPrefab;
+
+    [SerializeField]
+    private GameObject _bossPrefab;
+
+    [SerializeField]
+    private int _enemiesCountMin = 1;
+
+    [SerializeField]
+    private int _number;
 
     private Vector3 _spawnEnemyPosition;
 
@@ -49,14 +59,16 @@ public class GameManager : MonoBehaviour
     {
         int randPrefab = Random.Range(0, _enemyPrefab.Length);
 
-        Instantiate(_enemyPrefab[randPrefab], GenerateSpawnEnemy(),
-                _enemyPrefab[randPrefab].transform.rotation);
+        Instantiate(
+            _enemyPrefab[randPrefab],
+            GenerateSpawnEnemy(),
+            _enemyPrefab[randPrefab].transform.rotation
+        );
     }
 
     private void SpawnBoss()
     {
-        Instantiate(_bossPrefab, GenerateSpawnEnemy(),
-                _bossPrefab.transform.rotation);
+        Instantiate(_bossPrefab, GenerateSpawnEnemy(), _bossPrefab.transform.rotation);
         SpawnEnemy();
     }
 
@@ -64,8 +76,11 @@ public class GameManager : MonoBehaviour
     {
         int randPrefab = Random.Range(0, _enemyPrefab.Length);
         int randPowerUpPrefab = Random.Range(0, _powerUpPrefab.Length);
-        Instantiate(_powerUpPrefab[randPowerUpPrefab], GenerateSpawnEnemy(),
-                _enemyPrefab[randPrefab].transform.rotation);
+        Instantiate(
+            _powerUpPrefab[randPowerUpPrefab],
+            GenerateSpawnEnemy(),
+            _enemyPrefab[randPrefab].transform.rotation
+        );
     }
 
     private Vector3 GenerateSpawnEnemy()

@@ -6,13 +6,26 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float _playerSpeed;
-    [SerializeField] private AudioClip _crashEnemy;
-    [SerializeField] private AudioClip _getPowerUp;
-    [SerializeField] private AudioClip _kickPowerUp;
-    [SerializeField] private GameObject _indicatorPowerUp;
-    [SerializeField] private GameObject _indicatorPowerUpExtra;
-    [SerializeField] private InputAction _playerControls;
+    [SerializeField]
+    private float _playerSpeed;
+
+    [SerializeField]
+    private AudioClip _crashEnemy;
+
+    [SerializeField]
+    private AudioClip _getPowerUp;
+
+    [SerializeField]
+    private AudioClip _kickPowerUp;
+
+    [SerializeField]
+    private GameObject _indicatorPowerUp;
+
+    [SerializeField]
+    private GameObject _indicatorPowerUpExtra;
+
+    [SerializeField]
+    private InputAction _playerControls;
 
     private Rigidbody _playerRb;
     private GameObject _focalPoint;
@@ -58,8 +71,9 @@ public class PlayerController : MonoBehaviour
             _playerAudioSource.PlayOneShot(_kickPowerUp, _volumeScalePowerUp);
 
             Rigidbody _enemyRb = collision.gameObject.GetComponent<Rigidbody>();
-            Vector3 _enemyPowerUpAway = (collision.gameObject.transform.position
-                - transform.position);
+            Vector3 _enemyPowerUpAway = (
+                collision.gameObject.transform.position - transform.position
+            );
 
             _enemyRb.AddForce(_enemyPowerUpAway * _strenghtPowerUp, ForceMode.Impulse);
         }
