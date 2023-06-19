@@ -1,35 +1,35 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.ARSubsystems;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
     [SerializeField] private GameObject[] placeablePrefabs;
-    private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();
-    private ARTrackedImageManager trackedImageManager;
+    private readonly Dictionary<string, GameObject> _spawnedPrefabs = new Dictionary<string, GameObject>();
+    private ARTrackedImageManager _trackedImageManager;
 
     private void Awake()
     {
-        trackedImageManager = GetComponent<ARTrackedImageManager>();
+        _trackedImageManager = GetComponent<ARTrackedImageManager>();
 
         foreach (GameObject prefab in placeablePrefabs)
         {
             GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
             newPrefab.SetActive(false);
-            spawnedPrefabs.Add(prefab.name, newPrefab);
+            _spawnedPrefabs.Add(prefab.name, newPrefab);
         }
     }
 
     private void OnEnable()
     {
-        trackedImageManager.trackedImagesChanged += ImageChanged;
+        _trackedImageManager.trackedImagesChanged += ImageChanged;
     }
 
     private void OnDisable()
     {
-        trackedImageManager.trackedImagesChanged -= ImageChanged;
+        _trackedImageManager.trackedImagesChanged -= ImageChanged;
     }
 
     private void ImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
@@ -52,24 +52,19 @@ public class ImageTracking : MonoBehaviour
 
     private void SpawnPrefab(string imageName, Vector3 position)
     {
-        if (spawnedPrefabs.TryGetValue(imageName, out GameObject prefab))
-        {
-            prefab.transform.position = position;
-            prefab.SetActive(true);
+        if (!_spawnedPrefabs.TryGetValue(imageName, out GameObject prefab)) return;
+        prefab.transform.position = position;
+        prefab.SetActive(true);
 
-            foreach (GameObject go in spawnedPrefabs.Values)
-            {
-                if (go != prefab)
-                {
-                    go.SetActive(false);
-                }
-            }
+        foreach (var go in _spawnedPrefabs.Values.Where(go => go != prefab))
+        {
+            go.SetActive(false);
         }
     }
 
     private void DespawnPrefab(string imageName)
     {
-        if (spawnedPrefabs.TryGetValue(imageName, out GameObject prefab))
+        if (_spawnedPrefabs.TryGetValue(imageName, out GameObject prefab))
         {
             prefab.SetActive(false);
         }
