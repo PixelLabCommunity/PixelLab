@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638221134367961770
-    m_Hash: 1996960265
+      ticks: 638227014665393689
+    m_Hash: 1200816303
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/World-AR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638221134758537900
-    m_Hash: 1126612306
+      ticks: 638227014665418702
+    m_Hash: 522458281
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -51,10 +51,12 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.1
     - 1.1.3
+    - 1.1.4
     - 2.0.0-pre.3
     compatible:
     - 1.1.3
-    recommended: 1.1.3
+    - 1.1.4
+    recommended: 1.1.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -229,12 +231,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.21
+- packageId: com.unity.ide.rider@3.0.24
   testable: 0
   isDirectDependency: 1
-  version: 3.0.21
+  version: 3.0.24
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.ide.rider@3.0.21
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -243,7 +245,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -312,13 +314,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638175749180000000
+  datePublishedTicks: 638221653400000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: bb7732dcafe867368246b7661dda05368b74dd8e
+    revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
     version: 3.0.21
@@ -1375,6 +1377,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1382,6 +1385,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1595,6 +1599,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1602,6 +1607,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1847,6 +1853,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1854,6 +1861,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -2191,8 +2199,10 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.3.1
     - 4.3.3
+    - 4.4.0
     compatible:
     - 4.3.3
+    - 4.4.0
     recommended: 4.3.3
     deprecated: []
   dependencies:

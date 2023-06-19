@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class Rotation : MonoBehaviour
 {
-    [SerializeField] private float _rotationSpeed;
-    [SerializeField] private Vector3 _position = new Vector3(4f, 5f, 2f);
+    [SerializeField] private float rotationSpeed;
+    [SerializeField] private Vector3 position = new(4f, 5f, 2f);
+
 
     private void Update()
     {
-        transform.Rotate(_position * Time.deltaTime * _rotationSpeed);
+        transform.Rotate(position * (Time.deltaTime * rotationSpeed));
         Debug.Log("GameObject rotating....");
     }
 }
