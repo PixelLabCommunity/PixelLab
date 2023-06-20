@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7295827625111254302
+--- !u!1 &8462847418390860401
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3504541851624283977}
-  - component: {fileID: 7516101818020998658}
-  - component: {fileID: 1756967451461481379}
-  - component: {fileID: 4604301933013629812}
-  - component: {fileID: 5724211679157068958}
+  - component: {fileID: 3203325544155929581}
+  - component: {fileID: 1705753423859709254}
+  - component: {fileID: 8513502773839616637}
+  - component: {fileID: 3557103962489848106}
+  - component: {fileID: 4336671520225190255}
   m_Layer: 0
   m_Name: AR Default Point Cloud
   m_TagString: Untagged
@@ -20,54 +20,54 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3504541851624283977
+--- !u!4 &3203325544155929581
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7295827625111254302}
+  m_GameObject: {fileID: 8462847418390860401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.676063, y: -3.905179, z: 0.37926912}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7516101818020998658
+--- !u!114 &1705753423859709254
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7295827625111254302}
+  m_GameObject: {fileID: 8462847418390860401}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afcab4e7938ae724a8a59ecac3580761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_DestroyOnRemoval: 1
---- !u!114 &1756967451461481379
+--- !u!114 &8513502773839616637
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7295827625111254302}
+  m_GameObject: {fileID: 8462847418390860401}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 468ea6c98cd64494abbc2c2f34d6cde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!199 &4604301933013629812
+--- !u!199 &3557103962489848106
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7295827625111254302}
+  m_GameObject: {fileID: 8462847418390860401}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -132,13 +132,13 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!198 &5724211679157068958
+--- !u!198 &4336671520225190255
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7295827625111254302}
+  m_GameObject: {fileID: 8462847418390860401}
   serializedVersion: 8
   lengthInSec: 5
   simulationSpeed: 1
@@ -386,7 +386,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.02
+      scalar: 5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -651,7 +651,7 @@ ParticleSystem:
     startRotation:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.034906585
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -701,7 +701,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    randomizeRotationDirection: 0
+    randomizeRotationDirection: 1
     gravitySource: 0
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
@@ -1075,7 +1075,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
