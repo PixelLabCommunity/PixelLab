@@ -28740,7 +28740,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1055734365
 Transform:
@@ -30083,6 +30083,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheep
       objectReference: {fileID: 0}
+    - target: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30146,6 +30151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31195,6 +31205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32964,6 +32979,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 85
       objectReference: {fileID: 0}
+    - target: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33161,6 +33181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33506,6 +33531,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4576008271699070409, guid: 8bb4fcff8d0042e40b7af44de73f3451,
+        type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15200, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4583315842114621223, guid: 8bb4fcff8d0042e40b7af44de73f3451,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34523,6 +34553,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheep (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35352,6 +35387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sheep (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
