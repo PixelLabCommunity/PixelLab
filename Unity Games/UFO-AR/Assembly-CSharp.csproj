@@ -47,10 +47,13 @@
   <ItemGroup>
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+     <Compile Include="Assets\Scripts\Rotation.cs" />
      <Folder Include="Assets" />
      <None Include="Library\PackageCache\com.unity.settings-manager@2.0.1\package.json" />
      <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\package.json" />
+     <Folder Include="Assets\_UFO Game\Audio\Ambient" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
      <Folder Include="Assets\ExampleAssets" />
      <Folder Include="Assets\ExampleAssets\Shaders" />
@@ -61,8 +64,10 @@
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Tests" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\RuntimeLoaders\windows\x64" />
      <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.imgui@1.0.0" />
      <None Include="Library\PackageCache\com.unity.xr.interactionsubsystems@2.0.0\package.json" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Sprites" />
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Materials" />
      <None Include="Library\PackageCache\com.unity.inputsystem@1.6.1\package.json" />
@@ -74,15 +79,20 @@
      <None Include="Library\PackageCache\com.unity.ugui@1.0.0\package.json" />
      <Folder Include="Assets\ExampleAssets\Tutorial\Images" />
      <Folder Include="Library\PackageCache\com.unity.modules.xr@1.0.0" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator" />
      <None Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures\SMAA" />
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.24\Rider" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationRoomXRay.shader" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Flow" />
      <None Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\package.json" />
      <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.inputsystem@1.6.1\Tests" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures\BlueNoise64" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\package.json" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\XRayURPForwardPass.hlsl" />
@@ -93,6 +103,7 @@
      <None Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.burst@1.8.7\Tests" />
+     <Folder Include="Assets\_UFO Game\Scenes\MainScene" />
      <None Include="Library\PackageCache\com.unity.burst@1.8.7\ValidationConfig.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.arcore@5.0.6\Tests" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders" />
@@ -107,16 +118,22 @@
      <Folder Include="Assets\XR\Loaders" />
      <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35" />
      <Folder Include="Library\PackageCache\com.unity.xr.arcore@5.0.6\Assets\Shaders" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\package.json" />
+     <Folder Include="Assets\_UFO Game\Models\Characters" />
      <Folder Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2" />
      <Folder Include="Library\PackageCache\com.unity.xr.arkit@5.0.6" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\RuntimeLoaders\windows" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated" />
      <Folder Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0" />
      <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\package.json" />
      <None Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.timeline@1.7.5\ValidationExceptions.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\package.json" />
+     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\_UFO Game\Materials" />
      <Folder Include="Library\PackageCache\com.unity.timeline@1.7.5" />
      <Folder Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0" />
      <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
@@ -129,6 +146,7 @@
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures\FilmGrain" />
      <Folder Include="Assets\XR" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\RuntimeLoaders\universalwindows\arm32" />
+     <Folder Include="Assets\_UFO Game\Textures" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Tests\Runtime" />
      <Folder Include="Library\PackageCache\com.unity.burst@1.8.7" />
      <Folder Include="Assets\ExampleAssets\Prefabs" />
@@ -136,12 +154,14 @@
      <None Include="Library\PackageCache\com.unity.xr.arkit@5.0.6\package.json" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\ValidationConfig.json" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\package.json" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.arcore@5.0.6" />
      <Folder Include="Assets\XR\UserSimulationSettings\Resources" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0" />
+     <Folder Include="Assets\_UFO Game" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\ValidationExceptions.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0" />
      <None Include="Library\PackageCache\com.unity.shadergraph@14.0.8\package.json" />
@@ -149,6 +169,8 @@
      <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
      <Folder Include="Assets\ExampleAssets\Models" />
      <Folder Include="Library\PackageCache\com.unity.xr.arkit@5.0.6\Assets" />
+     <Folder Include="Assets\_UFO Game\Prefabs\Environment" />
+     <Folder Include="Assets\_UFO Game\Audio\UFO" />
      <Folder Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0" />
      <None Include="Library\PackageCache\com.unity.ide.rider@3.0.24\package.json" />
      <None Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\package.json" />
@@ -165,6 +187,7 @@
      <Folder Include="Library\PackageCache\com.unity.feature.ar@1.0.1" />
      <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\GizmoSolidColor.shader" />
+     <None Include="Assets\_UFO Game\Fonts\OFL.txt" />
      <Folder Include="Library\PackageCache\com.unity.modules.vr@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\MetaQuest" />
      <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4" />
@@ -172,15 +195,21 @@
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\RuntimeLoaders\android" />
      <Folder Include="Library\PackageCache\com.unity.xr.arkit@5.0.6\Tests" />
      <None Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2\package.json" />
+     <Folder Include="Assets\_UFO Game\Scenes" />
+     <Folder Include="Assets\_UFO Game\Audio\Sheep" />
      <None Include="Library\PackageCache\com.unity.xr.arkit@5.0.6\Assets\Shaders\ARKitBackgroundAfterOpaques.shader" />
      <Folder Include="Library\PackageCache\com.unity.inputsystem@1.6.1" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8" />
      <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Fonts" />
      <Folder Include="Library\PackageCache\com.unity.modules.wind@1.0.0" />
      <Folder Include="Assets\ExampleAssets\Scripts" />
+     <Folder Include="Assets\_UFO Game\Scenes\LoseScene" />
      <None Include="Library\PackageCache\com.unity.xr.arkit@5.0.6\Assets\Shaders\ARKitBackground.shader" />
      <Folder Include="Library\PackageCache\com.unity.shadergraph@14.0.8" />
+     <Folder Include="Assets\_UFO Game\Fonts" />
      <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\package.json" />
      <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.interactionsubsystems@2.0.0" />
@@ -188,21 +217,29 @@
      <Folder Include="Library\PackageCache\com.unity.modules.uielements@1.0.0" />
      <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\ValidationExceptions.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <Folder Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Library\PackageCache\com.unity.settings-manager@2.0.1" />
      <Folder Include="Library\PackageCache\com.unity.xr.interactionsubsystems@2.0.0\Tests" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.18\ValidationExceptions.json" />
      <None Include="Library\PackageCache\com.unity.xr.management@4.3.3\package.json" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Shaders" />
      <None Include="Library\PackageCache\com.unity.modules.wind@1.0.0\package.json" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0\Tests" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Library\PackageCache\com.unity.modules.umbra@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Textures" />
      <Folder Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0" />
      <None Include="Library\PackageCache\com.unity.xr.arcore@5.0.6\Assets\Shaders\ARCoreBackgroundAfterOpaques.shader" />
      <Folder Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.modules.ui@1.0.0" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\XR\Loaders" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures" />
+     <Folder Include="Assets\URP" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\OculusQuest" />
      <Folder Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Tests" />
      <Folder Include="Library\PackageCache\com.unity.mathematics@1.2.6" />
@@ -212,6 +249,7 @@
      <None Include="Library\PackageCache\com.unity.feature.ar@1.0.1\package.json" />
      <Folder Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2\Tests" />
      <None Include="Library\PackageCache\com.unity.xr.arcore@5.0.6\Assets\Shaders\ARCoreBackground.shader" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Library\PackageCache\com.unity.inputsystem@1.6.1\ValidationExceptions.json" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Gizmos" />
      <None Include="Library\PackageCache\com.unity.modules.audio@1.0.0\package.json" />
@@ -222,29 +260,40 @@
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures\2D" />
      <Folder Include="Assets\ExampleAssets\Textures" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\ValidationExceptions.json" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Resources\Style Sheets" />
      <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
+     <Folder Include="Assets\_UFO Game\Graphs\Start Scene" />
+     <Folder Include="Assets\_UFO Game\Audio\Farmer" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationURPSynthetic.shader" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationBackgroundSimple.shader" />
      <Folder Include="Assets\ExampleAssets\Tutorial" />
+     <Folder Include="Assets\_UFO Game\Textures\Markers" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\RuntimeLoaders" />
      <None Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\package.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Prefabs" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6" />
+     <Folder Include="Assets\_UFO Game\Animations\UFO" />
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.24" />
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8" />
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.searcher@4.9.2\Tests" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationSyntheticLit.shader" />
+     <Folder Include="Assets\_UFO Game\Scenes\StartScene" />
+     <Folder Include="Assets\_UFO Game\Scenes\WinScene" />
      <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
+     <Folder Include="Assets\_UFO Game\Graphs" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Runtime" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Tests" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures\BlueNoise16" />
+     <Folder Include="Assets\_UFO Game\Audio" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\ValidationConfig.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Textures" />
+     <Folder Include="Assets\_UFO Game\Prefabs" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationLegacyStandard.shader" />
      <Folder Include="Library\PackageCache\com.unity.ide.vscode@1.2.5" />
      <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
@@ -253,11 +302,14 @@
      <None Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.3\package.json" />
      <None Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_Properties.cginc" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\_UFO Game\Animations" />
      <None Include="Library\PackageCache\com.unity.xr.core-utils@2.2.1\package.json" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.8\Tests" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationStandardLit.shader" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.umbra@1.0.0" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\Tests" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0" />
@@ -270,18 +322,23 @@
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders" />
      <Folder Include="Library\PackageCache\com.unity.modules.director@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.modules.audio@1.0.0" />
+     <Folder Include="Assets\Materials" />
      <Folder Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Content" />
+     <Folder Include="Assets\_UFO Game\Graphs\Main Scene" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationLegacySynthetic.shader" />
      <None Include="Library\PackageCache\com.unity.modules.terrain@1.0.0\package.json" />
      <Folder Include="Assets\XR\Resources" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Shaders\SimulationURPLit.shader" />
      <Folder Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.18" />
      <None Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0\package.json" />
+     <Folder Include="Assets\_UFO Game\Models\Environment" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.video@1.0.0" />
      <Folder Include="Assets\XR\Settings" />
      <Folder Include="Library\PackageCache\com.unity.modules.ai@1.0.0" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData_Assets.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.arkit@5.0.6\Assets\Shaders" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures\BlueNoise16\L" />
      <None Include="Library\PackageCache\com.unity.xr.arkit@5.0.6\ValidationExceptions.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\RuntimeLoaders\universalwindows\arm64" />
@@ -289,10 +346,16 @@
      <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\ValidationExceptions.json" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Package Resources" />
      <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Assets\Prefabs" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Library\PackageCache\com.unity.modules.terrain@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Resources" />
+     <Folder Include="Assets\_UFO Game\TextMesh Pro\Documentation" />
      <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib" />
+     <Folder Include="Assets\_UFO Game\Animations\Sheep" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Runtime\UnitySubsystemsManifest.json" />
+     <Folder Include="Assets\_UFO Game\Models" />
      <None Include="Library\PackageCache\com.unity.burst@1.8.7\Unity.Burst.Unsafe.xml" />
      <Folder Include="Assets\XR\UserSimulationSettings" />
      <None Include="Library\PackageCache\com.unity.xr.magicleap@7.0.0\Tests\xrsdktestsconfig.json" />
@@ -303,10 +366,14 @@
      <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.burst@1.8.7\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0" />
+     <Folder Include="Assets\_UFO Game\Animations\Farmer" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Tests" />
      <Folder Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10" />
      <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
+     <None Include="Assets\_UFO Game\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\_UFO Game\Graphs\Win-Lose Scene" />
      <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\package.json" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -1023,10 +1090,6 @@
       <Project>{3165fd46-5a77-b80a-ec82-0d704cde9e8f}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{ee387d53-86fe-6f0c-6b0b-60c24fb98537}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{fe3292aa-cf6c-3d12-e76d-93a19f0f5261}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
@@ -1034,6 +1097,10 @@
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
       <Project>{274847b6-1c33-b796-5b47-e7fe71fce2af}</Project>
       <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{ee387d53-86fe-6f0c-6b0b-60c24fb98537}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.Editor.csproj">
       <Project>{435dc2fc-47bf-dea4-2609-ef258446dbe8}</Project>
@@ -1095,13 +1162,13 @@
       <Project>{03edd9a1-24ed-b187-a57a-8cb9d7dc2799}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{87bb7d38-7a37-ba8b-1e29-1b292cf57de1}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{b13d2a09-2f02-308a-f4ef-36ba81f3409a}</Project>
       <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{87bb7d38-7a37-ba8b-1e29-1b292cf57de1}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{62835c68-93af-d2eb-8b89-408dea70c90b}</Project>
@@ -1215,6 +1282,10 @@
       <Project>{6c766a4d-a886-7326-924a-187b4ebbb0c3}</Project>
       <Name>UnityEngine.XR.MagicLeap</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{17089600-8320-4970-2198-faf29ed9916c}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{d8f9db70-66a4-ba8c-e9a3-9b46b2d215b3}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
@@ -1222,10 +1293,6 @@
     <ProjectReference Include="Unity.Searcher.Editor.csproj">
       <Project>{c5a7cc4b-73d0-d2f1-b592-57ba47f3af56}</Project>
       <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{17089600-8320-4970-2198-faf29ed9916c}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
       <Project>{f78120f0-6e1f-66d6-7847-1218f81bd85b}</Project>
