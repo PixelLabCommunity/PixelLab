@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638229668115156613
-    m_Hash: 3152467864
+      ticks: 638235808542015974
+    m_Hash: 1243883113
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
       - 3D/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638229668115181571
-    m_Hash: 745383660
+      ticks: 638235808608800981
+    m_Hash: 3456772265
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
   - 3D/Packages
-m_EditorVersion: 2022.3.2f1 (d74737c6db50)
+m_EditorVersion: 2022.3.3f1 (7cdc2969a641)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -228,13 +228,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.4
+- packageId: com.unity.collab-proxy@2.0.5
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.0.5
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.collab-proxy@2.0.4
+    - 3D\Library\PackageCache\com.unity.collab-proxy@2.0.5
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -243,7 +243,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: asset
+  type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting plasticscm.com.
@@ -319,7 +319,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.4
     - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
@@ -353,16 +352,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638176024310000000
+  datePublishedTicks: 638218079810000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
+    revision: 7f68049e8cae5b51ad0d17cc01b8c6e802bf3866
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -620,8 +619,6 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     compatible:
-    - 3.0.21
-    - 3.0.22
     - 3.0.24
     recommended: 3.0.24
     deprecated: []
@@ -651,7 +648,7 @@ m_ResolvedPackages:
     revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
-    version: 3.0.21
+    version: 3.0.24
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1013,7 +1010,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.4
+    version: 1.8.7
   - name: com.unity.render-pipelines.core
     version: 14.0.8
   - name: com.unity.ugui
@@ -3763,10 +3760,12 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
     recommended: 1.0.6
     deprecated: []
   dependencies: []
@@ -3874,13 +3873,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.4
+- packageId: com.unity.burst@1.8.7
   testable: 0
   isDirectDependency: 0
-  version: 1.8.4
+  version: 1.8.7
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.burst@1.8.4
+    - 3D\Library\PackageCache\com.unity.burst@1.8.7
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3889,7 +3888,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 0
@@ -4019,7 +4018,6 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.7
     compatible:
-    - 1.8.4
     - 1.8.7
     recommended: 1.8.7
     deprecated: []
@@ -4040,16 +4038,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638150963640000000
+  datePublishedTicks: 638221796120000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: b05f7d57a035997c1abc0c742e812dadd107d467
+    revision: 47aa5e222ec0a9e94b78af0bb63021cf722ad06b
     path: 
   unityLifecycle:
-    version: 1.8.4
+    version: 1.8.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
