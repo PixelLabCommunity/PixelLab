@@ -45,6 +45,7 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\TapToLoadScene.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\Scripts\Rotation.cs" />
