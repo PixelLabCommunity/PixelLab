@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="978ce0f6-e4e7-4c06-b000-80ba389f1636" name="Changes" comment="Game/UFO-AR: start port the game, set all scenes, set Main menu canvas, few fixes">
+    <list default="true" id="978ce0f6-e4e7-4c06-b000-80ba389f1636" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UFO-AR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UFO-AR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Visual Scripts/GameStarter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Scripts/GameStarter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Resources/XRSimulationRuntimeSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_UFO Game/Graphs/Main Scene/UFOMovement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_UFO Game/Graphs/Main Scene/UFOMovement.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_UFO Game/Prefabs/Gameplay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_UFO Game/Prefabs/Gameplay.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_UFO Game/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_UFO Game/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BuildPlayerData/Editor/TypeDb-All.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BuildPlayerData/Editor/TypeDb-All.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BuildPlayerData/Player/TypeDb-All.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BuildPlayerData/Player/TypeDb-All.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UFO-AR.sln" beforeDir="false" afterPath="$PROJECT_DIR$/UFO-AR.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687765684714</updated>
       <workItem from="1687765688921" duration="975000" />
-      <workItem from="1688237424556" duration="313000" />
+      <workItem from="1688237424556" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="Game/UFO-AR: start port the game, set all scenes, set Main menu canvas, few fixes">
       <created>1687773086229</created>
@@ -124,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687773086229</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Game/UFO-AR: update main menu, set up close function, set up controls, added SFX, added misc stuff">
+      <option name="closed" value="true" />
+      <created>1688239288622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688239288622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +136,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Game/UFO-AR: start port the game, set all scenes, set Main menu canvas, few fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game/UFO-AR: start port the game, set all scenes, set Main menu canvas, few fixes" />
+    <MESSAGE value="Game/UFO-AR: update main menu, set up close function, set up controls, added SFX, added misc stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game/UFO-AR: update main menu, set up close function, set up controls, added SFX, added misc stuff" />
   </component>
 </project>
