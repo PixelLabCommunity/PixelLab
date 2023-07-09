@@ -66,6 +66,7 @@
      <Compile Include="Assets\_Course Library\Scripts\Actions\DestroyObject.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleParticle.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Testing\Notes.cs" />
+     <Compile Include="Assets\Scripts\CloseApp.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Controls\XRLever.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Actions\MoveWithVelocity.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Actions\SetMaterialColor.cs" />
@@ -145,6 +146,7 @@
      <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
      <Folder Include="Assets\Challenges\01_Architecture\Scenes" />
      <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Graphics" />
+     <Folder Include="Assets\Scripts" />
      <Folder Include="Library\PackageCache\com.unity.xr.management@4.3.3" />
      <None Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0\package.json" />
      <Folder Include="Assets\_Course Library\Materials\Solid Colors" />
@@ -350,6 +352,7 @@
      <Folder Include="Assets\_Course Library\_Prefabs\Objects\Candles" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData_Assets.json" />
      <Folder Include="Assets\_Course Library\Audio\FX" />
+     <Folder Include="Assets\Scenes\My Room" />
      <Folder Include="Assets\_Course Library\Materials\Object Materials" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8\Textures\BlueNoise16\L" />
      <Folder Include="Assets\Challenges\03_Training\Prefabs" />
