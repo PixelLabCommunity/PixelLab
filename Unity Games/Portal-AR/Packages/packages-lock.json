@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.unity.burst": {
-      "version": "1.8.4",
+      "version": "1.8.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -10,7 +10,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.0.4",
+      "version": "2.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -39,7 +39,7 @@
         "com.unity.xr.arkit": "5.0.6",
         "com.unity.xr.arcore": "5.0.6",
         "com.unity.xr.magicleap": "7.0.0",
-        "com.unity.xr.openxr": "1.7.0"
+        "com.unity.xr.openxr": "1.8.1"
       }
     },
     "com.unity.feature.development": {
@@ -48,7 +48,7 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.ide.visualstudio": "2.0.18",
-        "com.unity.ide.rider": "3.0.21",
+        "com.unity.ide.rider": "3.0.24",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.2.2",
@@ -57,7 +57,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.21",
+      "version": "3.0.24",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -319,13 +319,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr": {
-      "version": "1.7.0",
+      "version": "1.8.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
         "com.unity.xr.legacyinputhelpers": "2.1.2",
-        "com.unity.inputsystem": "1.4.4"
+        "com.unity.inputsystem": "1.4.4",
+        "com.unity.xr.core-utils": "2.1.1"
       },
       "url": "https://packages.unity.com"
     },
