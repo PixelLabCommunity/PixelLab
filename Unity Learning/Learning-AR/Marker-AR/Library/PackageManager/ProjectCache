@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638227906878729150
-    m_Hash: 343605122
+      ticks: 638251275850187519
+    m_Hash: 1744316850
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/Marker-AR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638227906878759405
-    m_Hash: 1667828194
+      ticks: 638251276273941009
+    m_Hash: 841191983
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/Marker-AR/Packages
-m_EditorVersion: 2022.3.2f1 (d74737c6db50)
+m_EditorVersion: 2022.3.4f1 (35713cd46cd7)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.0.4
+- packageId: com.unity.collab-proxy@2.0.5
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.0.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\Marker-AR\Library\PackageCache\com.unity.collab-proxy@2.0.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\Marker-AR\Library\PackageCache\com.unity.collab-proxy@2.0.5
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -36,7 +36,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: asset
+  type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting plasticscm.com.
@@ -112,7 +112,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.4
     - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
@@ -146,16 +145,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638176024310000000
+  datePublishedTicks: 638218079810000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
+    revision: 7f68049e8cae5b51ad0d17cc01b8c6e802bf3866
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -254,7 +253,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.interactionsubsystems
     version: 2.0.0
   - name: com.unity.xr.openxr
-    version: 1.7.0
+    version: 1.8.1
   keywords: []
   registry:
     id: main
@@ -436,8 +435,6 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     compatible:
-    - 3.0.21
-    - 3.0.22
     - 3.0.24
     recommended: 3.0.24
     deprecated: []
@@ -467,7 +464,7 @@ m_ResolvedPackages:
     revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
-    version: 3.0.21
+    version: 3.0.24
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -676,7 +673,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.4
+    version: 1.8.7
   - name: com.unity.render-pipelines.core
     version: 14.0.8
   - name: com.unity.ugui
@@ -1002,17 +999,21 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
+    - 1.8.4
     compatible:
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
-    recommended: 1.7.4
+    - 1.8.4
+    recommended: 1.7.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1291,6 +1292,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1299,6 +1301,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -3651,6 +3654,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -3659,6 +3663,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -3984,12 +3989,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.4
+- packageId: com.unity.burst@1.8.7
   testable: 0
   isDirectDependency: 0
-  version: 1.8.4
+  version: 1.8.7
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\Marker-AR\Library\PackageCache\com.unity.burst@1.8.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\Marker-AR\Library\PackageCache\com.unity.burst@1.8.7
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3998,7 +4003,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 0
@@ -4128,7 +4133,6 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.7
     compatible:
-    - 1.8.4
     - 1.8.7
     recommended: 1.8.7
     deprecated: []
@@ -4149,16 +4153,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638150963640000000
+  datePublishedTicks: 638221796120000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: b05f7d57a035997c1abc0c742e812dadd107d467
+    revision: 47aa5e222ec0a9e94b78af0bb63021cf722ad06b
     path: 
   unityLifecycle:
-    version: 1.8.4
+    version: 1.8.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4674,10 +4678,14 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     recommended: 1.0.6
     deprecated: []
   dependencies: []
@@ -4998,6 +5006,7 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -5011,6 +5020,7 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -5316,6 +5326,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -5324,6 +5335,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -5574,12 +5586,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.openxr@1.7.0
+- packageId: com.unity.xr.openxr@1.8.1
   testable: 0
   isDirectDependency: 0
-  version: 1.7.0
+  version: 1.8.1
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\Marker-AR\Library\PackageCache\com.unity.xr.openxr@1.7.0
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\Marker-AR\Library\PackageCache\com.unity.xr.openxr@1.8.1
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -5588,7 +5600,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: OpenXR is an open, royalty-free standard developed by Khronos that
     aims to simplify AR/VR development by allowing developers to target a wide range
     of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
@@ -5620,10 +5632,8 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     compatible:
-    - 1.7.0
-    - 1.8.0
     - 1.8.1
-    recommended: 1.7.0
+    recommended: 1.8.1
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
@@ -5632,6 +5642,8 @@ m_ResolvedPackages:
     version: 2.1.2
   - name: com.unity.inputsystem
     version: 1.4.4
+  - name: com.unity.xr.core-utils
+    version: 2.1.1
   resolvedDependencies:
   - name: com.unity.xr.management
     version: 4.3.3
@@ -5655,6 +5667,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
   keywords:
   - openxr
   - xr
@@ -5670,16 +5684,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638137880400000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.7/manual/index.html
+  datePublishedTicks: 638222423880000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: 6a1990de9658294dd93a1f786585fe9878eac1eb
+    revision: 45f13b26a02832b14dd93ff3d908779c3f9c6970
     path: 
   unityLifecycle:
-    version: 1.7.0
+    version: 1.8.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
