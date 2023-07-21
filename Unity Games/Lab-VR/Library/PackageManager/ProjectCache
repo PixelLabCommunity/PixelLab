@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Lab-VR/Packages
-m_EditorVersion: 2022.3.4f1 (35713cd46cd7)
+m_EditorVersion: 2022.3.5f1 (9674261d40ee)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.4
   testable: 0
@@ -866,6 +866,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -874,6 +875,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.6
@@ -1024,7 +1026,6 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     compatible:
-    - 1.7.4
     - 1.7.5
     - 1.8.0
     - 1.8.1
@@ -1076,7 +1077,7 @@ m_ResolvedPackages:
     revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
     path: 
   unityLifecycle:
-    version: 1.7.4
+    version: 1.7.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1108,6 +1109,7 @@ m_ResolvedPackages:
     all:
     - 1.0.0
     - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1304,9 +1306,11 @@ m_ResolvedPackages:
     - 2.4.0-pre.1
     - 2.4.0-pre.2
     - 2.4.0
+    - 2.4.1
     compatible:
     - 2.4.0
-    recommended: 2.4.0
+    - 2.4.1
+    recommended: 2.4.1
     deprecated: []
   dependencies:
   - name: com.unity.inputsystem
@@ -3697,9 +3701,11 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     - 1.6.1
+    - 1.6.3
     compatible:
     - 1.6.1
-    recommended: 1.6.1
+    - 1.6.3
+    recommended: 1.6.3
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -3787,9 +3793,13 @@ m_ResolvedPackages:
     - 2.2.0-pre.2
     - 2.2.0
     - 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
     compatible:
     - 2.2.1
-    recommended: 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
+    recommended: 2.2.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.xr
