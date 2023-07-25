@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 4221
+  controlID: 5326
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 4159
+  controlID: 5265
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 4100
+  controlID: 5212
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 922
     height: 487.33334
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -547,9 +547,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.921, y: 1.1175997, z: 0}
+    m_Target: {x: 0, y: 0.5159998, z: 0}
     speed: 2
-    m_Value: {x: 0.921, y: 1.1175997, z: 0}
+    m_Value: {x: 0, y: 0.5159998, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -595,9 +595,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.006811357, y: 0.0017604503, z: 0.000120626064, w: 1.0001943}
+    m_Target: {x: -0.033591896, y: -0.0791332, z: -0.0025858216, w: 0.99651873}
     speed: 2
-    m_Value: {x: 0.006809866, y: 0.0017600649, z: 0.00012059965, w: 0.9999753}
+    m_Value: {x: -0.033584397, y: -0.07911553, z: -0.0025852444, w: 0.9962963}
   m_Size:
     m_Target: 0.8660254
     speed: 2
@@ -754,8 +754,8 @@ MonoBehaviour:
     y: 0
     width: 429.33337
     height: 487.33334
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -798,24 +798,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 16}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 704cfeffa254feffa654feffae7dfeffb07dfeff1698feffa497ffffaaf2ffff50f4ffff1efbffff44740000a6740000bc740000ca740000
+      m_ExpandedIDs: 86a1ffffaaaaffff5cf4ffff1efbffffd07f0000ac80000016860000588700007e870000a6870000268800008e880000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: XR Rig
-        m_OriginalName: XR Rig
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 29862
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 4160
+  controlID: 5266
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -951,7 +951,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -92138
+  m_LastSelectedObjectID: 34936
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1044,8 +1044,8 @@ MonoBehaviour:
     y: 0
     width: 430.00006
     height: 438.66666
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -1097,7 +1097,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Course Library/_Prefabs/VR/Hands
+    - Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1105,16 +1105,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Course Library/_Prefabs/VR/Hands
+  - Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity Development\PixelLab\Unity Learning\Room-VR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 415}
-    m_SelectedIDs: 1a7e0000
-    m_LastClickedID: 32282
-    m_ExpandedIDs: 00000000e07b0000e27b0000e47b0000e67b0000e87b0000ea7b0000ec7b0000ee7b0000f07b0000c87d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 214.33334}
+    m_SelectedIDs: ae860000
+    m_LastClickedID: 34478
+    m_ExpandedIDs: 00000000027e0000047e0000087e00000a7e00000c7e00000e7e0000107e0000547e0000587e0000627e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1142,7 +1142,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e07b0000e27b0000e47b0000e67b0000e87b0000ea7b0000ec7b0000ee7b0000f07b000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000027e0000047e0000087e00000a7e00000c7e00000e7e0000107e0000547e0000627e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1167,9 +1167,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a6740000
-    m_LastClickedInstanceID: 29862
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 78880000
+    m_LastClickedInstanceID: 34936
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000046720000000000006e150100d813010010f80000bc740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1217,8 +1217,8 @@ MonoBehaviour:
     y: 0
     width: 355.33325
     height: 926
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -1265,8 +1265,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 29862
-  m_LastVerticalScrollValue: 449.99994
+  m_LastInspectedObjectInstanceID: 34936
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
