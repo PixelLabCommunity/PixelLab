@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638244444547790603
-    m_Hash: 3448624178
+      ticks: 638259956428871420
+    m_Hash: 4050055724
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/World-AR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638244444605174806
-    m_Hash: 2899061462
+      ticks: 638259956508467143
+    m_Hash: 3256015112
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/World-AR/Packages
-m_EditorVersion: 2022.3.4f1 (35713cd46cd7)
+m_EditorVersion: 2022.3.5f1 (9674261d40ee)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.4
   testable: 0
@@ -679,6 +679,7 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -692,6 +693,7 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -864,6 +866,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -872,6 +875,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.6
@@ -918,12 +922,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.4
+- packageId: com.unity.timeline@1.7.5
   testable: 0
   isDirectDependency: 1
-  version: 1.7.4
+  version: 1.7.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.timeline@1.7.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.timeline@1.7.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -932,7 +936,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
@@ -1022,7 +1026,6 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     compatible:
-    - 1.7.4
     - 1.7.5
     - 1.8.0
     - 1.8.1
@@ -1065,16 +1068,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638143790870000000
+  datePublishedTicks: 638229649600000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
+    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
     path: 
   unityLifecycle:
-    version: 1.7.4
+    version: 1.7.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1106,6 +1109,7 @@ m_ResolvedPackages:
     all:
     - 1.0.0
     - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1378,6 +1382,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1386,6 +1391,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1600,6 +1606,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1608,6 +1615,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1854,6 +1862,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1862,6 +1871,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -4368,9 +4378,13 @@ m_ResolvedPackages:
     - 2.2.0-pre.2
     - 2.2.0
     - 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
     compatible:
     - 2.2.1
-    recommended: 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
+    recommended: 2.2.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.xr
@@ -4478,9 +4492,11 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     - 1.6.1
+    - 1.6.3
     compatible:
     - 1.6.1
-    recommended: 1.6.1
+    - 1.6.3
+    recommended: 1.6.3
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
