@@ -1307,10 +1307,12 @@ m_ResolvedPackages:
     - 2.4.0-pre.2
     - 2.4.0
     - 2.4.1
+    - 2.4.3
     compatible:
     - 2.4.0
     - 2.4.1
-    recommended: 2.4.1
+    - 2.4.3
+    recommended: 2.4.3
     deprecated: []
   dependencies:
   - name: com.unity.inputsystem
@@ -1569,9 +1571,11 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     compatible:
     - 1.8.1
-    recommended: 1.8.1
+    - 1.8.2
+    recommended: 1.8.2
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
