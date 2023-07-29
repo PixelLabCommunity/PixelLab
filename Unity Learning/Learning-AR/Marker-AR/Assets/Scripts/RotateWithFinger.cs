@@ -2,25 +2,12 @@ using UnityEngine;
 
 public class RotateWithFinger : MonoBehaviour
 {
-    [SerializeField]
-    private float autoRotationSpeed = 5f;
-
-    [SerializeField]
-    public float manualRotationSpeed = 10f;
-
-    private bool isAutoRotating = true;
-    private bool isRotatingManually = false;
-    private float manualRotationDirection = 0f;
+    private Vector3 _initialPosition;
+    private bool _isRotating = false;
+    private readonly float _rotationSpeed = 5f;
 
     private void Update()
     {
-        // Auto rotation
-        if (isAutoRotating && !isRotatingManually)
-        {
-            transform.Rotate(0f, autoRotationSpeed * Time.deltaTime, 0f, Space.World);
-        }
-
-        // Manual rotation
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -28,30 +15,23 @@ public class RotateWithFinger : MonoBehaviour
             switch (touch.phase)
             {
                 case TouchPhase.Began:
-                    isRotatingManually = true;
+                    _initialPosition = touch.position;
+                    _isRotating = true;
                     break;
 
                 case TouchPhase.Moved:
-                    if (isRotatingManually)
+                    if (_isRotating)
                     {
-                        float deltaX = touch.deltaPosition.x;
-                        manualRotationDirection = Mathf.Sign(deltaX);
-                        isAutoRotating = false;
+                        float deltaX = touch.deltaPosition.x * _rotationSpeed * Time.deltaTime;
+                        transform.Rotate(0f, deltaX, 0f, Space.World);
                     }
                     break;
 
                 case TouchPhase.Ended:
                 case TouchPhase.Canceled:
-                    isRotatingManually = false;
-                    isAutoRotating = true;
+                    _isRotating = false;
                     break;
             }
-        }
-
-        if (isRotatingManually)
-        {
-            float rotationAmount = manualRotationDirection * manualRotationSpeed * Time.deltaTime;
-            transform.Rotate(0f, rotationAmount, 0f, Space.World);
         }
     }
 }

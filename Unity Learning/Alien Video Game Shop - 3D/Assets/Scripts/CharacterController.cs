@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class CharacterController : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 5f;
 
     private Vector2 _position;
 
@@ -23,9 +23,9 @@ public class CharacterController : MonoBehaviour
     
     private void Move(Vector2 direction)
     {
-        float _upSpeed = _moveSpeed * Time.deltaTime;
-        Vector3 _movement = new Vector3(direction.x, 0, direction.y);
-        transform.position += _movement * _upSpeed;
+        float upSpeed = moveSpeed * Time.deltaTime;
+        Vector3 movement = new Vector3(direction.x, 0, direction.y);
+        transform.position += movement * upSpeed;
 
     }
 }

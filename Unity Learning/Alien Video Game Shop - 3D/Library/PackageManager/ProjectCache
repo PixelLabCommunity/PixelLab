@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638213293471818425
-    m_Hash: 323219866
+      ticks: 638240990122787693
+    m_Hash: 3026685679
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
       - 3D/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638213293912541672
-    m_Hash: 3622892261
+      ticks: 638240990178806094
+    m_Hash: 2823264933
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
   - 3D/Packages
-m_EditorVersion: 2022.3.0f1 (fb119bb0b476)
+m_EditorVersion: 2022.3.4f1 (35713cd46cd7)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -158,13 +158,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ai.navigation@1.1.3
+- packageId: com.unity.ai.navigation@1.1.4
   testable: 0
   isDirectDependency: 1
-  version: 1.1.3
+  version: 1.1.4
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.ai.navigation@1.1.3
+    - 3D\Library\PackageCache\com.unity.ai.navigation@1.1.4
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -173,7 +173,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: High-level NavMesh components for building and using NavMeshes at
     runtime and at edit time.
   status: 0
@@ -188,10 +188,11 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.1
     - 1.1.3
+    - 1.1.4
     - 2.0.0-pre.3
     compatible:
-    - 1.1.3
-    recommended: 1.1.3
+    - 1.1.4
+    recommended: 1.1.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -208,31 +209,31 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638173260900000000
+  datePublishedTicks: 638224218100000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 21cc07be635247d730f8d1ef7c1987e222159a45
+    revision: 3e8d494400ccac6cbd90ee1b474470f4b1299bfa
     path: 
   unityLifecycle:
-    version: 1.1.3
+    version: 1.1.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.4
+- packageId: com.unity.collab-proxy@2.0.5
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.0.5
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.collab-proxy@2.0.4
+    - 3D\Library\PackageCache\com.unity.collab-proxy@2.0.5
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -241,7 +242,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: asset
+  type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting plasticscm.com.
@@ -312,15 +313,16 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.3
     - 2.0.4
+    - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.4
+    - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    recommended: 2.0.4
+    recommended: 2.0.5
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -347,18 +349,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638176024310000000
+  datePublishedTicks: 638218079810000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
+    revision: 7f68049e8cae5b51ad0d17cc01b8c6e802bf3866
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -516,7 +518,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.21
+    version: 3.0.24
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -524,7 +526,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -536,7 +538,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -554,13 +556,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.21
+- packageId: com.unity.ide.rider@3.0.24
   testable: 0
   isDirectDependency: 1
-  version: 3.0.21
+  version: 3.0.24
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.ide.rider@3.0.21
+    - 3D\Library\PackageCache\com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -569,7 +571,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -614,10 +616,10 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
+    - 3.0.24
     compatible:
-    - 3.0.21
-    - 3.0.22
-    recommended: 3.0.22
+    - 3.0.24
+    recommended: 3.0.24
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -634,18 +636,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638175749180000000
+  datePublishedTicks: 638221653400000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: bb7732dcafe867368246b7661dda05368b74dd8e
+    revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
-    version: 3.0.21
+    version: 3.0.24
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -721,7 +723,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
@@ -790,7 +792,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -808,13 +810,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.inputsystem@1.5.1
+- packageId: com.unity.inputsystem@1.6.1
   testable: 0
   isDirectDependency: 1
-  version: 1.5.1
+  version: 1.6.1
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.inputsystem@1.5.1
+    - 3D\Library\PackageCache\com.unity.inputsystem@1.6.1
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -870,9 +872,8 @@ m_ResolvedPackages:
     - 1.5.1
     - 1.6.1
     compatible:
-    - 1.5.1
     - 1.6.1
-    recommended: 1.5.1
+    recommended: 1.6.1
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -903,31 +904,31 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638152610980000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.5/manual/index.html
+  datePublishedTicks: 638207453750000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 3062b2c3402b5f7f435d79acbd6011a621bfeb3e
+    revision: 6e8cbe050db664506f3400e4d0735f9e4b604915
     path: 
   unityLifecycle:
-    version: 1.5.1
+    version: 1.6.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.universal@14.0.7
+- packageId: com.unity.render-pipelines.universal@14.0.8
   testable: 0
   isDirectDependency: 1
-  version: 14.0.7
+  version: 14.0.8
   source: 2
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.render-pipelines.universal@14.0.7
+    - 3D\Library\PackageCache\com.unity.render-pipelines.universal@14.0.8
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -990,10 +991,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.7
+    - 14.0.8
     compatible:
-    - 14.0.7
-    recommended: 14.0.7
+    - 14.0.8
+    recommended: 14.0.8
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -1001,16 +1002,16 @@ m_ResolvedPackages:
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.shadergraph
-    version: 14.0.7
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.4
+    version: 1.8.7
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1024,7 +1025,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.searcher
     version: 4.9.2
   keywords:
@@ -1053,7 +1054,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.7
+    version: 14.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1121,6 +1122,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1133,6 +1135,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1164,7 +1167,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637938212700000000
   documentationUrl: 
@@ -1342,7 +1345,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1458,15 +1461,21 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
+    - 1.8.4
     compatible:
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    recommended: 1.7.4
+    - 1.8.3
+    - 1.8.4
+    recommended: 1.7.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1500,7 +1509,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638143790870000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
@@ -1769,7 +1778,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637958908030000000
   documentationUrl: 
@@ -3750,10 +3759,14 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     recommended: 1.0.6
     deprecated: []
   dependencies: []
@@ -3770,7 +3783,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3843,7 +3856,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
   documentationUrl: 
@@ -3861,13 +3874,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.4
+- packageId: com.unity.burst@1.8.7
   testable: 0
   isDirectDependency: 0
-  version: 1.8.4
+  version: 1.8.7
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.burst@1.8.4
+    - 3D\Library\PackageCache\com.unity.burst@1.8.7
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3876,7 +3889,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 0
@@ -4004,9 +4017,10 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.7
     compatible:
-    - 1.8.4
-    recommended: 1.8.4
+    - 1.8.7
+    recommended: 1.8.7
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -4023,31 +4037,31 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638150963640000000
+  datePublishedTicks: 638221796120000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: b05f7d57a035997c1abc0c742e812dadd107d467
+    revision: 47aa5e222ec0a9e94b78af0bb63021cf722ad06b
     path: 
   unityLifecycle:
-    version: 1.8.4
+    version: 1.8.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.core@14.0.7
+- packageId: com.unity.render-pipelines.core@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 14.0.7
+  version: 14.0.8
   source: 2
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.render-pipelines.core@14.0.7
+    - 3D\Library\PackageCache\com.unity.render-pipelines.core@14.0.8
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4166,10 +4180,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.7
+    - 14.0.8
     compatible:
-    - 14.0.7
-    recommended: 14.0.7
+    - 14.0.8
+    recommended: 14.0.8
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -4213,20 +4227,20 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.7
+    version: 14.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.shadergraph@14.0.7
+- packageId: com.unity.shadergraph@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 14.0.7
+  version: 14.0.8
   source: 2
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.shadergraph@14.0.7
+    - 3D\Library\PackageCache\com.unity.shadergraph@14.0.8
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4342,19 +4356,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.7
+    - 14.0.8
     compatible:
-    - 14.0.7
-    recommended: 14.0.7
+    - 14.0.8
+    recommended: 14.0.8
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.searcher
     version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4389,7 +4403,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.7
+    version: 14.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4444,7 +4458,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -4516,7 +4530,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638108624620000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
@@ -4534,13 +4548,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.testtools.codecoverage@1.2.3
+- packageId: com.unity.testtools.codecoverage@1.2.4
   testable: 0
   isDirectDependency: 0
-  version: 1.2.3
+  version: 1.2.4
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3
+    - 3D\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4589,7 +4603,6 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     compatible:
-    - 1.2.3
     - 1.2.4
     recommended: 1.2.4
     deprecated: []
@@ -4622,18 +4635,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638169790470000000
+  datePublishedTicks: 638212235100000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: d4b7ffdbe5fd9b2506f04f112caa0ed3f898c59b
+    revision: a7dd0751db55cd55e3b336723fb51433c1de7244
     path: 
   unityLifecycle:
-    version: 1.2.3
+    version: 1.2.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4758,7 +4771,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637831252240000000
   documentationUrl: 

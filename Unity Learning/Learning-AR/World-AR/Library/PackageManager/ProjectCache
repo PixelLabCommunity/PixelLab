@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638221134367961770
-    m_Hash: 1996960265
+      ticks: 638259956428871420
+    m_Hash: 4050055724
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/World-AR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638221134758537900
-    m_Hash: 1126612306
+      ticks: 638259956508467143
+    m_Hash: 3256015112
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/World-AR/Packages
-m_EditorVersion: 2022.3.2f1 (d74737c6db50)
+m_EditorVersion: 2022.3.5f1 (9674261d40ee)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@1.1.3
+- packageId: com.unity.ai.navigation@1.1.4
   testable: 0
   isDirectDependency: 1
-  version: 1.1.3
+  version: 1.1.4
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.ai.navigation@1.1.3
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.ai.navigation@1.1.4
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -36,7 +36,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: High-level NavMesh components for building and using NavMeshes at
     runtime and at edit time.
   status: 0
@@ -51,10 +51,11 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.1
     - 1.1.3
+    - 1.1.4
     - 2.0.0-pre.3
     compatible:
-    - 1.1.3
-    recommended: 1.1.3
+    - 1.1.4
+    recommended: 1.1.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -73,28 +74,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638173260900000000
+  datePublishedTicks: 638224218100000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 21cc07be635247d730f8d1ef7c1987e222159a45
+    revision: 3e8d494400ccac6cbd90ee1b474470f4b1299bfa
     path: 
   unityLifecycle:
-    version: 1.1.3
+    version: 1.1.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.4
+- packageId: com.unity.collab-proxy@2.0.5
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.0.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.collab-proxy@2.0.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.collab-proxy@2.0.5
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -103,7 +104,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: asset
+  type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting plasticscm.com.
@@ -179,7 +180,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.4
     - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
@@ -213,28 +213,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638176024310000000
+  datePublishedTicks: 638218079810000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
+    revision: 7f68049e8cae5b51ad0d17cc01b8c6e802bf3866
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.21
+- packageId: com.unity.ide.rider@3.0.24
   testable: 0
   isDirectDependency: 1
-  version: 3.0.21
+  version: 3.0.24
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.ide.rider@3.0.21
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -243,7 +243,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -290,8 +290,6 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     compatible:
-    - 3.0.21
-    - 3.0.22
     - 3.0.24
     recommended: 3.0.24
     deprecated: []
@@ -312,16 +310,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638175749180000000
+  datePublishedTicks: 638221653400000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: bb7732dcafe867368246b7661dda05368b74dd8e
+    revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
-    version: 3.0.21
+    version: 3.0.24
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -568,7 +566,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.4
+    version: 1.8.7
   - name: com.unity.render-pipelines.core
     version: 14.0.8
   - name: com.unity.ugui
@@ -681,6 +679,7 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -694,6 +693,7 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -866,6 +866,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -874,6 +875,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.6
@@ -920,12 +922,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.4
+- packageId: com.unity.timeline@1.7.5
   testable: 0
   isDirectDependency: 1
-  version: 1.7.4
+  version: 1.7.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.timeline@1.7.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.timeline@1.7.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -934,7 +936,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
@@ -1017,17 +1019,20 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
+    - 1.8.4
     compatible:
-    - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
-    recommended: 1.7.4
+    - 1.8.4
+    recommended: 1.7.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1063,16 +1068,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638143790870000000
+  datePublishedTicks: 638229649600000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
+    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
     path: 
   unityLifecycle:
-    version: 1.7.4
+    version: 1.7.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1104,6 +1109,7 @@ m_ResolvedPackages:
     all:
     - 1.0.0
     - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1375,6 +1381,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1382,6 +1390,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1595,6 +1605,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1602,6 +1614,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1847,6 +1861,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1854,6 +1870,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.3
     - 5.1.0-pre.4
     - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -2191,8 +2209,10 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.3.1
     - 4.3.3
+    - 4.4.0
     compatible:
     - 4.3.3
+    - 4.4.0
     recommended: 4.3.3
     deprecated: []
   dependencies:
@@ -4358,9 +4378,13 @@ m_ResolvedPackages:
     - 2.2.0-pre.2
     - 2.2.0
     - 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
     compatible:
     - 2.2.1
-    recommended: 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
+    recommended: 2.2.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.xr
@@ -4468,9 +4492,11 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     - 1.6.1
+    - 1.6.3
     compatible:
     - 1.6.1
-    recommended: 1.6.1
+    - 1.6.3
+    recommended: 1.6.3
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -4620,10 +4646,14 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     recommended: 1.0.6
     deprecated: []
   dependencies: []
@@ -4658,12 +4688,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.4
+- packageId: com.unity.burst@1.8.7
   testable: 0
   isDirectDependency: 0
-  version: 1.8.4
+  version: 1.8.7
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.burst@1.8.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Learning-AR\World-AR\Library\PackageCache\com.unity.burst@1.8.7
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4672,7 +4702,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 0
@@ -4802,7 +4832,6 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.7
     compatible:
-    - 1.8.4
     - 1.8.7
     recommended: 1.8.7
     deprecated: []
@@ -4823,16 +4852,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638150963640000000
+  datePublishedTicks: 638221796120000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: b05f7d57a035997c1abc0c742e812dadd107d467
+    revision: 47aa5e222ec0a9e94b78af0bb63021cf722ad06b
     path: 
   unityLifecycle:
-    version: 1.8.4
+    version: 1.8.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
