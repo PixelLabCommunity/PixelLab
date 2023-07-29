@@ -1,17 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-
-
-
-
-
-
-
-
-
-
-
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _speed = 3.0f;
@@ -33,9 +23,7 @@ public class Enemy : MonoBehaviour
         if (transform.position.y < -10)
             Destroy(gameObject);
     }
+    
 
-    [SerializeField]
-    private void FixedUpdate()
-    {
-    }
+
 }
