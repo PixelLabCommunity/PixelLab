@@ -863,6 +863,10 @@
       <Project>{25997d39-1b62-127a-74f5-a448d9b579f9}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{83dc4667-4559-1bc8-eef7-4713e4af3e7e}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{b6eda67c-794e-55c2-3359-8def958ede30}</Project>
       <Name>Unity.Timeline.Editor</Name>
@@ -927,13 +931,17 @@
       <Project>{6608332f-e9cf-d16a-e9cd-364fc96c9330}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{dbc43d4d-0891-ae8a-d980-f18e1ac2ff88}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{c0201848-21dd-a57c-e35b-147d5c32fd7f}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
       <Project>{d5eafbdf-4516-0e67-73ec-60a9980a5e6b}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{dbc43d4d-0891-ae8a-d980-f18e1ac2ff88}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{c3f9daa3-0cf3-ce1e-f8f9-989145c7d401}</Project>
@@ -943,17 +951,25 @@
       <Project>{9404d825-af9b-9a83-523f-1b011d565338}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{6b498979-e689-381f-1f01-38c4960df52d}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{c6bbf431-ad7b-c0c2-2eab-c6b81d6dc6c7}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{a39e74c2-861f-f699-7c96-5a78ade91062}</Project>
-      <Name>Unity.VSCode.Editor</Name>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{c4024269-6a7a-f5db-bf66-46188842f5ae}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
       <Project>{43b2ec71-b023-e202-ce82-116ce9958a14}</Project>
       <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{a39e74c2-861f-f699-7c96-5a78ade91062}</Project>
+      <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

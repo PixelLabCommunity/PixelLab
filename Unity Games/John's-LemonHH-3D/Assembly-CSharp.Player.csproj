@@ -627,6 +627,10 @@
       <Project>{b522bde7-a7d7-022a-580b-11b24c73aa85}</Project>
       <Name>Unity.Postprocessing.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
+      <Project>{7b8afeb9-d458-53ce-fc4f-b42091c4d934}</Project>
+      <Name>Unity.AI.Navigation.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{a6f28053-db44-812b-8faa-16cdbc640d23}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
