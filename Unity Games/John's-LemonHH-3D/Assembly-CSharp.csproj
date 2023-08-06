@@ -63,6 +63,7 @@
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\MultiScaleVOUpsample.compute" />
      <Folder Include="Assets\UnityTechnologies\3DBeginnerTutorial\Art\Materials\Characters" />
      <Folder Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Textures\LensDirt" />
+     <Folder Include="Assets\Scenes\John&apos;s-LemonHH-3D" />
      <None Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.imgui@1.0.0" />
@@ -83,11 +84,13 @@
      <None Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
+     <Folder Include="Assets\Samples\AI Navigation" />
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.24\Rider" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\Dithering.hlsl" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\Bloom.shader" />
      <Folder Include="Library\PackageCache\com.unity.cinemachine@2.9.5" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources" />
+     <Folder Include="Assets\Samples" />
      <Folder Include="Assets\UnityTechnologies\3DBeginnerTutorial\Prefabs\Environment\Corridors" />
      <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Debug\Vectorscope.compute" />
@@ -153,6 +156,7 @@
      <Folder Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0\package.json" />
+     <Folder Include="Assets\Samples\AI Navigation\1.1.4" />
      <Folder Include="Assets\UnityTechnologies\3DBeginnerTutorial\Art\Models\Diningroom" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\ValidationExceptions.json" />
@@ -1013,6 +1017,10 @@
       <Project>{ad8d700b-473e-5eb6-68a5-5f897dc957b8}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Samples.Initialization.Editor.csproj">
+      <Project>{70c31a6f-c00f-5354-4d99-cce832175bf3}</Project>
+      <Name>Unity.AI.Navigation.Samples.Initialization.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{0dd039c1-69c0-f9ae-73ee-7501fe0935c5}</Project>
       <Name>Unity.Timeline</Name>
@@ -1076,6 +1084,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{a39e74c2-861f-f699-7c96-5a78ade91062}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Samples.csproj">
+      <Project>{b98ffa98-adb0-21b1-dfb1-ddf3fb783992}</Project>
+      <Name>Unity.AI.Navigation.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

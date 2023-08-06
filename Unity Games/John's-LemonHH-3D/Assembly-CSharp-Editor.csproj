@@ -907,6 +907,10 @@
       <Project>{ad8d700b-473e-5eb6-68a5-5f897dc957b8}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Samples.Initialization.Editor.csproj">
+      <Project>{70c31a6f-c00f-5354-4d99-cce832175bf3}</Project>
+      <Name>Unity.AI.Navigation.Samples.Initialization.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{0dd039c1-69c0-f9ae-73ee-7501fe0935c5}</Project>
       <Name>Unity.Timeline</Name>
@@ -970,6 +974,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{a39e74c2-861f-f699-7c96-5a78ade91062}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Samples.csproj">
+      <Project>{b98ffa98-adb0-21b1-dfb1-ddf3fb783992}</Project>
+      <Name>Unity.AI.Navigation.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

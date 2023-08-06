@@ -659,6 +659,10 @@
       <Project>{85ce8857-76a0-00d5-8011-ed7e707ded8c}</Project>
       <Name>Cinemachine.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Samples.Player.csproj">
+      <Project>{c16baac7-bfd1-a15b-04b1-3e17eb2b362a}</Project>
+      <Name>Unity.AI.Navigation.Samples.Player</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
