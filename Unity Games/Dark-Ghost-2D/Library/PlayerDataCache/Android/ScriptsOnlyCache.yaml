@@ -26,6 +26,7 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -66,22 +67,18 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
     Unity.XR.Simulation.Editor.dll:
     - UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager
     - UnityEditor.XR.Simulation.XREnvironmentViewManager
-    - UnityEditor.XR.Simulation.XRSimulationRuntimeSettingsEditor
     - UnityEditor.XR.Simulation.XRSimulationSettings
     Unity.XR.Simulation.dll:
     - UnityEngine.XR.Simulation.SimulatedBoundedPlane
