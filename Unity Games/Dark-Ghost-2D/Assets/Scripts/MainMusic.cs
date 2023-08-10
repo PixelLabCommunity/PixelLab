@@ -3,18 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class MainMusic : MonoBehaviour
 {
-    private static MainMusic _instance;
+    [SerializeField] private float defaultMusicVolume = 1f;
+    private static MainMusic _mainMusic;
 
     private void Awake()
     {
-        if (_instance == null)
+        if (_mainMusic == null)
         {
-            _instance = this;
+            _mainMusic = this;
             DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(_mainMusic.gameObject);
+            _mainMusic = this;
+            DontDestroyOnLoad(gameObject);
         }
     }
 
@@ -30,22 +33,17 @@ public class MainMusic : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "MainMenu")
-        {
-            DestroyDuplicates();
-        }
+        if (scene.name != "MainMenu") return;
+        ResetSettings();
+        Destroy(gameObject);
     }
 
-    private void DestroyDuplicates()
+    private void ResetSettings()
     {
-        MainMusic[] duplicates = FindObjectsOfType<MainMusic>();
-
-        foreach (MainMusic duplicate in duplicates)
-        {
-            if (duplicate != _instance)
-            {
-                Destroy(duplicate.gameObject);
-            }
-        }
+        // Reset the music volume settings
+        PlayerPrefs.SetFloat("MusicVolume", defaultMusicVolume);
+        PlayerPrefs.Save();
+        // Reset other scene settings and states
+        // Add your code here to reset any other relevant settings or states
     }
 }
