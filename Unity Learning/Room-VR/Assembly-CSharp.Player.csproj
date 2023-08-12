@@ -802,6 +802,10 @@
       <Project>{ec2e47ac-4a73-3624-378c-127068c3a683}</Project>
       <Name>Unity.InputSystem.ForUI.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.Player.csproj">
+      <Project>{ec5b1530-47bc-bc9a-2ae0-c54b06c95e2f}</Project>
+      <Name>Unity.XR.Oculus.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
       <Project>{92bb6e22-a1b6-b727-027f-9ad5571b4e0c}</Project>
       <Name>Unity.Mathematics.Player</Name>

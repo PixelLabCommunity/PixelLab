@@ -940,6 +940,10 @@
       <Project>{6e2b288a-002e-4298-6a1b-61e8bf4db54a}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
+      <Project>{553ce0a3-c249-f4bf-eefe-43bbef8e55dc}</Project>
+      <Name>Unity.XR.Oculus.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{2314a6bc-0f19-94fb-7068-25663242da80}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
@@ -1027,6 +1031,10 @@
     <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
       <Project>{c17a998c-26b8-45f5-563e-e814d64bc369}</Project>
       <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.csproj">
+      <Project>{1f390882-59b3-17fb-8833-7a5f25b14aac}</Project>
+      <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{d6653f0e-7476-1910-65db-49c8aebadcb1}</Project>
