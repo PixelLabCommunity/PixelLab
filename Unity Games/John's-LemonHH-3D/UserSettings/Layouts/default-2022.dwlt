@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 134
+  controlID: 28
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -623,10 +623,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 6e7b0000
-    m_LastClickedID: 31598
-    m_ExpandedIDs: 00000000507a0000527a0000547a0000567a0000587a00005a7a00005c7a0000cc7f0000d07f0000d47f0000d87f0000
+    scrollPos: {x: 0, y: 34.200012}
+    m_SelectedIDs: f67b0000
+    m_LastClickedID: 31734
+    m_ExpandedIDs: 00000000d67a0000d87a0000da7a0000dc7a0000de7a0000e07a0000e27a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -654,7 +654,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000507a0000527a0000547a0000567a0000587a00005a7a00005c7a0000
+    m_ExpandedIDs: 00000000d67a0000d87a0000da7a0000dc7a0000de7a0000e07a0000e27a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007a7c000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -796,20 +796,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4c860000
-      m_LastClickedID: 34380
-      m_ExpandedIDs: 4a6efeffe275feffe47afeff4addfeff46f3ffff82f7ffff3afaffff3efaffffdefaffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: CeilingPlane
-        m_OriginalName: CeilingPlane
+        m_Name: Virtual Camera
+        m_OriginalName: Virtual Camera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -102850
+        m_UserData: -24964
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -1140,9 +1140,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.7797146, y: -31.950722, z: 34.474934}
+    m_Target: {x: -1.8051682, y: 2.552834, z: -5.371849}
     speed: 2
-    m_Value: {x: 6.7797146, y: -31.950722, z: 34.474934}
+    m_Value: {x: -1.8051682, y: 2.552834, z: -5.371849}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1188,13 +1188,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.39974406, y: -0.07001169, z: 0.030663054, w: -0.9134585}
+    m_Target: {x: -0.11368596, y: -0.57015306, z: 0.08008336, w: -0.80971205}
     speed: 2
-    m_Value: {x: -0.39978087, y: -0.06863993, z: 0.030062748, w: -0.9135426}
+    m_Value: {x: -0.11368334, y: -0.57013994, z: 0.08008152, w: -0.8096934}
   m_Size:
-    m_Target: 28.923761
+    m_Target: 10
     speed: 2
-    m_Value: 28.923756
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
