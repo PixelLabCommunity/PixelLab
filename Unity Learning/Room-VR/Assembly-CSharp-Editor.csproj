@@ -936,13 +936,13 @@
       <Project>{38a92140-7e61-ff9a-3350-eaa74c559301}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{6e2b288a-002e-4298-6a1b-61e8bf4db54a}</Project>
-      <Name>Unity.XR.Interaction.Toolkit</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
       <Project>{553ce0a3-c249-f4bf-eefe-43bbef8e55dc}</Project>
       <Name>Unity.XR.Oculus.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
+      <Project>{6e2b288a-002e-4298-6a1b-61e8bf4db54a}</Project>
+      <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{2314a6bc-0f19-94fb-7068-25663242da80}</Project>
