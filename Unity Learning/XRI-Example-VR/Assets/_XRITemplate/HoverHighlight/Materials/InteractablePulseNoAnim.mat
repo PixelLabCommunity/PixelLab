@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: InteractablePulseNoAnim
   m_Shader: {fileID: 4800000, guid: f87219ae33171c544ba6274d099c3140, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -97,7 +100,7 @@ Material:
     - _WaveSpeed: 0
     - _ZWrite: 1
     m_Colors:
-    - _Center: {r: 1.614979, g: 2.457616, b: -2.291386, a: 0}
+    - _Center: {r: 7.646357, g: 3.4751294, b: -10.457392, a: 0}
     - _Color: {r: 0.09411765, g: 0.4392157, b: 0.7137255, a: 1}
     - _DecalPositionOffset: {r: 0, g: 0, b: 0, a: 0}
     - _DecalSize: {r: 1, g: 1, b: 0, a: 0}
