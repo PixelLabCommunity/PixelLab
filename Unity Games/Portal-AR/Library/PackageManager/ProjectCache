@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638258279300775826
-    m_Hash: 1257331482
+      ticks: 638281592349709036
+    m_Hash: 20802467
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Portal-AR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638258279719142806
-    m_Hash: 4139516686
+      ticks: 638281592823828887
+    m_Hash: 470802480
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Portal-AR/Packages
-m_EditorVersion: 2022.3.5f1 (9674261d40ee)
+m_EditorVersion: 2022.3.7f1 (b16b3b16c7a0)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.0.5
   testable: 0
@@ -108,15 +108,17 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
     - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    recommended: 2.0.5
+    recommended: 2.0.7
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -201,9 +203,9 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.xr.arfoundation
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.inputsystem
-    version: 1.6.1
+    version: 1.6.3
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -213,7 +215,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.2.1
+    version: 2.2.2
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.modules.physics
@@ -221,7 +223,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
@@ -237,11 +239,11 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.xr.arkit
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arcore
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.xr.magicleap
@@ -253,7 +255,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.interactionsubsystems
     version: 2.0.0
   - name: com.unity.xr.openxr
-    version: 1.8.1
+    version: 1.8.2
   keywords: []
   registry:
     id: main
@@ -1017,8 +1019,10 @@ m_ResolvedPackages:
     - 1.7.8
     - 1.8.0-pre.1
     - 1.8.0
+    - 1.9.0
     compatible:
     - 1.8.0
+    - 1.9.0
     recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1
@@ -1063,12 +1067,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.arcore@5.0.6
+- packageId: com.unity.xr.arcore@5.0.7
   testable: 0
   isDirectDependency: 1
-  version: 5.0.6
+  version: 5.0.7
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.arcore@5.0.6
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.arcore@5.0.7
   assetPath: Packages/com.unity.xr.arcore
   name: com.unity.xr.arcore
   displayName: Google ARCore XR Plugin
@@ -1077,7 +1081,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
     XR API.
 
@@ -1190,6 +1194,7 @@ m_ResolvedPackages:
     - 5.0.4
     - 5.0.5
     - 5.0.6
+    - 5.0.7
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3
@@ -1197,8 +1202,9 @@ m_ResolvedPackages:
     - 5.1.0-pre.6
     - 5.1.0-pre.8
     - 5.1.0-pre.9
+    - 5.1.0-pre.10
     compatible:
-    - 5.0.6
+    - 5.0.7
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3
@@ -1206,11 +1212,12 @@ m_ResolvedPackages:
     - 5.1.0-pre.6
     - 5.1.0-pre.8
     - 5.1.0-pre.9
-    recommended: 5.0.6
+    - 5.1.0-pre.10
+    recommended: 5.0.7
     deprecated: []
   dependencies:
   - name: com.unity.xr.arfoundation
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.xr.core-utils
     version: 2.1.0
   - name: com.unity.xr.management
@@ -1221,9 +1228,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.xr.arfoundation
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.inputsystem
-    version: 1.6.1
+    version: 1.6.3
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1233,7 +1240,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.2.1
+    version: 2.2.2
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.modules.physics
@@ -1241,7 +1248,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
@@ -1275,28 +1282,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638203426220000000
+  datePublishedTicks: 638259960300000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: e0c23bb6c351af6a055d43302e6f3bd55cb3a4be
+    revision: 2ed0403e7f5d44edc028e2251019fb47962bd8d7
     path: 
   unityLifecycle:
-    version: 5.0.6
+    version: 5.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.management@4.3.3
+- packageId: com.unity.xr.management@4.4.0
   testable: 0
   isDirectDependency: 1
-  version: 4.3.3
+  version: 4.4.0
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.management@4.3.3
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.management@4.4.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1305,7 +1312,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Package that provides simple management of XR plug-ins. Manages and
     offers help with loading, initialization, settings, and build support for XR
     plug-ins.
@@ -1366,9 +1373,8 @@ m_ResolvedPackages:
     - 4.3.3
     - 4.4.0
     compatible:
-    - 4.3.3
     - 4.4.0
-    recommended: 4.3.3
+    recommended: 4.4.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1410,16 +1416,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638121371540000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.3/manual/index.html
+  datePublishedTicks: 638224209960000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-    revision: 11953d1846a70bfe37146dc4655a8b2d93d32b95
+    revision: 6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8
     path: 
   unityLifecycle:
-    version: 4.3.3
+    version: 4.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3429,12 +3435,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.arfoundation@5.0.6
+- packageId: com.unity.xr.arfoundation@5.0.7
   testable: 0
   isDirectDependency: 0
-  version: 5.0.6
+  version: 5.0.7
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.arfoundation@5.0.6
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.arfoundation@5.0.7
   assetPath: Packages/com.unity.xr.arfoundation
   name: com.unity.xr.arfoundation
   displayName: AR Foundation
@@ -3443,7 +3449,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: "A collection of Subsystems as well as MonoBehaviours and C# utilities
     for working with the Subsystems. \n\nIncludes: \n\u25AA Definitions of Subsystems
     \n\u25AA GameObject menu items for creating an AR setup \n\u25AA MonoBehaviours
@@ -3552,6 +3558,7 @@ m_ResolvedPackages:
     - 5.0.4
     - 5.0.5
     - 5.0.6
+    - 5.0.7
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3
@@ -3559,8 +3566,9 @@ m_ResolvedPackages:
     - 5.1.0-pre.6
     - 5.1.0-pre.8
     - 5.1.0-pre.9
+    - 5.1.0-pre.10
     compatible:
-    - 5.0.6
+    - 5.0.7
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3
@@ -3568,7 +3576,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.6
     - 5.1.0-pre.8
     - 5.1.0-pre.9
-    recommended: 5.0.6
+    - 5.1.0-pre.10
+    recommended: 5.0.7
     deprecated: []
   dependencies:
   - name: com.unity.inputsystem
@@ -3591,7 +3600,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.inputsystem
-    version: 1.6.1
+    version: 1.6.3
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3601,7 +3610,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.2.1
+    version: 2.2.2
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.modules.physics
@@ -3609,7 +3618,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
@@ -3646,28 +3655,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638203426170000000
+  datePublishedTicks: 638259960270000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: e0c23bb6c351af6a055d43302e6f3bd55cb3a4be
+    revision: 2ed0403e7f5d44edc028e2251019fb47962bd8d7
     path: 
   unityLifecycle:
-    version: 5.0.6
+    version: 5.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.core-utils@2.2.1
+- packageId: com.unity.xr.core-utils@2.2.2
   testable: 0
   isDirectDependency: 0
-  version: 2.2.1
+  version: 2.2.2
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.core-utils@2.2.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.core-utils@2.2.2
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -3676,7 +3685,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: "Common utility classes for XR projects\nRefer to API documentation
     for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
     \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
@@ -3702,12 +3711,15 @@ m_ResolvedPackages:
     - 2.2.0
     - 2.2.1
     - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
     - 2.4.0-exp.1
     compatible:
-    - 2.2.1
     - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
     - 2.4.0-exp.1
-    recommended: 2.2.2
+    recommended: 2.2.3
     deprecated: []
   dependencies:
   - name: com.unity.modules.xr
@@ -3739,16 +3751,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638187829490000000
+  datePublishedTicks: 638252782650000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
-    revision: 0ec01755305a46c64c285b7ff29bc99eabf34a87
+    revision: 90abac9940e57d3a7e04d00761ee4787e76aed4c
     path: 
   unityLifecycle:
-    version: 2.2.1
+    version: 2.2.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3864,8 +3876,10 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     - 1.2.6
+    - 1.3.1
     compatible:
     - 1.2.6
+    - 1.3.1
     recommended: 1.2.6
     deprecated: []
   dependencies: []
@@ -4041,9 +4055,11 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.8.7
-    recommended: 1.8.7
+    - 1.8.8
+    recommended: 1.8.8
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -4601,9 +4617,11 @@ m_ResolvedPackages:
     - 2.0.16
     - 2.0.17
     - 2.0.18
+    - 2.0.20
     compatible:
     - 2.0.18
-    recommended: 2.0.18
+    - 2.0.20
+    recommended: 2.0.20
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -5109,12 +5127,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.arkit@5.0.6
+- packageId: com.unity.xr.arkit@5.0.7
   testable: 0
   isDirectDependency: 0
-  version: 5.0.6
+  version: 5.0.7
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.arkit@5.0.6
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.arkit@5.0.7
   assetPath: Packages/com.unity.xr.arkit
   name: com.unity.xr.arkit
   displayName: Apple ARKit XR Plugin
@@ -5123,7 +5141,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: 'Provides native Apple ARKit integration for use with Unity''s multi-platform
     XR API.
 
@@ -5255,6 +5273,7 @@ m_ResolvedPackages:
     - 5.0.4
     - 5.0.5
     - 5.0.6
+    - 5.0.7
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3
@@ -5262,8 +5281,9 @@ m_ResolvedPackages:
     - 5.1.0-pre.6
     - 5.1.0-pre.8
     - 5.1.0-pre.9
+    - 5.1.0-pre.10
     compatible:
-    - 5.0.6
+    - 5.0.7
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3
@@ -5271,13 +5291,14 @@ m_ResolvedPackages:
     - 5.1.0-pre.6
     - 5.1.0-pre.8
     - 5.1.0-pre.9
-    recommended: 5.0.6
+    - 5.1.0-pre.10
+    recommended: 5.0.7
     deprecated: []
   dependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arfoundation
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.xr.core-utils
     version: 2.1.0
   - name: com.unity.xr.management
@@ -5286,9 +5307,9 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arfoundation
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.inputsystem
-    version: 1.6.1
+    version: 1.6.3
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -5298,7 +5319,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.2.1
+    version: 2.2.2
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.modules.physics
@@ -5306,7 +5327,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
@@ -5337,16 +5358,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638203426260000000
+  datePublishedTicks: 638259960340000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arkit@5.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: e0c23bb6c351af6a055d43302e6f3bd55cb3a4be
+    revision: 2ed0403e7f5d44edc028e2251019fb47962bd8d7
     path: 
   unityLifecycle:
-    version: 5.0.6
+    version: 5.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5465,15 +5486,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.xr.arfoundation
-    version: 5.0.6
+    version: 5.0.7
   - name: com.unity.inputsystem
-    version: 1.6.1
+    version: 1.6.3
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.2.1
+    version: 2.2.2
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
   - name: com.unity.mathematics
@@ -5521,12 +5542,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.openxr@1.8.1
+- packageId: com.unity.xr.openxr@1.8.2
   testable: 0
   isDirectDependency: 0
-  version: 1.8.1
+  version: 1.8.2
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.openxr@1.8.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.xr.openxr@1.8.2
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -5566,9 +5587,10 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     compatible:
-    - 1.8.1
-    recommended: 1.8.1
+    - 1.8.2
+    recommended: 1.8.2
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
@@ -5581,7 +5603,7 @@ m_ResolvedPackages:
     version: 2.1.1
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.3.3
+    version: 4.4.0
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -5595,7 +5617,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
   - name: com.unity.inputsystem
-    version: 1.6.1
+    version: 1.6.3
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -5603,7 +5625,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.xr.core-utils
-    version: 2.2.1
+    version: 2.2.2
   keywords:
   - openxr
   - xr
@@ -5619,28 +5641,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638222423880000000
+  datePublishedTicks: 638259958150000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: 45f13b26a02832b14dd93ff3d908779c3f9c6970
+    revision: be41b6db171e2e06fb1bd863b239a7fc7b2f10cf
     path: 
   unityLifecycle:
-    version: 1.8.1
+    version: 1.8.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.inputsystem@1.6.1
+- packageId: com.unity.inputsystem@1.6.3
   testable: 0
   isDirectDependency: 0
-  version: 1.6.1
+  version: 1.6.3
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.inputsystem@1.6.1
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Portal-AR\Library\PackageCache\com.unity.inputsystem@1.6.3
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -5649,7 +5671,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: A new input system which can be used as a more extensible and customizable
     alternative to Unity's classic input system in UnityEngine.Input.
   status: 0
@@ -5696,9 +5718,10 @@ m_ResolvedPackages:
     - 1.5.1
     - 1.6.1
     - 1.6.3
+    - 1.7.0
     compatible:
-    - 1.6.1
     - 1.6.3
+    - 1.7.0
     recommended: 1.6.3
     deprecated: []
   dependencies:
@@ -5732,16 +5755,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638207453750000000
+  datePublishedTicks: 638251794420000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 6e8cbe050db664506f3400e4d0735f9e4b604915
+    revision: 0d0891efc00ce912af6f03974eac0b8afd20a8ac
     path: 
   unityLifecycle:
-    version: 1.6.1
+    version: 1.6.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

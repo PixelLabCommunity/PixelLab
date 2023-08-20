@@ -35,11 +35,11 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.xr.arfoundation": "5.0.6",
-        "com.unity.xr.arkit": "5.0.6",
-        "com.unity.xr.arcore": "5.0.6",
+        "com.unity.xr.arfoundation": "5.0.7",
+        "com.unity.xr.arkit": "5.0.7",
+        "com.unity.xr.arcore": "5.0.7",
         "com.unity.xr.magicleap": "7.0.0",
-        "com.unity.xr.openxr": "1.8.1"
+        "com.unity.xr.openxr": "1.8.2"
       }
     },
     "com.unity.feature.development": {
@@ -82,7 +82,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.6.1",
+      "version": "1.6.3",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -221,11 +221,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arcore": {
-      "version": "5.0.6",
+      "version": "5.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arfoundation": "5.0.6",
+        "com.unity.xr.arfoundation": "5.0.7",
         "com.unity.xr.core-utils": "2.1.0",
         "com.unity.xr.management": "4.0.1",
         "com.unity.modules.androidjni": "1.0.0",
@@ -234,7 +234,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "5.0.6",
+      "version": "5.0.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -251,19 +251,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arkit": {
-      "version": "5.0.6",
+      "version": "5.0.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.xr.arfoundation": "5.0.6",
+        "com.unity.xr.arfoundation": "5.0.7",
         "com.unity.xr.core-utils": "2.1.0",
         "com.unity.xr.management": "4.0.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
-      "version": "2.2.1",
+      "version": "2.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -307,7 +307,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.3.3",
+      "version": "4.4.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -319,7 +319,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr": {
-      "version": "1.8.1",
+      "version": "1.8.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
