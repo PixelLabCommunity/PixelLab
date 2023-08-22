@@ -41,16 +41,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Tests\Runtime\XRSimulation" />
-     <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Tests\Runtime\XRSimulation\Unity.XR.Simulation.Runtime.Tests.asmdef" />
+     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.7\Tests\Runtime\XRSimulation" />
+     <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.7\Tests\Runtime\XRSimulation\Unity.XR.Simulation.Runtime.Tests.asmdef" />
      <Reference Include="UnityEngine">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
