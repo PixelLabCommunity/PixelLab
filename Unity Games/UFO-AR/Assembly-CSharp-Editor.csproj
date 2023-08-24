@@ -80,12 +80,12 @@
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\configurehelper.zh-Hans.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\plastic-gui.en.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\differences.zh-Hans.txt" />
-     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor\Icons" />
+     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.7\Editor\Icons" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\commontypes.zh-Hant.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\guihelp.zh-Hant.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\workspaceserver.ko.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\images.en.txt" />
-     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.7\Editor" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\clientcommon.zh-Hant.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\commontypes.es.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\images.zh-Hant.txt" />
@@ -114,7 +114,7 @@
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\semantic.ja.txt" />
      <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\binmergetool.es.txt" />
-     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.6\Tests\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.7\Tests\Editor" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\plastic-gui.ja.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\semantic.en.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\binmergetool.en.txt" />
@@ -146,13 +146,13 @@
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\xdiff.es.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Localization\differences.zh-Hant.txt" />
      <Reference Include="UnityEngine">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
