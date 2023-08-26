@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BackgroundCamera
   layers:
   - Default
   - TransparentFX
@@ -11,6 +12,21 @@ TagManager:
   - 
   - Water
   - UI
+  - InteractableObjects
+  - Floor
+  - NavMesh
+  - BackgroundImage
+  - DistantHotspot
+  - 
+  - 
+  - Character
+  - CharacterOutline
+  - 
+  - 
+  - 
+  - 
+  - 
+  - ItemRendering
   - 
   - 
   - 
@@ -19,23 +35,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - InteractiveObject
+  - InteractiveOutlined
   - 
   m_SortingLayers:
   - name: Default

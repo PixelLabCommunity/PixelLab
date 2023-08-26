@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/OutOfCirculation/Scene/MainMenu.unity
+    guid: bba08a059b387984999e3bad8a27585a
+  - enabled: 1
+    path: Assets/OutOfCirculation/Scene/WitchShop.unity
+    guid: ac00d60f25101d2468d45061dee211f7
+  - enabled: 1
+    path: Assets/OutOfCirculation/Scene/Streets.unity
+    guid: 3d672a40cf56874438b59a2a5392123c
+  - enabled: 1
+    path: Assets/OutOfCirculation/Scene/Lib.unity
+    guid: a4fc3ce79878d9247ac1ecaf111f9f39
   m_configObjects: {}
