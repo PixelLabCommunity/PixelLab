@@ -92,8 +92,8 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\Settings\UIVideoOptionScreen.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_FontWeightPair.cs" />
-     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\MultichoiceTrack.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Subtitles\TimelineSubtitles\SubtitleBehaviour.cs" />
+     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\MultichoiceTrack.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_SpriteCharacter.cs" />
      <Compile Include="Assets\UAP\Scripts\Utility\UAP_GameObjectEnabler.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs" />
@@ -158,8 +158,8 @@
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\UIModalPopup.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Scrollbar_ScrollEvent.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\UISettingMenu.cs" />
-     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\Settings\UIRemappingButton.cs" />
+     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\SceneData\TeleporterPoint.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\InitSystem.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\FlagSetter.cs" />
@@ -203,8 +203,8 @@
      <Compile Include="Assets\OutOfCirculation\Scripts\Saving\SettingContainer.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\Item.cs" />
-     <Compile Include="Assets\UAP\Scripts\UI Components\AccessibleButton_3D.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\GrabbableItem.cs" />
+     <Compile Include="Assets\UAP\Scripts\UI Components\AccessibleButton_3D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\PadUseHandler.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\FlagChecker.cs" />
@@ -226,8 +226,8 @@
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_FontWeightPair.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\Theming\UIThemePrefab.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Subtitles\TimelineSubtitles\SubtitleMixerBehaviour.cs" />
-     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\DialogueHandler.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\ScannerUseHandler.cs" />
+     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\DialogueHandler.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_SpriteGlyph.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\MemoUseHandler.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs" />
@@ -339,6 +339,7 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Library\PackageCache\com.unity.visualscripting@1.9.1" />
+     <Folder Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Gizmos" />
      <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.18\ValidationConfig.json" />
      <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35" />
      <Folder Include="Assets\OutOfCirculation\Audio\DialogueAudio\2_Shop_convo1" />
@@ -359,6 +360,7 @@
      <Folder Include="Assets\OutOfCirculation" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.7\package.json" />
      <Folder Include="Library\PackageCache\com.unity.timeline@1.7.5" />
+     <Folder Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Tests" />
      <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
      <Folder Include="Assets\OutOfCirculation\Art\Models\Characters\Witch\Model" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData.json" />
@@ -420,6 +422,7 @@
      <None Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2\package.json" />
      <Folder Include="Library\PackageCache\com.unity.inputsystem@1.6.3" />
      <Folder Include="Assets\OutOfCirculation\Art\Models\General Props" />
+     <Folder Include="Library\PackageCache\com.unity.ai.navigation@1.1.4" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.8" />
      <Folder Include="Assets\Unity.VisualScripting.Generated" />
      <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
@@ -492,6 +495,7 @@
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.cinemachine@2.9.5\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\EditorResources\Overlay" />
      <None Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\package.json" />
      <Folder Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Prefabs" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6" />
@@ -518,6 +522,7 @@
      <Folder Include="Assets\OutOfCirculation\Scripts" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.7\ValidationConfig.json" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
+     <None Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\package.json" />
      <Folder Include="Library\PackageCache\com.unity.ide.vscode@1.2.5" />
      <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
@@ -532,6 +537,7 @@
      <Folder Include="Library\PackageCache\com.unity.modules.umbra@1.0.0" />
      <Folder Include="Assets\OutOfCirculation\AnimatorControllers" />
      <Folder Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Presets" />
+     <Folder Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\EditorResources" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\OutOfCirculation\Art\Models\General Props\Prefabs" />
      <Folder Include="Assets\OutOfCirculation\Art\Models\Characters\Wink\Prefab" />
@@ -1259,6 +1265,10 @@
       <Project>{8cccc239-7452-77eb-1682-2f5c3e01a6f7}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{b99d5501-914d-8af1-07e0-602b6b053a81}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{eb586bb7-10b2-d4ce-bd2d-289e6d85b342}</Project>
       <Name>Unity.Burst.Editor</Name>
@@ -1314,6 +1324,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{25aa836c-a22a-81d8-7fbe-18dd086ef414}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{a2bc4292-a696-6f62-b89f-2de8b36990a1}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{35d36971-27ab-6eb3-22ca-25dfedcf2d85}</Project>
@@ -1415,6 +1429,10 @@
       <Project>{5a5f7bfd-f6fd-d0ad-b364-dee116c0e596}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{be6acea6-13d1-7eaf-4d08-278d4d8c9961}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{cfa73f33-b7c0-ec44-0a85-edb976bf922f}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
@@ -1434,6 +1452,10 @@
     <ProjectReference Include="Unity.Searcher.Editor.csproj">
       <Project>{ea956333-eeef-d82d-b437-eecfa7c2d17c}</Project>
       <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{d4fa8d1a-aa4a-45e1-bc7d-f42392eae74c}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{88265a8b-2b9c-38c6-e5cc-9fa5bfcd47c9}</Project>

@@ -92,8 +92,8 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\Settings\UIVideoOptionScreen.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_FontWeightPair.cs" />
-     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\MultichoiceTrack.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Subtitles\TimelineSubtitles\SubtitleBehaviour.cs" />
+     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\MultichoiceTrack.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_SpriteCharacter.cs" />
      <Compile Include="Assets\UAP\Scripts\Utility\UAP_GameObjectEnabler.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs" />
@@ -158,8 +158,8 @@
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\UIModalPopup.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Scrollbar_ScrollEvent.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\UISettingMenu.cs" />
-     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\Settings\UIRemappingButton.cs" />
+     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\SceneData\TeleporterPoint.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\InitSystem.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\FlagSetter.cs" />
@@ -203,8 +203,8 @@
      <Compile Include="Assets\OutOfCirculation\Scripts\Saving\SettingContainer.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\Item.cs" />
-     <Compile Include="Assets\UAP\Scripts\UI Components\AccessibleButton_3D.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\GrabbableItem.cs" />
+     <Compile Include="Assets\UAP\Scripts\UI Components\AccessibleButton_3D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\PadUseHandler.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\FlagChecker.cs" />
@@ -226,8 +226,8 @@
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_FontWeightPair.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\UI\Theming\UIThemePrefab.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Subtitles\TimelineSubtitles\SubtitleMixerBehaviour.cs" />
-     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\DialogueHandler.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\ScannerUseHandler.cs" />
+     <Compile Include="Assets\OutOfCirculation\Scripts\Dialogue\DialogueHandler.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_SpriteGlyph.cs" />
      <Compile Include="Assets\OutOfCirculation\Scripts\Item\MemoUseHandler.cs" />
      <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs" />
@@ -844,6 +844,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
       <Project>{148f8d6a-8ae6-c9e9-2ff6-6db1392b9f09}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
+      <Project>{2fdbcf0d-3814-43b7-11cf-aef29c0115ff}</Project>
+      <Name>Unity.AI.Navigation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{4f744a5c-ca75-75cf-5efa-31624eb4ea29}</Project>

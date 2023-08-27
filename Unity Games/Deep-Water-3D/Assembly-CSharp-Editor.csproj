@@ -883,6 +883,10 @@
       <Project>{8cccc239-7452-77eb-1682-2f5c3e01a6f7}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{b99d5501-914d-8af1-07e0-602b6b053a81}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{eb586bb7-10b2-d4ce-bd2d-289e6d85b342}</Project>
       <Name>Unity.Burst.Editor</Name>
@@ -938,6 +942,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{25aa836c-a22a-81d8-7fbe-18dd086ef414}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{a2bc4292-a696-6f62-b89f-2de8b36990a1}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{35d36971-27ab-6eb3-22ca-25dfedcf2d85}</Project>
@@ -1039,6 +1047,10 @@
       <Project>{5a5f7bfd-f6fd-d0ad-b364-dee116c0e596}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{be6acea6-13d1-7eaf-4d08-278d4d8c9961}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{cfa73f33-b7c0-ec44-0a85-edb976bf922f}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
@@ -1058,6 +1070,10 @@
     <ProjectReference Include="Unity.Searcher.Editor.csproj">
       <Project>{ea956333-eeef-d82d-b437-eecfa7c2d17c}</Project>
       <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{d4fa8d1a-aa4a-45e1-bc7d-f42392eae74c}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{88265a8b-2b9c-38c6-e5cc-9fa5bfcd47c9}</Project>
