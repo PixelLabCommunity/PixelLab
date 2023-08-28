@@ -7,13 +7,13 @@ using UnityEngine.Timeline;
 [CustomEditor(typeof(DialogueHandler))]
 public class DialogHandlerEditor : Editor
 {
-    SerializedProperty m_CharacterProp;
-    private SerializedProperty m_RootProperty;
-    SerializedProperty m_CameraControllerProp;
-    SerializedProperty m_PhrasesProp;
-    DialogueHandler m_DialogueHandler;
-    Transform m_DialogHandlerTransform;
-    SubtitleManager m_SubtitleManager;
+    SerializedProperty _mCharacterProp;
+    private SerializedProperty _mRootProperty;
+    SerializedProperty _mCameraControllerProp;
+    SerializedProperty _mPhrasesProp;
+    DialogueHandler _mDialogueHandler;
+    Transform _mDialogHandlerTransform;
+    SubtitleManager _mSubtitleManager;
 
     static readonly GUIContent k_PhrasesTitle = new GUIContent("Phrases");
     static readonly GUIContent k_AddPhraseButtonLabel = new GUIContent("Add Phrase");
@@ -28,28 +28,28 @@ public class DialogHandlerEditor : Editor
 
     void OnEnable()
     {
-        m_CharacterProp = serializedObject.FindProperty(nameof(DialogueHandler.Character));
-        m_RootProperty = serializedObject.FindProperty(nameof(DialogueHandler.PlayableDirectorsRoot));
-        m_CameraControllerProp = serializedObject.FindProperty(nameof(DialogueHandler.CameraController));
-        m_PhrasesProp = serializedObject.FindProperty(nameof(DialogueHandler.Phrases));
-        m_DialogueHandler = (DialogueHandler)target;
-        m_DialogHandlerTransform = m_DialogueHandler.transform;
-        m_SubtitleManager = FindObjectOfType<SubtitleManager>();
+        _mCharacterProp = serializedObject.FindProperty(nameof(DialogueHandler.Character));
+        _mRootProperty = serializedObject.FindProperty(nameof(DialogueHandler.PlayableDirectorsRoot));
+        _mCameraControllerProp = serializedObject.FindProperty(nameof(DialogueHandler.CameraController));
+        _mPhrasesProp = serializedObject.FindProperty(nameof(DialogueHandler.Phrases));
+        _mDialogueHandler = (DialogueHandler)target;
+        _mDialogHandlerTransform = _mDialogueHandler.transform;
+        _mSubtitleManager = FindObjectOfType<SubtitleManager>();
     }
 
     public override void OnInspectorGUI()
     {
         serializedObject.Update();
 
-        EditorGUILayout.PropertyField(m_CharacterProp);
-        EditorGUILayout.PropertyField(m_RootProperty);
-        EditorGUILayout.PropertyField(m_CameraControllerProp);
+        EditorGUILayout.PropertyField(_mCharacterProp);
+        EditorGUILayout.PropertyField(_mRootProperty);
+        EditorGUILayout.PropertyField(_mCameraControllerProp);
         EditorGUILayout.LabelField(k_PhrasesTitle);
         EditorGUI.indentLevel++;
 
-        for (int i = 0; i < m_PhrasesProp.arraySize; i++)
+        for (int i = 0; i < _mPhrasesProp.arraySize; i++)
         {
-            SerializedProperty phraseProp = m_PhrasesProp.GetArrayElementAtIndex(i);
+            SerializedProperty phraseProp = _mPhrasesProp.GetArrayElementAtIndex(i);
             string summary = phraseProp.FindPropertyRelative(nameof(DialogueHandler.DialoguePhrase.Summary)).stringValue;
             string foldoutLabel = "ID: " + i;
             if (!string.IsNullOrEmpty(summary))
@@ -109,9 +109,9 @@ public class DialogHandlerEditor : Editor
 
     void AddPhrase()
     {
-        int newPhraseIndex = m_PhrasesProp.arraySize;
-        m_PhrasesProp.arraySize++;
-        SerializedProperty newPhraseProp = m_PhrasesProp.GetArrayElementAtIndex(newPhraseIndex);
+        int newPhraseIndex = _mPhrasesProp.arraySize;
+        _mPhrasesProp.arraySize++;
+        SerializedProperty newPhraseProp = _mPhrasesProp.GetArrayElementAtIndex(newPhraseIndex);
 
         SerializedProperty summaryProp = newPhraseProp.FindPropertyRelative(nameof(DialogueHandler.DialoguePhrase.Summary));
         SerializedProperty playableDirectorProp = newPhraseProp.FindPropertyRelative(nameof(DialogueHandler.DialoguePhrase.PlayableDirector));
@@ -125,11 +125,11 @@ public class DialogHandlerEditor : Editor
     void RemovePhrase(int phraseIndex)
     {
         // TODO: discuss how much should be removed by this? should a child gameobject, should a timeline?
-        m_PhrasesProp.DeleteArrayElementAtIndex(phraseIndex);
+        _mPhrasesProp.DeleteArrayElementAtIndex(phraseIndex);
 
-        for (int i = phraseIndex + 1; i < m_PhrasesProp.arraySize; i++)
+        for (int i = phraseIndex + 1; i < _mPhrasesProp.arraySize; i++)
         {
-            Transform child = m_DialogHandlerTransform.Find(k_ChildNamePrefix + i);
+            Transform child = _mDialogHandlerTransform.Find(k_ChildNamePrefix + i);
 
             if (child != null && child.name == k_ChildNamePrefix + i)
             {
@@ -137,13 +137,13 @@ public class DialogHandlerEditor : Editor
             }
         }
         
-        Transform childToBeDestroyed = m_DialogHandlerTransform.Find(k_ChildNamePrefix + phraseIndex);
+        Transform childToBeDestroyed = _mDialogHandlerTransform.Find(k_ChildNamePrefix + phraseIndex);
         if(childToBeDestroyed != null)
             Destroy(childToBeDestroyed);
 
-        for (int i = 0; i < m_PhrasesProp.arraySize; i++)
+        for (int i = 0; i < _mPhrasesProp.arraySize; i++)
         {
-            SerializedProperty phraseProp = m_PhrasesProp.GetArrayElementAtIndex(i);
+            SerializedProperty phraseProp = _mPhrasesProp.GetArrayElementAtIndex(i);
             
             SerializedProperty nextTimelineIndexesProp = phraseProp.FindPropertyRelative(nameof(DialogueHandler.DialoguePhrase.NextTimelineIndexes));
 
@@ -167,7 +167,7 @@ public class DialogHandlerEditor : Editor
     void AutoSetup(SerializedProperty phraseProp, int index)
     {
         SerializedProperty playableDirectorProp = phraseProp.FindPropertyRelative(nameof(DialogueHandler.DialoguePhrase.PlayableDirector));
-        Transform child = m_DialogHandlerTransform.Find(k_ChildNamePrefix + index);
+        Transform child = _mDialogHandlerTransform.Find(k_ChildNamePrefix + index);
         PlayableDirector playableDirector;
         
         if(playableDirectorProp.objectReferenceValue != null)
@@ -176,8 +176,8 @@ public class DialogHandlerEditor : Editor
 
             if (playableDirector.playableAsset == null)
             {
-                playableDirector.playableAsset = CreateTimelineAsset(m_DialogueHandler, index, out SubtitleTrack subtitleTrack);
-                playableDirector.SetGenericBinding(subtitleTrack, m_SubtitleManager);
+                playableDirector.playableAsset = CreateTimelineAsset(_mDialogueHandler, index, out SubtitleTrack subtitleTrack);
+                playableDirector.SetGenericBinding(subtitleTrack, _mSubtitleManager);
             }
         }
         else
@@ -185,7 +185,7 @@ public class DialogHandlerEditor : Editor
             if (child == null)
             {
                 GameObject newChild = new GameObject(k_ChildNamePrefix + index);
-                newChild.transform.parent = m_DialogHandlerTransform;
+                newChild.transform.parent = _mDialogHandlerTransform;
                 child = newChild.transform;
             }
             
@@ -198,15 +198,15 @@ public class DialogHandlerEditor : Editor
 
             if (playableDirector.playableAsset == null)
             {
-                playableDirector.playableAsset = CreateTimelineAsset(m_DialogueHandler, index, out SubtitleTrack subtitleTrack);
-                playableDirector.SetGenericBinding(subtitleTrack, m_SubtitleManager);
+                playableDirector.playableAsset = CreateTimelineAsset(_mDialogueHandler, index, out SubtitleTrack subtitleTrack);
+                playableDirector.SetGenericBinding(subtitleTrack, _mSubtitleManager);
             }
         }
 
         playableDirector.playOnAwake = false;
         
         SerializedProperty nextTimelineIndexesProp = phraseProp.FindPropertyRelative(nameof(DialogueHandler.DialoguePhrase.NextTimelineIndexes));
-        if (m_PhrasesProp.arraySize != index + 1 && nextTimelineIndexesProp.arraySize == 0)
+        if (_mPhrasesProp.arraySize != index + 1 && nextTimelineIndexesProp.arraySize == 0)
         {
             nextTimelineIndexesProp.arraySize++;
             nextTimelineIndexesProp.GetArrayElementAtIndex(0).intValue = index + 1;
