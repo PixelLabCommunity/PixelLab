@@ -93,8 +93,8 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\Actions\SetAnimatorTrigger.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\TranslatedText.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Grenadier\GrenadierSMBPursuit.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Core\ScenarioController.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Grenadier\GrenadierSMBPursuit.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Player\StateMachineBehaviour\EllenRespawnEffect.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\MaterialSwitcher\MaterialSwitcherTrack.cs" />
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\Senders\SendOnTriggerEnter.cs" />
@@ -104,8 +104,8 @@
      <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Spitter\SpitterSMBFleeing.cs" />
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\Senders\SendOnCollisionStay.cs" />
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\GameCommandType.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SceneReloader\SceneReloaderTrack.cs" />
      <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\StandardMaterialEmission\StandardMaterialEmissionMixerBehaviour.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SceneReloader\SceneReloaderTrack.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Effects\MirrorReflection.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Scripts\AmbientAudio.cs" />
@@ -132,8 +132,8 @@
      <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\TimeMachine\TimeMachineTrack.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Chomper\ChomperSMBPursuit.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\DamageSystem\DamageZone.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Utility\OpenURL.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\DamageSystem\DamageZone.cs" />
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\Actions\ToggleGameObjectActive.cs" />
      <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TransformTween\TransformTweenTrack.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\CutsceneScriptControl\CutsceneScriptControlTrack.cs" />
@@ -157,8 +157,8 @@
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\GameCommandReceiver.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\AudioSnapshot\AudioSnapshotBehaviour.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SceneReloader\SceneReloaderClip.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\AudioSnapshot\AudioSnapshotBehaviour.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Helpers\InspectorHelpMessage.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Utility\SnapToGround.cs" />
@@ -177,8 +177,8 @@
      <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Runtime\GameObjectTeleporter.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\OriginalPhrases.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Effects\EffectEvents.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Helpers\Spinner.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Effects\EffectEvents.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\CutsceneScriptControl\CutsceneScriptControlMixerBehaviour.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Player\RespawnPlayer.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\UI\StartUI.cs" />
@@ -194,13 +194,13 @@
      <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\TranslatedPhrases.cs" />
      <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TimeDilation\TimeDilationMixerBehaviour.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Grenadier\GrenadierGrenade.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\Core\TargetDistributor.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Graphics\GlobalShaderSettings.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\Core\TargetDistributor.cs" />
      <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TextSwitcher\TextSwitcherClip.cs" />
      <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Runtime\ScreenFader.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Grenadier\GrenadierShield.cs" />
      <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Runtime\TransitionPoint.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Core\SceneLinkedSMB.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Grenadier\GrenadierShield.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SceneReloader\SceneReloaderMixerBehaviour.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\ContactDamager.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Camera\ScreenshotWithAlpha.cs" />
@@ -211,8 +211,8 @@
      <Compile Include="Assets\3DGamekit\Scripts\Game\Helpers\FixedUpdateFollow.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Effects\SimulateParticleSystem.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Effects\GunnerLightning.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\TimeMachine\TimeMachineClip.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Utility\SkyboxLookAt.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\TimeMachine\TimeMachineClip.cs" />
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\Senders\TriggerCommand.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Camera\EditorCamera.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Spitter\SpitterSMBShoot.cs" />
@@ -279,8 +279,8 @@
      <Compile Include="Assets\3DGamekit\Scripts\Game\Weapon\TimeEffect.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Core\EllenSpawn.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Helpers\PrettyListAttribute.cs" />
-     <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Spitter\SpitterSMBSpotted.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Helpers\RigidbodyDelayedForce.cs" />
+     <Compile Include="Assets\3DGamekit\Scripts\Game\Enemies\Spitter\SpitterSMBSpotted.cs" />
      <Compile Include="Assets\3DGamekit\Packages\Interactive\Runtime\Actions\SetGameObjectActive.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\3DGamekit\Scripts\Game\Graphics\Dissolve.cs" />
@@ -871,13 +871,13 @@
       <Project>{ce512e1b-5f00-abc2-57d3-cfb169bb1c2c}</Project>
       <Name>Unity.ProBuilder.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AdaptivePerformance.Player.csproj">
-      <Project>{b976510e-efbd-03c9-2908-a82d8ff06fa0}</Project>
-      <Name>Unity.AdaptivePerformance.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponents.Player.csproj">
       <Project>{26b250bc-9f38-1abe-4a61-d46382db5dd0}</Project>
       <Name>NavMeshComponents.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Player.csproj">
+      <Project>{b976510e-efbd-03c9-2908-a82d8ff06fa0}</Project>
+      <Name>Unity.AdaptivePerformance.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{c89c86ad-2897-ec1d-b681-be2fb8155349}</Project>

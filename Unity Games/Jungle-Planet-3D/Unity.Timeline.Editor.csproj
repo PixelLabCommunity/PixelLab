@@ -108,9 +108,9 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\State\SequenceState.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Utilities\ObjectExtension.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\treeview\Snapping\IAttractable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\inspectors\MarkerInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\treeview\TimelineTreeViewGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\DirectorStyles.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\inspectors\MarkerInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Actions\MarkerAction.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Utilities\Clipboard.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Utilities\TimelineKeyboardNavigation.cs" />
@@ -172,10 +172,10 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\treeview\Drawers\InfiniteTrackDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Utilities\KeyTraverser.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Manipulators\Trim\TrimItemModeRipple.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Window\TimelineWindow_HeaderGui.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\treeview\ManipulationsClips.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Animation\AnimationClipCurveCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Window\TimelineWindow_HeaderGui.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Utilities\Scopes\IndentLevelScope.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Undo\UndoExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Extensions\AnimationTrackExtensions.cs" />
@@ -199,10 +199,10 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\CustomEditors\MarkerEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Items\ItemsUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\inspectors\TimelinePreferences.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Actions\IAction.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\treeview\ItemGui\TimelineMarkerGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Actions\TimelineAction.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Window\TimelineWindow_TimeArea.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Actions\IAction.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\treeview\TrackGui\TimelineTrackGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\Animation\CurvesProxy.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.7.5\Editor\treeview\Drawers\Layers\MarkersLayer.cs" />
