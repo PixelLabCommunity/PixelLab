@@ -20,4 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/3DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 044495d30b9ca1f4c9fed5bfd24b9ea2, type: 2}
