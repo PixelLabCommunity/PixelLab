@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638284203521311522
-    m_Hash: 2289209022
+      ticks: 638296304641351971
+    m_Hash: 4002283020
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
       - 3D/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638284203598633680
-    m_Hash: 1249387952
+      ticks: 638296304746343992
+    m_Hash: 3105864014
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Alien Video Game Shop
   - 3D/Packages
-m_EditorVersion: 2022.3.7f1 (b16b3b16c7a0)
+m_EditorVersion: 2022.3.8f1 (b5eafc012955)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -227,13 +227,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.5
+- packageId: com.unity.collab-proxy@2.0.7
   testable: 0
   isDirectDependency: 1
-  version: 2.0.5
+  version: 2.0.7
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.collab-proxy@2.0.5
+    - 3D\Library\PackageCache\com.unity.collab-proxy@2.0.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -319,7 +319,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.5
     - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
@@ -353,16 +352,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638218079810000000
+  datePublishedTicks: 638264754080000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 7f68049e8cae5b51ad0d17cc01b8c6e802bf3866
+    revision: 13a0e74f47307a1b20a57747cea59891ce36a647
     path: 
   unityLifecycle:
-    version: 2.0.5
+    version: 2.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -877,9 +876,11 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.3
     - 1.7.0
+    - 1.8.0-pre.1
     compatible:
     - 1.6.3
     - 1.7.0
+    - 1.8.0-pre.1
     recommended: 1.6.3
     deprecated: []
   dependencies:
@@ -1016,7 +1017,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.7
+    version: 1.8.8
   - name: com.unity.render-pipelines.core
     version: 14.0.8
   - name: com.unity.ugui
@@ -1480,6 +1481,7 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.5
     compatible:
     - 1.7.5
     - 1.8.0
@@ -1487,6 +1489,7 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.5
     recommended: 1.7.5
     deprecated: []
   dependencies:
@@ -1611,13 +1614,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.visualscripting@1.8.0
+- packageId: com.unity.visualscripting@1.9.0
   testable: 0
   isDirectDependency: 1
-  version: 1.8.0
+  version: 1.9.0
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.visualscripting@1.8.0
+    - 3D\Library\PackageCache\com.unity.visualscripting@1.9.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1661,10 +1664,11 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
+    - 1.9.1
     compatible:
-    - 1.8.0
     - 1.9.0
-    recommended: 1.8.0
+    - 1.9.1
+    recommended: 1.9.1
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -1692,16 +1696,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638060044680000000
+  datePublishedTicks: 638267547090000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
+    revision: 21b38599b7fcf9bdccd964bdb90710e6a1094810
     path: 
   unityLifecycle:
-    version: 1.8.0
+    version: 1.9.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3891,13 +3895,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.7
+- packageId: com.unity.burst@1.8.8
   testable: 0
   isDirectDependency: 0
-  version: 1.8.7
+  version: 1.8.8
   source: 1
   resolvedPath: D:\Unity Development\PixelLab\Unity Learning\Alien Video Game Shop
-    - 3D\Library\PackageCache\com.unity.burst@1.8.7
+    - 3D\Library\PackageCache\com.unity.burst@1.8.8
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4037,7 +4041,6 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     compatible:
-    - 1.8.7
     - 1.8.8
     recommended: 1.8.8
     deprecated: []
@@ -4058,16 +4061,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638221796120000000
+  datePublishedTicks: 638271934420000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 47aa5e222ec0a9e94b78af0bb63021cf722ad06b
+    revision: 7673d9a736112fc9d58f32024c19150c2fa6d8ea
     path: 
   unityLifecycle:
-    version: 1.8.7
+    version: 1.8.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
