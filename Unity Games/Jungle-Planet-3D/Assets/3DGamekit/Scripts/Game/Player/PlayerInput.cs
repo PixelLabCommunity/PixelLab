@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using System;
 using System.Collections;
-using Gamekit3D;
 
 
 public class PlayerInput : MonoBehaviour
