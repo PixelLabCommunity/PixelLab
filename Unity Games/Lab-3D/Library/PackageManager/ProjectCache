@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638288203543516969
-    m_Hash: 2267011998
+      ticks: 638308400508589360
+    m_Hash: 2124937099
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Lab-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638288204190847345
-    m_Hash: 1364541281
+      ticks: 638308400709944228
+    m_Hash: 3432579369
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Lab-3D/Packages
-m_EditorVersion: 2022.3.8f1 (b5eafc012955)
+m_EditorVersion: 2022.3.9f1 (ea401c316338)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.4
   testable: 0
@@ -180,11 +180,13 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
     compatible:
     - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
     recommended: 2.0.7
     deprecated: []
   dependencies: []
@@ -383,9 +385,11 @@ m_ResolvedPackages:
     - 3.0.21
     - 3.0.22
     - 3.0.24
+    - 3.0.25
     compatible:
     - 3.0.24
-    recommended: 3.0.24
+    - 3.0.25
+    recommended: 3.0.25
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -464,10 +468,12 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     - 2.0.20
+    - 2.0.21
     compatible:
     - 2.0.18
     - 2.0.20
-    recommended: 2.0.20
+    - 2.0.21
+    recommended: 2.0.21
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -576,12 +582,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.inputsystem@1.6.3
+- packageId: com.unity.inputsystem@1.7.0
   testable: 0
   isDirectDependency: 1
-  version: 1.6.3
+  version: 1.7.0
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.inputsystem@1.6.3
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.inputsystem@1.7.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -638,10 +644,11 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.3
     - 1.7.0
+    - 1.8.0-pre.1
     compatible:
-    - 1.6.3
     - 1.7.0
-    recommended: 1.6.3
+    - 1.8.0-pre.1
+    recommended: 1.7.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -674,16 +681,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638251794420000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html
+  datePublishedTicks: 638277060810000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 0d0891efc00ce912af6f03974eac0b8afd20a8ac
+    revision: e29989176f3a8473ba30854e4bfae953083eba28
     path: 
   unityLifecycle:
-    version: 1.6.3
+    version: 1.7.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1099,6 +1106,7 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.5
     compatible:
     - 1.7.5
     - 1.8.0
@@ -1106,6 +1114,7 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.5
     recommended: 1.7.5
     deprecated: []
   dependencies:
