@@ -21,11 +21,9 @@ public partial class Player : CharacterBody3D
 
 	public override void _Input(InputEvent @event)
 	{
-		if (@event is InputEventMouseMotion mouseMotion)
-		{
-			float rotationRadians = -Mathf.DegToRad(mouseMotion.Relative.X * MouseSense);
-			RotateY(rotationRadians);
-		}
+		if (@event is not InputEventMouseMotion mouseMotion) return;
+		var rotationRadians = -Mathf.DegToRad(mouseMotion.Relative.X * MouseSense);
+		RotateY(rotationRadians);
 	}
 	
 	public override void _Ready()
