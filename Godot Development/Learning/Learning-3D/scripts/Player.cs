@@ -23,13 +23,20 @@ public partial class Player : CharacterBody3D
 		RotateY(rotationRadians);
 		var rotationRadiansHead = -Mathf.DegToRad(mouseMotion.Relative.Y * MouseSense);
 		_head.RotateX(rotationRadiansHead);
+
+		_head.RotationDegrees = new Vector3(
+			Mathf.Clamp(_head.RotationDegrees.X, -89, 89),
+			_head.RotationDegrees.Y,
+			_head.RotationDegrees.Z
+		);
 	}
 
 	public override void _Ready()
 	{
 		Input.MouseMode = Input.MouseModeEnum.Captured;
 
-		_head = GetNode<Node3D>("head"); // Initialize the "_head" variable when the node is ready
+		// Initialize the "_head" variable when the node is ready
+		_head = GetNode<Node3D>("head");
 	}
 
 
