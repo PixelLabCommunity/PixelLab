@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Learning/Learning-AR/Marker-AR/Packages
-m_EditorVersion: 2022.3.9f1 (ea401c316338)
+m_EditorVersion: 2022.3.10f1 (ff3792e53c62)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.0.7
   testable: 0
@@ -854,6 +854,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -863,6 +864,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.6
@@ -1306,6 +1308,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
+    - 6.0.0-pre.3
     compatible:
     - 5.0.7
     - 5.1.0-pre.1
@@ -1316,6 +1320,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     recommended: 5.0.7
     deprecated: []
   dependencies:
@@ -1476,9 +1481,8 @@ m_ResolvedPackages:
     - 4.3.3
     - 4.4.0
     compatible:
-    - 4.3.3
     - 4.4.0
-    recommended: 4.3.3
+    recommended: 4.4.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1529,7 +1533,7 @@ m_ResolvedPackages:
     revision: 6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8
     path: 
   unityLifecycle:
-    version: 4.3.3
+    version: 4.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3671,6 +3675,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
+    - 6.0.0-pre.3
     compatible:
     - 5.0.7
     - 5.1.0-pre.1
@@ -3681,6 +3687,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     recommended: 5.0.7
     deprecated: []
   dependencies:
@@ -4163,9 +4170,11 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.7
     - 1.8.8
+    - 1.8.9
     compatible:
     - 1.8.8
-    recommended: 1.8.8
+    - 1.8.9
+    recommended: 1.8.9
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5366,6 +5375,8 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
+    - 6.0.0-pre.3
     compatible:
     - 5.0.7
     - 5.1.0-pre.1
@@ -5376,6 +5387,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     recommended: 5.0.7
     deprecated: []
   dependencies:
