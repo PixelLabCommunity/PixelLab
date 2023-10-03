@@ -17,14 +17,17 @@ public partial class Sprite2D : Godot.Sprite2D
 
 	public override void _Process(double delta)
 	{
-		//PixelMovement();
-		LegacyMovement();
+		PixelMovementKeys();
+		// LegacyMovement();
 	}
 
 	private void PixelMovementKeys()
 	{
+		Godot.Sprite2D child = GetNode<ChildSprite2D>("ChildSprite2D");
+
 		if (Input.IsActionPressed("ui_up") || Input.IsActionPressed("up"))
 			Position += new Vector2(_baseX, -_positionY);
+		child.GlobalPosition = new Vector2(0, 0);
 		if (Input.IsActionPressed("ui_down") || Input.IsActionPressed("down"))
 			Position += new Vector2(_baseX, _positionY);
 
@@ -33,7 +36,7 @@ public partial class Sprite2D : Godot.Sprite2D
 		if (Input.IsActionPressed("ui_right") || Input.IsActionPressed("right"))
 			Position += new Vector2(_positionX, _baseY);
 	}
-	
+
 	private void LegacyMovement()
 	{
 		if (Input.IsActionPressed("ui_up") || Input.IsActionPressed("up"))
