@@ -1,6 +1,6 @@
 using Godot;
 
-namespace Sprite2D.scripts;
+namespace Sprite2D.Scripts;
 
 public partial class Sprite2D : Godot.Sprite2D
 {
@@ -21,15 +21,19 @@ public partial class Sprite2D : Godot.Sprite2D
 		LegacyMovement();
 	}
 
-	private void PixelMovement()
+	private void PixelMovementKeys()
 	{
-		if (Input.IsKeyPressed(Key.W)) Position += new Vector2(_baseX, -_positionY);
-		if (Input.IsKeyPressed(Key.S)) Position += new Vector2(_baseX, _positionY);
+		if (Input.IsActionPressed("ui_up") || Input.IsActionPressed("up"))
+			Position += new Vector2(_baseX, -_positionY);
+		if (Input.IsActionPressed("ui_down") || Input.IsActionPressed("down"))
+			Position += new Vector2(_baseX, _positionY);
 
-		if (Input.IsKeyPressed(Key.A)) Position += new Vector2(-_positionX, _baseY);
-		if (Input.IsKeyPressed(Key.D)) Position += new Vector2(_positionX, _baseY);
+		if (Input.IsActionPressed("ui_left") || Input.IsActionPressed("left"))
+			Position += new Vector2(-_positionX, _baseY);
+		if (Input.IsActionPressed("ui_right") || Input.IsActionPressed("right"))
+			Position += new Vector2(_positionX, _baseY);
 	}
-
+	
 	private void LegacyMovement()
 	{
 		if (Input.IsActionPressed("ui_up") || Input.IsActionPressed("up"))
