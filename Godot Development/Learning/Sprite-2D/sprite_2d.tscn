@@ -11,3 +11,7 @@ script = ExtResource("2_vcu3h")
 [node name="ChildSprite2D" type="Sprite2D" parent="."]
 position = Vector2(129, 128)
 texture = ExtResource("1_o7spx")
+
+[node name="SecondChildSprite2D" type="Sprite2D" parent="."]
+position = Vector2(5, 248)
+texture = ExtResource("1_o7spx")
