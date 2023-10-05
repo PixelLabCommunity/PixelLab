@@ -7,6 +7,7 @@ public partial class Sprite2D : Godot.Sprite2D
 	private Vector2 _basePosition;
 	private float _baseX;
 	private float _baseY;
+	private PackedScene _packedScene;
 	private float _positionX = 5.0f;
 	private float _positionY = 5.0f;
 
@@ -14,6 +15,7 @@ public partial class Sprite2D : Godot.Sprite2D
 	public override void _Ready()
 	{
 		_basePosition = Position;
+		_packedScene = (PackedScene)GD.Load("res://Scenes/blink-sprite.tscn");
 	}
 
 	public override void _Process(double delta)
@@ -58,5 +60,13 @@ public partial class Sprite2D : Godot.Sprite2D
 			Position += new Vector2(-_positionX, _baseY);
 		if (Input.IsActionPressed("ui_right") || Input.IsActionPressed("right"))
 			Position += new Vector2(_positionX, _baseY);
+	}
+
+	public override void _UnhandledInput(InputEvent @event)
+	{
+		if (@event is not InputEventMouseButton mouseEvent) return;
+		var sprite = (Sprite2D)_packedScene.Instantiate();
+		sprite.Position = mouseEvent.Position;
+		AddChild(sprite);
 	}
 }

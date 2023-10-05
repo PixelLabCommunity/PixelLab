@@ -2,20 +2,11 @@
 
 [ext_resource type="Texture2D" uid="uid://dqeqfehnl3pko" path="res://icon.svg" id="1_g6kj0"]
 [ext_resource type="Script" path="res://Scripts/Sprite2D.cs" id="2_fg5pw"]
-[ext_resource type="PackedScene" uid="uid://c6dijuda10i2k" path="res://Scenes/icon.tscn" id="3_5m35t"]
+[ext_resource type="PackedScene" uid="uid://biy84bi07gbxa" path="res://Scenes/blink-sprite.tscn" id="4_awo4q"]
 
-[node name="Sprite2D" type="Sprite2D"]
-position = Vector2(330, 164)
+[node name="Sprite2D2" type="Sprite2D"]
+position = Vector2(276, 155)
 texture = ExtResource("1_g6kj0")
 script = ExtResource("2_fg5pw")
 
-[node name="ChildSprite2D" type="Sprite2D" parent="."]
-position = Vector2(129, 128)
-texture = ExtResource("1_g6kj0")
-
-[node name="SecondChildSprite2D" type="Sprite2D" parent="."]
-position = Vector2(5, 248)
-texture = ExtResource("1_g6kj0")
-
-[node name="Sprite2D" parent="." instance=ExtResource("3_5m35t")]
-position = Vector2(381, 61)
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("4_awo4q")]

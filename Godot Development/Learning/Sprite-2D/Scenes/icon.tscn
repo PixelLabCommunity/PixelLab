@@ -1,7 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://c6dijuda10i2k"]
+[gd_scene load_steps=3 format=3 uid="uid://c6dijuda10i2k"]
 
 [ext_resource type="Texture2D" uid="uid://dqeqfehnl3pko" path="res://icon.svg" id="1_7at8x"]
+[ext_resource type="Script" path="res://Scripts/IconRandMove.cs" id="2_migjs"]
 
-[node name="Sprite2D" type="Sprite2D"]
+[node name="Sprite2D2" type="Sprite2D"]
 position = Vector2(321, 225)
 texture = ExtResource("1_7at8x")
+script = ExtResource("2_migjs")
