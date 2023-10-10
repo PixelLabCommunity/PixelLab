@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ShaderGraph.Editor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow", "Unity.VisualScripting.Flow.csproj", "{4e66545c-062a-523c-9467-f79a7b9983b1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{7040fce6-c6ac-aac1-f234-6c7dab862e84}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Universal.Runtime.csproj", "{88f767a2-fccf-5933-9305-5f70c634185b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{7040fce6-c6ac-aac1-f234-6c7dab862e84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline.Editor", "Unity.Timeline.Editor.csproj", "{f9fdb77d-6d4f-8c5d-b6a6-dc10b55e106b}"
 EndProject
@@ -230,10 +230,10 @@ Global
 		{cfd0aef5-4524-2457-917d-3ed543c416ce}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4e66545c-062a-523c-9467-f79a7b9983b1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4e66545c-062a-523c-9467-f79a7b9983b1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7040fce6-c6ac-aac1-f234-6c7dab862e84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7040fce6-c6ac-aac1-f234-6c7dab862e84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88f767a2-fccf-5933-9305-5f70c634185b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{88f767a2-fccf-5933-9305-5f70c634185b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7040fce6-c6ac-aac1-f234-6c7dab862e84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7040fce6-c6ac-aac1-f234-6c7dab862e84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f9fdb77d-6d4f-8c5d-b6a6-dc10b55e106b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f9fdb77d-6d4f-8c5d-b6a6-dc10b55e106b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{df12bcb1-bc52-61f4-fdc9-ba89e69f8bc5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
