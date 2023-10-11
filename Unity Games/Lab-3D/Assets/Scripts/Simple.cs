@@ -13,6 +13,11 @@ public class Simple : MonoBehaviour
         Debug.Log("Sum number is: " + _myIntSum);
     }
 
+    private void Update()
+    {
+        ChangeColor();
+    }
+
     private int MultiplyNumber(int number)
     {
         int result;
@@ -25,5 +30,10 @@ public class Simple : MonoBehaviour
         int result;
         result = number + 100;
         return result;
+    }
+
+    private void ChangeColor()
+    {
+        if (Input.GetKeyDown(KeyCode.M)) GetComponent<Renderer>().material.color = Color.blue;
     }
 }
