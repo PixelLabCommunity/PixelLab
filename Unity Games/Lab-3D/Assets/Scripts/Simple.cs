@@ -12,8 +12,8 @@ public class Simple : MonoBehaviour
 
     private int MultiplyNumber(int number)
     {
-        int _result;
-        _result = number * 2;
-        return _result;
+        int result;
+        result = number * 2;
+        return result;
     }
 }
