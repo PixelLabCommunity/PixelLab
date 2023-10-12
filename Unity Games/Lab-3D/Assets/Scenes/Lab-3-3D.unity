@@ -392,6 +392,7 @@ GameObject:
   - component: {fileID: 2087878192}
   - component: {fileID: 2087878191}
   - component: {fileID: 2087878196}
+  - component: {fileID: 2087878197}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -406,7 +407,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087878190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed7281519dfe376408babcb296af2c76, type: 3}
   m_Name: 
@@ -504,11 +505,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087878190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7100c7ece245a04489d3283fa6e73fc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2087878197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087878190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473d655bb28292044b2307040eca7bb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loopNumber: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
