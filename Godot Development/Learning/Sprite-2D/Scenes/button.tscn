@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnnjmr374rfb0"]
+
+[ext_resource type="Texture2D" uid="uid://dqeqfehnl3pko" path="res://icon.svg" id="1_ead5p"]
+[ext_resource type="Script" path="res://Scripts/SpriteMovement.cs" id="2_mi5ed"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(529, 264)
+texture = ExtResource("1_ead5p")
+script = ExtResource("2_mi5ed")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 31.0
+offset_top = 26.0
+offset_right = 240.0
+offset_bottom = 64.0
+text = "Pressed Button"
