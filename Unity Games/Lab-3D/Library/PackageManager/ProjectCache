@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638325645997650235
-    m_Hash: 612344770
+      ticks: 638328270919886441
+    m_Hash: 1676804527
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Lab-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638325645997685636
-    m_Hash: 2003053761
+      ticks: 638328271108882119
+    m_Hash: 117600086
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Development/PixelLab/Unity Games/Lab-3D/Packages
-m_EditorVersion: 2022.3.10f1 (ff3792e53c62)
+m_EditorVersion: 2022.3.11f1 (d00248457e15)
 m_ResolvedPackages:
 - packageId: com.unity.adaptiveperformance@5.0.2
   testable: 0
@@ -159,12 +159,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ai.navigation@1.1.4
+- packageId: com.unity.ai.navigation@1.1.5
   testable: 0
   isDirectDependency: 1
-  version: 1.1.4
+  version: 1.1.5
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.ai.navigation@1.1.4
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.ai.navigation@1.1.5
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -193,7 +193,6 @@ m_ResolvedPackages:
     - 2.0.0-pre.3
     - 2.0.0-pre.4
     compatible:
-    - 1.1.4
     - 1.1.5
     recommended: 1.1.5
     deprecated: []
@@ -214,28 +213,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638224218100000000
+  datePublishedTicks: 638319373850000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 3e8d494400ccac6cbd90ee1b474470f4b1299bfa
+    revision: a905e1ab41c8afae1a75688ceb3b4dfa1686ea75
     path: 
   unityLifecycle:
-    version: 1.1.4
+    version: 1.1.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.7
+- packageId: com.unity.collab-proxy@2.1.0
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 2.1.0
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.collab-proxy@2.0.7
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.collab-proxy@2.1.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -321,13 +320,11 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     - 2.1.0
+    - 2.2.0
     compatible:
-    - 2.0.7
-    - 2.1.0-preview.3
-    - 2.1.0-preview.5
-    - 2.1.0-preview.6
     - 2.1.0
-    recommended: 2.0.7
+    - 2.2.0
+    recommended: 2.1.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -356,16 +353,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638264754080000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
+  datePublishedTicks: 638301329890000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 13a0e74f47307a1b20a57747cea59891ce36a647
+    revision: 179e96acc2f95fcb9dcc91b5fb2ee5f3e85d48aa
     path: 
   unityLifecycle:
-    version: 2.0.7
+    version: 2.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -417,7 +414,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.18
+    version: 2.0.21
   - name: com.unity.test-framework
     version: 1.1.33
   - name: com.unity.ext.nunit
@@ -427,7 +424,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.24
+    version: 3.0.25
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -465,12 +462,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.24
+- packageId: com.unity.ide.rider@3.0.25
   testable: 0
   isDirectDependency: 1
-  version: 3.0.24
+  version: 3.0.25
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.ide.rider@3.0.24
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.ide.rider@3.0.25
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -526,10 +523,11 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     - 3.0.25
+    - 3.0.26
     compatible:
-    - 3.0.24
     - 3.0.25
-    recommended: 3.0.25
+    - 3.0.26
+    recommended: 3.0.26
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -548,28 +546,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638221653400000000
+  datePublishedTicks: 638300315270000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f5decc642e3618ce1c6827d47318260e61d64714
+    revision: e103b4771a884e656407e1b7219e5e3c20222552
     path: 
   unityLifecycle:
-    version: 3.0.24
+    version: 3.0.25
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.18
+- packageId: com.unity.ide.visualstudio@2.0.21
   testable: 0
   isDirectDependency: 1
-  version: 2.0.18
+  version: 2.0.21
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.21
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -578,7 +576,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -609,11 +607,11 @@ m_ResolvedPackages:
     - 2.0.18
     - 2.0.20
     - 2.0.21
+    - 2.0.22
     compatible:
-    - 2.0.18
-    - 2.0.20
     - 2.0.21
-    recommended: 2.0.21
+    - 2.0.22
+    recommended: 2.0.22
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -638,16 +636,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205920000000
+  datePublishedTicks: 638300315250000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
+    revision: eb2b500b99f6429d3d9dcb8acbcbd366dfbb42be
     path: 
   unityLifecycle:
-    version: 2.0.18
+    version: 2.0.21
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -837,12 +835,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.universal@14.0.8
+- packageId: com.unity.render-pipelines.universal@14.0.9
   testable: 0
   isDirectDependency: 1
-  version: 14.0.8
+  version: 14.0.9
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.render-pipelines.universal@14.0.8
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.render-pipelines.universal@14.0.9
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -905,10 +903,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.8
+    - 14.0.9
     compatible:
-    - 14.0.8
-    recommended: 14.0.8
+    - 14.0.9
+    recommended: 14.0.9
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -916,16 +914,16 @@ m_ResolvedPackages:
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 14.0.8
+    version: 14.0.9
   - name: com.unity.shadergraph
-    version: 14.0.8
+    version: 14.0.9
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.8
+    version: 1.8.9
   - name: com.unity.render-pipelines.core
-    version: 14.0.8
+    version: 14.0.9
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -939,7 +937,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 14.0.8
+    version: 14.0.9
   - name: com.unity.searcher
     version: 4.9.2
   keywords:
@@ -968,7 +966,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.8
+    version: 14.0.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1381,21 +1379,25 @@ m_ResolvedPackages:
     - 1.7.3
     - 1.7.4
     - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
+    - 1.8.6
     compatible:
     - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
-    recommended: 1.7.5
+    - 1.8.6
+    recommended: 1.7.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1569,7 +1571,6 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     compatible:
-    - 1.9.0
     - 1.9.1
     recommended: 1.9.1
     deprecated:
@@ -1608,7 +1609,7 @@ m_ResolvedPackages:
     revision: 5e78e9c354ed1567dbcea08e2bd9992e4a473cfb
     path: 
   unityLifecycle:
-    version: 1.9.0
+    version: 1.9.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3661,12 +3662,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.8
+- packageId: com.unity.burst@1.8.9
   testable: 0
   isDirectDependency: 0
-  version: 1.8.8
+  version: 1.8.9
   source: 1
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.burst@1.8.8
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.burst@1.8.9
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3807,7 +3808,6 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     compatible:
-    - 1.8.8
     - 1.8.9
     recommended: 1.8.9
     deprecated: []
@@ -3828,28 +3828,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638271934420000000
+  datePublishedTicks: 638314141790000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 7673d9a736112fc9d58f32024c19150c2fa6d8ea
+    revision: 1aa8f2db606554f28aa01007e92600cd24643852
     path: 
   unityLifecycle:
-    version: 1.8.8
+    version: 1.8.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.core@14.0.8
+- packageId: com.unity.render-pipelines.core@14.0.9
   testable: 0
   isDirectDependency: 0
-  version: 14.0.8
+  version: 14.0.9
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.render-pipelines.core@14.0.8
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.render-pipelines.core@14.0.9
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3968,10 +3968,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.8
+    - 14.0.9
     compatible:
-    - 14.0.8
-    recommended: 14.0.8
+    - 14.0.9
+    recommended: 14.0.9
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -4015,19 +4015,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.8
+    version: 14.0.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.shadergraph@14.0.8
+- packageId: com.unity.shadergraph@14.0.9
   testable: 0
   isDirectDependency: 0
-  version: 14.0.8
+  version: 14.0.9
   source: 2
-  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.shadergraph@14.0.8
+  resolvedPath: D:\Unity Development\PixelLab\Unity Games\Lab-3D\Library\PackageCache\com.unity.shadergraph@14.0.9
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4143,19 +4143,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.8
+    - 14.0.9
     compatible:
-    - 14.0.8
-    recommended: 14.0.8
+    - 14.0.9
+    recommended: 14.0.9
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.8
+    version: 14.0.9
   - name: com.unity.searcher
     version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.8
+    version: 14.0.9
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4190,7 +4190,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.8
+    version: 14.0.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
