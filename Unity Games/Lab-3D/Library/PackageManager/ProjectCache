@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638328270919886441
-    m_Hash: 1676804527
+      ticks: 638331368236144567
+    m_Hash: 1957740117
   m_LockFileStatus:
     m_FilePath: D:/Unity Development/PixelLab/Unity Games/Lab-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638328271108882119
-    m_Hash: 117600086
+      ticks: 638331383819199066
+    m_Hash: 2075699608
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -320,10 +320,8 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     - 2.1.0
-    - 2.2.0
     compatible:
     - 2.1.0
-    - 2.2.0
     recommended: 2.1.0
     deprecated: []
   dependencies: []
@@ -523,11 +521,9 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     - 3.0.25
-    - 3.0.26
     compatible:
     - 3.0.25
-    - 3.0.26
-    recommended: 3.0.26
+    recommended: 3.0.25
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -607,11 +603,9 @@ m_ResolvedPackages:
     - 2.0.18
     - 2.0.20
     - 2.0.21
-    - 2.0.22
     compatible:
     - 2.0.21
-    - 2.0.22
-    recommended: 2.0.22
+    recommended: 2.0.21
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -666,7 +660,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -1379,25 +1373,21 @@ m_ResolvedPackages:
     - 1.7.3
     - 1.7.4
     - 1.7.5
-    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
-    - 1.8.6
     compatible:
     - 1.7.5
-    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
-    - 1.8.6
-    recommended: 1.7.6
+    recommended: 1.7.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -4211,7 +4201,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -4451,7 +4441,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: The Unity Profiling Core package provides an API for code instrumentation
     markup, and for profiling statistic collection.
   status: 0
@@ -4514,7 +4504,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
@@ -4586,7 +4576,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 0
